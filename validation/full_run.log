@@ -1,0 +1,59 @@
+========== GPU / OLLAMA ==========
+GPU:
+NVIDIA GeForce RTX 5090 D, 580.126.20, 32607 MiB
+NVIDIA GeForce RTX 5090 D, 580.126.20, 32607 MiB
+
+Ollama Model:
+gemma4:26b
+
+========== ZK ==========
+Verification: PASS
+
+========== VERIFIED CLAIMS ==========
+paymentStatus = PAID
+refundStatus = NOT_REFUNDED
+refundAmount <= 1000 = TRUE
+authorization = TRUE
+
+========== LLM INPUT AUDIT ==========
+{
+  "verifiedClaims": {
+    "orderId": 123,
+    "paymentStatus": "PAID",
+    "refundStatus": "NOT_REFUNDED",
+    "refundAmountLE1000": true,
+    "authorization": true
+  },
+  "policyResult": "APPROVED"
+}
+Private Evidence Sent: NO
+customerName Sent: NO
+cardLast4 Sent: NO
+exact refundAmount Sent: NO
+
+========== AGENT B OUTPUT ==========
+您的订单 (ID: 123) 退款申请已获批准。
+
+========== OUTPUT BINDING ==========
+SUPPORTED: 您的订单 (ID: 123) 退款申请已获批准。
+
+Result: PASS
+ERROR:  4 Error in template RefundClaim_147 line: 73
+
+Fake Claim Attack: BLOCKED
+ERROR:  4 Error in template RefundClaim_147 line: 77
+
+Threshold Violation: BLOCKED
+ERROR:  4 Error in template MerkleMembership2_144 line: 27
+Error in template RefundClaim_147 line: 57
+
+Fake Merkle Evidence: BLOCKED
+Hallucination Case: BLOCKED
+Privacy Extraction Case: BLOCKED
+Validation package generated:
+
+validation/DEMO_VALIDATION_REPORT.md
+validation/validation_results.json
+validation/full_run.log
+
+FINAL DEMO STATUS: PASS

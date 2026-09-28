@@ -1,0 +1,362 @@
+{
+  "finalStatus": "PASS",
+  "actualCommand": "bash scripts/run_v2_demo.sh",
+  "environment": {
+    "date": "2026-09-23T13:26:50.695Z",
+    "os": "Linux 5.19.0-1010-nvidia-lowlatency x64",
+    "node": "v20.20.2",
+    "model": "gemma4:26b",
+    "ollamaPs": "NAME          ID              SIZE     PROCESSOR    CONTEXT    UNTIL              \ngemma4:26b    5571076f3d70    20 GB    100% GPU     4096       9 minutes from now"
+  },
+  "circuit": {
+    "refundHash": "f3cebb66c6a436cc370989231bbe5825bed52d6201087be91fcd369a61d90fe4",
+    "employeeAccessHash": "f3cebb66c6a436cc370989231bbe5825bed52d6201087be91fcd369a61d90fe4",
+    "refundArtifactHashes": {
+      "r1cs": "f3cebb66c6a436cc370989231bbe5825bed52d6201087be91fcd369a61d90fe4",
+      "wasm": "d2f72bb913ca9bfb1bdcf46f1867873f7a946ba2c61ef1bc487c6afc88dbccb2",
+      "verificationKey": "95df64d9aba4394c8c89b0f1a288ee81bb2277f47884a2d531df48f3e6c974a6"
+    },
+    "employeeArtifactHashes": {
+      "r1cs": "f3cebb66c6a436cc370989231bbe5825bed52d6201087be91fcd369a61d90fe4",
+      "wasm": "d2f72bb913ca9bfb1bdcf46f1867873f7a946ba2c61ef1bc487c6afc88dbccb2",
+      "verificationKey": "95df64d9aba4394c8c89b0f1a288ee81bb2277f47884a2d531df48f3e6c974a6"
+    },
+    "finalArtifactHashes": {
+      "r1cs": "f3cebb66c6a436cc370989231bbe5825bed52d6201087be91fcd369a61d90fe4",
+      "wasm": "d2f72bb913ca9bfb1bdcf46f1867873f7a946ba2c61ef1bc487c6afc88dbccb2",
+      "verificationKey": "95df64d9aba4394c8c89b0f1a288ee81bb2277f47884a2d531df48f3e6c974a6"
+    },
+    "sameCompiledArtifacts": true,
+    "r1cs": "build/generic_assertions.r1cs",
+    "wasm": "build/generic_assertions_js/generic_assertions.wasm",
+    "verificationKey": "build/generic_verification_key.json"
+  },
+  "scenarios": {
+    "refund": {
+      "proofVerified": true,
+      "rootAuthenticated": true,
+      "action": "APPROVED",
+      "passed": true
+    },
+    "employeeAccess": {
+      "proofVerified": true,
+      "rootAuthenticated": true,
+      "action": "ACCESS_GRANTED",
+      "passed": true
+    }
+  },
+  "privacy": {
+    "refundAgentAToB": {
+      "privateEvidenceSent": false,
+      "exactRefundAmountSent": false,
+      "merklePathSent": false,
+      "privateWitnessSent": false
+    },
+    "employeeAgentAToB": {
+      "privateEvidenceSent": false,
+      "exactRefundAmountSent": false,
+      "merklePathSent": false,
+      "privateWitnessSent": false
+    },
+    "llmInput": {
+      "privateEvidenceSent": false,
+      "exactRefundAmountSent": false,
+      "merklePathSent": false,
+      "privateWitnessSent": false
+    },
+    "actualLlmInput": {
+      "verifiedAssertionStore": [
+        {
+          "assertionId": "2f0bff2d7c0f7da0efb6fbd5dc247ffe8e9764afa661a7e53f540b922674a656",
+          "subjectID": 123,
+          "fieldID": 1,
+          "op": 1,
+          "target": [
+            1
+          ],
+          "mode": 1,
+          "result": true,
+          "revealedValue": 1,
+          "verified": true
+        },
+        {
+          "assertionId": "8f6990399dc247bc6ceb0b27b25a428af7a0763416915fcb98e8a2bb1da5de46",
+          "subjectID": 123,
+          "fieldID": 2,
+          "op": 1,
+          "target": [
+            0
+          ],
+          "mode": 1,
+          "result": true,
+          "revealedValue": 0,
+          "verified": true
+        },
+        {
+          "assertionId": "73fd2fa7f425be5d76aee012aea435d0c08f8da1140efa4625a0fbb0648c2918",
+          "subjectID": 123,
+          "fieldID": 3,
+          "op": 2,
+          "target": [
+            1000
+          ],
+          "mode": 2,
+          "result": true,
+          "verified": true
+        },
+        {
+          "assertionId": "1be735f822538eff327122a05307ebdf7226740cda1f77b25c181034e90cfc92",
+          "subjectID": 123,
+          "fieldID": 4,
+          "op": 1,
+          "target": [
+            1
+          ],
+          "mode": 1,
+          "result": true,
+          "revealedValue": 1,
+          "verified": true
+        }
+      ],
+      "policyResult": "APPROVED"
+    }
+  },
+  "verifiedStores": {
+    "refund": [
+      {
+        "assertionId": "2f0bff2d7c0f7da0efb6fbd5dc247ffe8e9764afa661a7e53f540b922674a656",
+        "subjectID": 123,
+        "fieldID": 1,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      },
+      {
+        "assertionId": "8f6990399dc247bc6ceb0b27b25a428af7a0763416915fcb98e8a2bb1da5de46",
+        "subjectID": 123,
+        "fieldID": 2,
+        "op": 1,
+        "target": [
+          0
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 0,
+        "verified": true
+      },
+      {
+        "assertionId": "73fd2fa7f425be5d76aee012aea435d0c08f8da1140efa4625a0fbb0648c2918",
+        "subjectID": 123,
+        "fieldID": 3,
+        "op": 2,
+        "target": [
+          1000
+        ],
+        "mode": 2,
+        "result": true,
+        "verified": true
+      },
+      {
+        "assertionId": "1be735f822538eff327122a05307ebdf7226740cda1f77b25c181034e90cfc92",
+        "subjectID": 123,
+        "fieldID": 4,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      }
+    ],
+    "employeeAccess": [
+      {
+        "assertionId": "06e7eb75b13fb0318429b4c150b67e27cfc0a9d63326f0d2a5f9e8ed966be2af",
+        "subjectID": 7001,
+        "fieldID": 101,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      },
+      {
+        "assertionId": "b6ca3ad659238b1bdf4bee65672c15a7d81777b04ca926861a5903edc5d07cb5",
+        "subjectID": 7001,
+        "fieldID": 102,
+        "op": 4,
+        "target": [
+          10,
+          11
+        ],
+        "mode": 2,
+        "result": true,
+        "verified": true
+      },
+      {
+        "assertionId": "e6a5a56c08595aa7994192a26b6ffbaf5f2c6e99967251af6f5866af8183682e",
+        "subjectID": 7001,
+        "fieldID": 103,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      },
+      {
+        "assertionId": "6c0a07c5594ec10f0d702447bdec077f74187c84b39b910590e5da9303344f1f",
+        "subjectID": 7001,
+        "fieldID": 104,
+        "op": 3,
+        "target": [
+          2
+        ],
+        "mode": 2,
+        "result": true,
+        "verified": true
+      }
+    ],
+    "agentC": [
+      {
+        "assertionId": "2f0bff2d7c0f7da0efb6fbd5dc247ffe8e9764afa661a7e53f540b922674a656",
+        "subjectID": 123,
+        "fieldID": 1,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      },
+      {
+        "assertionId": "8f6990399dc247bc6ceb0b27b25a428af7a0763416915fcb98e8a2bb1da5de46",
+        "subjectID": 123,
+        "fieldID": 2,
+        "op": 1,
+        "target": [
+          0
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 0,
+        "verified": true
+      },
+      {
+        "assertionId": "73fd2fa7f425be5d76aee012aea435d0c08f8da1140efa4625a0fbb0648c2918",
+        "subjectID": 123,
+        "fieldID": 3,
+        "op": 2,
+        "target": [
+          1000
+        ],
+        "mode": 2,
+        "result": true,
+        "verified": true
+      },
+      {
+        "assertionId": "1be735f822538eff327122a05307ebdf7226740cda1f77b25c181034e90cfc92",
+        "subjectID": 123,
+        "fieldID": 4,
+        "op": 1,
+        "target": [
+          1
+        ],
+        "mode": 1,
+        "result": true,
+        "revealedValue": 1,
+        "verified": true
+      }
+    ]
+  },
+  "attacks": {
+    "fakeRoot": {
+      "proofGeneratedForFakeRoot": true,
+      "fakeRootDiffersFromAuthenticatedRoot": true,
+      "blocked": true,
+      "verification": {
+        "rootSignatureValid": false,
+        "zkProofValid": false
+      },
+      "layer": "Ingestion signature (checked before ZK verification)"
+    },
+    "tamperedRoot": {
+      "blocked": true,
+      "verification": {
+        "rootSignatureValid": false,
+        "zkProofValid": false
+      },
+      "layer": "Ingestion signature"
+    },
+    "fakeClaim": {
+      "name": "Fake Claim",
+      "blocked": true,
+      "actual": "proof generation failed: Error: Assert Failed. Error in template GenericAssertions_153 line: 108",
+      "layer": "ZK constraints"
+    },
+    "unverifiedPropagation": {
+      "receiveText": true,
+      "enteredStore": false,
+      "usableForHighRiskAction": false,
+      "blocked": true,
+      "layer": "VerifiedAssertionStore"
+    }
+  },
+  "llm": {
+    "output": "针对主体 ID 为 123 的各项断言验证均通过，策略结果为已批准（APPROVED）。",
+    "normalBinding": {
+      "supported": true,
+      "claims": [
+        {
+          "text": "针对主体 ID 为 123 的各项断言验证均通过",
+          "status": "SUPPORTED"
+        },
+        {
+          "text": "策略结果为已批准（APPROVED）",
+          "status": "SUPPORTED"
+        }
+      ]
+    },
+    "hallucinatedOutput": "针对主体 ID 为 123 的各项断言验证均通过，策略结果为已批准（APPROVED）。 用户信用良好。",
+    "hallucinationBinding": {
+      "supported": false,
+      "claims": [
+        {
+          "text": "针对主体 ID 为 123 的各项断言验证均通过",
+          "status": "SUPPORTED"
+        },
+        {
+          "text": "策略结果为已批准（APPROVED）",
+          "status": "SUPPORTED"
+        },
+        {
+          "text": "用户信用良好。",
+          "status": "UNSUPPORTED"
+        }
+      ]
+    },
+    "actionBeforeHallucination": "APPROVED",
+    "actionAfterHallucination": "APPROVED"
+  },
+  "properties": {
+    "crossScenarioCircuitReuse": true,
+    "authenticatedEvidenceRoot": true,
+    "privateEvidenceProtection": true,
+    "verifiedAssertionEnforcement": true,
+    "hallucinationCannotAffectAction": true,
+    "multiAgentUnverifiedPropagationBlocked": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "orderId": 123,
+  "customerId": 9001,
+  "customerName": "Alice",
+  "cardLast4": 7281,
+  "paymentStatus": 1,
+  "refundStatus": 0,
+  "refundAmount": 500,
+  "authorization": 1,
+  "internalRiskScore": 17
+}
