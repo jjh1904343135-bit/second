@@ -1,0 +1,3542 @@
+[
+  {
+    "file": "proofs/prerequisite/ALLOW/proof.json",
+    "sha256": "0e22a9a2286231cfe07ae197d7567f3707d92c5bf15f3eb1835822e0302d1a81",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/prerequisite/ALLOW/public.json",
+    "sha256": "4d94cb7886c5529ef20ad576b117b52ddb3c8794f98c399a614cc3f2f83632f3",
+    "bytes": 1449
+  },
+  {
+    "file": "proofs/prerequisite/INSUFFICIENT_SUPPORT/proof.json",
+    "sha256": "dc42122666298e87ae2aa39f4e9cfe6f8f84cd2cbc0e2aa39394a051bb2cb081",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/prerequisite/INSUFFICIENT_SUPPORT/public.json",
+    "sha256": "45460eaec0d2083865d6c4460654f5d7c780d5dce958ce0cfe4fa6d93d7bd015",
+    "bytes": 1448
+  },
+  {
+    "file": "proofs/prerequisite/POLICY_DENY/proof.json",
+    "sha256": "ba00c91db69559269023b3673f33e8b315d288e29d86ec378ababd6218d9aa38",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/prerequisite/POLICY_DENY/public.json",
+    "sha256": "61b14affce3e829e97e4f00d35211dc95346335d341a44b8f22847d4e2aa2448",
+    "bytes": 1456
+  },
+  {
+    "file": "proofs/prerequisite/state/psi.bin",
+    "sha256": "12056f1178a166b2e96fb8ceb7fb2471abb89e13f5a52a9a9d038c3cfe68e478",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/control/proof.json",
+    "sha256": "c4ddc5f12a268ea81fbb16a4385eaa5779759b31cb9f6410b43d49cd7238efa8",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/control/public.json",
+    "sha256": "93f76198f5741016cedb9cb13a464730311bef2afda577219e5e027e599569c3",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/fixed-lineage-true_two_groups/proof.json",
+    "sha256": "47f6f970ffdc0a0fb26914a55b9cbf2d858de8638b65f535228206b8eb0619e6",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/fixed-lineage-true_two_groups/public.json",
+    "sha256": "4de7f7d16ae5fc4c0ffebd8071c9abffb9d4269be1db154e3ba0e7cf299cc65e",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/handoff-pool/proof.json",
+    "sha256": "b5e81a68295e01fad47c39d18045a462e893767c23cff35c83fec7bf2272e50e",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/FULL/handoff-pool/public.json",
+    "sha256": "fd3e36bec0bd6aa4f19dd1e84a14a25578fffa959a86e316f2827cb270b4893c",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/control/proof.json",
+    "sha256": "582179ae75e5654249338ca998f9a03454b5e2dc02bd0561d3e0668d0c35e6de",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/control/public.json",
+    "sha256": "497dbc3cf5335ae35c5c40c8155f56fcc31f581de03e096b49cbd6fee7287823",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/fixed-lineage-true_two_groups/proof.json",
+    "sha256": "b8b918e52aaf824d693de7bc33887d12c017b2f5361c189b227447326e16af80",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/fixed-lineage-true_two_groups/public.json",
+    "sha256": "e99a2661e25ee1e39eea7588eb48fa1f4630b1c99f3ff0213498c0206ecee146",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/handoff-pool/proof.json",
+    "sha256": "4aead8c52ddb9d2b64bf8bf95b923a82788907e0335c5f8161ab7280e18465a9",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_BINDING/handoff-pool/public.json",
+    "sha256": "374d1e8dd375be8ea444062f629e01f5065e21fd1beb00883177f1653640087a",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/control/proof.json",
+    "sha256": "3776e2efd9eeced2295ea88a0cd5d933ddfc21030bcca797f415bdafd1b1a1da",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/control/public.json",
+    "sha256": "bee50b7042c3fea2538dcbb75280b73b1361ab22ebc263dacf3c83af54bd71ff",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-invalid_reuse-old_version/proof.json",
+    "sha256": "81449645d810c9cc646d37d9d5478b4386722f44207685dadd24c9fc55897035",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-invalid_reuse-old_version/public.json",
+    "sha256": "01b13c351c0c0924ae4f9bf661c5b7a333dfd7b22a3e446e27a6e86b36548891",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-chain_echo/proof.json",
+    "sha256": "7f82a3119592bd47f38357433c33a2afabc0d8ecfcd459db3c8b1f6a7bb3a879",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-chain_echo/public.json",
+    "sha256": "d5f116f2dc99a74d0493004394055dbe6aa16e7fcb446f32ffae0a29f7ca6b63",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-deleted_parent/proof.json",
+    "sha256": "5244dc5364df1d021bb6be4f0abb9b2df419689ac3e2d2ed6cef0c7e2f952b87",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-deleted_parent/public.json",
+    "sha256": "d1ff8a529cbc91953d0b9f4e9bb6eb53fe6c676f853fbe45c61e8dffa742b41a",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-diamond_echo/proof.json",
+    "sha256": "339b000b1e54cadac63b9fad88d6b96aa862a4600674f91c0cd790d073d0b5bf",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-diamond_echo/public.json",
+    "sha256": "9c175144cdd5d12d12bd66bd9e5be92cfcbc92106d412c018119ec7bcb78b3ba",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-impersonate_root/proof.json",
+    "sha256": "6863c5c3a4ab22c8450630e68ec73515b604e74db4d6ec5976d5978274ef2a2b",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-impersonate_root/public.json",
+    "sha256": "02f5c41d679bdb818ae03328d33ac6f48f11e5e6e3fbe531a20e59f27e9f0145",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-true_two_groups/proof.json",
+    "sha256": "8184c3ec5635b16a0ccc94da27f3a1a83de9b84ee2c43389366d9cd538df1eba",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/fixed-lineage-true_two_groups/public.json",
+    "sha256": "4bc6214a5e546659d17729931a7676b93628b0084e6dfc3c6ee748a40996b92d",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/handoff-pool/proof.json",
+    "sha256": "d5d1a80677a73e347e9b174ecdf294a76ebd633dd9ff2503c86636e208668663",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/handoff-pool/public.json",
+    "sha256": "b2de5b30e6a5a7449784bdac43d49b39c506d3ff66e14e38c30939f0c4e262bf",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-0/proof.json",
+    "sha256": "282519e55188939fce11acf9124dc33c54cddf8a2eb61f232ca94c6e5ca47866",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-0/public.json",
+    "sha256": "aff86fb584faad7ad2c0b2d4631866e73232b697aba743c786b14a08f1339093",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-12/proof.json",
+    "sha256": "79aa9001061c07b6e60668fd593c4fb53d5b63e5a56f7738e4f3ce6f274740f8",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-12/public.json",
+    "sha256": "32297a43db9e85aee067e434662b4995c8e63ca8b6c77ba0267f37295724d174",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-16/proof.json",
+    "sha256": "5c4a601d8c5a95144cb28650cb8bd95f1f4b94ddf45138fcd96049a58c36c9fb",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-16/public.json",
+    "sha256": "07300d92d6107a1382683bc9e4c3269798235e82a75649325516adb1d69e8bbc",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-20/proof.json",
+    "sha256": "b063b3aa165430b6fb8556927bda71e59a02c7ff3c6263c1e48b34423562e247",
+    "bytes": 852
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-20/public.json",
+    "sha256": "018847aabb7a5056b8d9522b5b9dee8ed267048860766528ccec171a65e5a24e",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-24/proof.json",
+    "sha256": "6350c61fabecddd3f263d60240bd5fb158aabc571c4ccc99704235deebdd59e3",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-24/public.json",
+    "sha256": "5151384fbdb3589bd023344bf5bfc6a2cc3d6f192c1dab5f83aff6085c5689ae",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-28/proof.json",
+    "sha256": "f2325cd8e7cd15e5a2ab4fafc400e28945008eee8e3ff8c9a183976927e9d5bd",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-28/public.json",
+    "sha256": "ffee7ae570e27bb0a2d79f333a9c9c63fca36ede30a3de549b6c23c5809e83d0",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-32/proof.json",
+    "sha256": "1e5d3e2348769eace52759e5fe5b321d7c8b4a3a6697c85d32838037a8a5cd2c",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-32/public.json",
+    "sha256": "96a94a08a955a1c7e82a31062b5f58a60707a9011fec5253345758589b148630",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-36/proof.json",
+    "sha256": "fc96204c26c8f5b8cbe9fd51e4e468c7a3e7e1ca45a929583090dd745d145c31",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-36/public.json",
+    "sha256": "6a5dd4ab2708cd4072e2becbedb60e94484f51a44a5cad4eeb0e896942392457",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-4/proof.json",
+    "sha256": "b4e97497b389fb376ba93a974db3ff6f42b15e08818403ac12fe1b73069800bd",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-4/public.json",
+    "sha256": "e1e8e2d532b3923ee3dde6a6ef3024798c18c88f0c89d601dc9e83a27f762452",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-40/proof.json",
+    "sha256": "fe1030cc65ec891dfc927af6813b82b3ce83b0114b9a4af9baa800f6dfc01546",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-40/public.json",
+    "sha256": "37e81e95aa1821f6abdf700d8c95d4008ae23a3244092bd620c416cdd6024d6b",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-44/proof.json",
+    "sha256": "c8e6b5b6d8a3ada4efa85b8f181b0156429b4e2e573c05f9459b4b1905891c37",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-44/public.json",
+    "sha256": "2b65fb003838037d50ae0675bd39524222d1d0b44aa2a36608eacad1652a9aa6",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-48/proof.json",
+    "sha256": "213d7d8d63a96e7fa915d7e2b5875ac446d4258941738edaa5489634a061c2de",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-48/public.json",
+    "sha256": "c1749885cf20aa1f335949a768da38de382faf620970dc728dfd8926d419f7a2",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-8/proof.json",
+    "sha256": "77ca8ec3ad397d4e1fdc2ccab2ad17991b0218cd654bb334889f76cf4efac9e3",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-invalid_reuse-8/public.json",
+    "sha256": "b953d78a65faba80cc21774c5ffbeceaafb5506d7d0af829ccdcb8932a3c172a",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-0/proof.json",
+    "sha256": "a56031f6355e3ae3954372e986cc74c6a04a08a7e41293703212525e86fb89be",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-0/public.json",
+    "sha256": "dfc48a61b4e3218066e1f713948a5d1f50d42308de790f4ddc06a26787e14b28",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-1/proof.json",
+    "sha256": "ab6c1223f50910a3b7ce7730e66046efe04bf7910182e63b39442cfcac1a9ac4",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-1/public.json",
+    "sha256": "1b78b2926f8cb47294bf11ac66d599247f5616e2d014424d2960d416661fa4e8",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-10/proof.json",
+    "sha256": "c66902e683b1d2b71ac6c3ad7c9605efab8770a72b64eac6487696dd75cb62fe",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-10/public.json",
+    "sha256": "bc319c17ef72b9ee9e1f5349d6b2c457d4781437b0f88c46c7221e4c35503df3",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-11/proof.json",
+    "sha256": "fb0fd381b34713ccc21d46f898ecc7b5cd02ad2ca9d020f42fe444bdb7601097",
+    "bytes": 851
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-11/public.json",
+    "sha256": "a7b5e82532397dbd6ac4fc87e865a0efec9d56e9824e444323eea652a5d6a4da",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-12/proof.json",
+    "sha256": "229607caae614928bbcc0a8e72069f9f8299ae7dfdbf09f425fb17cd8c58df24",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-12/public.json",
+    "sha256": "7f2f92ac78ef69c7bf60561155622f149773ee71ea1f2c84ba55a1832fb57a73",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-13/proof.json",
+    "sha256": "d5ae92d1e9c2e86dd7eb9c88ef760b28e94d35d45e27883e8140dfb63b779ef5",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-13/public.json",
+    "sha256": "ba136e286eac80344ec744689d406907c0f0e086308034a75d79c29bd36853e2",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-14/proof.json",
+    "sha256": "3418f27620800e99510bf1cd2b75d44ceb2a66255731a34ceae2f662b5b3f840",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-14/public.json",
+    "sha256": "d4d34a499ca8698ceb407713af43e83a4ff47785e8a8c9d7cbdf17ab98d1eebe",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-15/proof.json",
+    "sha256": "cb289d3cd8601ad9ea51e4e3b5a02d5e4598cb62b812c0fe1f6431bca9c11cbc",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-15/public.json",
+    "sha256": "e0971459ca66629a2be72e48329893bc1198d9b123cedd4f1a53fb5cbd7553ec",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-16/proof.json",
+    "sha256": "22410a2ece83fca9dab7b011dcbdde97379021fa31676b50b003fc7c62e031e1",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-16/public.json",
+    "sha256": "d9bb5947d49c3a8426eeaab3260a394c273cf97537e58bf3f899f95cf3bc2c9d",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-17/proof.json",
+    "sha256": "f1cf43d7cb93baef348a1cf713c7ab1b774544584d697087572d3c9b7f209e4c",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-17/public.json",
+    "sha256": "15b0d535ed33788202fdc11e1e4f80641451c182cd8feeae0fe622b994b316ac",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-18/proof.json",
+    "sha256": "b24222124108892fcc348ebda893a5e9081d22d016da8a9069ebc7399088bbb3",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-18/public.json",
+    "sha256": "c150669298052743fe05d908a1472a90ddec1cbbd070535e100aa7ca84ecbb66",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-19/proof.json",
+    "sha256": "a8a367c2adcaf541d2f1b83465e812935ac7393a8b640499b9ad2f3ef08db074",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-19/public.json",
+    "sha256": "c6676024ceb256aa6a7e8e5b8771404ac75c51a0916e14d2563fe9935dd01365",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-2/proof.json",
+    "sha256": "a3951f27c9eeaa62768160ced4cc52d2b8a115230b4be798a30222443bd4ee1e",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-2/public.json",
+    "sha256": "91cfb29f90cf57d2adaf6fc6b2609e0f72c7c73f4458d0d42ef49f6227775a8f",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-20/proof.json",
+    "sha256": "a8b71acac6639373b9290ed5d0166ee6aaad33330c8dd3da67adf6665a165e8e",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-20/public.json",
+    "sha256": "8580bdaf0ed990d60c8aade3f60baf07dec3606165f0cd12b94e5283cef71e57",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-21/proof.json",
+    "sha256": "c136747de9893b6c2160e5ce0405249d0906d0549fdcd65edfc4a31004ac7696",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-21/public.json",
+    "sha256": "195f713058dd49c496b71c3ead565891a25d2220ae88a80426dc691847aacfb4",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-22/proof.json",
+    "sha256": "b731b70442f7b3284ce3425db6daf580345d1e847927de236d4f79ebc7cf2384",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-22/public.json",
+    "sha256": "cdd1f5a59baf887b34c8df7f8a85c92d838501bdd8201c6ba04927e3b694320d",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-23/proof.json",
+    "sha256": "1802dbbbb1b6b88aa1ad6c7b3a90515d3cd4b5483126aefd80829e8c471da09c",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-23/public.json",
+    "sha256": "0e7b3f63f725255b6bf8327e3dbd6f6f90e8bd046bc21e4d54c4219cd2452490",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-24/proof.json",
+    "sha256": "35be9c163e02836adac40d8b5f118d4e154b175da71757d29b63f53e224e8353",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-24/public.json",
+    "sha256": "b3ae2e4cc920e5016c081f7ce59973f466f6afbabd7ef1ddb415808eb3cd4ba5",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-25/proof.json",
+    "sha256": "be3fab59e0d5957f5c4cd28b0e5f9bb6b50391d2413e7723fb875103c5ba3ccd",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-25/public.json",
+    "sha256": "3ef313b71b78b5864824f0341bdf708f593f4271cffbc20ae3929ea9d0310116",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-26/proof.json",
+    "sha256": "feae1234007b5785bee70e1f74d503a08a1e9b163c43d3b34fe127b5ea7e8f73",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-26/public.json",
+    "sha256": "42bee5490242e61d1d7649d09232db22f5c25134173b071b6d9c559a04e1f9d0",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-27/proof.json",
+    "sha256": "35fc489c5df25533298b0f5101d3be7c82955942e1667eef11a73db13c8e40d2",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-27/public.json",
+    "sha256": "58e191102cf3c589366da8d111b3ab410ab78b524c575af8e0f0e9266e001187",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-28/proof.json",
+    "sha256": "593e1e349682c58bb0448ba07f0f0876ea9c92346579533b825af29d101c9c81",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-28/public.json",
+    "sha256": "f1e63ff1fb6bb5781669d80585a8b1b49b6d0fac35b3937d08c2516d99cec6df",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-29/proof.json",
+    "sha256": "18640a10a3f3c1ed90a2c272397d38128f7e82e9168a4a6b83d017527f95e74e",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-29/public.json",
+    "sha256": "40c629082a68c1340394fba0f77d78c28275f73eaf94724ef29537d27513a8c5",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-3/proof.json",
+    "sha256": "095073ae488601db0cddbe16a6bb1ef0b729e05eb023a6f20d2a378a49bb1543",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-3/public.json",
+    "sha256": "436b679c8a6d4c0dfa513c6bdd1b43c0d80bb32f56c4ca47d75cff82e1d25a22",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-30/proof.json",
+    "sha256": "bb197b3d701f924c484a8cd8c1e178477c7f82dc9fec1a6781e4adf785a61dc4",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-30/public.json",
+    "sha256": "cdc2f1445786060706f73efda43f488dd77d16e707a70ca6591cb5b1dcbfd90b",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-31/proof.json",
+    "sha256": "2b7d45283cabbb98567c5e4ab268d4a656366b558559a983357908ce64bc1596",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-31/public.json",
+    "sha256": "b902761f0b22a8a6ffeb6d94fe9ef78e806455f32eaf06ca1b758ed1e5930bd3",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-32/proof.json",
+    "sha256": "8d6ba1002fccfc4fcdb082ca010627287176e44439019ffcd51d6412e3ba6a4b",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-32/public.json",
+    "sha256": "827d865388f7bc6dd9a6a5f58248f590fa3d2aaa99b4550fe3eaf93729cc3c14",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-33/proof.json",
+    "sha256": "de150cb70e8668de34403a2224b5353f0fc39704c4586f94330c5dde13eda0b0",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-33/public.json",
+    "sha256": "014a8c02b101fe925724ae40af1797c5aa8f567e86d84230af820d840e1a6dd5",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-34/proof.json",
+    "sha256": "aeaaaaf136ebbb685d2fa6c4e555ebe6f8d05d54be3d8c3d79ddbd8212776e72",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-34/public.json",
+    "sha256": "22e17e496d32c58f3a04a5bed0cb0b8e353dacd8c68e4261e6a8576c5a68dd77",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-35/proof.json",
+    "sha256": "2f7ea9bf6eb30bb336ab9b9e811622d74b91e06f36ff286ad10f5fd37599b3bb",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-35/public.json",
+    "sha256": "744db65d09eb37b6fc62092de0cbc6969f9e885f264b04013d0f6a085cef07eb",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-36/proof.json",
+    "sha256": "b6efb0ce12e768fd542d52eab30bb8059151d44030dbbfe9a8f517c979719671",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-36/public.json",
+    "sha256": "6dc12b17e4d6f27f4c9091e704f673a1cdee7017dc4a19f64eef1f403774629d",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-37/proof.json",
+    "sha256": "37fd8ad85184f6d901a22fe0517d8984a9dcbcf2c96b6629fc1b92ace06f2d83",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-37/public.json",
+    "sha256": "efa6b0352e54872e333f1685129820777468594988b5564b610ab019eb0c7283",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-38/proof.json",
+    "sha256": "91bd1b33a90ec0e03686852073cde191645a9a1c0a4591209f6dcecb1fa8c841",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-38/public.json",
+    "sha256": "f9b682864ac7915af0076a33d8d01d29564696269d16d5305d49954927bf25ef",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-39/proof.json",
+    "sha256": "a9d4cf71ad1f3616fabbabe9fcbaf6697e71f1d323cdc5d0e708d332840e9f18",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-39/public.json",
+    "sha256": "09551b814dc53976946f59fc3b36f22c2b6da31bae391aebd6ca6abcf9a49458",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-4/proof.json",
+    "sha256": "6d55da0fe428ad07d9912b28aa914b8e4df66b0f34b6093743a1d45c57fded25",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-4/public.json",
+    "sha256": "c89e76ff437087496309b98e8b9b712df560fa009addc7dc59fe487e8aa497ca",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-40/proof.json",
+    "sha256": "5efe38c55fa0d640fe33c1d271b74e305184018dac79f8485ee7403dd426628c",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-40/public.json",
+    "sha256": "750a43e9976a7a0a6095de1f779c6504896a3aa4c283a31478c40701e0a3f537",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-41/proof.json",
+    "sha256": "bdc3d1bf39cf567218f0661128273beca117e45baecece43cbfed2de0af0d0d4",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-41/public.json",
+    "sha256": "577ad34286decd40bdc4b13eebd937b421b272a96095b70cda647bf3807feae4",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-42/proof.json",
+    "sha256": "b01fba010171b32a691115c4799ed5ee7bf4898438d0b5a775ce7288a5967d64",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-42/public.json",
+    "sha256": "22960505e218c760dfd02632fdec8f738305deadd01d4e2f0d85434b2b956da7",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-43/proof.json",
+    "sha256": "4280cbc3a2d6554e38c15ace6f46f683e001720f616eaf78adfc3519d2123ef7",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-43/public.json",
+    "sha256": "074958beee782fd9fe9589c691b29f3a8cf7e29d9fe9e33274c2b3dc2f3dfc28",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-44/proof.json",
+    "sha256": "5c60ea718e133e215b2e212b77e355568dbf43b72434f4b3db931137334fad57",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-44/public.json",
+    "sha256": "a87080c1866884642e8b67890361797d3ba9e754bb6b97b454b4506f58afdade",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-45/proof.json",
+    "sha256": "fa7a3002c8fb71dc91228353a32cd37ae788e67d3bfda2e490c06df98f998d42",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-45/public.json",
+    "sha256": "fa2e41b1760a382a5cc01d2df6c5970388ce17a7cf820b5cb78bd037403fdab8",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-46/proof.json",
+    "sha256": "6752f6992c78ee8047b75746efe5acc4211973c4afeb41e11f8bf46671fad05a",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-46/public.json",
+    "sha256": "543ef2d4ec0bef5bcf95dc791ebd7a3d2aba28244ae8bfd2b86b653fc8002020",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-47/proof.json",
+    "sha256": "f1cad0033dcf9f4e8a9db7ba5e8745601a61343b418378549b23971a398f1f18",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-47/public.json",
+    "sha256": "4fb53e90a1b9c6f5dda85c915055f8d3185afe0150e3bf47e8b839f154ff8d9f",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-48/proof.json",
+    "sha256": "90a688e1a44186721001fd2cb56a25fd570a2d1bb2f1754a051cf2e8393e5240",
+    "bytes": 860
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-48/public.json",
+    "sha256": "494b82d4b8a889f406b106968638f8544939d5732b5572b2126c46d2e51f6cc9",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-49/proof.json",
+    "sha256": "ff7ddafaf6d801f8f84b1627ff348554359b7fd124c2da56a4c9fcb52612f216",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-49/public.json",
+    "sha256": "cea6b0f3ca847406732f4fa806385a6332b2bd2efe47fec2732b7e7cf56aff38",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-5/proof.json",
+    "sha256": "e0ca879725d5768b0ce5b65ae270d1784d7a43891265efb1e7a26b2d34a9eb59",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-5/public.json",
+    "sha256": "a1967cc2ab6f48496eff921ef3fbacb6547a39086c4baeea6304071555d77bb1",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-6/proof.json",
+    "sha256": "c7e953144a1afaef5202920d027a4917d2f4b242cbac0e382f9806e4d3316f00",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-6/public.json",
+    "sha256": "18e57a3e21938031178dd0ff7ce536739df3d5697fe330d594747231cd56a16a",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-7/proof.json",
+    "sha256": "284588c506d4dbf5d22c309d55e59fc6d53344fa9b2728e7bc9c64f5915910f1",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-7/public.json",
+    "sha256": "9ee39aca5f8acbc4cbe0ef412c76fdc1bb4603ca64849959d269a79bb1d9d5ef",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-8/proof.json",
+    "sha256": "aec3cecc95d8a5340e429b2ac9ced8bc64263cab5588d14a7fa4490ac25074a7",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-8/public.json",
+    "sha256": "4fb2f4c39f9cefb0575d960bedf2f579ab1ab29eae3e58190fb9f736f1b3540e",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-9/proof.json",
+    "sha256": "371b63e8eaaad12ed5f3c770d4dd9d5566b1f6e1563dbe8327450cd0f485b3cf",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_LINEAGE/variant-lineage-9/public.json",
+    "sha256": "76b11b11b17158e27c3c9e040a6d39ef55b2e19c89e15ba72046ffd5bc0302eb",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/control/proof.json",
+    "sha256": "f739d9a67af92e6ac9632edc058f156c437b19362e7c32406cee4e48d094290f",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/control/public.json",
+    "sha256": "f8100bce6aa9a6f74a986b16c914d2f1934466492ad35dbcfaf8cb4c83ba071b",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-lineage-true_two_groups/proof.json",
+    "sha256": "bc17c1e79b86f923e69de16080de99477bf7abacf7133a9a1e08932b4283b1df",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-lineage-true_two_groups/public.json",
+    "sha256": "0fc0995fbe0c0d93d75a24cc299ed2bb413229e635122b6c697a772d3ab93f49",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-omission-late_published_in_window/proof.json",
+    "sha256": "74ef24c4e25a925c051016c82d95064de1968c8d75c6eb70a59ae4aeac4c081a",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-omission-late_published_in_window/public.json",
+    "sha256": "9d01e3ba673902c163440fbb714d38133eee213269bef2c618ba9ab939de60fc",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-omission-unfavorable_same_group/proof.json",
+    "sha256": "93be4944c0e8005d001a3f0ffd2554875cadb00ee2db420acfafae97bfc6b60a",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/fixed-omission-unfavorable_same_group/public.json",
+    "sha256": "0969ecf2d6c02c80ba67a96bf55826ce17a7f7af6fdd9ae253b64b8e8faeb14b",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/handoff-pool/proof.json",
+    "sha256": "e1a60e91d26c39964641f29719970fab6abc35ada2c23cce7f443d81b3dc5e38",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/handoff-pool/public.json",
+    "sha256": "55aefaeb378d7f929363e9650a5df77ba9316186ecda4b5a6290992810d79d9e",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-1/proof.json",
+    "sha256": "3c4adfc50e77a17662f2f50cfb90ed3977c73bdebe14a5cced523879f07bdc6c",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-1/public.json",
+    "sha256": "3860ea41cd67d3a1a55a1c667030a1268e243f82e7838e691c9ece83a8f37e59",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-11/proof.json",
+    "sha256": "6546702433f1b707c95e5fff8732b71aa731804457a05c98f25dd7fba5e811a4",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-11/public.json",
+    "sha256": "e7a962639f0364f49b3eb6af3adaa56a14727ae0f8f8e5e91683022612dd386a",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-13/proof.json",
+    "sha256": "31ab27d70a3125fc11f3fbbb96d4ae8c2421969f0144112bfd4fa93c3914e534",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-13/public.json",
+    "sha256": "81a1f9c5489b1e1f5744fd6ea400ec0be5bb3fd509572087362810d98292e79d",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-15/proof.json",
+    "sha256": "c1de7dbfcd56c8509234992548f75b9bb6812659ce4b8e7d45fdef660e782e0e",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-15/public.json",
+    "sha256": "f058f287428f190783fcee1e106e0cc9d924959eda884e7f017d20c11e6f77f6",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-17/proof.json",
+    "sha256": "344f0b74e7981e5ad3e22705e4075f087185225830539d0c7036b159db298d7e",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-17/public.json",
+    "sha256": "f8cddb41ac9d5d6bb3df808f7d9ebc19daaafa7c01a6a73d20ffff6f5dd67d03",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-19/proof.json",
+    "sha256": "85fc5b839c547fda1a06bdda58194994c6cee1bd1911144d4b64fa6cb9b4c9c3",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-19/public.json",
+    "sha256": "abf79b22ee0595bfacbe8622f3cac5ef4d6fecbef03873254c95ab8c64388420",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-21/proof.json",
+    "sha256": "629b6350e19e026c4d758dc135e260cbd541acf29cfbbe3cdcbb3a3be7a1e157",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-21/public.json",
+    "sha256": "d6709fc0e4d89ec82d69ce191df3665bcc04665890f4bc42be1391bd4069b597",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-23/proof.json",
+    "sha256": "b2e19552864011875ca3b5f435707811e2f095f19d789c10b3d8ea0811e52b6f",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-23/public.json",
+    "sha256": "432fba2b047a387944416948e96cb69ed5182332916557f430a0b1b08216c391",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-25/proof.json",
+    "sha256": "bc25fbdb9888150a78664b7c35ec52ca43f7758e573e34204fec4bbb8276f036",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-25/public.json",
+    "sha256": "f7e3e62ea1b391fba50ae583b42f834e12c09c667b1787bf6aa47f139fbd47cf",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-27/proof.json",
+    "sha256": "8292051f51532c2b4949685698d06628ff54ca221671bb85279a9c45be8576ae",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-27/public.json",
+    "sha256": "448b67c70b4e5cbed40d9f14a82e583b751ce1e34886762f442377d40dbcaf32",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-29/proof.json",
+    "sha256": "ca5113a36a1693193c8904f57397b6c89c3f3aad8322e94cde4243496507cea9",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-29/public.json",
+    "sha256": "2506d97110898cecda1a5d15113cadc7b9b7d017c50fe4d4b467680540a74d60",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-3/proof.json",
+    "sha256": "f3ffd3fc51d16b0ac920e98d386486973cff5c0a705f91c75d2aa9638c81bab1",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-3/public.json",
+    "sha256": "c902a759cbfc7e4c6a0240d96a5ea29cfaadc321b8b73620ced7c8528b25f390",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-31/proof.json",
+    "sha256": "1125ff645e40e53e7f30f600145da809cc598c28d905311a18573092b3711ae1",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-31/public.json",
+    "sha256": "d5068541f206ae106d54dc93a9060867b0b7eb9405cf27e929d3e8193df093da",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-33/proof.json",
+    "sha256": "40fb2c5dcdf22e8dedf5b7c900c4e444659bc054304798119c966e740ac686ca",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-33/public.json",
+    "sha256": "61cc863e1a1dedf07f419b9d9c18f734c54ff8136bc4ae8744a947d2f26ca489",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-35/proof.json",
+    "sha256": "e3bebea91f6e48fdedcf81ddaa6fc8a959ee8c505b9d4d044354f1eddcf7f64c",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-35/public.json",
+    "sha256": "d2b73a932d068ffbcd9dbb2d3d4163fa5fd279e35a0a82417b619c227f10ee58",
+    "bytes": 2140
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-37/proof.json",
+    "sha256": "bd7e54feabadb785ca3f6ce96aaf1dfee21fcc6b96679301c875f0cca8f4150b",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-37/public.json",
+    "sha256": "76fcede099202a1f548648fa980a862c3c6b953b5282e5d0b472001d542b75e2",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-39/proof.json",
+    "sha256": "98274622bb56690cbe84d1b437646d3019f9e5b44ca16649ce258f7842c2bf7b",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-39/public.json",
+    "sha256": "ccb993917df3f91450fd669f59220e66fe0898cd872a89cc87db33d71615211b",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-41/proof.json",
+    "sha256": "5c55ec450d0b580d975b340feb98b6648ddd87c14831f03887def8e86f891d77",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-41/public.json",
+    "sha256": "f8d54c9cfbcad812b0df9fc96e6382ccc8f9edb38816bb4c1e7966102bf29e0f",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-43/proof.json",
+    "sha256": "a70961fcb88891afaebf794f951c805d4a6575a07ae4907fa873d58ea2c309c0",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-43/public.json",
+    "sha256": "30fc52e3b4ca89dc7c066bd2fc9aca6c8a169d9f7f7aa98ecc0374595e79880a",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-45/proof.json",
+    "sha256": "159c7370ccf3e0fe21e219875ed91a283d5835f79977105277e7bb35f53fed09",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-45/public.json",
+    "sha256": "5f7c93bd72266c33042517aee0b1ea3a5697caa17dffd540fc379625ad3b096f",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-47/proof.json",
+    "sha256": "989c36d32e4e52b59830f8d82ca7f303d35d9277bf39c51f1b1f22c47cf5f80e",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-47/public.json",
+    "sha256": "5c15cdea05f9aef74924f804997963eaf319dc719443f2081595c601ac9a0c84",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-49/proof.json",
+    "sha256": "dd06fdb2c53311e2b98b119658d2ce883a7e30fbd7fef0b62698a3ffcf48a5b3",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-49/public.json",
+    "sha256": "67b2e761987f4b49f1a93f9daa24f8007605f6ad55a6e3fa931ffd894f9d8af2",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-5/proof.json",
+    "sha256": "2e9901bc520b59cc20a723d8d9f8bd51dc17fe8fbe21fed6570b29b64762d417",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-5/public.json",
+    "sha256": "3a3599494b8188e571ca0237a40145953056be960a8d962521d6e6f1e82b347c",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-7/proof.json",
+    "sha256": "5bb524591df510be831c3938c204deaf5d1ce90ee2abe37e75e0055bc1b21405",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-7/public.json",
+    "sha256": "ddc88a1947b5e65542411305a11101c4dfc01eaaaf6876419ee86b3c8f7ddd4b",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-9/proof.json",
+    "sha256": "54963e425822725325a78184bf59c379c96b16b6ef79f7c7106ca3d9e557514b",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_QUERY/variant-omission-9/public.json",
+    "sha256": "f316331b54a2c9550264f09e788d48bbe48ad38416be0f54b91b42540497eb1a",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/control/proof.json",
+    "sha256": "26298c5879e460eac1ee7c0799e8941a6862ed8f6b2ba18a0c0256d94114d6ae",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/control/public.json",
+    "sha256": "0b780fe693ea2d7aca9a7f1ef33e509ac99d97f36890db8410bb7047523917df",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-expired/proof.json",
+    "sha256": "d72364f36d749f98a8b989e14a0aab257c81323c8843448b424a7134c9d48c99",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-expired/public.json",
+    "sha256": "bfb2592ff7b6de8ad5f6b4df7401115fa27862fb03fd3ba1550f3b59e7f15cc3",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-old_version/proof.json",
+    "sha256": "a863b237cfb6fcef53df1df5dea140c13ff7452b391a697aead12f7b3c2fc44c",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-old_version/public.json",
+    "sha256": "79a0811381033c94b76376ce70d60cb70f6cbababa45f548f5d71af31f0ff9b7",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-revoked/proof.json",
+    "sha256": "949b75cef36c1bd54e7a33ae34dfe0b204e72be2d5c141d313342ff97d03d6a4",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-revoked/public.json",
+    "sha256": "d9ff679e55e15340a24791a7fc349da18108b35266f00b5816a92e00894eda6e",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-wrong_purpose/proof.json",
+    "sha256": "b3001356da9c1c6b44346ea52567e6f3804b2e9ce196fac8386b0d108b8435f3",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-invalid_reuse-wrong_purpose/public.json",
+    "sha256": "e48d16737a6639e36b1dd03d536a5f7f869fa2d94655a6b89c941d09bee4fb1f",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-lineage-true_two_groups/proof.json",
+    "sha256": "996a479026084100f3eb4dd09349e7fe41b9c7ae387cfb24707332fad2829b4a",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/fixed-lineage-true_two_groups/public.json",
+    "sha256": "1cae71c43fdde33dd4c310a9cf9aa474235f6e8aa9bf4932df3351eec757ac8b",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/handoff-pool/proof.json",
+    "sha256": "23dcd007a602d9e57e6e9e1f97e7cb56b68ccaa096e85e2b559b177a2f88b655",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/handoff-pool/public.json",
+    "sha256": "d7e033d22e38ed2ab0b3a482d5c19103b3ee615e09a715b740efa7d7910a7810",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-0/proof.json",
+    "sha256": "32d1aa41cc128c6679c3cf8ace6a0f61fcd1d3fba551252bda3cec4b5025b7ac",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-0/public.json",
+    "sha256": "b444a3000157e4782e0e771192a034ae5c66c5730e02af2ea006d5c6073e1ec0",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-1/proof.json",
+    "sha256": "d0244df8007d50cefeeec265555bdea74a5e6c6e024a6a7eabb7d979a50a61c4",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-1/public.json",
+    "sha256": "30a36b435b06d2cf25012d682d4bc25b97479e1215bfdd046d2f774c61ffe5cb",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-10/proof.json",
+    "sha256": "103ad059f235570539a7e7f9874093bf00fd9185af70df5c7275e6c14af8f2e2",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-10/public.json",
+    "sha256": "d53cc8515f14decc6bd2df8b1c95e34c93a51eb17a84b5541c849a67402e53d1",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-11/proof.json",
+    "sha256": "8eedbaf8784ef266b0c7c8342e4621b370c49c3fe02b2c633b64e24a8cdd65fa",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-11/public.json",
+    "sha256": "0ff3dcfc0f7e700c716033cfba9e32b4efe2f2086f1696a2180286d4fe8a3e7a",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-12/proof.json",
+    "sha256": "15601649983091f19c21a30bdca129f2375e80b36c7cc1eeeb942be50ed1485a",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-12/public.json",
+    "sha256": "d14d6cacbf14bc361086f63a1783ee5e0a0527550eaff3b81741671c88f33980",
+    "bytes": 2147
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-13/proof.json",
+    "sha256": "bfd45e14dbc84494d4dea62c465d6608ea1d79641d7744dccfab8f8c327f1703",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-13/public.json",
+    "sha256": "7367571b3558fa1d50b08d6610d94fbe9d5e0fc77738ee7449a641dfb4252534",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-14/proof.json",
+    "sha256": "a24578769aaa7dcdcf43cb7408d692ecb5e79d45d70882fe72501381a13512df",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-14/public.json",
+    "sha256": "3f3b54081338974d1513f64974bb5f66e7cb1740cbdec5eff95bfca0e2915335",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-15/proof.json",
+    "sha256": "3bf1ae624b81af24ca36a53e6884c2be9f83da725604e43df1c4653e2feda53f",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-15/public.json",
+    "sha256": "a59e37bfe25b4738df0a904cb16ea054fa778ae99f4c2aeef3ad5decac5daeaa",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-16/proof.json",
+    "sha256": "7b9cf19a0ae30866238df955a0ddf391d87d939789538198f58d40f941f2e341",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-16/public.json",
+    "sha256": "7e1f9d4135b85b971f7b1c51feeec4997d2974a3ad1de9c2c9b8849b79168634",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-17/proof.json",
+    "sha256": "10f5c6e0776f31fa585df77a59aea5787181a393813ac11caeb5248ad777a8b6",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-17/public.json",
+    "sha256": "bc0a58454b45bb390d1ed3ed6ef3fd5de36ae8c3e6d12caca796cc07032852f8",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-18/proof.json",
+    "sha256": "27f842ec056d35351f90dda87c359c8b88a786136812cc01f08f3b72124e88e3",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-18/public.json",
+    "sha256": "c9eabafb5b15ecd4ae563aaa63c5541427d8a792d0f6da474f94195f02611df8",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-19/proof.json",
+    "sha256": "cd1858c351fe7939c7e019151242b1db6090939dcd98d36b6658a85f98e7741c",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-19/public.json",
+    "sha256": "4d8851203f8c4bf4bf8d8345f93195e8c2cfd74430a21acef2e400bfbe266d0e",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-2/proof.json",
+    "sha256": "97c08816afb23793a3c56b4cd93d3f5f52cca538fec3ac60c6050274edfb4c24",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-2/public.json",
+    "sha256": "65a1bb73193594d5363a172c109fda4c38508129f746e420d8e3a2b8275c6fe1",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-20/proof.json",
+    "sha256": "ef0007152d45d404647c40984f7f59d8a934661f0a00a3d2871f5306d185351f",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-20/public.json",
+    "sha256": "6664148f44b805ded87c7237f3db21f9a94819735137172f77b7acece032c187",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-21/proof.json",
+    "sha256": "594032ce6ae44efc97e2e658577a3864a51f7de64ed441b0b314bc56332e9fac",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-21/public.json",
+    "sha256": "e587f143b0038ed35cc25df3b6c1dbd921e69f22a80471b5d7fa7fd264e16340",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-22/proof.json",
+    "sha256": "a55fa716037197bc9862595de858384e42a619b829d8ceb48299769d6717be38",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-22/public.json",
+    "sha256": "9483be0cedf3972f29cbb4b463a9e67395e532f9fe6dc203c39fec8edc535a8d",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-23/proof.json",
+    "sha256": "160d8ae12d41a70cb0cf11a65a24384e7552d58f2fbb6ac47fd3d7786cd4f9ff",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-23/public.json",
+    "sha256": "1706a689931a7a598cf709723e4777333bbc097974b3602069cc489eb052a52d",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-24/proof.json",
+    "sha256": "6cc434e0ece1f1c7ef389d32b3e502d7304452f3cc02e0b7ff94f9e79a8dab34",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-24/public.json",
+    "sha256": "5afdee31addb977a64665f801f99a409fe6bb884ff3d921d22897ce9a7674b6c",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-25/proof.json",
+    "sha256": "71931abbbddced26f8c657aacd29060989f4ba09c5800f6f6289aff89c57ce3e",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-25/public.json",
+    "sha256": "c13f0ff8b426f832a76d4fb07f2196c1f702ef78c1ef7cbd20d2474ff539e8ab",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-26/proof.json",
+    "sha256": "f26fe0a2fb5d12ef455126cd42fd651272c2479eda3336a892599f160a14f7fa",
+    "bytes": 860
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-26/public.json",
+    "sha256": "13b3c909851b8ae3ebafa330d4be241fb2264e5f64ad8a5568d727197789a9d6",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-27/proof.json",
+    "sha256": "434110c153a1abe4eaf339a528b98d5ea3034836ebe3e41e8c616db413c64e3e",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-27/public.json",
+    "sha256": "8663bd7d70df9b506f10c3cc2512d3c3aade74753ac501229cd965194d1a322f",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-28/proof.json",
+    "sha256": "2321e9db8cbc27b2075525d0217015cc885e38514698775393b9c0ea7b5aac0c",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-28/public.json",
+    "sha256": "08e852c6b4c26efb0135276dd998169ef52805a3d796532bc6b3ec947e89e480",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-29/proof.json",
+    "sha256": "7972b25a80af7e09c3b252714d96063c5c3a1ac385015e1e7a95faaf239bcd30",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-29/public.json",
+    "sha256": "ae8c3918e9774989b074f536adbfb53bef102f0f2a264c8248b408733694b9be",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-3/proof.json",
+    "sha256": "f3e453d6a9466e33a7fab4d77976e871d55534d343166426cea4c2f1f3f8171a",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-3/public.json",
+    "sha256": "b0b8808d4481ad51b5faa6e032a6e60068bda8e522f85a427b7ce34b7c0e5033",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-30/proof.json",
+    "sha256": "c05889f066394012d5ffdfd5b7983638290e5ea2be633879ac55d05cdc1bf6dc",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-30/public.json",
+    "sha256": "db1a9f83cae7739c49e8259f0f363f95dee91bef361af6d4b5e483f30fcc1b00",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-31/proof.json",
+    "sha256": "a1d48a9079e77f6a6107d38fdf49b6bc1bd843bb1de33b9aeb33592e3434194d",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-31/public.json",
+    "sha256": "bfb3da2d8a3dda70d506db00a060ed3449335e1713f1fcb27fe82edc3c2e5efd",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-32/proof.json",
+    "sha256": "fcda41b10b477d5bdc25efacfd6df065e7e8a14292208133e45cda6822aeea6f",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-32/public.json",
+    "sha256": "33eb577d442b4e1df5f065e4695f02fa970cf468b34c4a476c895358ab34b13d",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-33/proof.json",
+    "sha256": "d9e08dd3c71344f8701d736b785f81425bbf5a2c9e867afcdb02eba4fce0b0d9",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-33/public.json",
+    "sha256": "4196271d4a06e37350320c5d6fbc11c76bc7c51ccbd6dfaccc5a4fef82c2d996",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-34/proof.json",
+    "sha256": "93cdb6fd0169371d437c5bc29ae6b4ca7f5f27245731228d140f10776f2cef55",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-34/public.json",
+    "sha256": "9fed809ca380c65e09c2061da1ce47241d410e7083aa610d07d5d5d8ef4db46b",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-35/proof.json",
+    "sha256": "79c48245fbcdce43eb9aa31cd4164ec9838a00236716452dd13d82c849b92fc7",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-35/public.json",
+    "sha256": "90f4caf3b67950cbf3e3d6a2ca2eb580481d71fb8b92d8d45453f931c03ab4b3",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-36/proof.json",
+    "sha256": "6246503245e783fe09a25941d6e0345a55f7a3c2d4f4ec2f797da044e6bb498b",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-36/public.json",
+    "sha256": "2d302efa8b5563f725d6ce3817615e98358b72b82616d7615641d870420d0660",
+    "bytes": 2158
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-37/proof.json",
+    "sha256": "f39585ffb53270949e72dcf27e308e86441c1bc2eb5c00a986b927d02311ccf1",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-37/public.json",
+    "sha256": "5f85026d69c5e1e3c2ae0a3c3681d68be56937c58c435a8a5a19b2ddab11b532",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-38/proof.json",
+    "sha256": "1f437302d2831a8cca188902e03d013e87edb5f53a763b7e2921887180d4450a",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-38/public.json",
+    "sha256": "a4a4f8164aa54c4dc86a2f3ab0547eb4ba693ec8a6f8d08ed9b70256f1291c6d",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-39/proof.json",
+    "sha256": "83783837d355d30c74f1a0c13675d81fdba4a28f2e33ebe9f85ec9239f0495b2",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-39/public.json",
+    "sha256": "aacb3671419739a694d60902378baac772e272b2b668e520cac5464194de06ec",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-4/proof.json",
+    "sha256": "9a123b189e91fb76e16c2d07fc10891c96b05600e17cebf0dbacd57b61f7cee8",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-4/public.json",
+    "sha256": "75b0fc7d20595b39dab975547940ad73474d121a018530bb70c57fa9099af5b6",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-40/proof.json",
+    "sha256": "5ededfcbb8983108a40d4ba25a05c3df55c086b38bf7072fc18e216344b1ae58",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-40/public.json",
+    "sha256": "bd95ae2cb053d655ffc6f832d6fddb86045ede158cc7c5d2beb507a6f556f53f",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-41/proof.json",
+    "sha256": "760ec5a45ab28924db853ef5088a1a5f3ddf5819968d8801b4dbd367d90df728",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-41/public.json",
+    "sha256": "a494ee1764f90a584e14820c7e59b8b38fa36f215817c990a17909da8ed01f06",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-42/proof.json",
+    "sha256": "a2de2cf1f89c496437b094447053a2b99d9016496b6ede5518632f7054a9b741",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-42/public.json",
+    "sha256": "cbd9c2207c643a4f0543ea620864df73850addfda6546a09c2c427527d5b6e51",
+    "bytes": 2146
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-43/proof.json",
+    "sha256": "c68a0e4bfda5b053e22f38fc70663b87aeccfe38e05d18d6baf443f35e85cf89",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-43/public.json",
+    "sha256": "bdb70b24b78ec9185f4a9db80d5bb84f21a614752e01ae4d62b4a02006cc0eff",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-44/proof.json",
+    "sha256": "4c9394de610205c5e063b66f0962b63ed2473475f2a28aaccfeabd74b273268d",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-44/public.json",
+    "sha256": "42024ae61ff0da6816ee10331da196abb2e646aed220a4987c07c0948f0bbc8a",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-45/proof.json",
+    "sha256": "61199317d8b3d6c72f4fe7fcc7b39fc2348abf29c2495c3e715c1f9ab5ace166",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-45/public.json",
+    "sha256": "11d7ab1490f2acebb2b913eb66441e3e9d5f59a1047b5d60f4fedb743de47d4a",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-46/proof.json",
+    "sha256": "82406b4ab712814a6411a4482be1a20c6ef4507635ac900b252af05804131413",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-46/public.json",
+    "sha256": "94d832969df2a7e3f6ded5b4f9780cf8d351414bd49b03bdffd4ead97fc741e7",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-47/proof.json",
+    "sha256": "5d37dbdbd37e6495a092bf4371e6f98240eaeeee9fa0eafe6542a978fbb50773",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-47/public.json",
+    "sha256": "99a5f10c6bc2bd38102c123b056becbde3014b30797c84346f9953a7bb776871",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-48/proof.json",
+    "sha256": "e90657cbeaec74f72f349b1104d4e2f0166f151610aabd2a89e10c2a9433ab46",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-48/public.json",
+    "sha256": "8f04c30bf7200bbee02031c79869dd79ad06aaa4ba3ad27f74c0261b97653d31",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-49/proof.json",
+    "sha256": "230a4c714fb2bc8e411535c96933d6792337ee814eb4d3d13a23d364ef86790d",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-49/public.json",
+    "sha256": "bc11aebd57e0303025e421ac0c28a27d2f6f5c66477de6fbcff0a3746164c5ca",
+    "bytes": 2159
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-5/proof.json",
+    "sha256": "2fa802a4d0f17a9581708cc0866f038e1cc838615a76cb11982636b81d716349",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-5/public.json",
+    "sha256": "9bd79b50887b27f124276aec78421f7be7339d03526232e5671c1bc4e352c6c0",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-6/proof.json",
+    "sha256": "8bf28f26e3312dcf6431271bae88774ea4ef5f5e25c44ee836e0c08da22169fd",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-6/public.json",
+    "sha256": "a65f810744c025f7e96c44a50a1bc5f91d850058d43766d99fcdf6c4bb8ddc91",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-7/proof.json",
+    "sha256": "eb8bc245f6394e792a8bb4dfb013b856a34b7303daacede0553d70581e1d0c2a",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-7/public.json",
+    "sha256": "ea81956a63f6446e38a66d98913a1f88ded949420773d202a83fc02655f98728",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-8/proof.json",
+    "sha256": "c8f67a74daaad95d3b67ffcd086a7785032923727f55858d076d0fe8a4c62abb",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-8/public.json",
+    "sha256": "f35951dc200fdd48845e11e0170d65d25e28680e7ff98a04f12f56375da5557b",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-9/proof.json",
+    "sha256": "1a5fdff3b727bef24ffb52ee5743e7911071cfc9d415f97d9b35f99bd5927611",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/NO_VALIDITY/variant-invalid_reuse-9/public.json",
+    "sha256": "cdde91bbcc195ad69fa4c86544f63913e6f3e77bbc09fe9077cf966340ca6fa6",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/base-source-0/psi.bin",
+    "sha256": "b6e3c52d5141dcaa7870d5aa8d06d99533422ae453a9b6880833f0ed3dbb4229",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/base-source-1/psi.bin",
+    "sha256": "2c673b0716f1d3bc75db6737378aacac59313393b67f3fe720b59b23e7134d6d",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment1-2026-11-14T04-48-40-401Z-623676/base-source-2/psi.bin",
+    "sha256": "95d4d030364ad4acfb2c9da5bd15375dd0c287ce36787513c815fa932c889940",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/maintained-0/psi.bin",
+    "sha256": "262f4c7faa0af8a6c7b73215dd71824661d66cea9b1f4be9bafedc95cf7d94cf",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-0-0-joint/proof.json",
+    "sha256": "50eed673f16e34aea8a9bf4936826ad0ffeae38df0ae4d78f0a53aa5dc0f6db0",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-0-0-joint/public.json",
+    "sha256": "58a98b57fceae04e25db1ed8c748b0cbbeab2f418afef3bdfffd84ae58ad822e",
+    "bytes": 1453
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-0-0-source-0/psi.bin",
+    "sha256": "c70fdd4e29cd9c915366a184305daccb67e9e320f7d5d2cff04977ec51734be9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-1-0-joint/proof.json",
+    "sha256": "85cf9f067000bc7d04c2493217d424b920980620ca7c4ad9cd43beb7f2fc76b8",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-1-0-joint/public.json",
+    "sha256": "042217dbfe305badd73f0e568b5cf42164dbcb8678a2aaaee937da43bad654ed",
+    "bytes": 1454
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-1-0-source-0/psi.bin",
+    "sha256": "1430aaa9c0a08c331116f2a4a853a01e76123324507432c3f9d2405c350d66da",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-2-0-joint/proof.json",
+    "sha256": "e493dcd35ebc84a97e27477f112d91541c139158d46b4b1c6cf1bf0107e8b818",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-2-0-joint/public.json",
+    "sha256": "eb67028c9c84a3bc4a06e2940ca9ec65abf3e0aa785cf40fb49413a8511339d7",
+    "bytes": 1452
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-2-0-source-0/psi.bin",
+    "sha256": "8a10d9bf5ab9f274097500bfefe462ff433dd69849947023ea6459dddfafe8cc",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-3-0-joint/proof.json",
+    "sha256": "530dbcd74ecca1b1103718fbfaee1ee9559449dc7656acaad6deeeccf7ef902a",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-3-0-joint/public.json",
+    "sha256": "3af674c59045fed1bd6ef2edc01827c91c3ddee242e4d3e578ab9cb6185c2708",
+    "bytes": 1452
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-3-0-source-0/psi.bin",
+    "sha256": "833f5858322baf16b9ab6c34c5a6371d175ec0e5fb552ef7781eed5c8e43e3f3",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-4-0-joint/proof.json",
+    "sha256": "0e8b9e755e8b2fd81162ea9816d20aaa7e4168c5e4aa4879538c4445f0ae080d",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-4-0-joint/public.json",
+    "sha256": "eaa3ee40547fe63662ba14441259b68a74b2789b251248ba638181e21fac4ad5",
+    "bytes": 1448
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-4-0-source-0/psi.bin",
+    "sha256": "2a17c887b91d2c547e6ede8754b6f9704da3ecbdcb83d4b614c45b793df478fd",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "3368d06eeaa1d2fc969e55e024b0c3940fa51b25da0fc987e2671759361443f7",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "ed53782182ca9b4c45b5041167d4083904ca14bf5f8c574834db10b3762818e8",
+    "bytes": 1457
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "7c0d05ae770b60911346c1e19c3e2e8a79e8b0afe9f0de791a681811cb03a87a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-0-0-joint/proof.json",
+    "sha256": "20aab80615d7b90f4282fd95d2b13c0ae9b3fa6c1f19ed0b6e2848552628f5c6",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-0-0-joint/public.json",
+    "sha256": "58a98b57fceae04e25db1ed8c748b0cbbeab2f418afef3bdfffd84ae58ad822e",
+    "bytes": 1453
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-1-0-joint/proof.json",
+    "sha256": "07aafb94510940666c319199e018c3f7e10126733facdc1c7ce777fd6ed0147e",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-1-0-joint/public.json",
+    "sha256": "042217dbfe305badd73f0e568b5cf42164dbcb8678a2aaaee937da43bad654ed",
+    "bytes": 1454
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-2-0-joint/proof.json",
+    "sha256": "702546d42c5b30e51271aa9a613d430255b48eee80db18f1a5230964f97cb491",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-2-0-joint/public.json",
+    "sha256": "eb67028c9c84a3bc4a06e2940ca9ec65abf3e0aa785cf40fb49413a8511339d7",
+    "bytes": 1452
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-3-0-joint/proof.json",
+    "sha256": "e8d68629d8a1abff0668db9a5e3af2ebd2ccc022f70c410d943f8b5dbf3941c7",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-3-0-joint/public.json",
+    "sha256": "3af674c59045fed1bd6ef2edc01827c91c3ddee242e4d3e578ab9cb6185c2708",
+    "bytes": 1452
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-4-0-joint/proof.json",
+    "sha256": "53cbe5b65d2bf387bca750f4380aa3cd7b2aa9c182e19cc89611905ee6f2d9fb",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-4-0-joint/public.json",
+    "sha256": "eaa3ee40547fe63662ba14441259b68a74b2789b251248ba638181e21fac4ad5",
+    "bytes": 1448
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-5-0-joint/proof.json",
+    "sha256": "aa04c40eafb29193aa9c54d6c782d92a10d8d87a16f377b050541a26f4a1b602",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-5-0-joint/public.json",
+    "sha256": "b2ed24eeaaf98aa06b781525be0f278750a7f6f3494366ee18e722876e640d17",
+    "bytes": 1454
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "438f5092840f03b16a4dc55247a8f746b5c2862e82745ffb1fd85fafb9620d44",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-1-4-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "ed53782182ca9b4c45b5041167d4083904ca14bf5f8c574834db10b3762818e8",
+    "bytes": 1457
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/maintained-0/psi.bin",
+    "sha256": "ceeb4a130b84504bbc796e3625b3d2020198ea36c768158f98c245022fb8df08",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/maintained-1/psi.bin",
+    "sha256": "6bc506cad17784914f7589d0c34c10e33f09f322c5edf622c115083774a77f6a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-0-0-joint/proof.json",
+    "sha256": "1075f74d23ac63e0cea3b136f3c693aaca8c530d27af8120c02cf4754bbcf096",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-0-0-joint/public.json",
+    "sha256": "89e0a0bea1bc36475730730707cc8280d176ee77110f046a335b2a450fb43569",
+    "bytes": 1803
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-0-0-source-0/psi.bin",
+    "sha256": "b586f9e8ba167b03148875ce63c36913cb275eefb1b119516c2c08779c3f9c13",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-0-0-source-1/psi.bin",
+    "sha256": "9f19b788f274f47dc54c17b569f450187e464aec5e35a1f94bd558a30aa1cada",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-1-0-source-0/psi.bin",
+    "sha256": "48b955227fb0ddf86320604e2e2dd7847b939cfc5f04a75003530b0e6e408cb7",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "5910b89cff5effb57fc9c3919aedeb5d25c282215a0f9138f57dbe4243a74268",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "9c83ea653f6a0cc241405f187102b0b4c3e763795ee571604ca94eb63dcc5dbf",
+    "bytes": 1800
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "c9aadcd1d794c74e78ef379b05350b0c3e202d2e66a7fedd66eee3243652e64e",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "00134a57c5a34440b415b6098b0e144c64765738a08c7d6cd9d91144846ef648",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-0-0-joint/proof.json",
+    "sha256": "7110bceef9f0c1911fa33285fdb70ec71e21dfcda4dbded6f41b5a36aecd3584",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-0-0-joint/public.json",
+    "sha256": "89e0a0bea1bc36475730730707cc8280d176ee77110f046a335b2a450fb43569",
+    "bytes": 1803
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-1-0-joint/proof.json",
+    "sha256": "14fac6545eefb5211a176be019b3682f15acf2aa4da4dfd7426315294654932a",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-1-0-joint/public.json",
+    "sha256": "133bb7cd84376c4812def1c0939467ab083843233eff39144bb1aae881d33e0c",
+    "bytes": 1805
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "fcd4ebdc2e01d5052b6fa5b8b0397386e05e05b3026b057d1f10c50a5fe357bc",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-2-4-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "9c83ea653f6a0cc241405f187102b0b4c3e763795ee571604ca94eb63dcc5dbf",
+    "bytes": 1800
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/maintained-0/psi.bin",
+    "sha256": "760d4ea5e4f162958c5d9bc53a2f1c622ac8efa7407cf16c7178823950a32ad9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/maintained-1/psi.bin",
+    "sha256": "2a895763f18860ce511c5265ee63cb60dd3d34f04028d386705319b2bca53b8d",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/maintained-2/psi.bin",
+    "sha256": "99ed2f27ee08261e70d9f7637ed6874876ea7c0fd5b69c5367c0c7b75eaeb0ac",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-0-0-source-0/psi.bin",
+    "sha256": "1fa0c1049f4f649c6ecf6b70e23018cd70660ab7907362d6e9519c1c851ad970",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "44f8e910084eefb90a2e793df4de9a138b721b1c2364105df85bc193bc808bcc",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "ea1f47713db9836026c3a5c1096dc4456df5c01dfd5f034fb9cbd8015ac60453",
+    "bytes": 2159
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "6896a9fb2f90b30a29bbc94cd1b07e4f24b88ab2f0849dea93c2828e998eacc0",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "29015bbad9a27d70f5e4fc72ea81f96db137be05a787b1f64d21c6f05f0c7bfd",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "7884036e997b54def6f2ee5a7559449271205bacd980c2eb71dfca6c4bb84548",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/reuse-0-0-joint/proof.json",
+    "sha256": "b3622749e8587c5343e357365c7edc42541b223ee7ad176228e57f72b2d2c9fe",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/reuse-0-0-joint/public.json",
+    "sha256": "18de9579ae994aa194dc9a5d24ce2410692d8cc8e1683c444af3f23acae74ad2",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "12395b98bdabc520e42a8d055e1de63c2625bfec8e44b2209b2eb5f43bc31118",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-16/reuse-warmup-0-0-joint/public.json",
+    "sha256": "ea1f47713db9836026c3a5c1096dc4456df5c01dfd5f034fb9cbd8015ac60453",
+    "bytes": 2159
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/maintained-0/psi.bin",
+    "sha256": "856e396f5f6cfcf9dda0e70057c5de4d4b7dcd092549c80413284536162d2048",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/maintained-1/psi.bin",
+    "sha256": "a4b85b206e0625771f2053734465d08ef6f4b4883c9372d90da1a7163d047f59",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/maintained-2/psi.bin",
+    "sha256": "df93aafac73f686f142ad19d6d1512bb3b53df9654fddcbec137af0d4e451fc9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "e8ad9c544c449fd9aef063d9a352be8466ec247d50d33d4db4417dab745b29e4",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "20d6e0a850b30b85a3f3821c696b7a6eee3ccdbe4d8144bec6c7876b4df1548f",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "981f89291c0389eb6e32826f79fc745ac3eb47755ed5d11d7999065f18b2c004",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "5ae1c5f7cc7b211defa8168158d434fbebcd648f1a5716d9373e14e045f1bd2e",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "e887f3d900dca87147b95a71400c5751694802a817c137c1bbabf2f53e3e1a84",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/reuse-0-0-joint/proof.json",
+    "sha256": "ed001f95ff3ef90143795f5bd49d248ff34e4fb553e2066ac0bdcf4a4f478286",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/reuse-0-0-joint/public.json",
+    "sha256": "1efc596164c96f639c2740ffd73b95a4e5058a17f4e959274574eda3c7605db8",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "186811dd0fcde6977f418bb950b090e13b19aa4fe4c03ecf411d704515c5fb9f",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "20d6e0a850b30b85a3f3821c696b7a6eee3ccdbe4d8144bec6c7876b4df1548f",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/maintained-0/psi.bin",
+    "sha256": "610c09ae3d0661b70cc9c1ea8cbb772852c19633000079ffe5107b85691db7fc",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/maintained-1/psi.bin",
+    "sha256": "57caf1838d532c16d5612254ee7426a75c0e390e6e32e8c9e17519f5bd63c7fb",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/maintained-2/psi.bin",
+    "sha256": "2ec53386df0b143ecd25bbb6d7088aa2e9f77dc4aed9468cf827a3fc43f2de6c",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "adb0102b2035fcbf86b45176edc3c457ccc7fec50d7b3e639a9259b7af079b91",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "27ac6aed3d558a3fd2b80308861b84c4fe090d7ae9df204f51d52c3d0d1d1d30",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "ce5706fcddd96481c0339eb139abc5835c9cceeb13f7db1a44245f738fe0df18",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-16-8/reuse-warmup-0-0-joint/public.json",
+    "sha256": "38d9f55a251a4a45533e518fb1724f2395b140de1d7104ac162cab5c24c04eb5",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/maintained-0/psi.bin",
+    "sha256": "0b4155db108d94ad37206031f9a80f21c30680776e7e8eac1479dd36b1a8e82c",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/maintained-1/psi.bin",
+    "sha256": "4a1cc645d3b7909dffcaa3cfdf94a79a7744b5d3690c6ee43419d92773885ef0",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/maintained-2/psi.bin",
+    "sha256": "9845b6e636de00d4373374dbfbe678bbf4a5aebceba2281163a74b39b9c0eaea",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-0-0-source-0/psi.bin",
+    "sha256": "4e2dd47c8cd297edecff27d1266273ce439dfdf253e87de23c310864f687df43",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "52a994ee08e64e8dd3382b32e2ac64ca094667e8ff7dd03f6355e9ce42d606cb",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "cd57c0c222e3dcae90fb99453841e5dd6251bd6f75af292f4ae928d9a9b09d30",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "a09994aeecdf36e59eff419d909ff3ebf1d2e2aae3eb4b8078e9bd4e9873cf14",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "5b17ad751fee055720a2e6fce411b6f0e57f7504068830be3280460b12283501",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "500640568c806a88b31952184b9aae8745e10d752e8cf3da8553a13d4763f4ad",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/reuse-0-0-joint/proof.json",
+    "sha256": "d20c1645e8735237185e74f0867ac1912cec1619f283ac8536dbb673005075d5",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/reuse-0-0-joint/public.json",
+    "sha256": "389dd4253c4a7404a057b9abb1a7f4d9ae8819c9546306dcb485605f23605e92",
+    "bytes": 2158
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "12142dc7418fee53b9ddb69fa415e92d3a7e9e232428891ecc58f9417c78b3d9",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-4-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "cd57c0c222e3dcae90fb99453841e5dd6251bd6f75af292f4ae928d9a9b09d30",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/maintained-0/psi.bin",
+    "sha256": "ad1cb51cf50bbd3a2914dd349d340da9d9f3db1ed7cdcb42d439e343f86c8b59",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/maintained-1/psi.bin",
+    "sha256": "8df38e30f10c8ddfb186417f8fee07af092454b60b1068b5080cab8c5144e263",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/maintained-2/psi.bin",
+    "sha256": "704ba1c361a5ccb17ef0a5cd02b70723f823b6490db1a8ed1c82edd599ecda22",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "46cd09909fd9b61d9b1de81af8d5566172e5fe51ee647e10ccb310f46033c1bb",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "49bd4d53797116080c14c5665a68f6022fe4f45600068391e2ac53ed21ee7e81",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "a2d07ccc1fe07e0481dcd6052977780385bb407b861496cab1972416244e70b9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "b43aca67c7cedd77ab40683e640fb4bad7a75e3e007f867eb6671f6531554b72",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "094caedf37e60562f9bf773fdeb444b0d6b95155c21e5690a4bad5f642576119",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/reuse-0-0-joint/proof.json",
+    "sha256": "c2a53d34608e7b57f3e28d2a036fc9625747442ddd772f29bab6434bbf103d4e",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/reuse-0-0-joint/public.json",
+    "sha256": "dfc66da8f7675580501bbfc11998c600d4885451e247a976fc8102c7e88e9141",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "2d377e118f2605bd5669dde641f278c79549146841e682df694e52fc7355d928",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/capacity-3-8-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "49bd4d53797116080c14c5665a68f6022fe4f45600068391e2ac53ed21ee7e81",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/maintained-0/psi.bin",
+    "sha256": "6e60383f8d048d816ef4bb8d6d9c95336327b3734c1a9aa297f86479200843e6",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/maintained-1/psi.bin",
+    "sha256": "8a6b4746081493a79b48a2f179eb14707ed8e8dcaced0b9e932add51fc0207e8",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/maintained-2/psi.bin",
+    "sha256": "d1fa6534c44aef89ae7bd9541d1bc9f230dacbdf366e3b78c228bb1a89595402",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-0-0-source-0/psi.bin",
+    "sha256": "21089d6bc10e43c5211269729f02166b309d89a9cc4e769327c3d483be27d1cc",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "eae34bb61dc766c1d5b82e5a16c24845c7faa758b05645d31a755995a5ec4c2e",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "6e4c8491b01621c278dae9983fed453cb756920955ee28e89b46c0b79ab05ab7",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "a6bc3bb18e751d802056e4c6b6a2c1ced1f1b077d71925503adab94e5aa4fc65",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "024ef1cdaf41cf8e5381769a602f59e77dcbee53ae3db2eb68f9daaaebd0f3c0",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "8f1dea7d41d579291fd32111d0217820545c9554a7368c9fe00276b186185b20",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/reuse-0-0-joint/proof.json",
+    "sha256": "891bedb45f188087a97b0dd7b37c41cf17743f8ee1133ab6aad1971fe7d000e4",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/reuse-0-0-joint/public.json",
+    "sha256": "11c8c5d3fb80efb91bedc243c2d4df5803307ed3669bab530d752d4a60665588",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "584cd664a2795adf3e84911f570f3e6ff41bd85a32823d1ceb58fd8bbc3474b9",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_single/reuse-warmup-0-0-joint/public.json",
+    "sha256": "6e4c8491b01621c278dae9983fed453cb756920955ee28e89b46c0b79ab05ab7",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/maintained-0/psi.bin",
+    "sha256": "584cfd2e9cf89376be22c41b0a5c3b806e6bd3e92ca50e474f9651a13afed373",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/maintained-1/psi.bin",
+    "sha256": "bb75b7c5c436585a95fbbd270a55e57ded35cdf4be80f841977f345550364489",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/maintained-2/psi.bin",
+    "sha256": "a0abda43a944bc0f455ed8e49d177ad3aab45b645354c83c76a16e41d3f19f2e",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-0-0-source-0/psi.bin",
+    "sha256": "e69a740e22fde395decb8eba4c6ca7920b8f563baf791ce878eef9aaee679ac8",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "11d05f05c683e0941ea5bb6e4eaf71e4b3244764c9a736c089fd8645ab332b1e",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "9fcee93dc20496338630f0662892c3ca0601d3204b627f456f6fbcfc8f2e26d4",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "3b8a7d344f26f9a52a87aa6d72916d0432082ed35e1f8506503cb6841195be03",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "d46e006c247cccf730fc3f9b2ce4a04d43942ec9d087dff53187590a5681c8d9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "ed7cdf13fedada16496ddbd63f9db720142749f5039b8036d1da545d4e46d5c3",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/reuse-0-0-joint/proof.json",
+    "sha256": "6489e486f78cf11aa25debd098ed89e636f6c06ed860d529002248adc9aff6d2",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/reuse-0-0-joint/public.json",
+    "sha256": "662d4cfae287f1b1286ebccac8af1c84026260a7fc9c33b794493619242922f7",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "79eb06454c0f84ef83e6b6a2cfa42a52fc921739bd9e1f4fbae3a687f48676b0",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-chain_two/reuse-warmup-0-0-joint/public.json",
+    "sha256": "9fcee93dc20496338630f0662892c3ca0601d3204b627f456f6fbcfc8f2e26d4",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/maintained-0/psi.bin",
+    "sha256": "2bd9d1062509f3ac76ea86a91a58c38a5ff59287ea0404b005ea23493f58caf4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/maintained-1/psi.bin",
+    "sha256": "3cd6b56eaed279e1c979762c4d32c26d1b6cd29463b99b403c2715d56b22ca30",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/maintained-2/psi.bin",
+    "sha256": "cbfa089b12eb33d456807ea7d6c10df5a66bf2efbd4941d051e63484d9b79804",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-0-0-source-0/psi.bin",
+    "sha256": "f470d2a292e9c8e1e88bf13d677e6bcf63aa9fe4254e431cab5c4d62c0d4adb9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "bdb641c1d67b6cb8db7a41f8727e0fbb19fbe36d9ea66d8cd06f68a34a1f94fe",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "a97b36e27773fe9240c34f73c355e1c52df12509846180b851f5ea6a50eb8877",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "b7ce0c94be6f63ac6a6b991f727d2412eba2f9ccdac3f8c56fea4e24bf7de318",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "282e340e61a0ee31b63f1dffb5bb0b2b7314a4c378e0fa35a4436d6e29a62153",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "9ce346fa30fa832bfa2d470083fe4bc4f905d4b99951249ef571873245c2a9ed",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/reuse-0-0-joint/proof.json",
+    "sha256": "e739f0b066abfd48fb96ca5b0957a51afacb86a4ba001fef40ba6b842c8b2b99",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/reuse-0-0-joint/public.json",
+    "sha256": "68504a520581adae73ce9df47bbcf8a44f4a7529f1e219cdc9533eace02b1c34",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "b8641b68f304dad53570c74fb36f33b7be2922d0f23f3810b0f75cacedcf403d",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_single/reuse-warmup-0-0-joint/public.json",
+    "sha256": "a97b36e27773fe9240c34f73c355e1c52df12509846180b851f5ea6a50eb8877",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/maintained-0/psi.bin",
+    "sha256": "69805ec609ada29301a2d79d82a48be28df5c31109cc356f04f30a312c287d49",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/maintained-1/psi.bin",
+    "sha256": "511de81822f358a0bc86c1d367f01cfb7c9c38a40eecf6475428d057f92d80a1",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/maintained-2/psi.bin",
+    "sha256": "125ae05107928b9777ea3fd518226f22c3dbb0ff3bf97ce655532bd4727716b5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-0-0-source-0/psi.bin",
+    "sha256": "861b3d63d347c3cf1a259cbc58308068f7dc7742801d6c0578462552c746e9c5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "dfea7449a41f878a06f943a924fa00f8bc3ecfb74143b417f019fdc17986bd5c",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "54ae92e2053478401bb4477b0c8a3d041271f7cc6058ba8d2ff23363a4f1303e",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "c847c07056673bf43d1e71e42c81c4efabb336f0bf930ef5729ce6ccc164c6c4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "04372f52c7214a7e412006151a2e92d90e89b712a27e5c3e84e51ad3c057c728",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "54812e21c43b6c2467da3fd5b4a11021fdcb0d35131132b9c05cb95c60776940",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/reuse-0-0-joint/proof.json",
+    "sha256": "24f360dc584ca7f46b7d0cc7f20b1d2db2cf6dfb92be297d4525f698170f46e6",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/reuse-0-0-joint/public.json",
+    "sha256": "51fae6a180c083d1c045a0b1e4403ffbf737cbd3c83f03275e2a1d5a769d6b96",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "59e074d3bec325d81903306d50084655c7dbe5865c6c21be2ef3bb19e9120905",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/graph-diamond_two/reuse-warmup-0-0-joint/public.json",
+    "sha256": "54ae92e2053478401bb4477b0c8a3d041271f7cc6058ba8d2ff23363a4f1303e",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-1024/maintained-0/psi.bin",
+    "sha256": "3c26f455f6e75c9ab11dae375dc9668932fd4215d1b75a795ce6decb8dc87503",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/maintained-0/psi.bin",
+    "sha256": "f9212b6a8bb25a60eb59d1a9b9820c5371756446672afee1b16e4965a0af487b",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/maintained-1/psi.bin",
+    "sha256": "df89111e189059ca6d498eaa73a9dc5afa1da40dd16a51dbda3ed7f9baf1881b",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/maintained-2/psi.bin",
+    "sha256": "8ef65799838ae2a535c6794ba6e50e59f8b107db72753d6af27b5be55b24f92b",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "0321da4931a0f62620172f69fba0eacc557bab0fed9307b9220100d7fb26a648",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "a6a637e36db30214660ea0b406f4d7d3f78ab765d7c54db3f5007214ebb9b6e8",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-256/reuse-warmup-0-0-joint/public.json",
+    "sha256": "eb3689bc396b7f8701cf2dad6523f53d0f67b403fa8b57e9f0696f6227d95aa6",
+    "bytes": 2162
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/maintained-0/psi.bin",
+    "sha256": "b2762e82259516d0e9eee2018ee76f5328c0932bf46de43901260b5cffd9a35a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/maintained-1/psi.bin",
+    "sha256": "ded3b3ec8d77dd3888096af40839fe9b3db7a5dffa79213cda1ad3bee6f1a54e",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/maintained-2/psi.bin",
+    "sha256": "554e42ce151d84c8a26fc9855ee078c65f1742400e07d31760a045c26f42b281",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-0-0-source-0/psi.bin",
+    "sha256": "46d47776f7379c658d8cada0fa08d7c852f84190ee5e94fdfa5a06e620734c81",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "f767f847afd96910a7d6ea20162999c89dc5089e9434f829cbbd7b1afe4799fe",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "5d63261d220544b9d69ab37d4bb001ea67425622ff1120fd4b4c354f852ea067",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "0efeadecba6e9113599413dacdc0c6b2366e388f11f7ac9af708f87575c0e6f6",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "c885d69f314975e1eb9d03e5133e35f38bf21e46f02d90371cfcdbd417a24d9a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "01465e29891747d3e0aded51033e1c5292bc86b7960e6809b0ac13db0cf115a3",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/reuse-0-0-joint/proof.json",
+    "sha256": "9c2392f78f13a98bfdc064508a9c7dc982e00440509c0404def81dd58d893ac3",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/reuse-0-0-joint/public.json",
+    "sha256": "4b2bf8567c2dac8c9569d1d6c8918728289db67bceaa9bfbb2a204cf9cb64699",
+    "bytes": 2147
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "2cbf3f558b27e02cc51c375fbb761061daf54ed556d92dd0f11603a56a8fd611",
+    "bytes": 852
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/history-64/reuse-warmup-0-0-joint/public.json",
+    "sha256": "5d63261d220544b9d69ab37d4bb001ea67425622ff1120fd4b4c354f852ea067",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/maintained-0/psi.bin",
+    "sha256": "5f8afbda95771b6da969fd6fe49148638abf7c211f5df8b8775464ea9283c252",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/maintained-1/psi.bin",
+    "sha256": "e2056d20c529025978c79bb6a699d14a435228d75dead7f209b86d274ffde964",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/maintained-2/psi.bin",
+    "sha256": "aa83129e928b936b6a4208bc06d65664adfffa998963ca467c3aa59997cafc9c",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-0-0-source-0/psi.bin",
+    "sha256": "b43ed28b4bfcbcd96dc206999f560150da92af788d3b2754e23d8259f78d3e73",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "2d93a22f5d7e65631d1b3981e5d0fc39c29d5dc1c012c04aac08a5e55702b7a7",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "cd90def62101e6f19bd64e2ae9c5ae6c7b826071ef4799116a88109b406f33f8",
+    "bytes": 2158
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "bec4057ff9313a92f0aeb61f84460da12592d63dc48f10482d891f63dd96ba47",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "2411b4e55ac7b94e951c73c4768cc4d25d405b6702040d5ccbd782d156fc68f4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "744c6ecb6f26f09f1b04fbecf3bf6e8f0ed67966cd65c1b0c0c3a50aa4fe126f",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/reuse-0-0-joint/proof.json",
+    "sha256": "46fef108a537c28b7c5c7b1e6c61afac191abb00fa9845be7769971f0d5e89d9",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/reuse-0-0-joint/public.json",
+    "sha256": "6f988cd3ce2d0ecf3e685aa2806f619b250acf13d79e81f83482048a5a2b2e64",
+    "bytes": 2159
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "46c632b60ae0efbecec58175c78c6cfcab6c7b324046ab209b6ec22ff4a41dbf",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-1/reuse-warmup-0-0-joint/public.json",
+    "sha256": "cd90def62101e6f19bd64e2ae9c5ae6c7b826071ef4799116a88109b406f33f8",
+    "bytes": 2158
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/maintained-0/psi.bin",
+    "sha256": "ca397f10f909e7f5a182ce0d8733a96b4c30b8a53c29c65e8f84fa13bf420dec",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/maintained-1/psi.bin",
+    "sha256": "2ef6329d129b93cb6cb5336f2b11575d8d57e92be6b4ff615f456bfef4d18c65",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/maintained-2/psi.bin",
+    "sha256": "2a8665a0a885be7f2a08b30e68c67a922bd527c833a22643b603bdfb939c904b",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-0-0-source-0/psi.bin",
+    "sha256": "533b5a0c96dd0108e5a3c91c08809db3733ff4fc2ba780861bbb494f440db178",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "b5748b86e32709efe7c6c6c2104cfc7adb2b7751bad5ca01c6462ff6a8a3c571",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "d0a4b9cbf8b23ea92e5e9008281abc46f4cc83051efb41b03557671d7c4d5455",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "78512c0de486f111645872bf4b25222a945aecd7404b80317e1d5755680b8827",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "720e6f83d6e7a1ec648a9edf7e0c888e9accd40c932b64cc55ec65f265e0f398",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "30f3812c346198cf371102e1c2a8dcca5500fbe7b57d7ba7668070b0924235ca",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/reuse-0-0-joint/proof.json",
+    "sha256": "121b3bdf5a4cf937db364bd0c030d2bf143115acd74e310e04e4d94d4a070f4a",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/reuse-0-0-joint/public.json",
+    "sha256": "b2016147938905174b26d8350489574de9cd9609e166c28e7ea0c8fe5d5deb0d",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "08fdae3ffbff16655e8d2ca4617de133501c8bc6c268d19e546ea145ac4f8aab",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-16/reuse-warmup-0-0-joint/public.json",
+    "sha256": "d0a4b9cbf8b23ea92e5e9008281abc46f4cc83051efb41b03557671d7c4d5455",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/maintained-0/psi.bin",
+    "sha256": "06a886e2fc04cbcfe899f7c6cc5592a24f726c1e2a079216b87b5a592dbaf815",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/maintained-1/psi.bin",
+    "sha256": "42fb74549d1caf5267adbfe183619eb280efd9765e5e78c77d73f65965097b5e",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/maintained-2/psi.bin",
+    "sha256": "cfe147f5d1e6847f54e49edfd6068973387a6ac66d528fb1e50911d958257b03",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-0-0-source-0/psi.bin",
+    "sha256": "552b32f38d1e4757a4ae2e46a37d2cf017315ea8ef84bf6295b3f2068154bb38",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "0ebe5c7a77ebc02aeafffe88c3137bd54d0eafd6d988bcca0924b7abf154aa88",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "5c31bf7b7fa1421bafb32a6fef070c6fcdec9194caf783d7eb1df24629d0115c",
+    "bytes": 2160
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "1aff242436a2dc73791458e8892d4f6d001307b173650c36a1dae826797b1348",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "021e9c4fbe1eb439b5b9e5d6820a05a4a3b8ead028547f703a906100416421a0",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "b83bbc7c720ee7cc17f4b27f19561487fbcf0a5c700e13e930d9260a2729c87f",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/reuse-0-0-joint/proof.json",
+    "sha256": "51ff4461269572c1e8cf6c74c362135f60a14ccb24f4c6e3bb7cbddbbd49c74f",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/reuse-0-0-joint/public.json",
+    "sha256": "2f30d6060f433251a7f4415c57157d9c9fba9297d51fd70383f7904b22fdceac",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "525782e95a5e645ba81bbabf32173f2545e78710dc7685724571edf87993bba0",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/hits-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "5c31bf7b7fa1421bafb32a6fef070c6fcdec9194caf783d7eb1df24629d0115c",
+    "bytes": 2160
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/maintained-0/psi.bin",
+    "sha256": "e73760f4c63928bd0cfc938fd4a291c46b5761576f10dedcd958442d90eac997",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/maintained-1/psi.bin",
+    "sha256": "60f4003a9163c596e4d5c060d6921057c134f2a10701728539f51e276541c0ac",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/maintained-2/psi.bin",
+    "sha256": "64cb911e9afe507bd128f2ef3823deb734e20c123061cbaafb32d3f0356988a8",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-0-0-source-0/psi.bin",
+    "sha256": "530124506e67f243125f765de2f46c84a2d68774f811881e3fdebb2830cccac2",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "f8504d2f33c108151f0756c220931c306c75836122a66698c95414137893b296",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "fc0cebd86fb3d01f78657104de7ab2c6d4765b332430f4037252ef6be5681822",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "8d1614d2da0c603a10878f89fb4dd8041fd073ef753be55e2aa077ada186de76",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "8e7736b3432d219a2d1c08ac9417c0e7e4622ac781561d900c378bda6e0d2af1",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "484f05417629c5b0d66760946a828bf07d4861c055bf56668b11a020704c3625",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/reuse-0-0-joint/proof.json",
+    "sha256": "37ed78cd2da2ef845d41f6087cf4d201ed498a3e5f9a2bdb0fbab80a9d7a69e5",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/reuse-0-0-joint/public.json",
+    "sha256": "83628747b6c9d5b83ec667f86f0aad2e37119d7c885e75f7f2ca4ee88ac552d8",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "8ce32df77b4821239407d4c806da973169a78212d43bc58a2455b1699f2a2c15",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-0/reuse-warmup-0-0-joint/public.json",
+    "sha256": "fc0cebd86fb3d01f78657104de7ab2c6d4765b332430f4037252ef6be5681822",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/maintained-0/psi.bin",
+    "sha256": "c70743dc96269f7d14091fd5d0acfe0f73b9f760f820d3fabf164da2f6139614",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/maintained-1/psi.bin",
+    "sha256": "53dda69b63105e07dc90034bb144457ad13a221bae3ebca033547e973daf1044",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/maintained-2/psi.bin",
+    "sha256": "e1179d05c140572dbfd41f705b036f05cb5d0db1b5d8cd8f614320408d5b6648",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "b43ae3cb1221c81cbb796882189a0e09100cedee3aca79872df0d800bed71ab3",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "111da260e4561472c279ca009c36fd0cafd0da5a942915d4661ac96056328d87",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "190f9ae42b30d261c9e5136e63bce276ef4e8c7baefc2dd60bf68bea4203bb03",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "796f7da8f7b4bc217d4baae1e533aa97e805326c0e1bf80db89d9c465d3608b2",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/reuse-warmup-0-0-joint/public.json",
+    "sha256": "3146816720575fc3036cd978f7445c47ae3d27d0fbef8a5b32b0417d14e1407a",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/reuse-warmup-0-0-source-0/psi.bin",
+    "sha256": "26c7234e7ab18f3880a92762a81a7a9cfda6ccfc21188e4ef55a1762fc39a207",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/reuse-warmup-0-0-source-1/psi.bin",
+    "sha256": "388526a587f4702f4f2f93eae0699a03e9c65536c47c37b8b10365f5a360a73d",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-1/reuse-warmup-0-0-source-2/psi.bin",
+    "sha256": "b8f88ecbb1ec6becb13461dfb8fa7c256e6f151fb8d80c448df23e1cb1234439",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/maintained-0/psi.bin",
+    "sha256": "cd9d21e3fa32f3b58f8fe97d6588454c3ac3c003b03be7a6e8d2f8ec96a52824",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/maintained-1/psi.bin",
+    "sha256": "c6ed984f55246aacc7a4023748f690212409cd0dcd8c33decbdde38e2a7e5cfc",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/maintained-2/psi.bin",
+    "sha256": "873582cc01258a728adab718b6ea7af50a9f26b1eb7c62dc14fbf94684cafeec",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "41bd45d869a82a77f41703c0472f9eda03b51bd22f0698104c5715d75bd17da3",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "364c753a4da66d56f832ff8a9b7d4c4e40ff0d09ebeadd1bf59ec0b5886050a5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "c1f15a6536f2fbe913bcfc480ca44ff5c08f082f834328933e9afccdd664b0f8",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "dde2754ed1fd96dbf8b7d9038b9908fff59c32a067ffd582e180a5542c023b9a",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/reuse-warmup-0-0-joint/public.json",
+    "sha256": "a46f2b749d95c198a753483b8c9d5210477ba3b4966b64816bcb9d9cf25fd6ee",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/reuse-warmup-0-0-source-0/psi.bin",
+    "sha256": "c84107b49333d0254a3ac66388ac04e34c457afa424c5ce2ca19e5feb8856548",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/reuse-warmup-0-0-source-1/psi.bin",
+    "sha256": "da6d4815c1f4042aabcddd4fcc423f97e00605baaebfad7ea0f041c4c1d8635c",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-16/reuse-warmup-0-0-source-2/psi.bin",
+    "sha256": "8356ea779871d19ef35daeaf7b697623ab76bf8a5db9bd97979248d1d8493930",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/maintained-0/psi.bin",
+    "sha256": "c439f327037474a336926b9170413b0ab342f65e07e6777b5695e667ed063a63",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/maintained-1/psi.bin",
+    "sha256": "e504225cd5ab054c3e69e3d34364b35ed2a56b4b6e46eb361f7c00a34bdec191",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/maintained-2/psi.bin",
+    "sha256": "8d1f33ef1be1e7942663446e4f2b4fddabf78a8760401dbcd0df6b63ad9fe0b5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "d38dd187c93aeac1e2a33c8f390f2ff7c4eb1af2253d7acca08e411709ff78b4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "f551b7e57aa4cd8b8872557be61a3b9b4e7eb3ec0e72704c43c1e4690c4aaa9a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "ac95a48f742fd7b9eac4a27be0fcd97ef84fd98d37d126dd9ae05f7b04931810",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "269c08a4d48637543286aff1b9ba055ef9b9c62037f608159c6c5259ca2a3e86",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/reuse-warmup-0-0-joint/public.json",
+    "sha256": "dd066444edae64e345722e295108f365952c7108712ce482cf70f08d73dc3a16",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/reuse-warmup-0-0-source-0/psi.bin",
+    "sha256": "e36a1c9fbfb87ae53d63ff4ee99311aa7fb7930490422a2f83925a50e2bf9df9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/reuse-warmup-0-0-source-1/psi.bin",
+    "sha256": "62c58dce6341615514e0d309fda392f96cfd737670c47816ae755480dbf675fb",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/lag-4/reuse-warmup-0-0-source-2/psi.bin",
+    "sha256": "b64e5482e975a05904b0a11946251a70c5977baf7bd3fed6b555e0d074af31e9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/maintained-0/psi.bin",
+    "sha256": "06e23eacdea02e7468125ae6a44f161ce9433bb0f9d67d51295b6a18e68deec5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/maintained-1/psi.bin",
+    "sha256": "bcc613f66c0d0e72805838f73b77fcd7924b22fe13f9afec5eb0ec918873b3fe",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/maintained-2/psi.bin",
+    "sha256": "98e09d3fedf830305e04e3432afd2f15a90fb07dfcaeab4ff3a70ebae99e890f",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-0-0-source-0/psi.bin",
+    "sha256": "daa2cc454cfcbb0d02bbdb9f99f1ba996f536c1fa7a45cd4b194d7628026734b",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "557b4a7ffcfc028bbd8eeb28828fc01a06ae5400afc994859b3e1bc2646484c6",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "8c80ea0b5a451708e4ec72293b6c8a166733b99e4a1e2274b8e694f94e21d3d4",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "7c1210d5a3589ca34763f1c2f88a402071d83a5eb5fa294d3096497a08702e4f",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "7d8483153a3da5db0e85939511c9d7b4c45dbcea4b3669c3592be89792ed6e19",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "2bc3214b8dd1a796bd9004b73840a070bf4231925d9f2167ddc855ef4a0cf6c1",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/reuse-0-0-joint/proof.json",
+    "sha256": "9f1047473970443ad975788c9344d973b6cdb283f0b51ae6040d58667284e46c",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/reuse-0-0-joint/public.json",
+    "sha256": "cf51a3576153f703636885b3af728ec71d3efbb273999f424d9ac8285789bd7a",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "317234772cf5b001c772adbd4204260b202bcede3a4390cce0df4f7db7b08262",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-1/reuse-warmup-0-0-joint/public.json",
+    "sha256": "8c80ea0b5a451708e4ec72293b6c8a166733b99e4a1e2274b8e694f94e21d3d4",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/maintained-0/psi.bin",
+    "sha256": "00dc5a475a4a6937d579a948ea3621e952dd0408b31eafc5d4b334d387b9f2f5",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/maintained-1/psi.bin",
+    "sha256": "85d6a847ebf53c95748dff7c579374b79b04be2c90f88e114988bb2fd5f6a923",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/maintained-2/psi.bin",
+    "sha256": "41b0c7df4abd83798f9d37d2559f25d2d0101eec70babde5ac4f103c7ef6e175",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "3fe5e1bef16fe7285080cd46dbd6c332fecc822257abdcd5ecf46e060d532ade",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-0-joint/public.json",
+    "sha256": "0cb023b362a7f4bde4f29f38b4a0a5f82515945b4eceb51334a697e96dfbdd5d",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-1-joint/proof.json",
+    "sha256": "16369c47e813f6f0a8f2194cca4973e574a78d56720040f6213551e085f797f8",
+    "bytes": 854
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-1-joint/public.json",
+    "sha256": "563316edadf14a09f38fc07d738043dadd507d0326e510b542cbac0e7091bd5f",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-2-joint/proof.json",
+    "sha256": "88eac4fa930822921b963d32a6719db30f4977b9516729c07f1a9681ddd062b6",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-2-joint/public.json",
+    "sha256": "fd5f9e46dd55d6ecf1c725e4d6438513a7c8334066f173d504834f6a42bc7147",
+    "bytes": 2148
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-3-joint/proof.json",
+    "sha256": "d6d837f186315e0070e529beb4f522d446854a447425aa4131fc8f0b7b2a9339",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-3-joint/public.json",
+    "sha256": "a7fd9e73c3154a68ad7648c7fdd4c9dd84a9a5a45dfe6d79aeb67587ab9fd4a0",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-4-joint/proof.json",
+    "sha256": "fc2c4dea80eff9a5e7fd9a566a9ba43ae5820038aab5c9ad66fbb8475ba988a8",
+    "bytes": 852
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-4-joint/public.json",
+    "sha256": "74912d3840ced59fe1d05ef475691966406e825f1daf06087d1fb112a8021413",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-5-joint/proof.json",
+    "sha256": "d4c8287475b04281cae12f2e99dfdd7dc30630fa8f3eddba3cae0c36edc4af6f",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-5-joint/public.json",
+    "sha256": "83f325fa034a94bac1de34ce84e91b40eb6da7da74558fc23e4a0aef956350b5",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-6-joint/proof.json",
+    "sha256": "b5ce1bfd667ac287cf80ef4919e34279ee4cb4c6c021e0e7b0f955d2ca758891",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-6-joint/public.json",
+    "sha256": "05f93c2b20d99b5e61c800ab5c567bb01b4ee1954c99a4bf4f7984e6e62d5012",
+    "bytes": 2152
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-7-joint/proof.json",
+    "sha256": "39be206211a2967c2731ed4fe1108c685263b3b2d3487074c77d86f881f10e26",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-7-joint/public.json",
+    "sha256": "944f8520c339586b439b46bc8640f3fc9b1a94daa67fa634af3a9ad0a8f6b3d5",
+    "bytes": 2144
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-8-joint/proof.json",
+    "sha256": "d4399010029e2ef823882e30c437db3666d849eeb502dd39560759ffac9ec85d",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-8-joint/public.json",
+    "sha256": "541d4d151a7c2ad1de8755eae65c62ccf454ebf6ae4eeb6d83dd6abc6f60f40f",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-9-joint/proof.json",
+    "sha256": "c673bfe42b460c352945a6e41a28b522eff2c1efe03f24410e22e13dbd557c33",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-10/reuse-warmup-0-9-joint/public.json",
+    "sha256": "dd676270cd8614bcbc734126de646442c18a0fd40498b8b6a35d5185a796c415",
+    "bytes": 2157
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/maintained-0/psi.bin",
+    "sha256": "6ca431d27a1a8a777fbf902d37495e4a51e8eb4bd5ea7ec3b86d289084a8355c",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/maintained-1/psi.bin",
+    "sha256": "88b031f2bd58373f7dfaa6f63c0bfd3e87927d6070da6a50dd33c92ae1e26c20",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/maintained-2/psi.bin",
+    "sha256": "e6c4dfe7f8073cc9e6afcbd15dfe78cb80be773dad60f58b311426af8dd297c1",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-0-joint/proof.json",
+    "sha256": "e162d80afc9b3e3cf632d677f6d83885efad5073cad4b349012dd747fa2e6ad1",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-0-joint/public.json",
+    "sha256": "3a28d4c22bd45aee4998e797f8caf4a626165bbb5b8d85162a6a9af38742939f",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "dc3baa57a9bbf5c17582b4f9187b154e5ae6346effa20a7124de34ffa3a1dab4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "ba34eb0a541cc218d07a29378a2fba0aef06c063546bf5c8192f911baf0e793a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "fa327f0d84efdd81859cb0021866971ae973cc169fec8692904328fee22942c2",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/rebuild-warmup-0-1-source-0/psi.bin",
+    "sha256": "33f04251306f134f4979ec87a27ad0fb7971b8cf451fac12aa3bb77e762f1cc9",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "9d757add91abe4b038034455570391dd60037204b01216052a5677048db670fa",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/reuse-warmup-0-0-joint/public.json",
+    "sha256": "3a28d4c22bd45aee4998e797f8caf4a626165bbb5b8d85162a6a9af38742939f",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/reuse-warmup-0-1-joint/proof.json",
+    "sha256": "38ce329e0dd698ec120a2e70c1bef3106f00cd61f2397be7b45f700ae6d36505",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-2/reuse-warmup-0-1-joint/public.json",
+    "sha256": "11dad06370331e6144e96b036922b5759cdffbfe74c29d2ea312ae89d2409870",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/maintained-0/psi.bin",
+    "sha256": "a250027c534b2e6ea9e722bade63d020c25afad2f59d76eaf13bbf8374f391b4",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/maintained-1/psi.bin",
+    "sha256": "50eb273260f6e8f5a98d94fe9f2ebc536242f9faf359038d8cf3dddb0917c024",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/maintained-2/psi.bin",
+    "sha256": "e0a2263e5c462a4554bbd21016e137d1e957657cbef8a0c5b78fc4d1f4b10454",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/rebuild-warmup-0-0-source-0/psi.bin",
+    "sha256": "5e73f382536a6cb70160ed32048b793058e41619ac838ef62e4852a685277f21",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/rebuild-warmup-0-0-source-1/psi.bin",
+    "sha256": "e5a647e6c1b4cd18ba8139304332ad573c489d6da6c3c1b07d12a41571c2853d",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/rebuild-warmup-0-0-source-2/psi.bin",
+    "sha256": "977d6ffb4f928e593ab5a7f88dd7f0915b7688ade2e8b276fa544706c90695be",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-0-joint/proof.json",
+    "sha256": "d4045ce0edac01362582207408e2e9a6c796a36c9acd2e0bb9e2e059b69d93f3",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-0-joint/public.json",
+    "sha256": "7ac2e69deb4f7b89aee1da02b3acee4728cbf6e58b96f8a90af7a6d0a32ecd4e",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-1-joint/proof.json",
+    "sha256": "99fe234ce5b176938222e8ec68443044db2db16e265812a12257ba24f864388b",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-1-joint/public.json",
+    "sha256": "a3a89d84020eb72ba56a408a4eb588ef397ffa88c78c6d1245b5b19b44e88890",
+    "bytes": 2155
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-2-joint/proof.json",
+    "sha256": "3642667e8f8a63170a0cfd1caf204652f9a29ec900e85e9cbf35deb7b1aee710",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-2-joint/public.json",
+    "sha256": "26ae560cc659b9d25df1fb14905ac202572921cf14b3539ede69d95fa5906a11",
+    "bytes": 2156
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-3-joint/proof.json",
+    "sha256": "f7a1092e62a1735a3b12dfc9a472f1a05a273e6e5ea7e6f77249e57d3705c2f9",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-3-joint/public.json",
+    "sha256": "35aad0b805d8bc437dce218bbed962cff5e8254ba0e7682ed9b12f14f620cf08",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-4-joint/proof.json",
+    "sha256": "d8a2c378170602029546aa44d1cef802f3fe4e3ceb977315578bd69a1cb92ca6",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment2-2026-11-14T10-32-00-795Z-667152/tasks-5/reuse-warmup-0-4-joint/public.json",
+    "sha256": "97de4c13b123a0d21ce5308f61aaf572a9a8b5828d07014f45f0ddab01a4ddf2",
+    "bytes": 2153
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/adverse_update/RCPEH/joint/proof.json",
+    "sha256": "26b9a3939882939b6f36e82f37cb4314cc277ea05cffb31727195dac64a4b5cc",
+    "bytes": 853
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/adverse_update/RCPEH/joint/public.json",
+    "sha256": "5fd690c95e56dd264720406949335d756b346bf288e159588704ac51c51ee82e",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/adverse_update/context-tool/proof.json",
+    "sha256": "c4212aa9a00e77337b6bbee53d6bc62574d049911bf028b3c24d8dd15201d660",
+    "bytes": 856
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/adverse_update/context-tool/public.json",
+    "sha256": "0650c79011a042e97ceb2f4b114fc1c15b10216c13e0ebdb1558056696c3d511",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/adverse_update/source-0/psi.bin",
+    "sha256": "91e3fd8a8bfcc497c75e71284b78dc813058766038c43306458e44738891e867",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/initial/source-0/psi.bin",
+    "sha256": "a8392d5e5e08355825f4f96473884ee503a230324ededdf1e56a698a810f3487",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/initial/source-1/psi.bin",
+    "sha256": "e3a756a7aef192c8ddd6c740c5770db1d6fb6a0eea662256728eaff1fad4f114",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/initial/source-2/psi.bin",
+    "sha256": "202f8cb0e85c2b82ad3f3da7be2ee7a0afcf8406a47d310d8b21ec4368b521c6",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/normal/RCPEH/joint/proof.json",
+    "sha256": "111b8a2128efc8442f4573f012843a65ece4a7b0707656127a2d377b683484a0",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/normal/RCPEH/joint/public.json",
+    "sha256": "aff35e63c2f38a6b21650142824ba4a9db71a7f39b1a93ee28ffede6672d201e",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/normal/context-tool/proof.json",
+    "sha256": "5ad342294056237e3b8cbd49e2ea661f40441a0d4a206ccc8fd6aee1cad08fc9",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/normal/context-tool/public.json",
+    "sha256": "a5d3847887b9217507267bdc3e853eef20531af4069a04b6e4cc6b2032d1c71a",
+    "bytes": 2154
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-dense/joint/proof.json",
+    "sha256": "2a4aee02dacb9716b7e315e34238bbf1454a338b9728ff86b809d6537c347e3c",
+    "bytes": 855
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-dense/joint/public.json",
+    "sha256": "90f3e072baaa55a360af3db20ab0ce23734044fa0dd334acc5c18a805b74ec93",
+    "bytes": 2149
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-dense/source-0/psi.bin",
+    "sha256": "8a090d7c34dc8cde5ec7f07d6b0d4d028fc199a396c06f3f1d4136241b0b07cc",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-dense/source-1/psi.bin",
+    "sha256": "37ba1c0e842427559b581f0e11db0a5e42ad5f99c517c5d1ad55be3be740625a",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-dense/source-2/psi.bin",
+    "sha256": "4131be10b2d3f90b864054774d352763d4661d1da78f2db380c55bbf8fc6a295",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-sparse/joint/proof.json",
+    "sha256": "740cf4d6cdc9d216aedd18d27c5aca434a507e5237240d9c7f16ca8375e48899",
+    "bytes": 857
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-sparse/joint/public.json",
+    "sha256": "2dcf3dac7e5f8a01ee29f9ea9850be3d7152dab0ae361882ec8ab63d9d42287a",
+    "bytes": 2146
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-sparse/source-0/psi.bin",
+    "sha256": "c6fd7bd3f6e8e810dfe62a99a7e95753ebbb7cefe7ef3525e7945dcb8e8df663",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-sparse/source-1/psi.bin",
+    "sha256": "6c3d77a149af1a95ede68ca55d3c5dac8c37222206d6d90eab1f428a14bb5344",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/pair-sparse/source-2/psi.bin",
+    "sha256": "6c7cbe99b5400f1511f832997cf6cc93265e981fe8f66612fe88872232657f0f",
+    "bytes": 13112
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/stale_memory/RCPEH/joint/proof.json",
+    "sha256": "85af8205c52c3c0811e8ffffecc5b33f40ea527b4ab04bbae656224274c4406f",
+    "bytes": 858
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/stale_memory/RCPEH/joint/public.json",
+    "sha256": "e786b70ca4452736778f09d6d8d9fe8ae0a5128460b27a9da4dd08e29c073397",
+    "bytes": 2150
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/stale_memory/context-tool/proof.json",
+    "sha256": "2bfe27ca8c957d6b74f6a3dd07109adc300e123ba0bc7b546b1f83b2c849e999",
+    "bytes": 859
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/stale_memory/context-tool/public.json",
+    "sha256": "fd503684c8a0793b1c318f18305a1af08c9432b5be5efe10c01fab01795bfb6e",
+    "bytes": 2151
+  },
+  {
+    "file": "proofs/experiment3-2026-11-17T00-02-27-433Z-966408/stale_memory/source-0/psi.bin",
+    "sha256": "bd843171e3348456cc8d518fe83229a3e252e258342e77b0227f41dcd6d6a191",
+    "bytes": 13112
+  },
+  {
+    "file": "verification_keys/7e59873288eadcb4d9ba80aeb7d9ebeb75daa7dfbdd24c4c05609e0d6187a116/verification_key.json",
+    "sha256": "7e59873288eadcb4d9ba80aeb7d9ebeb75daa7dfbdd24c4c05609e0d6187a116",
+    "bytes": 11387
+  },
+  {
+    "file": "verification_keys/923ebc7653091bd9452c01b5c0f544d26fe190f198704f46e9eaf38d559aef8c/verification_key.json",
+    "sha256": "923ebc7653091bd9452c01b5c0f544d26fe190f198704f46e9eaf38d559aef8c",
+    "bytes": 14125
+  },
+  {
+    "file": "verification_keys/75660ebed4198f18dacea35664a3b78372f3c3820a8d2a4e59b2eaf106193c2a/verification_key.json",
+    "sha256": "75660ebed4198f18dacea35664a3b78372f3c3820a8d2a4e59b2eaf106193c2a",
+    "bytes": 12762
+  },
+  {
+    "file": "verification_keys/e168be71c6899ab01d4c048caeb5080ac542746889e7fffd7363f72cda558fc5/verification_key.json",
+    "sha256": "e168be71c6899ab01d4c048caeb5080ac542746889e7fffd7363f72cda558fc5",
+    "bytes": 14130
+  },
+  {
+    "file": "verification_keys/b9a6ebd7e8b22444166581b4de9e71eb5aac6e88ce415683b49ddf0c80c55a1e/verification_key.json",
+    "sha256": "b9a6ebd7e8b22444166581b4de9e71eb5aac6e88ce415683b49ddf0c80c55a1e",
+    "bytes": 14135
+  },
+  {
+    "file": "verification_keys/77b10098da0adbddfb303775ae1bca574bae7bb67741e8bf5fe677584150d0a9/verification_key.json",
+    "sha256": "77b10098da0adbddfb303775ae1bca574bae7bb67741e8bf5fe677584150d0a9",
+    "bytes": 14123
+  },
+  {
+    "file": "verification_keys/233af53c646acdcc49b3c1a274ca4c2cb7eaf1112983d50083d5fd396440cd81/verification_key.json",
+    "sha256": "233af53c646acdcc49b3c1a274ca4c2cb7eaf1112983d50083d5fd396440cd81",
+    "bytes": 14133
+  },
+  {
+    "file": "verification_keys/1ba920ddbf4f910c0500ceba34d2b3ebd0e377d83afd6e20781aa0ea8785bcde/verification_key.json",
+    "sha256": "1ba920ddbf4f910c0500ceba34d2b3ebd0e377d83afd6e20781aa0ea8785bcde",
+    "bytes": 14144
+  },
+  {
+    "file": "verification_keys/e84a8c9a6b2cd312c9306c6a460bb9c9a79da9667cfc02f45a2051eea9562e3f/verification_key.json",
+    "sha256": "e84a8c9a6b2cd312c9306c6a460bb9c9a79da9667cfc02f45a2051eea9562e3f",
+    "bytes": 14137
+  },
+  {
+    "file": "verification_keys/ce9a5c45871924d4fccdf4431d5d761e4dc7bc8894e62a969f73007b73a6e092/verification_key.json",
+    "sha256": "ce9a5c45871924d4fccdf4431d5d761e4dc7bc8894e62a969f73007b73a6e092",
+    "bytes": 14130
+  },
+  {
+    "file": "verification_keys/bb0ea82330b863ada626d1235fa8ee7f9a41e68eaf352f45a3168a20b7dadca3/verification_key.json",
+    "sha256": "bb0ea82330b863ada626d1235fa8ee7f9a41e68eaf352f45a3168a20b7dadca3",
+    "bytes": 14143
+  },
+  {
+    "file": "verification_keys/640665e9434b59f8660fbd924a7aef7ce153163a2855ddb2ac0015d98c684143/vk.bin",
+    "sha256": "640665e9434b59f8660fbd924a7aef7ce153163a2855ddb2ac0015d98c684143",
+    "bytes": 138956456
+  },
+  {
+    "file": "verification_keys/f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958/vk.bin",
+    "sha256": "f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958",
+    "bytes": 138956456
+  },
+  {
+    "file": "verification_keys/246c96b2a7983c08ba2369977c64a687b027ca81679c2fd640cff1481eecc9fb/vk.bin",
+    "sha256": "246c96b2a7983c08ba2369977c64a687b027ca81679c2fd640cff1481eecc9fb",
+    "bytes": 138956456
+  }
+]

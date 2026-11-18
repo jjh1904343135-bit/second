@@ -1,0 +1,467 @@
+{
+  "run_id": "2026-11-14T10-32-00-795Z-667152",
+  "private_input_directory": "/mnt/user-data/zjh/zjh/second/results/core/private/experiment2-2026-11-14T10-32-00-795Z-667152",
+  "config": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "nova_revision": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+    "rust_toolchain": "1.88.0",
+    "hash": {
+      "name": "MiMCSponge",
+      "rounds": 220,
+      "outputs": 2,
+      "domain": 1380141126,
+      "encoding": "domain-key-v1"
+    },
+    "tree_depths": {
+      "log": 32,
+      "registry": 32,
+      "directory": 48
+    },
+    "profiles": [
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        3,
+        8,
+        4
+      ],
+      [
+        3,
+        16,
+        4
+      ],
+      [
+        3,
+        16,
+        8
+      ],
+      [
+        3,
+        16,
+        16
+      ]
+    ],
+    "parent_capacity": 4,
+    "history_sizes": [
+      64,
+      256,
+      1024
+    ],
+    "lag_sizes": [
+      0,
+      1,
+      4,
+      16
+    ],
+    "task_counts": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "graph_fixtures": [
+      "chain_single",
+      "chain_two",
+      "diamond_single",
+      "diamond_two"
+    ],
+    "hit_counts": [
+      1,
+      4,
+      16
+    ],
+    "history_default": 64,
+    "current_occupancy_default": 4,
+    "security_seed_start": 20261110,
+    "security_variants_per_category": 50,
+    "benchmark": {
+      "warmups": 1,
+      "repetitions": 10,
+      "configuration_timeout_seconds": 1800,
+      "memory_limit_gib": 80,
+      "threads": 32,
+      "node_heap_mib": 65536
+    },
+    "ollama": {
+      "model": "qwen3.8:27b",
+      "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+      "seed": 42,
+      "temperature": 0,
+      "num_predict": 128,
+      "timeout_seconds": 120
+    },
+    "source_timeout_seconds": 2,
+    "external_comparisons": false
+  },
+  "matrix": [
+    {
+      "capacity": [
+        1,
+        4,
+        4
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-1-4-4",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        2,
+        4,
+        4
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-2-4-4",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        4,
+        4
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-3-4-4",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        8,
+        4
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-3-8-4",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        4
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-3-16-4",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        8
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-3-16-8",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "capacity-3-16-16",
+      "scan": "capacity"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "history-64",
+      "scan": "history"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 256,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "history-256",
+      "scan": "history"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 1024,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "history-1024",
+      "scan": "history"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "lag-0",
+      "scan": "lag"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 1,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "lag-1",
+      "scan": "lag"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 4,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "lag-4",
+      "scan": "lag"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 16,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "lag-16",
+      "scan": "lag"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "tasks-1",
+      "scan": "tasks"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 2,
+      "topology": "default",
+      "hits": 4,
+      "id": "tasks-2",
+      "scan": "tasks"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 5,
+      "topology": "default",
+      "hits": 4,
+      "id": "tasks-5",
+      "scan": "tasks"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 10,
+      "topology": "default",
+      "hits": 4,
+      "id": "tasks-10",
+      "scan": "tasks"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "chain_single",
+      "hits": 4,
+      "id": "graph-chain_single",
+      "scan": "graph"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "chain_two",
+      "hits": 4,
+      "id": "graph-chain_two",
+      "scan": "graph"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "diamond_single",
+      "hits": 4,
+      "id": "graph-diamond_single",
+      "scan": "graph"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "diamond_two",
+      "hits": 4,
+      "id": "graph-diamond_two",
+      "scan": "graph"
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 1,
+      "id": "hits-1",
+      "scan": "hits",
+      "occupancy": 16
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 4,
+      "id": "hits-4",
+      "scan": "hits",
+      "occupancy": 16
+    },
+    {
+      "capacity": [
+        3,
+        16,
+        16
+      ],
+      "history": 64,
+      "lag": 0,
+      "tasks": 1,
+      "topology": "default",
+      "hits": 16,
+      "id": "hits-16",
+      "scan": "hits",
+      "occupancy": 16
+    }
+  ],
+  "source_revision": "75e77cf3921a57e9332451e19116673f35a03e01e21a8942b18b7284e89b96ba",
+  "seed": 20261110,
+  "method": "single-variable scans; ten fresh proofs per arm after one warmup; hard configuration budget includes setup and maintenance"
+}

@@ -1,0 +1,559 @@
+[32mtemplate instances[0m: 174
+non-linear constraints: 6503133
+linear constraints: 24511
+public inputs: 57
+private inputs: 5302 (5299 belong to witness)
+public outputs: 0
+wires: 6524481
+labels: 8725754
+[32mWritten successfully:[0m build/core/joint-21348-NO_VALIDITY/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-21348-NO_VALIDITY/circuit.sym
+[32mWritten successfully:[0m build/core/joint-21348-NO_VALIDITY/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		6df78cbe 44c73c4b 36751b6b 5372ed79
+		1b97ffda 77b83c40 7d70fb6b 59349d82
+		1d8e9c74 881d8e68 f8581730 6e57dddb
+		59b15bdd 4c165001 eaa9f40a f12cc6c1
+NO_VALIDITY fixed-omission-missing_source: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY fixed-omission-unfavorable_same_group: construction_failure
+NO_VALIDITY fixed-omission-skipped_confirmed_update: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY fixed-omission-late_published_in_window: construction_failure
+NO_VALIDITY variant-omission-0: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-1: construction_failure
+NO_VALIDITY variant-omission-2: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-3: construction_failure
+NO_VALIDITY variant-omission-4: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-5: construction_failure
+NO_VALIDITY variant-omission-6: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-7: construction_failure
+NO_VALIDITY variant-omission-8: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-9: construction_failure
+NO_VALIDITY variant-omission-10: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-11: construction_failure
+NO_VALIDITY variant-omission-12: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-13: construction_failure
+NO_VALIDITY variant-omission-14: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-15: construction_failure
+NO_VALIDITY variant-omission-16: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-17: construction_failure
+NO_VALIDITY variant-omission-18: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-19: construction_failure
+NO_VALIDITY variant-omission-20: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-21: construction_failure
+NO_VALIDITY variant-omission-22: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-23: construction_failure
+NO_VALIDITY variant-omission-24: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-25: construction_failure
+NO_VALIDITY variant-omission-26: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-27: construction_failure
+NO_VALIDITY variant-omission-28: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-29: construction_failure
+NO_VALIDITY variant-omission-30: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-31: construction_failure
+NO_VALIDITY variant-omission-32: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-33: construction_failure
+NO_VALIDITY variant-omission-34: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-35: construction_failure
+NO_VALIDITY variant-omission-36: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-37: construction_failure
+NO_VALIDITY variant-omission-38: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-39: construction_failure
+NO_VALIDITY variant-omission-40: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-41: construction_failure
+NO_VALIDITY variant-omission-42: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-43: construction_failure
+NO_VALIDITY variant-omission-44: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-45: construction_failure
+NO_VALIDITY variant-omission-46: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-47: construction_failure
+NO_VALIDITY variant-omission-48: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_VALIDITY variant-omission-49: construction_failure
+NO_VALIDITY fixed-invalid_reuse-old_version: accepted
+NO_VALIDITY fixed-invalid_reuse-revoked: accepted
+NO_VALIDITY fixed-invalid_reuse-expired: accepted
+NO_VALIDITY fixed-invalid_reuse-wrong_purpose: accepted
+NO_VALIDITY variant-invalid_reuse-0: accepted
+NO_VALIDITY variant-invalid_reuse-1: accepted
+NO_VALIDITY variant-invalid_reuse-2: accepted
+NO_VALIDITY variant-invalid_reuse-3: accepted
+NO_VALIDITY variant-invalid_reuse-4: accepted
+NO_VALIDITY variant-invalid_reuse-5: accepted
+NO_VALIDITY variant-invalid_reuse-6: accepted
+NO_VALIDITY variant-invalid_reuse-7: accepted
+NO_VALIDITY variant-invalid_reuse-8: accepted
+NO_VALIDITY variant-invalid_reuse-9: accepted
+NO_VALIDITY variant-invalid_reuse-10: accepted
+NO_VALIDITY variant-invalid_reuse-11: accepted
+NO_VALIDITY variant-invalid_reuse-12: accepted
+NO_VALIDITY variant-invalid_reuse-13: accepted
+NO_VALIDITY variant-invalid_reuse-14: accepted
+NO_VALIDITY variant-invalid_reuse-15: accepted
+NO_VALIDITY variant-invalid_reuse-16: accepted
+NO_VALIDITY variant-invalid_reuse-17: accepted
+NO_VALIDITY variant-invalid_reuse-18: accepted
+NO_VALIDITY variant-invalid_reuse-19: accepted
+NO_VALIDITY variant-invalid_reuse-20: accepted
+NO_VALIDITY variant-invalid_reuse-21: accepted
+NO_VALIDITY variant-invalid_reuse-22: accepted
+NO_VALIDITY variant-invalid_reuse-23: accepted
+NO_VALIDITY variant-invalid_reuse-24: accepted
+NO_VALIDITY variant-invalid_reuse-25: accepted
+NO_VALIDITY variant-invalid_reuse-26: accepted
+NO_VALIDITY variant-invalid_reuse-27: accepted
+NO_VALIDITY variant-invalid_reuse-28: accepted
+NO_VALIDITY variant-invalid_reuse-29: accepted
+NO_VALIDITY variant-invalid_reuse-30: accepted
+NO_VALIDITY variant-invalid_reuse-31: accepted
+NO_VALIDITY variant-invalid_reuse-32: accepted
+NO_VALIDITY variant-invalid_reuse-33: accepted
+NO_VALIDITY variant-invalid_reuse-34: accepted
+NO_VALIDITY variant-invalid_reuse-35: accepted
+NO_VALIDITY variant-invalid_reuse-36: accepted
+NO_VALIDITY variant-invalid_reuse-37: accepted
+NO_VALIDITY variant-invalid_reuse-38: accepted
+NO_VALIDITY variant-invalid_reuse-39: accepted
+NO_VALIDITY variant-invalid_reuse-40: accepted
+NO_VALIDITY variant-invalid_reuse-41: accepted
+NO_VALIDITY variant-invalid_reuse-42: accepted
+NO_VALIDITY variant-invalid_reuse-43: accepted
+NO_VALIDITY variant-invalid_reuse-44: accepted
+NO_VALIDITY variant-invalid_reuse-45: accepted
+NO_VALIDITY variant-invalid_reuse-46: accepted
+NO_VALIDITY variant-invalid_reuse-47: accepted
+NO_VALIDITY variant-invalid_reuse-48: accepted
+NO_VALIDITY variant-invalid_reuse-49: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY fixed-lineage-deleted_parent: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY fixed-lineage-impersonate_root: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY fixed-lineage-chain_echo: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY fixed-lineage-diamond_echo: construction_failure
+NO_VALIDITY fixed-lineage-true_two_groups: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-lineage-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_VALIDITY variant-lineage-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_VALIDITY variant-lineage-49: construction_failure
+NO_VALIDITY fixed-substitution-new_checkpoint_old_psi: verification_rejection
+NO_VALIDITY fixed-substitution-policy: verification_rejection
+NO_VALIDITY fixed-substitution-receiver: verification_rejection
+NO_VALIDITY fixed-substitution-nonce: verification_rejection
+NO_VALIDITY fixed-substitution-result: verification_rejection
+NO_VALIDITY fixed-substitution-same_content_node: verification_rejection
+NO_VALIDITY variant-substitution-0: verification_rejection
+NO_VALIDITY variant-substitution-1: verification_rejection
+NO_VALIDITY variant-substitution-2: verification_rejection
+NO_VALIDITY variant-substitution-3: verification_rejection
+NO_VALIDITY variant-substitution-4: verification_rejection
+NO_VALIDITY variant-substitution-5: verification_rejection
+NO_VALIDITY variant-substitution-6: verification_rejection
+NO_VALIDITY variant-substitution-7: verification_rejection
+NO_VALIDITY variant-substitution-8: verification_rejection
+NO_VALIDITY variant-substitution-9: verification_rejection
+NO_VALIDITY variant-substitution-10: verification_rejection
+NO_VALIDITY variant-substitution-11: verification_rejection
+NO_VALIDITY variant-substitution-12: verification_rejection
+NO_VALIDITY variant-substitution-13: verification_rejection
+NO_VALIDITY variant-substitution-14: verification_rejection
+NO_VALIDITY variant-substitution-15: verification_rejection
+NO_VALIDITY variant-substitution-16: verification_rejection
+NO_VALIDITY variant-substitution-17: verification_rejection
+NO_VALIDITY variant-substitution-18: verification_rejection
+NO_VALIDITY variant-substitution-19: verification_rejection
+NO_VALIDITY variant-substitution-20: verification_rejection
+NO_VALIDITY variant-substitution-21: verification_rejection
+NO_VALIDITY variant-substitution-22: verification_rejection
+NO_VALIDITY variant-substitution-23: verification_rejection
+NO_VALIDITY variant-substitution-24: verification_rejection
+NO_VALIDITY variant-substitution-25: verification_rejection
+NO_VALIDITY variant-substitution-26: verification_rejection
+NO_VALIDITY variant-substitution-27: verification_rejection
+NO_VALIDITY variant-substitution-28: verification_rejection
+NO_VALIDITY variant-substitution-29: verification_rejection
+NO_VALIDITY variant-substitution-30: verification_rejection
+NO_VALIDITY variant-substitution-31: verification_rejection
+NO_VALIDITY variant-substitution-32: verification_rejection
+NO_VALIDITY variant-substitution-33: verification_rejection
+NO_VALIDITY variant-substitution-34: verification_rejection
+NO_VALIDITY variant-substitution-35: verification_rejection
+NO_VALIDITY variant-substitution-36: verification_rejection
+NO_VALIDITY variant-substitution-37: verification_rejection
+NO_VALIDITY variant-substitution-38: verification_rejection
+NO_VALIDITY variant-substitution-39: verification_rejection
+NO_VALIDITY variant-substitution-40: verification_rejection
+NO_VALIDITY variant-substitution-41: verification_rejection
+NO_VALIDITY variant-substitution-42: verification_rejection
+NO_VALIDITY variant-substitution-43: verification_rejection
+NO_VALIDITY variant-substitution-44: verification_rejection
+NO_VALIDITY variant-substitution-45: verification_rejection
+NO_VALIDITY variant-substitution-46: verification_rejection
+NO_VALIDITY variant-substitution-47: verification_rejection
+NO_VALIDITY variant-substitution-48: verification_rejection
+NO_VALIDITY variant-substitution-49: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY fixed-reason-insufficient_as_policy: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY fixed-reason-both_fail_priority: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_VALIDITY variant-reason-49: construction_failure

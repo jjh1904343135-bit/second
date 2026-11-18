@@ -1,0 +1,145 @@
+{
+  "scenario": "adverse_update",
+  "model": {
+    "model": "qwen3.8:27b",
+    "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+    "seed": 42,
+    "temperature": 0,
+    "num_predict": 128,
+    "timeout_seconds": 120
+  },
+  "events": [
+    {
+      "role": "A1",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "概述检索工具已验证的结果。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":false,\"support_satisfied\":false},\"policy_result\":{\"status\":\"DENY\",\"reason_code\":1}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:19:50.96124525Z",
+        "message": {
+          "role": "assistant",
+          "content": "检索工具已验证查询完整，但因策略条件与支持条件均未满足，最终结果为拒绝。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 780537765,
+        "load_duration": 1464720,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 320617000,
+        "eval_count": 20,
+        "eval_duration": 205271000
+      },
+      "wall_ms": 785.0634549999377,
+      "origin_verified_bundle": "fe2b67ea3cb7c897ed473b002c68345346d6d8b743f23976daa26cbff34fdc43"
+    },
+    {
+      "role": "A2",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "将已验证的结论写成一句可供记忆转述的说明。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":false,\"support_satisfied\":false},\"policy_result\":{\"status\":\"DENY\",\"reason_code\":1}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:19:51.492164553Z",
+        "message": {
+          "role": "assistant",
+          "content": "经核查，因不满足支持条件且策略条件未达成，该请求被拒绝。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 528326156,
+        "load_duration": 30740194,
+        "prompt_eval_count": 113,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 182142000,
+        "eval_count": 20,
+        "eval_duration": 180675000
+      },
+      "wall_ms": 529.1722179999342,
+      "origin_verified_bundle": "fe2b67ea3cb7c897ed473b002c68345346d6d8b743f23976daa26cbff34fdc43"
+    },
+    {
+      "role": "A3",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "简要说明结构化交接的策略结果。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":false,\"support_satisfied\":false},\"policy_result\":{\"status\":\"DENY\",\"reason_code\":1}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:19:51.981225773Z",
+        "message": {
+          "role": "assistant",
+          "content": "策略结果为拒绝（DENY），原因是策略条件未满足且支持条件未满足。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 488269121,
+        "load_duration": 1643434,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 180975000,
+        "eval_count": 19,
+        "eval_duration": 177998000
+      },
+      "wall_ms": 488.9995689999778,
+      "origin_verified_bundle": "fe2b67ea3cb7c897ed473b002c68345346d6d8b743f23976daa26cbff34fdc43"
+    }
+  ],
+  "total_model_wall_ms": 1803.2352419998497,
+  "frozen_at": "2026-11-17T00:19:51.981Z",
+  "offline_verification_tool_ms": 96391.97316800011
+}

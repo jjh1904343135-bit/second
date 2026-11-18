@@ -1,0 +1,33 @@
+2026-11-11T12:48:26+00:00
+COMMAND: bash scripts/run_core.sh check
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 71
+
+ERROR:  4 Error in template CoreJoint_168 line: 164
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE ALLOW: PASS
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE POLICY_DENY: PASS
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE INSUFFICIENT_SUPPORT: PASS
+ERROR:  4 Error in template PsiStep_118 line: 28
+
+ERROR:  4 Error in template PsiStep_118 line: 30
+
+ERROR:  4 Error in template PsiStep_118 line: 13
+
+ERROR:  4 Error in template PsiStep_118 line: 27
+
+CORE Functionality: INCOMPLETE / FAIL
+Experiment Coverage: PARTIAL
+Performance Hypothesis: NOT ESTABLISHED
+Exit Code: 0

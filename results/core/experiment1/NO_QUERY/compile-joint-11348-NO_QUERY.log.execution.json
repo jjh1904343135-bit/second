@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 82422.715845,
+  "sampled_process_tree_peak_rss_bytes": 2471542784,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/node_modules/.bin/circom2",
+    "/mnt/user-data/zjh/zjh/second/build/core/joint-11348-NO_QUERY/circuit.circom",
+    "--r1cs",
+    "--wasm",
+    "--sym",
+    "--O1",
+    "-l",
+    "node_modules",
+    "-o",
+    "/mnt/user-data/zjh/zjh/second/build/core/joint-11348-NO_QUERY"
+  ]
+}

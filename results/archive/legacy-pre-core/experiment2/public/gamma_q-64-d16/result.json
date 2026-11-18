@@ -1,0 +1,80 @@
+{
+  "id": "gamma_q-64-d16",
+  "module": "gamma_q",
+  "size": 64,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 2030331,
+  "prove_ms": 49788.134631,
+  "verify_ms": 14.93868360001361,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 44484.16186100003,
+      "verify_ms": 16.569858000031672,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 48687.02718200005,
+      "verify_ms": 15.987954000011086,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 51827.15751499997,
+      "verify_ms": 12.145816000003833,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 52328.544253,
+      "verify_ms": 14.937067000020761,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 51613.78234399995,
+      "verify_ms": 15.052723000000697,
+      "verified": true
+    }
+  ],
+  "witness_ms": 2183.0292090000003,
+  "compile_ms": null,
+  "setup_ms": 205905.914563,
+  "compiled_artifacts_reused": true,
+  "proving_key_reused": false,
+  "binding_checks": {
+    "changed_merkle_path": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "omitted_matching_record": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+    "decision": 1
+  },
+  "public_inputs": {
+    "timeRoot": "484786723706425743264116461656501149096946943750276897797103739460115817864",
+    "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+    "nonce": "20261111",
+    "lower": "1000",
+    "upper": "2000",
+    "startIndex": "1"
+  },
+  "artifacts": {
+    "source": "354e2e74a1619618b7e63b98ed6cf15a5ec1fcaec45a1770cef52815549dfc52",
+    "r1cs": "3020a01d50f1b029763523c9782027f95f0f34f19c8119e50282d16fbf2c6b41",
+    "wasm": "e96081baf4c46c26a83bff6b71ad683148bcd0f9a523a26290826ce2ed4bfff7",
+    "verification_key": "aded96b958080f3c3c0adb08b776703c2aecc21e1e786ece5937c15131de0a4d"
+  },
+  "measured_at": "2026-11-11T06:48:18.698Z"
+}

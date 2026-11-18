@@ -1,0 +1,22 @@
+[32mtemplate instances[0m: 173
+non-linear constraints: 3181167
+linear constraints: 11803
+public inputs: 57
+private inputs: 2854 (2851 belong to witness)
+public outputs: 0
+wires: 3190215
+labels: 4257170
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit.sym
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		dc9c2d4c f6d47c67 dbc9819d 54adc080
+		b6cbd6c8 24a58336 0e599dc2 4a505a51
+		d9b8ae51 b969db31 613c9ac0 0bd3d49d
+		0647ec50 a3a3202b 9aaaaa08 b4fe9f00

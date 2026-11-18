@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-11T06:24:12.117Z",
+  "source": "node_modules/snarkjs/README.md",
+  "files": [
+    {
+      "file": "powersOfTau28_hez_final_19.ptau",
+      "bytes": 604062872,
+      "expected_blake2b": "bca9d8b04242f175189872c42ceaa21e2951e0f0f272a0cc54fc37193ff6648600eaf1c555c70cdedfaf9fb74927de7aa1d33dc1e2a7f1a50619484989da0887",
+      "actual_blake2b": "bca9d8b04242f175189872c42ceaa21e2951e0f0f272a0cc54fc37193ff6648600eaf1c555c70cdedfaf9fb74927de7aa1d33dc1e2a7f1a50619484989da0887",
+      "verified": true
+    },
+    {
+      "file": "powersOfTau28_hez_final_21.ptau",
+      "bytes": 2416002200,
+      "expected_blake2b": "9aef0573cef4ded9c4a75f148709056bf989f80dad96876aadeb6f1c6d062391f07a394a9e756d16f7eb233198d5b69407cca44594c763ab4a5b67ae73254678",
+      "actual_blake2b": "9aef0573cef4ded9c4a75f148709056bf989f80dad96876aadeb6f1c6d062391f07a394a9e756d16f7eb233198d5b69407cca44594c763ab4a5b67ae73254678",
+      "verified": true
+    }
+  ]
+}

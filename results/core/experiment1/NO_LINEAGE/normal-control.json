@@ -1,0 +1,31 @@
+{
+  "id": "normal-NO_LINEAGE",
+  "reference": "ALLOW",
+  "actual": {
+    "status": "ALLOW",
+    "reason_code": 0,
+    "stage": "VERIFIED",
+    "action_authorized": true,
+    "action_token": "61520def8ffc8e869136a9be196b6e798e6ebe7ea7e96d52ac89c8eb34e862a4",
+    "action_execution": {
+      "executed": true,
+      "task_digest": "3ed76a432a8acfa41b8829213f073a8a7a3aa2af899f3c890e538f9847db9b7e"
+    },
+    "verified": true,
+    "wall_ms": 5475.771283,
+    "timings": {
+      "psi_0_wall_ms": 2276.626752,
+      "psi_1_wall_ms": 1375.2605250000001,
+      "psi_2_wall_ms": 1338.3008180000002,
+      "joint_verify_ms": 179.67710799999986
+    },
+    "process": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 5801.446600999974,
+      "sampled_process_tree_peak_rss_bytes": 273965056
+    }
+  },
+  "independent_samples": 1
+}

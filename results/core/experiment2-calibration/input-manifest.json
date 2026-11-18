@@ -1,0 +1,126 @@
+{
+  "run_id": "2026-11-16T12-54-40-591Z-917498",
+  "config": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "nova_revision": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+    "rust_toolchain": "1.88.0",
+    "hash": {
+      "name": "MiMCSponge",
+      "rounds": 220,
+      "outputs": 2,
+      "domain": 1380141126,
+      "encoding": "domain-key-v1"
+    },
+    "tree_depths": {
+      "log": 32,
+      "registry": 32,
+      "directory": 48
+    },
+    "profiles": [
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        3,
+        8,
+        4
+      ],
+      [
+        3,
+        16,
+        4
+      ],
+      [
+        3,
+        16,
+        8
+      ],
+      [
+        3,
+        16,
+        16
+      ]
+    ],
+    "parent_capacity": 4,
+    "history_sizes": [
+      64,
+      256,
+      1024
+    ],
+    "lag_sizes": [
+      0,
+      1,
+      4,
+      16
+    ],
+    "task_counts": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "graph_fixtures": [
+      "chain_single",
+      "chain_two",
+      "diamond_single",
+      "diamond_two"
+    ],
+    "hit_counts": [
+      1,
+      4,
+      16
+    ],
+    "history_default": 64,
+    "current_occupancy_default": 4,
+    "security_seed_start": 20261110,
+    "security_variants_per_category": 50,
+    "benchmark": {
+      "warmups": 1,
+      "repetitions": 10,
+      "configuration_timeout_seconds": 1800,
+      "calibration_timeout_seconds": 3600,
+      "budget_margin_ratio": 1.25,
+      "memory_limit_gib": 80,
+      "threads": 32,
+      "node_heap_mib": 65536
+    },
+    "ollama": {
+      "model": "qwen3.8:27b",
+      "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+      "seed": 42,
+      "temperature": 0,
+      "num_predict": 128,
+      "timeout_seconds": 120
+    },
+    "source_timeout_seconds": 2,
+    "external_comparisons": false
+  },
+  "calibration_config": {
+    "id": "main-3-16-16",
+    "scan": "calibration",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4
+  },
+  "source_revision": "49963454db93c282446b651c25d20bbc3d0dc128a949d422bff9abe254e062d7",
+  "method": "one actual reuse arm and one actual genesis-rebuild arm; recommendation = (initialization + repetitions × pair wall time) × margin"
+}

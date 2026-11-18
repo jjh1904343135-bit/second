@@ -1,0 +1,145 @@
+{
+  "scenario": "normal",
+  "model": {
+    "model": "qwen3.8:27b",
+    "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+    "seed": 42,
+    "temperature": 0,
+    "num_predict": 128,
+    "timeout_seconds": 120
+  },
+  "events": [
+    {
+      "role": "A1",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "概述检索工具已验证的结果。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":true,\"support_satisfied\":true},\"policy_result\":{\"status\":\"ALLOW\",\"reason_code\":0}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:13:56.546412744Z",
+        "message": {
+          "role": "assistant",
+          "content": "检索工具已验证查询完整、策略条件及支持条件均满足，最终策略结果为允许。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 103199829206,
+        "load_duration": 102235553466,
+        "prompt_eval_count": 105,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 507804000,
+        "eval_count": 21,
+        "eval_duration": 185683000
+      },
+      "wall_ms": 103246.64974299993,
+      "origin_verified_bundle": "0a91ff74925a4dcc8d07c1a9a98ef23f7efd75ddbb8b2082c3d2b85959b4cb3a"
+    },
+    {
+      "role": "A2",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "将已验证的结论写成一句可供记忆转述的说明。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":true,\"support_satisfied\":true},\"policy_result\":{\"status\":\"ALLOW\",\"reason_code\":0}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:13:57.149931763Z",
+        "message": {
+          "role": "assistant",
+          "content": "该查询已完整核验且满足所有策略与支持条件，最终结果为允许。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 573245363,
+        "load_duration": 78317474,
+        "prompt_eval_count": 112,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 181750000,
+        "eval_count": 17,
+        "eval_duration": 203990000
+      },
+      "wall_ms": 574.1808410000522,
+      "origin_verified_bundle": "0a91ff74925a4dcc8d07c1a9a98ef23f7efd75ddbb8b2082c3d2b85959b4cb3a"
+    },
+    {
+      "role": "A3",
+      "actual_input": {
+        "model": "qwen3.8:27b",
+        "stream": false,
+        "think": false,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是解释层 Agent。只能解释提供的已验证断言与策略结果。不得推测身份、信用、原始记录或依赖关系。不能执行 Action，也不能写入可信断言。请用一句简洁中文回答。"
+          },
+          {
+            "role": "user",
+            "content": "简要说明结构化交接的策略结果。\n{\"verified_assertions\":{\"complete_query_checked\":true,\"policy_conditions_satisfied\":true,\"support_satisfied\":true},\"policy_result\":{\"status\":\"ALLOW\",\"reason_code\":0}}"
+          }
+        ],
+        "options": {
+          "seed": 42,
+          "temperature": 0,
+          "num_predict": 128,
+          "num_ctx": 4096
+        }
+      },
+      "actual_response": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-11-17T00:13:57.636590103Z",
+        "message": {
+          "role": "assistant",
+          "content": "策略结果为允许（ALLOW），且所有已验证断言均满足。"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 485827282,
+        "load_duration": 2219123,
+        "prompt_eval_count": 105,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 183718000,
+        "eval_count": 16,
+        "eval_duration": 203118000
+      },
+      "wall_ms": 486.73134800000116,
+      "origin_verified_bundle": "0a91ff74925a4dcc8d07c1a9a98ef23f7efd75ddbb8b2082c3d2b85959b4cb3a"
+    }
+  ],
+  "total_model_wall_ms": 104307.56193199998,
+  "frozen_at": "2026-11-17T00:13:57.637Z",
+  "offline_verification_tool_ms": 93969.963216
+}

@@ -1,0 +1,80 @@
+{
+  "id": "psi-64-d16",
+  "module": "psi",
+  "size": 64,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 629991,
+  "prove_ms": 12464.144545,
+  "verify_ms": 10.666395600003307,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 12298.725906,
+      "verify_ms": 14.019564000001992,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 12649.542935999998,
+      "verify_ms": 10.158737000005203,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 12555.873011000003,
+      "verify_ms": 10.420003999999608,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 12561.631053999998,
+      "verify_ms": 9.366292999999132,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 12254.949817999994,
+      "verify_ms": 9.367380000010598,
+      "verified": true
+    }
+  ],
+  "witness_ms": 400.6421530000007,
+  "compile_ms": null,
+  "setup_ms": 54900.212201,
+  "compiled_artifacts_reused": true,
+  "proving_key_reused": false,
+  "binding_checks": {
+    "skipped_sequence": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+    },
+    "changed_state_path": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "updated": 64
+  },
+  "public_inputs": {
+    "oldSeq": "64",
+    "newSeq": "128",
+    "blockIndex": "1",
+    "oldLogRoot": "1059825073992440484349662062325937721264704308254579469800223785545871720496",
+    "newLogRoot": "8048129543831402912819536460090443924519645816327996291000462222908978812694",
+    "oldStateRoot": "20709382623134473977321570022427114337014742484037981674340553847518696046655",
+    "newStateRoot": "1941212302733817191546135463502446192835103744537627524578453658382400315790"
+  },
+  "artifacts": {
+    "source": "b85afa3f41168265e4ac8498886e19c9af65d1f4496ead65837c33b8d66f79ab",
+    "r1cs": "5cc257f8a203139719eac012d47a954f8955b422010889bc01b5c701b67725ba",
+    "wasm": "d7ab6cb06f9fab40cdae93bf50075a6e691069cec6ee69186a139d4daa73e3b5",
+    "verification_key": "1f89750de36a0ddacaa3cda0f3af70644c2966dc1905debc9998ccc9f3f8ee98"
+  },
+  "measured_at": "2026-11-11T06:28:36.081Z"
+}

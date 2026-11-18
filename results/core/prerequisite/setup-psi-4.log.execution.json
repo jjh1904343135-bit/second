@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 32554.523711,
+  "sampled_process_tree_peak_rss_bytes": 3635367936,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/build/core/rust/release/rcpeh-psi",
+    "setup",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4/circuit.r1cs",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4/nova"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+  "nova_revision": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+  "rust_toolchain": "1.88.0",
+  "hash": {"name": "MiMCSponge", "rounds": 220, "outputs": 2, "domain": 1380141126, "encoding": "domain-key-v1"},
+  "tree_depths": {"log": 32, "registry": 32, "directory": 48},
+  "profiles": [[1,4,4],[2,4,4],[3,4,4],[3,8,4],[3,16,4],[3,16,8],[3,16,16]],
+  "parent_capacity": 4,
+  "history_sizes": [64,256,1024],
+  "lag_sizes": [0,1,4,16],
+  "task_counts": [1,2,5,10],
+  "graph_fixtures": ["chain_single","chain_two","diamond_single","diamond_two"],
+  "hit_counts": [1,4,16],
+  "history_default": 64,
+  "current_occupancy_default": 4,
+  "security_seed_start": 20261110,
+  "security_variants_per_category": 50,
+  "benchmark": {"warmups": 1, "repetitions": 10, "configuration_timeout_seconds": 11495, "calibration_timeout_seconds": 3600, "budget_margin_ratio": 1.25, "budget_basis": "results/core/experiment2-calibration/calibration.json: initialization + (warmups + repetitions) * (reuse_one_run + rebuild_one_run), then 25% margin", "memory_limit_gib": 80, "threads": 32, "node_heap_mib": 65536},
+  "ollama": {"model": "qwen3.8:27b", "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813", "seed": 42, "temperature": 0, "num_predict": 128, "timeout_seconds": 120},
+  "source_timeout_seconds": 2,
+  "external_comparisons": false
+}

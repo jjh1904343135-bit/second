@@ -1,0 +1,13 @@
+{
+  "id": "graph-diamond_two",
+  "status": "TIMEOUT",
+  "completed_samples": 1,
+  "expected_samples": 20,
+  "execution": {
+    "exit_code": null,
+    "signal": "SIGKILL",
+    "status": "TIMEOUT",
+    "wall_ms": 1801246.0173230022,
+    "sampled_process_tree_peak_rss_bytes": 50276769792
+  }
+}

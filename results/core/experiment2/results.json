@@ -1,0 +1,330 @@
+{
+  "status": "PARTIAL",
+  "rows": [
+    {
+      "id": "capacity-1-4-4",
+      "status": "TIMEOUT",
+      "completed_samples": 11,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800281.154431,
+        "sampled_process_tree_peak_rss_bytes": 18053427200
+      }
+    },
+    {
+      "id": "capacity-2-4-4",
+      "status": "TIMEOUT",
+      "completed_samples": 3,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800219.4152690002,
+        "sampled_process_tree_peak_rss_bytes": 18464542720
+      }
+    },
+    {
+      "id": "capacity-3-4-4",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800211.654402,
+        "sampled_process_tree_peak_rss_bytes": 18858332160
+      }
+    },
+    {
+      "id": "capacity-3-8-4",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800443.3959879996,
+        "sampled_process_tree_peak_rss_bytes": 26518577152
+      }
+    },
+    {
+      "id": "capacity-3-16-4",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800608.6248549996,
+        "sampled_process_tree_peak_rss_bytes": 28473270272
+      }
+    },
+    {
+      "id": "capacity-3-16-8",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801102.3567980006,
+        "sampled_process_tree_peak_rss_bytes": 43253067776
+      }
+    },
+    {
+      "id": "capacity-3-16-16",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801330.2680040002,
+        "sampled_process_tree_peak_rss_bytes": 50277961728
+      }
+    },
+    {
+      "id": "history-64",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801266.5002599992,
+        "sampled_process_tree_peak_rss_bytes": 50931376128
+      }
+    },
+    {
+      "id": "history-256",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801260.483414,
+        "sampled_process_tree_peak_rss_bytes": 51573145600
+      }
+    },
+    {
+      "id": "history-1024",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1800032.9333140012,
+        "sampled_process_tree_peak_rss_bytes": 10449481728
+      }
+    },
+    {
+      "id": "lag-0",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801331.5878760032,
+        "sampled_process_tree_peak_rss_bytes": 50442833920
+      }
+    },
+    {
+      "id": "lag-1",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801224.2860790007,
+        "sampled_process_tree_peak_rss_bytes": 50016391168
+      }
+    },
+    {
+      "id": "lag-4",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801173.9035799988,
+        "sampled_process_tree_peak_rss_bytes": 50384748544
+      }
+    },
+    {
+      "id": "lag-16",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801085.9046999998,
+        "sampled_process_tree_peak_rss_bytes": 49863053312
+      }
+    },
+    {
+      "id": "tasks-1",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801249.9588569999,
+        "sampled_process_tree_peak_rss_bytes": 50133352448
+      }
+    },
+    {
+      "id": "tasks-2",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801280.9246850014,
+        "sampled_process_tree_peak_rss_bytes": 49980149760
+      }
+    },
+    {
+      "id": "tasks-5",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801528.135752,
+        "sampled_process_tree_peak_rss_bytes": 50533371904
+      }
+    },
+    {
+      "id": "tasks-10",
+      "status": "TIMEOUT",
+      "completed_samples": 0,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801339.7854479998,
+        "sampled_process_tree_peak_rss_bytes": 51903983616
+      }
+    },
+    {
+      "id": "graph-chain_single",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801351.0147290006,
+        "sampled_process_tree_peak_rss_bytes": 50197671936
+      }
+    },
+    {
+      "id": "graph-chain_two",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801309.2062570006,
+        "sampled_process_tree_peak_rss_bytes": 50234404864
+      }
+    },
+    {
+      "id": "graph-diamond_single",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801354.264244005,
+        "sampled_process_tree_peak_rss_bytes": 51707346944
+      }
+    },
+    {
+      "id": "graph-diamond_two",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801246.0173230022,
+        "sampled_process_tree_peak_rss_bytes": 50276769792
+      }
+    },
+    {
+      "id": "hits-1",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801241.5675140023,
+        "sampled_process_tree_peak_rss_bytes": 50487259136
+      }
+    },
+    {
+      "id": "hits-4",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801229.486207001,
+        "sampled_process_tree_peak_rss_bytes": 50126663680
+      }
+    },
+    {
+      "id": "hits-16",
+      "status": "TIMEOUT",
+      "completed_samples": 1,
+      "expected_samples": 20,
+      "execution": {
+        "exit_code": null,
+        "signal": "SIGKILL",
+        "status": "TIMEOUT",
+        "wall_ms": 1801292.4713549986,
+        "sampled_process_tree_peak_rss_bytes": 51413204992
+      }
+    }
+  ]
+}

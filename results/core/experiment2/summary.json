@@ -1,0 +1,2930 @@
+[
+  {
+    "configuration": "capacity-1-4-4",
+    "scan": "capacity",
+    "capacity": [
+      1,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 6,
+      "median": 23394.53650700001,
+      "q1": 23381.728681999986,
+      "q3": 23447.494227500007
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 6,
+      "median": 217136.893432,
+      "q1": 217124.085607,
+      "q3": 217189.85115250002
+    },
+    "initial_maintenance_ms": 193742.356925,
+    "setup_ms": 41492.696294,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1057864,
+      "complete_scan": 120057,
+      "lineage_dedup": 242143,
+      "policy": 772,
+      "shared_binding": 3833,
+      "total": 1424669,
+      "expected": 1424669,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18053427200,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.001053999993018806,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 204.1767439999967,
+          "wtns_ms": 695.5015630000271,
+          "joint_prove_ms": 20393.75601499999,
+          "B_verify_ms": 1791.639739,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0015300000086426735,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 207.59614299994428,
+          "wtns_ms": 683.8153979999479,
+          "joint_prove_ms": 20457.965509,
+          "B_verify_ms": 1883.0626809999999,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0016640000976622105,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 215.24234899994917,
+          "wtns_ms": 682.5689209999982,
+          "joint_prove_ms": 20406.617861000006,
+          "B_verify_ms": 1749.730115,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0011340000201016665,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 210.59851299994625,
+          "wtns_ms": 669.383021999849,
+          "joint_prove_ms": 20478.069866999984,
+          "B_verify_ms": 1725.6562529999999,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0017250000964850187,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 217.3216170000378,
+          "wtns_ms": 664.2287389999256,
+          "joint_prove_ms": 20461.52812699997,
+          "B_verify_ms": 1803.356871,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0011850001756101847,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 208.67142000002787,
+          "wtns_ms": 651.8075560000725,
+          "joint_prove_ms": 20269.81354100001,
+          "B_verify_ms": 1825.413367,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-1-4-4",
+    "scan": "capacity",
+    "capacity": [
+      1,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 5,
+      "median": 217750.1209809999,
+      "q1": 217410.958062,
+      "q3": 218003.15987600014
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 5,
+      "median": 217750.1209809999,
+      "q1": 217410.958062,
+      "q3": 218003.15987600014
+    },
+    "initial_maintenance_ms": 193742.356925,
+    "setup_ms": 41492.696294,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1057864,
+      "complete_scan": 120057,
+      "lineage_dedup": 242143,
+      "policy": 772,
+      "shared_binding": 3833,
+      "total": 1424669,
+      "expected": 1424669,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18053427200,
+    "stages": [
+      [
+        {
+          "state_online_ms": 193689.40240099997,
+          "state_index_ms": 12.305552000005264,
+          "psi_witness_ms": 14094.289172999968,
+          "psi_fold_ms": 31694.239573000003,
+          "psi_export_ms": 62160.353457,
+          "witness_prepare_ms": 2.415049000061117,
+          "wtns_ms": 601.9976920000045,
+          "joint_prove_ms": 20201.80742800003,
+          "B_verify_ms": 1790.5429450000001,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 194608.92539799993,
+          "state_index_ms": 33.10658599995077,
+          "psi_witness_ms": 14146.436525000026,
+          "psi_fold_ms": 31714.788744,
+          "psi_export_ms": 62918.246629,
+          "witness_prepare_ms": 3.0462599999736995,
+          "wtns_ms": 537.6781709999777,
+          "joint_prove_ms": 20108.379784999997,
+          "B_verify_ms": 1825.52563,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 196100.66155299998,
+          "state_index_ms": 31.458402999909595,
+          "psi_witness_ms": 14223.25013099995,
+          "psi_fold_ms": 31933.158423999997,
+          "psi_export_ms": 63588.311689,
+          "witness_prepare_ms": 2.367413999978453,
+          "wtns_ms": 630.9699870001059,
+          "joint_prove_ms": 20377.78999900003,
+          "B_verify_ms": 1732.021936,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 194786.4990470002,
+          "state_index_ms": 17.801737000001594,
+          "psi_witness_ms": 14188.718715999974,
+          "psi_fold_ms": 31687.518521,
+          "psi_export_ms": 63120.668647,
+          "witness_prepare_ms": 2.4535870000254363,
+          "wtns_ms": 631.1426109999884,
+          "joint_prove_ms": 20305.32871400006,
+          "B_verify_ms": 1706.238652,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ],
+      [
+        {
+          "state_online_ms": 195020.14455899992,
+          "state_index_ms": 33.35756400017999,
+          "psi_witness_ms": 14283.327366000041,
+          "psi_fold_ms": 31451.988418,
+          "psi_export_ms": 63688.905097,
+          "witness_prepare_ms": 2.423045000061393,
+          "wtns_ms": 631.156592000043,
+          "joint_prove_ms": 20167.084207999986,
+          "B_verify_ms": 1860.897461,
+          "packet_bytes": 23363,
+          "constraints": 1424669,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 4
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-2-4-4",
+    "scan": "capacity",
+    "capacity": [
+      2,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 2,
+      "median": 27423.669951000018,
+      "q1": 27300.214603499975,
+      "q3": 27547.12529850006
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 2,
+      "median": 418559.926192,
+      "q1": 418436.47084449994,
+      "q3": 418683.3815395
+    },
+    "initial_maintenance_ms": 391136.25624099997,
+    "setup_ms": 216865.474381,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1238224,
+      "complete_scan": 228898,
+      "lineage_dedup": 242355,
+      "policy": 1512,
+      "shared_binding": 5078,
+      "total": 1716067,
+      "expected": 1716067,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18464542720,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0007510001305490732,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 212.0952550000511,
+          "wtns_ms": 882.6265440001152,
+          "joint_prove_ms": 22817.512223999947,
+          "B_verify_ms": 2990.693924,
+          "packet_bytes": 42246,
+          "constraints": 1716067,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 8
+        }
+      ],
+      [
+        {
+          "state_online_ms": 0.0007509998977184296,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 204.48267200007103,
+          "wtns_ms": 844.5163729998749,
+          "joint_prove_ms": 23218.485399000114,
+          "B_verify_ms": 3123.55755,
+          "packet_bytes": 42246,
+          "constraints": 1716067,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 8
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-2-4-4",
+    "scan": "capacity",
+    "capacity": [
+      2,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 418499.04055400006,
+      "q1": 418499.04055400006,
+      "q3": 418499.04055400006
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 418499.04055400006,
+      "q1": 418499.04055400006,
+      "q3": 418499.04055400006
+    },
+    "initial_maintenance_ms": 391136.25624099997,
+    "setup_ms": 216865.474381,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1238224,
+      "complete_scan": 228898,
+      "lineage_dedup": 242355,
+      "policy": 1512,
+      "shared_binding": 5078,
+      "total": 1716067,
+      "expected": 1716067,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18464542720,
+    "stages": [
+      [
+        {
+          "state_online_ms": 391896.150162,
+          "state_index_ms": 21.804769000038505,
+          "psi_witness_ms": 28795.03678700002,
+          "psi_fold_ms": 63729.402512,
+          "psi_export_ms": 127484.25961899999,
+          "witness_prepare_ms": 2.7915360000915825,
+          "wtns_ms": 772.9034659999888,
+          "joint_prove_ms": 22450.636895000003,
+          "B_verify_ms": 3102.301534,
+          "packet_bytes": 42246,
+          "constraints": 1716067,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 8
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-3-4-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 31917.407499999972,
+      "q1": 31917.407499999972,
+      "q3": 31917.407499999972
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 618389.794606,
+      "q1": 618389.794606,
+      "q3": 618389.794606
+    },
+    "initial_maintenance_ms": 586472.387106,
+    "setup_ms": 238681.489114,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1418584,
+      "complete_scan": 337739,
+      "lineage_dedup": 242551,
+      "policy": 2256,
+      "shared_binding": 6324,
+      "total": 2007454,
+      "expected": 2007454,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18858332160,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0006389999762177467,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 208.10646499996074,
+          "wtns_ms": 1071.5004889999982,
+          "joint_prove_ms": 25910.009267000016,
+          "B_verify_ms": 4433.404399,
+          "packet_bytes": 61129,
+          "constraints": 2007454,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-3-4-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      4,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 586472.387106,
+    "setup_ms": 238681.489114,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1418584,
+      "complete_scan": 337739,
+      "lineage_dedup": 242551,
+      "policy": 2256,
+      "shared_binding": 6324,
+      "total": 2007454,
+      "expected": 2007454,
+      "balanced": true
+    },
+    "peak_rss_bytes": 18858332160,
+    "stages": []
+  },
+  {
+    "configuration": "capacity-3-8-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      8,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 42766.27171,
+      "q1": 42766.27171,
+      "q3": 42766.27171
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 630161.542184,
+      "q1": 630161.542184,
+      "q3": 630161.542184
+    },
+    "initial_maintenance_ms": 587395.270474,
+    "setup_ms": 351985.445797,
+    "cache": {
+      "psi": false,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1481944,
+      "complete_scan": 664259,
+      "lineage_dedup": 243079,
+      "policy": 4452,
+      "shared_binding": 8892,
+      "total": 2402626,
+      "expected": 2402626,
+      "balanced": true
+    },
+    "peak_rss_bytes": 26518577152,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0024510000366717577,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 240.18992200004868,
+          "wtns_ms": 1338.878929000115,
+          "joint_prove_ms": 36412.58548799995,
+          "B_verify_ms": 4319.11106,
+          "packet_bytes": 61129,
+          "constraints": 2402626,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-3-8-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      8,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587395.270474,
+    "setup_ms": 351985.445797,
+    "cache": {
+      "psi": false,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1481944,
+      "complete_scan": 664259,
+      "lineage_dedup": 243079,
+      "policy": 4452,
+      "shared_binding": 8892,
+      "total": 2402626,
+      "expected": 2402626,
+      "balanced": true
+    },
+    "peak_rss_bytes": 26518577152,
+    "stages": []
+  },
+  {
+    "configuration": "capacity-3-16-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 50360.62784800003,
+      "q1": 50360.62784800003,
+      "q3": 50360.62784800003
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 650850.560568,
+      "q1": 650850.560568,
+      "q3": 650850.560568
+    },
+    "initial_maintenance_ms": 600489.9327199999,
+    "setup_ms": 385908.37455300003,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1608664,
+      "complete_scan": 1317299,
+      "lineage_dedup": 244135,
+      "policy": 8844,
+      "shared_binding": 14028,
+      "total": 3192970,
+      "expected": 3192970,
+      "balanced": true
+    },
+    "peak_rss_bytes": 28473270272,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0005070001352578402,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 233.7514150000643,
+          "wtns_ms": 2159.989178000018,
+          "joint_prove_ms": 43108.707853000145,
+          "B_verify_ms": 4352.889622,
+          "packet_bytes": 61129,
+          "constraints": 3192970,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-3-16-4",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      4
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 600489.9327199999,
+    "setup_ms": 385908.37455300003,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 1608664,
+      "complete_scan": 1317299,
+      "lineage_dedup": 244135,
+      "policy": 8844,
+      "shared_binding": 14028,
+      "total": 3192970,
+      "expected": 3192970,
+      "balanced": true
+    },
+    "peak_rss_bytes": 28473270272,
+    "stages": []
+  },
+  {
+    "configuration": "capacity-3-16-8",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      8
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 590160.680133,
+    "setup_ms": 574507.92718,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 2483528,
+      "complete_scan": 1317299,
+      "lineage_dedup": 477521,
+      "policy": 8844,
+      "shared_binding": 16424,
+      "total": 4303616,
+      "expected": 4303616,
+      "balanced": true
+    },
+    "peak_rss_bytes": 43253067776,
+    "stages": []
+  },
+  {
+    "configuration": "capacity-3-16-8",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      8
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 590160.680133,
+    "setup_ms": 574507.92718,
+    "cache": {
+      "psi": true,
+      "joint": false
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 2483528,
+      "complete_scan": 1317299,
+      "lineage_dedup": 477521,
+      "policy": 8844,
+      "shared_binding": 16424,
+      "total": 4303616,
+      "expected": 4303616,
+      "balanced": true
+    },
+    "peak_rss_bytes": 43253067776,
+    "stages": []
+  },
+  {
+    "configuration": "capacity-3-16-16",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 100891.41772100003,
+      "q1": 100891.41772100003,
+      "q3": 100891.41772100003
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 688512.872839,
+      "q1": 688512.872839,
+      "q3": 688512.872839
+    },
+    "initial_maintenance_ms": 587621.4551179999,
+    "setup_ms": 55730.855667,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50277961728,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.002845000009983778,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 272.33245799993165,
+          "wtns_ms": 6084.777571999934,
+          "joint_prove_ms": 89157.53733900003,
+          "B_verify_ms": 4475.33069,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "capacity-3-16-16",
+    "scan": "capacity",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587621.4551179999,
+    "setup_ms": 55730.855667,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50277961728,
+    "stages": []
+  },
+  {
+    "configuration": "history-64",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98857.45192899997,
+      "q1": 98857.45192899997,
+      "q3": 98857.45192899997
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 685821.134833,
+      "q1": 685821.134833,
+      "q3": 685821.134833
+    },
+    "initial_maintenance_ms": 586963.682904,
+    "setup_ms": 55532.991745,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50931376128,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.002406999934464693,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 270.4030979999807,
+          "wtns_ms": 4282.2900600000285,
+          "joint_prove_ms": 88924.98016600008,
+          "B_verify_ms": 4512.011522000001,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "history-64",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 586963.682904,
+    "setup_ms": 55532.991745,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50931376128,
+    "stages": []
+  },
+  {
+    "configuration": "history-256",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 256,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 1007598.7269600001,
+    "setup_ms": 46699.482741,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51573145600,
+    "stages": []
+  },
+  {
+    "configuration": "history-256",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 256,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 1007598.7269600001,
+    "setup_ms": 46699.482741,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51573145600,
+    "stages": []
+  },
+  {
+    "configuration": "history-1024",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 1024,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": null,
+    "setup_ms": 46696.642878,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 10449481728,
+    "stages": []
+  },
+  {
+    "configuration": "history-1024",
+    "scan": "history",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 1024,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": null,
+    "setup_ms": 46696.642878,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 10449481728,
+    "stages": []
+  },
+  {
+    "configuration": "lag-0",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98488.48347200011,
+      "q1": 98488.48347200011,
+      "q3": 98488.48347200011
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 685794.3916150001,
+      "q1": 685794.3916150001,
+      "q3": 685794.3916150001
+    },
+    "initial_maintenance_ms": 587305.908143,
+    "setup_ms": 47426.32,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50442833920,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.004475999856367707,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 264.37899000011384,
+          "wtns_ms": 5930.475590999937,
+          "joint_prove_ms": 86823.09608000005,
+          "B_verify_ms": 4615.504749000001,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "lag-0",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587305.908143,
+    "setup_ms": 47426.32,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50442833920,
+    "stages": []
+  },
+  {
+    "configuration": "lag-1",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 1,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 583323.1725079999,
+    "setup_ms": 46223.603865,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50016391168,
+    "stages": []
+  },
+  {
+    "configuration": "lag-1",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 1,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 583323.1725079999,
+    "setup_ms": 46223.603865,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50016391168,
+    "stages": []
+  },
+  {
+    "configuration": "lag-4",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 4,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 576334.762547,
+    "setup_ms": 46995.338653,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50384748544,
+    "stages": []
+  },
+  {
+    "configuration": "lag-4",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 4,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 576334.762547,
+    "setup_ms": 46995.338653,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50384748544,
+    "stages": []
+  },
+  {
+    "configuration": "lag-16",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 16,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 551111.584147,
+    "setup_ms": 46820.439671,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 49863053312,
+    "stages": []
+  },
+  {
+    "configuration": "lag-16",
+    "scan": "lag",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 16,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 551111.584147,
+    "setup_ms": 46820.439671,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 49863053312,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-1",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98839.661539,
+      "q1": 98839.661539,
+      "q3": 98839.661539
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 684260.1839940001,
+      "q1": 684260.1839940001,
+      "q3": 684260.1839940001
+    },
+    "initial_maintenance_ms": 585420.5224550001,
+    "setup_ms": 46936.347241,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50133352448,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.001049000071361661,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 264.0932980000507,
+          "wtns_ms": 6328.001677000197,
+          "joint_prove_ms": 86923.3511630001,
+          "B_verify_ms": 4451.890489,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "tasks-1",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 585420.5224550001,
+    "setup_ms": 46936.347241,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50133352448,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-2",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 2,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587252.524973,
+    "setup_ms": 46442.10966,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 49980149760,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-2",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 2,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587252.524973,
+    "setup_ms": 46442.10966,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 49980149760,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-5",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 5,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 585781.205143,
+    "setup_ms": 46362.384525,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50533371904,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-5",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 5,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 585781.205143,
+    "setup_ms": 46362.384525,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50533371904,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-10",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 10,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587110.200851,
+    "setup_ms": 47993.215294,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51903983616,
+    "stages": []
+  },
+  {
+    "configuration": "tasks-10",
+    "scan": "tasks",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 10,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587110.200851,
+    "setup_ms": 47993.215294,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51903983616,
+    "stages": []
+  },
+  {
+    "configuration": "graph-chain_single",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "chain_single",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 100234.80216700002,
+      "q1": 100234.80216700002,
+      "q3": 100234.80216700002
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 697637.959071,
+      "q1": 697637.959071,
+      "q3": 697637.959071
+    },
+    "initial_maintenance_ms": 597403.156904,
+    "setup_ms": 47933.601689999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50197671936,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0022780001163482666,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 448.92333999997936,
+          "wtns_ms": 6312.732974000042,
+          "joint_prove_ms": 88008.86824900005,
+          "B_verify_ms": 4561.266745999999,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 8,
+          "unique_roots": 1,
+          "root_reference_occurrences": 3,
+          "duplicate_ratio": 0.6666666666666667,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "graph-chain_single",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "chain_single",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 597403.156904,
+    "setup_ms": 47933.601689999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50197671936,
+    "stages": []
+  },
+  {
+    "configuration": "graph-chain_two",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "chain_two",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 101401.99611100019,
+      "q1": 101401.99611100019,
+      "q3": 101401.99611100019
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 690879.5316920002,
+      "q1": 690879.5316920002,
+      "q3": 690879.5316920002
+    },
+    "initial_maintenance_ms": 589477.535581,
+    "setup_ms": 46260.170551999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50234404864,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0011469998862594366,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 453.7711610000115,
+          "wtns_ms": 5960.430369999958,
+          "joint_prove_ms": 89541.69914300018,
+          "B_verify_ms": 4581.658379,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 8,
+          "unique_roots": 2,
+          "root_reference_occurrences": 2,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "graph-chain_two",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "chain_two",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 589477.535581,
+    "setup_ms": 46260.170551999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50234404864,
+    "stages": []
+  },
+  {
+    "configuration": "graph-diamond_single",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "diamond_single",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98091.98788899998,
+      "q1": 98091.98788899998,
+      "q3": 98091.98788899998
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 683791.278478,
+      "q1": 683791.278478,
+      "q3": 683791.278478
+    },
+    "initial_maintenance_ms": 585699.290589,
+    "setup_ms": 46528.236526,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51707346944,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0007799998857080936,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 456.9692110000178,
+          "wtns_ms": 4252.347322999965,
+          "joint_prove_ms": 87930.08196699992,
+          "B_verify_ms": 4551.896635,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 8,
+          "unique_roots": 1,
+          "root_reference_occurrences": 2,
+          "duplicate_ratio": 0.5,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "graph-diamond_single",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "diamond_single",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 585699.290589,
+    "setup_ms": 46528.236526,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51707346944,
+    "stages": []
+  },
+  {
+    "configuration": "graph-diamond_two",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "diamond_two",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98985.2085190001,
+      "q1": 98985.2085190001,
+      "q3": 98985.2085190001
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 684199.9986660001,
+      "q1": 684199.9986660001,
+      "q3": 684199.9986660001
+    },
+    "initial_maintenance_ms": 585214.790147,
+    "setup_ms": 46439.935102999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50276769792,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0012320000678300858,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 458.2019540001638,
+          "wtns_ms": 5989.671423000051,
+          "joint_prove_ms": 87109.63062299998,
+          "B_verify_ms": 4568.574056,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 8,
+          "unique_roots": 2,
+          "root_reference_occurrences": 4,
+          "duplicate_ratio": 0.5,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "graph-diamond_two",
+    "scan": "graph",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "diamond_two",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 585214.790147,
+    "setup_ms": 46439.935102999996,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50276769792,
+    "stages": []
+  },
+  {
+    "configuration": "hits-1",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 1,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 99646.8321440001,
+      "q1": 99646.8321440001,
+      "q3": 99646.8321440001
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 684402.5815600001,
+      "q1": 684402.5815600001,
+      "q3": 684402.5815600001
+    },
+    "initial_maintenance_ms": 584755.749416,
+    "setup_ms": 46883.520747,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50487259136,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0011740000918507576,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 256.53469200013205,
+          "wtns_ms": 6094.459046000149,
+          "joint_prove_ms": 87952.90074199997,
+          "B_verify_ms": 4463.835489,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 3
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "hits-1",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 1,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 584755.749416,
+    "setup_ms": 46883.520747,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50487259136,
+    "stages": []
+  },
+  {
+    "configuration": "hits-4",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 98805.09624800016,
+      "q1": 98805.09624800016,
+      "q3": 98805.09624800016
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 685453.3003130002,
+      "q1": 685453.3003130002,
+      "q3": 685453.3003130002
+    },
+    "initial_maintenance_ms": 586648.204065,
+    "setup_ms": 46470.641971,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50126663680,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0007220001425594091,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 256.7044200000819,
+          "wtns_ms": 5853.359054000117,
+          "joint_prove_ms": 87526.26757500018,
+          "B_verify_ms": 4328.649768,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 12
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "hits-4",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 4,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 586648.204065,
+    "setup_ms": 46470.641971,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 50126663680,
+    "stages": []
+  },
+  {
+    "configuration": "hits-16",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 16,
+    "arm": "reuse",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 1,
+      "median": 100752.81547200005,
+      "q1": 100752.81547200005,
+      "q3": 100752.81547200005
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 1,
+      "median": 688604.6926640001,
+      "q1": 688604.6926640001,
+      "q3": 688604.6926640001
+    },
+    "initial_maintenance_ms": 587851.877192,
+    "setup_ms": 46792.623183,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51413204992,
+    "stages": [
+      [
+        {
+          "state_online_ms": 0.0009790000040084124,
+          "state_index_ms": 0,
+          "psi_witness_ms": 0,
+          "psi_fold_ms": 0,
+          "psi_export_ms": 0,
+          "witness_prepare_ms": 268.6345240001101,
+          "wtns_ms": 5920.422659000149,
+          "joint_prove_ms": 89153.3195059998,
+          "B_verify_ms": 4537.4978249999995,
+          "packet_bytes": 61129,
+          "constraints": 6526876,
+          "graph_nodes": 4,
+          "unique_roots": 1,
+          "root_reference_occurrences": 1,
+          "duplicate_ratio": 0,
+          "Q_hits": 48
+        }
+      ]
+    ]
+  },
+  {
+    "configuration": "hits-16",
+    "scan": "hits",
+    "capacity": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "topology": "default",
+    "hits": 16,
+    "arm": "rebuild",
+    "status": "TIMEOUT",
+    "wall_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "cumulative_including_maintenance_ms": {
+      "n": 0,
+      "median": null,
+      "q1": null,
+      "q3": null
+    },
+    "initial_maintenance_ms": 587851.877192,
+    "setup_ms": 46792.623183,
+    "cache": {
+      "psi": true,
+      "joint": true
+    },
+    "constraint_accounting": {
+      "method": "Exclusive attribution by surviving optimized R1CS wire namespaces; mixed rows assigned shared_binding. This is not separate subcircuit proving.",
+      "authentication": 4233256,
+      "complete_scan": 1317299,
+      "lineage_dedup": 946069,
+      "policy": 8844,
+      "shared_binding": 21408,
+      "total": 6526876,
+      "expected": 6526876,
+      "balanced": true
+    },
+    "peak_rss_bytes": 51413204992,
+    "stages": []
+  }
+]

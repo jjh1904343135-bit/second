@@ -1,0 +1,77 @@
+{
+  "id": "lambda_naive-8-d16",
+  "module": "lambda_naive",
+  "size": 8,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 13213,
+  "prove_ms": 282.2594785999999,
+  "verify_ms": 7.494216600000004,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 301.9523489999999,
+      "verify_ms": 6.071702000000073,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 310.808314,
+      "verify_ms": 7.06946199999993,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 277.90176199999996,
+      "verify_ms": 8.625901999999996,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 259.023559,
+      "verify_ms": 7.096448000000009,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 261.61140899999987,
+      "verify_ms": 8.607569000000012,
+      "verified": true
+    }
+  ],
+  "witness_ms": 17.19823600000001,
+  "compile_ms": null,
+  "setup_ms": null,
+  "compiled_artifacts_reused": true,
+  "proving_key_reused": true,
+  "binding_checks": {
+    "inflated_count": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+    },
+    "replaced_multiset": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "recordCount": 3
+  },
+  "public_inputs": {
+    "inputCommit": "995146232516466203744089726622589735472173288237248772015476797804256459554",
+    "orderedCommit": "3231680011916033042415571672405422462249441411061354643755792468026595692151",
+    "nonce": "20261111",
+    "recordCount": "3"
+  },
+  "artifacts": {
+    "source": "6a86603e5d837fcc08fdffb61038161a55d366ce26445834bb19ebc599133757",
+    "r1cs": "10822d799389a8a489b4b640b40fc814e74505451780203eaa291aa13ad60642",
+    "wasm": "0798d048a95fa33ab4485f5136528b043690f2881a71c5e31714d8e5e1798392",
+    "verification_key": "25913195ea2ccf5f79a01d5a4735cf58af0efef06a3b1833c5c6fc4616a75830"
+  },
+  "measured_at": "2026-11-11T06:28:40.497Z"
+}

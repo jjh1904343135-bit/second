@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-17T00:02:27.433Z",
+  "os": {
+    "type": "Linux",
+    "release": "5.19.0-1010-nvidia-lowlatency",
+    "arch": "x64"
+  },
+  "cpu": "Intel(R) Core(TM) i9-14900K",
+  "logical_cpus": 32,
+  "total_memory_bytes": 134828302336,
+  "config": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "nova_revision": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+    "rust_toolchain": "1.88.0",
+    "hash": {
+      "name": "MiMCSponge",
+      "rounds": 220,
+      "outputs": 2,
+      "domain": 1380141126,
+      "encoding": "domain-key-v1"
+    },
+    "tree_depths": {
+      "log": 32,
+      "registry": 32,
+      "directory": 48
+    },
+    "profiles": [
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        3,
+        8,
+        4
+      ],
+      [
+        3,
+        16,
+        4
+      ],
+      [
+        3,
+        16,
+        8
+      ],
+      [
+        3,
+        16,
+        16
+      ]
+    ],
+    "parent_capacity": 4,
+    "history_sizes": [
+      64,
+      256,
+      1024
+    ],
+    "lag_sizes": [
+      0,
+      1,
+      4,
+      16
+    ],
+    "task_counts": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "graph_fixtures": [
+      "chain_single",
+      "chain_two",
+      "diamond_single",
+      "diamond_two"
+    ],
+    "hit_counts": [
+      1,
+      4,
+      16
+    ],
+    "history_default": 64,
+    "current_occupancy_default": 4,
+    "security_seed_start": 20261110,
+    "security_variants_per_category": 50,
+    "benchmark": {
+      "warmups": 1,
+      "repetitions": 10,
+      "configuration_timeout_seconds": 11495,
+      "calibration_timeout_seconds": 3600,
+      "budget_margin_ratio": 1.25,
+      "budget_basis": "results/core/experiment2-calibration/calibration.json: initialization + (warmups + repetitions) * (reuse_one_run + rebuild_one_run), then 25% margin",
+      "memory_limit_gib": 80,
+      "threads": 32,
+      "node_heap_mib": 65536
+    },
+    "ollama": {
+      "model": "qwen3.8:27b",
+      "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+      "seed": 42,
+      "temperature": 0,
+      "num_predict": 128,
+      "timeout_seconds": 120
+    },
+    "source_timeout_seconds": 2,
+    "external_comparisons": false
+  },
+  "source_revision": "b9c2f4d539236fc17f2196f1e4dc3af2aa5d4bd0cb8652a65ac470d89195ed7a",
+  "commands": {
+    "node": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 24.164266999999995,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "v20.20.2\n"
+    },
+    "rust": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 13.932578000000007,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "rustc 1.88.0 (6b00bc388 2025-06-23)\n"
+    },
+    "cargo": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 34.879076999999995,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "cargo 1.88.0 (873a06493 2025-05-10)\n"
+    },
+    "circom": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 116.37644,
+      "sampled_process_tree_peak_rss_bytes": 63520768,
+      "output": "circom2 npm package 0.2.23\ncircom compiler 2.2.3\n"
+    },
+    "snarkjs": {
+      "exit_code": 99,
+      "signal": null,
+      "status": "FAIL",
+      "wall_ms": 67.61683400000004,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "snarkjs@0.7.6\n        Copyright (C) 2018  0kims association\n        This program comes with ABSOLUTELY NO WARRANTY;\n        This is free software, and you are welcome to redistribute it\n        under certain conditions; see the COPYING file in the official\n        repo directory at  https://github.com/iden3/snarkjs \n\nUsage:\n        snarkjs <full command> ...  <options>\n   or   snarkjs <shortcut> ...  <options>\n\nType snarkjs <command> --help to get more information for that command\n\nFull Command                  Description\n============                  =================\npowersoftau new               Starts a powers of tau ceremony\n     Usage:  snarkjs ptn <curve> <power> [powersoftau_0000.ptau]\npowersoftau contribute        creates a ptau file with a new contribution\n     Usage:  snarkjs ptc <powersoftau.ptau> <new_powersoftau.ptau>\npowersoftau export challenge  Creates a challenge\n     Usage:  snarkjs ptec <powersoftau_0000.ptau> [challenge]\npowersoftau challenge contributeContribute to a challenge\n     Usage:  snarkjs ptcc <curve> <challenge> [response]\npowersoftau import response   import a response to a ptau file\n     Usage:  snarkjs ptir <powersoftau_old.ptau> <response> <<powersoftau_new.ptau>\npowersoftau beacon            adds a beacon\n     Usage:  snarkjs ptb <old_powersoftau.ptau> <new_powersoftau.ptau> <beaconHash(Hex)> <numIterationsExp>\npowersoftau prepare phase2    Prepares phase 2. \n     Usage:  snarkjs pt2 <powersoftau.ptau> <new_powersoftau.ptau>\npowersoftau convert           Convert ptau\n     Usage:  snarkjs ptcv <old_powersoftau.ptau> <new_powersoftau.ptau>\npowersoftau truncate          Generate different powers of tau with smaller sizes \n     Usage:  snarkjs ptt <powersoftau.ptau>\npowersoftau verify            verifies a powers of tau file\n     Usage:  snarkjs ptv <powersoftau.ptau>\npowersoftau export json       Exports a power of tau file to a JSON\n     Usage:  snarkjs ptej <powersoftau_0000.ptau> <powersoftau_0000.json>\nr1cs info                     Print statistiscs of a circuit\n     Usage:  snarkjs ri [circuit.r1cs]\nr1cs print                    Print the constraints of a circuit\n     Usage:  snarkjs rp [circuit.r1cs] [circuit.sym]\nr1cs export json              Export r1cs to JSON file\n     Usage:  snarkjs rej [circuit.r1cs] [circuit.json]\nwtns calculate                Caclculate specific witness of a circuit given an input\n     Usage:  snarkjs wc [circuit.wasm] [input.json] [witness.wtns]\nwtns debug                    Calculate the witness with debug info.\n     Usage:  snarkjs wd [circuit.wasm] [input.json] [witness.wtns] [circuit.sym]\nwtns export json              Calculate the witness with debug info.\n     Usage:  snarkjs wej [witness.wtns] [witnes.json]\nwtns check                    Check if a specific witness of a circuit fulfills the r1cs constraints\n     Usage:  snarkjs wchk [circuit.r1cs] [[witness.wtns]\nzkey contribute               creates a zkey file with a new contribution\n     Usage:  snarkjs zkc <circuit_old.zkey> <circuit_new.zkey>\nzkey export bellman           Export a zKey to a MPCParameters file compatible with kobi/phase2 (Bellman)\n     Usage:  snarkjs zkeb <circuit_xxxx.zkey> [circuit.mpcparams]\nzkey bellman contribute       contributes to a challenge file in bellman format\n     Usage:  snarkjs zkbc <curve> <circuit.mpcparams> <circuit_response.mpcparams>\nzkey import bellman           Export a zKey to a MPCParameters file compatible with kobi/phase2 (Bellman) \n     Usage:  snarkjs zkib <circuit_old.zkey> <circuit.mpcparams> <circuit_new.zkey>\nzkey beacon                   adds a beacon\n     Usage:  snarkjs zkb <circuit_old.zkey> <circuit_new.zkey> <beaconHash(Hex)> <numIterationsExp>\nzkey verify r1cs              Verify zkey file contributions and verify that matches with the original circuit.r1cs and ptau\n     Usage:  snarkjs zkv [circuit.r1cs] [powersoftau.ptau] [circuit_final.zkey]\nzkey verify init              Verify zkey file contributions and verify that matches with the original circuit.r1cs and ptau\n     Usage:  snarkjs zkvi [circuit_0000.zkey] [powersoftau.ptau] [circuit_final.zkey]\nzkey export verificationkey   Exports a verification key\n     Usage:  snarkjs zkev [circuit_final.zkey] [verification_key.json]\nzkey export json              Exports a circuit key to a JSON file\n     Usage:  snarkjs zkej [circuit_final.zkey] [circuit_final.zkey.json]\nzkey export solidityverifier  Creates a verifier in solidity\n     Usage:  snarkjs zkesv [circuit_final.zkey] [verifier.sol]\nzkey export soliditycalldata  Generates call parameters ready to be called.\n     Usage:  snarkjs zkesc [public.json] [proof.json]\ngroth16 setup                 Creates an initial groth16 pkey file with zero contributions\n     Usage:  snarkjs g16s [circuit.r1cs] [powersoftau.ptau] [circuit_0000.zkey]\ngroth16 prove                 Generates a zk Proof from witness\n     Usage:  snarkjs g16p [circuit_final.zkey] [witness.wtns] [proof.json] [public.json]\ngroth16 fullprove             Generates a zk Proof from input\n     Usage:  snarkjs g16f [input.json] [circuit_final.wasm] [circuit_final.zkey] [proof.json] [public.json]\ngroth16 verify                Verify a zk Proof\n     Usage:  snarkjs g16v [verification_key.json] [public.json] [proof.json]\nplonk setup                   Creates an initial PLONK pkey \n     Usage:  snarkjs pks [circuit.r1cs] [powersoftau.ptau] [circuit.zkey]\nplonk prove                   Generates a PLONK Proof from witness\n     Usage:  snarkjs pkp [circuit.zkey] [witness.wtns] [proof.json] [public.json]\nplonk fullprove               Generates a PLONK Proof from input\n     Usage:  snarkjs pkf [input.json] [circuit.wasm] [circuit.zkey] [proof.json] [public.json]\nplonk verify                  Verify a PLONK Proof\n     Usage:  snarkjs pkv [verification_key.json] [public.json] [proof.json]\nfflonk setup                  BETA version. Creates a FFLONK zkey from a circuit\n     Usage:  snarkjs ffs [circuit.r1cs] [powersoftau.ptau] [circuit.zkey]\nfflonk prove                  BETA version. Generates a FFLONK Proof from witness\n     Usage:  snarkjs ffp [circuit.zkey] [witness.wtns] [proof.json] [public.json]\nfflonk fullprove              BETA version. Generates a witness and the FFLONK Proof in the same command\n     Usage:  snarkjs fff [witness.json] [circuit.wasm] [circuit.zkey] [proof.json] [public.json]\nfflonk verify                 BETA version. Verify a FFLONK Proof\n     Usage:  snarkjs ffv [verification_key.json] [public.json] [proof.json]\nfile info                     Check info of a binary file\n     Usage:  snarkjs fi [binary.file]\n"
+    },
+    "gpu": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 92.55125900000002,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "Tue Nov 17 00:02:27 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5090 D      On  |   00000000:01:00.0 Off |                  N/A |\n|  0%   44C    P8             10W /  575W |       2MiB /  32607MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA GeForce RTX 5090 D      On  |   00000000:04:00.0 Off |                  N/A |\n|  0%   40C    P8             10W /  575W |       2MiB /  32607MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n"
+    },
+    "ollama": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 57.47854899999999,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "ollama version is 0.40.1\n"
+    },
+    "models": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 37.41075599999999,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "NAME           ID              SIZE     MODIFIED    \nqwen3.8:27b    aaee06c39dcf    17 GB    5 weeks ago    \n"
+    },
+    "ollama_ps": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 24.480854000000022,
+      "sampled_process_tree_peak_rss_bytes": 0,
+      "output": "NAME    ID    SIZE    PROCESSOR    CONTEXT    RUNNER    UNTIL \n"
+    }
+  }
+}

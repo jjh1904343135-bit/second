@@ -1,0 +1,21 @@
+{
+  "status": "DENY",
+  "reason_code": 1,
+  "stage": "VERIFIED",
+  "action_authorized": false,
+  "action_token": null,
+  "action_execution": null,
+  "verified": true,
+  "wall_ms": 1717.570877,
+  "timings": {
+    "psi_0_wall_ms": 1227.514603,
+    "joint_verify_ms": 193.56196799999998
+  },
+  "process": {
+    "exit_code": 0,
+    "signal": null,
+    "status": "PASS",
+    "wall_ms": 2027.6963490000053,
+    "sampled_process_tree_peak_rss_bytes": 349052928
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "exit_code": null,
+  "signal": "SIGTERM",
+  "status": "FAIL",
+  "wall_ms": 71095.53491900001,
+  "sampled_process_tree_peak_rss_bytes": 25931776,
+  "command": [
+    "python3",
+    "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py",
+    "https://circom.info/powersOfTau28_hez_final_23.ptau",
+    "/mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_23.ptau.part"
+  ]
+}

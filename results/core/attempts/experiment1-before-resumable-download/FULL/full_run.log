@@ -1,0 +1,32 @@
+[32mtemplate instances[0m: 121
+non-linear constraints: 628471
+linear constraints: 768
+public inputs: 7
+private inputs: 240 (238 belong to witness)
+public outputs: 7
+wires: 629313
+labels: 843281
+[32mWritten successfully:[0m build/core/psi-16/circuit.r1cs
+[32mWritten successfully:[0m build/core/psi-16/circuit.sym
+[32mWritten successfully:[0m build/core/psi-16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+{"constraints":[640785,10538],"r1cs":"71b9d0c36505ca3ffc614d149fcdcb918767832189470197538d40925da5f3b2","setup_ms":22924.253192999997,"status":"PASS"}
+[32mtemplate instances[0m: 174
+non-linear constraints: 6505485
+linear constraints: 21391
+public inputs: 57
+private inputs: 5302 (5299 belong to witness)
+public outputs: 0
+wires: 6523713
+labels: 8725754
+[32mWritten successfully:[0m build/core/joint-1348-FULL/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-1348-FULL/circuit.sym
+[32mWritten successfully:[0m build/core/joint-1348-FULL/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+Error: PROCESS_FAIL: 
+    at Object.check (/mnt/user-data/zjh/zjh/second/src/core/codec.js:2:52)
+    at must (/mnt/user-data/zjh/zjh/second/src/core/backend.js:9:25)
+    at parameter (/mnt/user-data/zjh/zjh/second/src/core/backend.js:44:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.jointKeys (/mnt/user-data/zjh/zjh/second/src/core/backend.js:59:16)
+    at async worker (/mnt/user-data/zjh/zjh/second/src/core/security.js:52:94)

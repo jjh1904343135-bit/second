@@ -1,0 +1,60 @@
+[32mtemplate instances[0m: 27
+non-linear constraints: 454380
+linear constraints: 4709
+public inputs: 56
+private inputs: 505
+public outputs: 0
+wires: 457969
+labels: 609817
+[32mWritten successfully:[0m prototype/build/real-mimc/real_experiment1.r1cs
+[32mWritten successfully:[0m prototype/build/real-mimc/real_experiment1.sym
+[32mWritten successfully:[0m prototype/build/real-mimc/real_experiment1_js/real_experiment1.wasm
+[32mEverything went okay[0m
+{"constraints":459089,"wires":457969,"public_inputs":56,"private_inputs":505,"power":19,"hash":"MiMCSponge-220-BN254","parameter_url":"https://circom.info/powersOfTau28_hez_final_19.ptau","parameter_provenance":"snarkjs official README prepared parameters table","setup":"single local circuit contribution; research only"}
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		6358e322 8b593eb1 7fa7abf1 c53efdb5
+		4fb43109 812ccd75 991d4b09 5d00aefb
+		fe5b52ce 810a6b33 a49f024f d64d9c80
+		83937ef2 ecc0532f 08a4ce95 e8913a2d
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		6358e322 8b593eb1 7fa7abf1 c53efdb5
+		4fb43109 812ccd75 991d4b09 5d00aefb
+		fe5b52ce 810a6b33 a49f024f d64d9c80
+		83937ef2 ecc0532f 08a4ce95 e8913a2d
+[32;22m[INFO]  [39;1msnarkJS[0m: Contribution Hash: 
+		75536463 f3a5344a 4648793a 7d23ba76
+		ecb8c518 ffb86f33 5b35b0c0 a82faba7
+		34046be0 baf76965 c5baebce 405497d2
+		4c1aecc8 422273e6 ba9cf65b fc94848d
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		6358e322 8b593eb1 7fa7abf1 c53efdb5
+		4fb43109 812ccd75 991d4b09 5d00aefb
+		fe5b52ce 810a6b33 a49f024f d64d9c80
+		83937ef2 ecc0532f 08a4ce95 e8913a2d
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		6358e322 8b593eb1 7fa7abf1 c53efdb5
+		4fb43109 812ccd75 991d4b09 5d00aefb
+		fe5b52ce 810a6b33 a49f024f d64d9c80
+		83937ef2 ecc0532f 08a4ce95 e8913a2d
+[32;22m[INFO]  [39;1msnarkJS[0m: -------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m: contribution #1 local research contribution:
+		75536463 f3a5344a 4648793a 7d23ba76
+		ecb8c518 ffb86f33 5b35b0c0 a82faba7
+		34046be0 baf76965 c5baebce 405497d2
+		4c1aecc8 422273e6 ba9cf65b fc94848d
+[32;22m[INFO]  [39;1msnarkJS[0m: -------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m: ZKey Ok!
+[32;22m[INFO]  [39;1msnarkJS[0m: EXPORT VERIFICATION KEY STARTED
+[32;22m[INFO]  [39;1msnarkJS[0m: > Detected protocol: groth16
+[32;22m[INFO]  [39;1msnarkJS[0m: EXPORT VERIFICATION KEY FINISHED
+Real MiMC Groth16 setup complete.

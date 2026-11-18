@@ -1,0 +1,14 @@
+{
+  "capacity": [
+    3,
+    16,
+    16
+  ],
+  "history": 64,
+  "lag": 4,
+  "tasks": 1,
+  "topology": "default",
+  "hits": 4,
+  "id": "lag-4",
+  "scan": "lag"
+}

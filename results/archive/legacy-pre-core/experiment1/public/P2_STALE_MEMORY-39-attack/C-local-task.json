@@ -1,0 +1,31 @@
+{
+  "protocol_version": 1,
+  "experiment_profile": "RCPEH_REAL_MIMC_3S4E8N_V2",
+  "receiver_id": 9001,
+  "nonce": "1d07c87d32338bbd0ad7eaf70fc71fdf821a498bbc8fe02e536ac998197ee2e2",
+  "mode": "CURRENT_STATE",
+  "issued_at": 60,
+  "evaluation_time": 60,
+  "deadline": 90,
+  "audit_time": 15,
+  "max_confirmation_delay": 10,
+  "required_sources": [
+    1
+  ],
+  "source_groups": [
+    {
+      "source_id": 1,
+      "group_id": 11
+    }
+  ],
+  "registry_id": 8001,
+  "object_id": 7001,
+  "evidence_type": 1,
+  "created_from": 0,
+  "created_until": 20,
+  "max_risk_score": 5000,
+  "purpose_bit": 0,
+  "require_each_source_nonempty": true,
+  "min_records": 1,
+  "min_issuers": 1
+}

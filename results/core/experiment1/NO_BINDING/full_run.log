@@ -1,0 +1,667 @@
+[32mtemplate instances[0m: 174
+non-linear constraints: 6505485
+linear constraints: 21391
+public inputs: 57
+private inputs: 5302 (5299 belong to witness)
+public outputs: 0
+wires: 6523713
+labels: 8725754
+[32mWritten successfully:[0m build/core/joint-41348-NO_BINDING/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-41348-NO_BINDING/circuit.sym
+[32mWritten successfully:[0m build/core/joint-41348-NO_BINDING/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		3bb552e4 183c39d6 bd5fa5a3 1237b6be
+		548220cc 29538d7b 1014dd9b 2e332eb6
+		6cc38375 0df60349 8030b9e1 3b275b4c
+		c7a7c47d d9cca0f3 50829fcf 7c0d1437
+NO_BINDING fixed-omission-missing_source: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING fixed-omission-unfavorable_same_group: construction_failure
+NO_BINDING fixed-omission-skipped_confirmed_update: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING fixed-omission-late_published_in_window: construction_failure
+NO_BINDING variant-omission-0: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-1: construction_failure
+NO_BINDING variant-omission-2: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-3: construction_failure
+NO_BINDING variant-omission-4: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-5: construction_failure
+NO_BINDING variant-omission-6: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-7: construction_failure
+NO_BINDING variant-omission-8: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-9: construction_failure
+NO_BINDING variant-omission-10: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-11: construction_failure
+NO_BINDING variant-omission-12: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-13: construction_failure
+NO_BINDING variant-omission-14: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-15: construction_failure
+NO_BINDING variant-omission-16: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-17: construction_failure
+NO_BINDING variant-omission-18: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-19: construction_failure
+NO_BINDING variant-omission-20: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-21: construction_failure
+NO_BINDING variant-omission-22: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-23: construction_failure
+NO_BINDING variant-omission-24: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-25: construction_failure
+NO_BINDING variant-omission-26: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-27: construction_failure
+NO_BINDING variant-omission-28: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-29: construction_failure
+NO_BINDING variant-omission-30: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-31: construction_failure
+NO_BINDING variant-omission-32: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-33: construction_failure
+NO_BINDING variant-omission-34: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-35: construction_failure
+NO_BINDING variant-omission-36: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-37: construction_failure
+NO_BINDING variant-omission-38: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-39: construction_failure
+NO_BINDING variant-omission-40: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-41: construction_failure
+NO_BINDING variant-omission-42: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-43: construction_failure
+NO_BINDING variant-omission-44: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-45: construction_failure
+NO_BINDING variant-omission-46: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-47: construction_failure
+NO_BINDING variant-omission-48: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 71
+
+NO_BINDING variant-omission-49: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-invalid_reuse-old_version: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-invalid_reuse-revoked: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-invalid_reuse-expired: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-invalid_reuse-wrong_purpose: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-invalid_reuse-49: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING fixed-lineage-deleted_parent: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING fixed-lineage-impersonate_root: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-lineage-chain_echo: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-lineage-diamond_echo: construction_failure
+NO_BINDING fixed-lineage-true_two_groups: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-lineage-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_BINDING variant-lineage-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_BINDING variant-lineage-49: construction_failure
+NO_BINDING fixed-substitution-new_checkpoint_old_psi: accepted
+NO_BINDING fixed-substitution-policy: accepted
+NO_BINDING fixed-substitution-receiver: accepted
+NO_BINDING fixed-substitution-nonce: accepted
+NO_BINDING fixed-substitution-result: accepted
+NO_BINDING fixed-substitution-same_content_node: accepted
+NO_BINDING variant-substitution-0: accepted
+NO_BINDING variant-substitution-1: accepted
+NO_BINDING variant-substitution-2: accepted
+NO_BINDING variant-substitution-3: accepted
+NO_BINDING variant-substitution-4: accepted
+NO_BINDING variant-substitution-5: accepted
+NO_BINDING variant-substitution-6: accepted
+NO_BINDING variant-substitution-7: accepted
+NO_BINDING variant-substitution-8: accepted
+NO_BINDING variant-substitution-9: accepted
+NO_BINDING variant-substitution-10: accepted
+NO_BINDING variant-substitution-11: accepted
+NO_BINDING variant-substitution-12: accepted
+NO_BINDING variant-substitution-13: accepted
+NO_BINDING variant-substitution-14: accepted
+NO_BINDING variant-substitution-15: accepted
+NO_BINDING variant-substitution-16: accepted
+NO_BINDING variant-substitution-17: accepted
+NO_BINDING variant-substitution-18: accepted
+NO_BINDING variant-substitution-19: accepted
+NO_BINDING variant-substitution-20: accepted
+NO_BINDING variant-substitution-21: accepted
+NO_BINDING variant-substitution-22: accepted
+NO_BINDING variant-substitution-23: accepted
+NO_BINDING variant-substitution-24: accepted
+NO_BINDING variant-substitution-25: accepted
+NO_BINDING variant-substitution-26: accepted
+NO_BINDING variant-substitution-27: accepted
+NO_BINDING variant-substitution-28: accepted
+NO_BINDING variant-substitution-29: accepted
+NO_BINDING variant-substitution-30: accepted
+NO_BINDING variant-substitution-31: accepted
+NO_BINDING variant-substitution-32: accepted
+NO_BINDING variant-substitution-33: accepted
+NO_BINDING variant-substitution-34: accepted
+NO_BINDING variant-substitution-35: accepted
+NO_BINDING variant-substitution-36: accepted
+NO_BINDING variant-substitution-37: accepted
+NO_BINDING variant-substitution-38: accepted
+NO_BINDING variant-substitution-39: accepted
+NO_BINDING variant-substitution-40: accepted
+NO_BINDING variant-substitution-41: accepted
+NO_BINDING variant-substitution-42: accepted
+NO_BINDING variant-substitution-43: accepted
+NO_BINDING variant-substitution-44: accepted
+NO_BINDING variant-substitution-45: accepted
+NO_BINDING variant-substitution-46: accepted
+NO_BINDING variant-substitution-47: accepted
+NO_BINDING variant-substitution-48: accepted
+NO_BINDING variant-substitution-49: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-reason-insufficient_as_policy: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING fixed-reason-both_fail_priority: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_BINDING variant-reason-49: construction_failure

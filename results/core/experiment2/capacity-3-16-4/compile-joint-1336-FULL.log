@@ -1,0 +1,12 @@
+[32mtemplate instances[0m: 173
+non-linear constraints: 3181167
+linear constraints: 11803
+public inputs: 57
+private inputs: 2854 (2851 belong to witness)
+public outputs: 0
+wires: 3190215
+labels: 4257170
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit.sym
+[32mWritten successfully:[0m build/core/joint-1336-FULL/circuit_js/circuit.wasm
+[32mEverything went okay[0m

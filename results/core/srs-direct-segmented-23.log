@@ -1,0 +1,210 @@
+{"received_bytes": 4114808832, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4131586048, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4148363264, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4165140480, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4181917696, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4198694912, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4215472128, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4232249344, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4249026560, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4265803776, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4282580992, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4299358208, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4316135424, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4332912640, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4349689856, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4366467072, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4383244288, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4400021504, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4416798720, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4433575936, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4450353152, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4467130368, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4483907584, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4500684800, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4131586048, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9834104 out of 16777216 bytes received"}
+{"range_start": 4098031616, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 12451089 out of 16777216 bytes received"}
+{"range_start": 4198694912, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 13598630 out of 16777216 bytes received"}
+{"range_start": 4181917696, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 11976461 out of 16777216 bytes received"}
+{"range_start": 4316135424, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10943697 out of 16777216 bytes received"}
+{"range_start": 4332912640, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10826716 out of 16777216 bytes received"}
+{"received_bytes": 4517462016, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4366467072, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 10452132 out of 16777216 bytes received"}
+{"received_bytes": 4534239232, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4400021504, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11910898 out of 16777216 bytes received"}
+{"received_bytes": 4551016448, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4567793664, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4584570880, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4601348096, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4618125312, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4634902528, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4651679744, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4517462016, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 6029195 out of 16777216 bytes received"}
+{"received_bytes": 4668456960, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4551016448, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15908693 out of 16777216 bytes received"}
+{"received_bytes": 4685234176, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4702011392, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4718788608, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4735565824, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4752343040, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4769120256, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4785897472, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4802674688, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4601348096, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 12176989 out of 16777216 bytes received"}
+{"received_bytes": 4819451904, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4651679744, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15072535 out of 16777216 bytes received"}
+{"received_bytes": 4836229120, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4718788608, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15695773 out of 16777216 bytes received"}
+{"received_bytes": 4853006336, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4869783552, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4886560768, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4903337984, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4920115200, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4936892416, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4953669632, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4098031616, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14221132 out of 16777216 bytes received"}
+{"range_start": 4316135424, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9846694 out of 16777216 bytes received"}
+{"range_start": 4819451904, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11206656 out of 16777216 bytes received"}
+{"received_bytes": 4970446848, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 4987224064, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5004001280, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5020778496, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4903337984, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15400897 out of 16777216 bytes received"}
+{"range_start": 4517462016, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8232861 out of 16777216 bytes received"}
+{"received_bytes": 5037555712, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4970446848, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 12663480 out of 16777216 bytes received"}
+{"received_bytes": 5054332928, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4987224064, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 8752733 out of 16777216 bytes received"}
+{"received_bytes": 5071110144, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5087887360, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5104664576, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5121441792, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5138219008, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5154996224, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5020778496, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14679956 out of 16777216 bytes received"}
+{"received_bytes": 5171773440, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5188550656, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5205327872, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5222105088, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5238882304, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5255659520, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5272436736, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5154996224, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 13672430 out of 16777216 bytes received"}
+{"received_bytes": 5289213952, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5205327872, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8470420 out of 16777216 bytes received"}
+{"range_start": 4316135424, "attempt": 2, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7061405 out of 16777216 bytes received"}
+{"received_bytes": 5305991168, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5322768384, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5272436736, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 13930140 out of 16777216 bytes received"}
+{"range_start": 5289213952, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8280325 out of 16777216 bytes received"}
+{"received_bytes": 5339545600, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5356322816, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5373100032, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4970446848, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 8159232 out of 16777216 bytes received"}
+{"range_start": 5373100032, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 6974747 out of 16777216 bytes received"}
+{"received_bytes": 5389877248, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5389877248, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9518915 out of 16777216 bytes received"}
+{"range_start": 5423431680, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 4095883 out of 16777216 bytes received"}
+{"received_bytes": 5406654464, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5423431680, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5440208896, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5456986112, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5473763328, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5490540544, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5490540544, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15204190 out of 16777216 bytes received"}
+{"received_bytes": 5507317760, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5524094976, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5540872192, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5557649408, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5574426624, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5591203840, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5607981056, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5507317760, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7782274 out of 16777216 bytes received"}
+{"range_start": 5524094976, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16236319 out of 16777216 bytes received"}
+{"received_bytes": 5624758272, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5641535488, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5658312704, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5154996224, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 13467378 out of 16777216 bytes received"}
+{"received_bytes": 5675089920, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5691867136, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5708644352, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5725421568, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5742198784, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"received_bytes": 5758976000, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 4316135424, "attempt": 3, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 10715082 out of 16777216 bytes received"}
+{"received_bytes": 5775753216, "total_bytes": 9663759512, "digest_verification": "PENDING"}
+{"range_start": 5708644352, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9306112 out of 16777216 bytes received"}
+{"range_start": 5775753216, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15351709 out of 16777216 bytes received"}
+{"range_start": 5842862080, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14236362 out of 16777216 bytes received"}
+{"range_start": 5524094976, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 16240203 out of 16777216 bytes received"}
+{"range_start": 5943525376, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11435888 out of 16777216 bytes received"}
+{"range_start": 6060965888, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8765404 out of 16777216 bytes received"}
+{"range_start": 6077743104, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 11702160 out of 16777216 bytes received"}
+{"range_start": 6128074752, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14552624 out of 16777216 bytes received"}
+{"range_start": 6144851968, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8027367 out of 16777216 bytes received"}
+{"range_start": 5775753216, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15515576 out of 16777216 bytes received"}
+{"range_start": 6195183616, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8552358 out of 16777216 bytes received"}
+{"range_start": 6312624128, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11345848 out of 16777216 bytes received"}
+{"range_start": 6681722880, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16125524 out of 16777216 bytes received"}
+{"range_start": 6849495040, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 13244695 out of 16777216 bytes received"}
+{"range_start": 6883049472, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 12835714 out of 16777216 bytes received"}
+{"range_start": 7017267200, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8830958 out of 16777216 bytes received"}
+{"range_start": 7201816576, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8605322 out of 16777216 bytes received"}
+{"range_start": 7235371008, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9117642 out of 16777216 bytes received"}
+{"range_start": 7252148224, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7936952 out of 16777216 bytes received"}
+{"range_start": 7268925440, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8863636 out of 16777216 bytes received"}
+{"range_start": 7319257088, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 10976399 out of 16777216 bytes received"}
+{"range_start": 7369588736, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9555513 out of 16777216 bytes received"}
+{"range_start": 7487029248, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 8650554 out of 16777216 bytes received"}
+{"range_start": 7570915328, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16514982 out of 16777216 bytes received"}
+{"range_start": 7755464704, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 4357973 out of 16777216 bytes received"}
+{"range_start": 7252148224, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11026225 out of 16777216 bytes received"}
+{"range_start": 7872905216, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15519244 out of 16777216 bytes received"}
+{"range_start": 7889682432, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9457245 out of 16777216 bytes received"}
+{"range_start": 7940014080, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16600723 out of 16777216 bytes received"}
+{"range_start": 7990345728, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15204280 out of 16777216 bytes received"}
+{"range_start": 8007122944, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 7896953 out of 16777216 bytes received"}
+{"range_start": 8292335616, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15622144 out of 16777216 bytes received"}
+{"range_start": 8325890048, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14769062 out of 16777216 bytes received"}
+{"range_start": 7872905216, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10098973 out of 16777216 bytes received"}
+{"range_start": 8426553344, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16186575 out of 16777216 bytes received"}
+{"range_start": 8443330560, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 12750411 out of 16777216 bytes received"}
+{"range_start": 8460107776, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16387605 out of 16777216 bytes received"}
+{"range_start": 8678211584, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11419549 out of 16777216 bytes received"}
+{"range_start": 8829206528, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8232852 out of 16777216 bytes received"}
+{"range_start": 8845983744, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8126383 out of 16777216 bytes received"}
+{"range_start": 8879538176, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9052034 out of 16777216 bytes received"}
+{"range_start": 8896315392, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10636857 out of 16777216 bytes received"}
+{"range_start": 8913092608, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15617557 out of 16777216 bytes received"}
+{"range_start": 8946647040, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 14778224 out of 16777216 bytes received"}
+{"range_start": 8443330560, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 16260994 out of 16777216 bytes received"}
+{"range_start": 8460107776, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7544778 out of 16777216 bytes received"}
+{"range_start": 9064087552, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16072686 out of 16777216 bytes received"}
+{"range_start": 9097641984, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7772401 out of 16777216 bytes received"}
+{"range_start": 8829206528, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10190776 out of 16777216 bytes received"}
+{"range_start": 9265414144, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10524909 out of 16777216 bytes received"}
+{"range_start": 9282191360, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180001 milliseconds with 9994087 out of 16777216 bytes received"}
+{"range_start": 8460107776, "attempt": 2, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 9043869 out of 16777216 bytes received"}
+{"range_start": 9366077440, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 5201848 out of 16777216 bytes received"}
+{"range_start": 9416409088, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15712202 out of 16777216 bytes received"}
+{"range_start": 9433186304, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8883868 out of 16777216 bytes received"}
+{"range_start": 9449963520, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 8323000 out of 16777216 bytes received"}
+{"range_start": 9064087552, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 7913319 out of 16777216 bytes received"}
+{"range_start": 9097641984, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 11714470 out of 16777216 bytes received"}
+{"range_start": 9500295168, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10092463 out of 16777216 bytes received"}
+{"range_start": 9533849600, "attempt": 0, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 16272944 out of 16777216 bytes received"}
+{"range_start": 9416409088, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 12352753 out of 16777216 bytes received"}
+{"range_start": 9433186304, "attempt": 1, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 15269798 out of 16777216 bytes received"}
+{"range_start": 9097641984, "attempt": 2, "exit_code": 28, "error": "curl: (28) Operation timed out after 180000 milliseconds with 10501973 out of 16777216 bytes received"}
+Traceback (most recent call last):
+  File "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py", line 53, in <module>
+    a,b,file = future.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py", line 48, in download
+    raise RuntimeError(f"RANGE_TRANSFER_FAILED_{a}")
+RuntimeError: RANGE_TRANSFER_FAILED_4316135424

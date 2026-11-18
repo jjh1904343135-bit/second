@@ -1,0 +1,759 @@
+$ npm run experiment:2
+Parameters powersOfTau28_hez_final_19.ptau: BLAKE2b PASS
+Parameters powersOfTau28_hez_final_21.ptau: BLAKE2b PASS
+========== psi size=4 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point psi 4 16 5
+ERROR:  4 Error in template Psi_14 line: 74
+
+ERROR:  4 Error in template Psi_14 line: 104
+
+MEASURE psi-4-d16 1/5: constraints=109911 prove=1551.319ms verify=6.596ms PASS
+MEASURE psi-4-d16 2/5: constraints=109911 prove=1489.982ms verify=5.780ms PASS
+MEASURE psi-4-d16 3/5: constraints=109911 prove=1589.947ms verify=5.442ms PASS
+MEASURE psi-4-d16 4/5: constraints=109911 prove=1433.381ms verify=6.860ms PASS
+MEASURE psi-4-d16 5/5: constraints=109911 prove=1450.003ms verify=6.165ms PASS
+========== psi size=8 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point psi 8 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/psi-8-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/psi-8-d16
+[32mtemplate instances[0m: 15
+non-linear constraints: 141369
+linear constraints: 299
+public inputs: 7
+private inputs: 82 (74 belong to witness)
+public outputs: 0
+wires: 141628
+labels: 189425
+[32mWritten successfully:[0m build/experiment2/psi-8-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/psi-8-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/psi-8-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/psi-8-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		0edf5f93 c0f416b7 cafab670 fda57925
+		0992db75 07b99ba7 bc1d1e30 543259a2
+		c4d94631 9dcb069b f87b56c5 ee30fc2e
+		43bac7fc e63d691c db714909 43585f3f
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Psi_14 line: 74
+
+ERROR:  4 Error in template Psi_14 line: 104
+
+MEASURE psi-8-d16 1/5: constraints=141668 prove=2517.870ms verify=6.097ms PASS
+MEASURE psi-8-d16 2/5: constraints=141668 prove=2343.565ms verify=5.746ms PASS
+MEASURE psi-8-d16 3/5: constraints=141668 prove=2084.413ms verify=5.656ms PASS
+MEASURE psi-8-d16 4/5: constraints=141668 prove=2235.219ms verify=5.469ms PASS
+MEASURE psi-8-d16 5/5: constraints=141668 prove=2089.111ms verify=5.802ms PASS
+========== psi size=16 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point psi 16 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/psi-16-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/psi-16-d16
+[32mtemplate instances[0m: 15
+non-linear constraints: 208621
+linear constraints: 536
+public inputs: 7
+private inputs: 136 (120 belong to witness)
+public outputs: 0
+wires: 209051
+labels: 279197
+[32mWritten successfully:[0m build/experiment2/psi-16-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/psi-16-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/psi-16-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/psi-16-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		9438874a 0a7c484a dc75d3b8 ee2971fb
+		573e633d 11483161 a7e9d546 f114bd00
+		d365430e a7046494 6811fd88 5ac982e8
+		8c79f729 dc779e7e 3fd819d9 c136bad4
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Psi_14 line: 74
+
+ERROR:  4 Error in template Psi_14 line: 104
+
+MEASURE psi-16-d16 1/5: constraints=209157 prove=3000.697ms verify=8.817ms PASS
+MEASURE psi-16-d16 2/5: constraints=209157 prove=2960.733ms verify=7.514ms PASS
+MEASURE psi-16-d16 3/5: constraints=209157 prove=2730.904ms verify=6.579ms PASS
+MEASURE psi-16-d16 4/5: constraints=209157 prove=2675.864ms verify=5.940ms PASS
+MEASURE psi-16-d16 5/5: constraints=209157 prove=2893.575ms verify=7.591ms PASS
+========== psi size=32 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point psi 32 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/psi-32-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/psi-32-d16
+[32mtemplate instances[0m: 15
+non-linear constraints: 347097
+linear constraints: 1013
+public inputs: 7
+private inputs: 246 (214 belong to witness)
+public outputs: 0
+wires: 347874
+labels: 464081
+[32mWritten successfully:[0m build/experiment2/psi-32-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/psi-32-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/psi-32-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/psi-32-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		d5947e4b d9d79efc ea873488 f16ec32f
+		c92eeab9 32e20838 b53e098f eeea9709
+		d4e9d3da 42895025 43fe75c0 d9aa7e6b
+		e247ac10 554527c1 986d4f97 fcc4e80e
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Psi_14 line: 74
+
+ERROR:  4 Error in template Psi_14 line: 104
+
+MEASURE psi-32-d16 1/5: constraints=348110 prove=5651.120ms verify=11.996ms PASS
+MEASURE psi-32-d16 2/5: constraints=348110 prove=5461.152ms verify=8.430ms PASS
+MEASURE psi-32-d16 3/5: constraints=348110 prove=5523.434ms verify=9.010ms PASS
+MEASURE psi-32-d16 4/5: constraints=348110 prove=5680.484ms verify=8.880ms PASS
+MEASURE psi-32-d16 5/5: constraints=348110 prove=5349.996ms verify=7.317ms PASS
+========== psi size=64 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point psi 64 16 5
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/psi-64-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_21.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/psi-64-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		8ac30026 72717239 a2e14b12 970796f9
+		9b84bd79 28a4f951 02521132 baa9d3a5
+		657614f4 d9289ac6 6127af7d 34d47435
+		d6adc8fe b4308d9b 3b88577b 8f9b9b57
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Psi_14 line: 74
+
+ERROR:  4 Error in template Psi_14 line: 104
+
+MEASURE psi-64-d16 1/5: constraints=629991 prove=12298.726ms verify=14.020ms PASS
+MEASURE psi-64-d16 2/5: constraints=629991 prove=12649.543ms verify=10.159ms PASS
+MEASURE psi-64-d16 3/5: constraints=629991 prove=12555.873ms verify=10.420ms PASS
+MEASURE psi-64-d16 4/5: constraints=629991 prove=12561.631ms verify=9.366ms PASS
+MEASURE psi-64-d16 5/5: constraints=629991 prove=12254.950ms verify=9.367ms PASS
+========== lambda_sorted size=8 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_sorted 8 16 5
+ERROR:  4 Error in template Lambda_11 line: 215
+
+ERROR:  4 Error in template Lambda_11 line: 193
+
+ERROR:  4 Error in template Lambda_11 line: 210
+
+MEASURE lambda_sorted-8-d16 1/5: constraints=13388 prove=307.065ms verify=5.577ms PASS
+MEASURE lambda_sorted-8-d16 2/5: constraints=13388 prove=279.398ms verify=7.514ms PASS
+MEASURE lambda_sorted-8-d16 3/5: constraints=13388 prove=257.225ms verify=6.632ms PASS
+MEASURE lambda_sorted-8-d16 4/5: constraints=13388 prove=257.600ms verify=6.578ms PASS
+MEASURE lambda_sorted-8-d16 5/5: constraints=13388 prove=253.428ms verify=8.606ms PASS
+========== lambda_naive size=8 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_naive 8 16 5
+ERROR:  4 Error in template Lambda_8 line: 215
+
+ERROR:  4 Error in template Lambda_8 line: 193
+
+MEASURE lambda_naive-8-d16 1/5: constraints=13213 prove=301.952ms verify=6.072ms PASS
+MEASURE lambda_naive-8-d16 2/5: constraints=13213 prove=310.808ms verify=7.069ms PASS
+MEASURE lambda_naive-8-d16 3/5: constraints=13213 prove=277.902ms verify=8.626ms PASS
+MEASURE lambda_naive-8-d16 4/5: constraints=13213 prove=259.024ms verify=7.096ms PASS
+MEASURE lambda_naive-8-d16 5/5: constraints=13213 prove=261.611ms verify=8.608ms PASS
+========== lambda_sorted size=16 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_sorted 16 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-16-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-16-d16
+[32mtemplate instances[0m: 12
+non-linear constraints: 24679
+linear constraints: 157
+public inputs: 4
+private inputs: 32
+public outputs: 0
+wires: 24807
+labels: 32817
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-16-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-16-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-16-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-16-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		35fcc0ef 40b52213 0ffefe47 a55d79fd
+		bae09e72 22be57c8 6361b729 15375f0f
+		3d073355 1de3a48a 9d70b6e0 ceb9c103
+		f17faed4 d8c113b8 dea94133 389dda9e
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_11 line: 215
+
+ERROR:  4 Error in template Lambda_11 line: 193
+
+ERROR:  4 Error in template Lambda_11 line: 210
+
+MEASURE lambda_sorted-16-d16 1/5: constraints=24836 prove=456.835ms verify=7.561ms PASS
+MEASURE lambda_sorted-16-d16 2/5: constraints=24836 prove=454.205ms verify=5.484ms PASS
+MEASURE lambda_sorted-16-d16 3/5: constraints=24836 prove=473.235ms verify=31.621ms PASS
+MEASURE lambda_sorted-16-d16 4/5: constraints=24836 prove=430.039ms verify=6.231ms PASS
+MEASURE lambda_sorted-16-d16 5/5: constraints=24836 prove=420.737ms verify=5.342ms PASS
+========== lambda_naive size=16 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_naive 16 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-16-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-16-d16
+[32mtemplate instances[0m: 9
+non-linear constraints: 24499
+linear constraints: 202
+public inputs: 4
+private inputs: 32
+public outputs: 0
+wires: 24702
+labels: 33119
+[32mWritten successfully:[0m build/experiment2/lambda_naive-16-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_naive-16-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-16-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-16-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		40373508 2032050c 2ffcc585 639350ee
+		22e51096 e124d1df bea42ef0 465f5005
+		20f5c903 dbca77bd 342137a3 6db78079
+		039fd1d5 c5390d44 7e37ad1d 43852573
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_8 line: 215
+
+ERROR:  4 Error in template Lambda_8 line: 193
+
+MEASURE lambda_naive-16-d16 1/5: constraints=24701 prove=621.681ms verify=10.294ms PASS
+MEASURE lambda_naive-16-d16 2/5: constraints=24701 prove=452.860ms verify=6.719ms PASS
+MEASURE lambda_naive-16-d16 3/5: constraints=24701 prove=428.461ms verify=8.742ms PASS
+MEASURE lambda_naive-16-d16 4/5: constraints=24701 prove=406.310ms verify=8.295ms PASS
+MEASURE lambda_naive-16-d16 5/5: constraints=24701 prove=399.707ms verify=6.448ms PASS
+========== lambda_sorted size=32 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_sorted 32 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-32-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-32-d16
+[32mtemplate instances[0m: 12
+non-linear constraints: 47415
+linear constraints: 317
+public inputs: 4
+private inputs: 64
+public outputs: 0
+wires: 47671
+labels: 63009
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-32-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-32-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-32-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-32-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		02c84e67 9f3b856f 75484e9b 025f4161
+		2b6a6b07 bbfb5c22 1c885da2 ec2f133e
+		b136b14c 4ea56727 0644ae4d e45635af
+		dafc4e66 b02b9d52 2744db03 ade2f1e2
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_11 line: 215
+
+ERROR:  4 Error in template Lambda_11 line: 193
+
+ERROR:  4 Error in template Lambda_11 line: 210
+
+MEASURE lambda_sorted-32-d16 1/5: constraints=47732 prove=862.187ms verify=5.975ms PASS
+MEASURE lambda_sorted-32-d16 2/5: constraints=47732 prove=820.222ms verify=7.544ms PASS
+MEASURE lambda_sorted-32-d16 3/5: constraints=47732 prove=844.732ms verify=5.509ms PASS
+MEASURE lambda_sorted-32-d16 4/5: constraints=47732 prove=840.669ms verify=7.634ms PASS
+MEASURE lambda_sorted-32-d16 5/5: constraints=47732 prove=847.239ms verify=6.430ms PASS
+========== lambda_naive size=32 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_naive 32 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-32-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-32-d16
+[32mtemplate instances[0m: 9
+non-linear constraints: 47787
+linear constraints: 658
+public inputs: 4
+private inputs: 64
+public outputs: 0
+wires: 48446
+labels: 65615
+[32mWritten successfully:[0m build/experiment2/lambda_naive-32-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_naive-32-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-32-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-32-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		75858c31 3061f0ec cf1cea0a 07a6d0f0
+		d671c757 7581d528 1e8f0f0b d5076495
+		af737956 04e434f4 67fc904d f7f50bae
+		562c757f e24417a9 9aded1c1 f7104298
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_8 line: 215
+
+ERROR:  4 Error in template Lambda_8 line: 193
+
+MEASURE lambda_naive-32-d16 1/5: constraints=48445 prove=800.834ms verify=6.338ms PASS
+MEASURE lambda_naive-32-d16 2/5: constraints=48445 prove=780.276ms verify=6.300ms PASS
+MEASURE lambda_naive-32-d16 3/5: constraints=48445 prove=754.252ms verify=5.744ms PASS
+MEASURE lambda_naive-32-d16 4/5: constraints=48445 prove=804.113ms verify=9.166ms PASS
+MEASURE lambda_naive-32-d16 5/5: constraints=48445 prove=837.829ms verify=9.262ms PASS
+========== lambda_sorted size=64 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_sorted 64 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-64-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-64-d16
+[32mtemplate instances[0m: 12
+non-linear constraints: 92887
+linear constraints: 637
+public inputs: 4
+private inputs: 128
+public outputs: 0
+wires: 93399
+labels: 123393
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-64-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-64-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-64-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-64-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		9a6ba2cd 29bd0ef3 5de4ba6e 6adc25b2
+		3e4dc13a 0e6fcbdf db651047 596d6c74
+		95eab131 e3214876 e2ecffaa f1193649
+		dbf3a3fa 418509fa 2539f2df 16e8ec2c
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_11 line: 215
+
+ERROR:  4 Error in template Lambda_11 line: 193
+
+ERROR:  4 Error in template Lambda_11 line: 210
+
+MEASURE lambda_sorted-64-d16 1/5: constraints=93524 prove=1618.647ms verify=6.187ms PASS
+MEASURE lambda_sorted-64-d16 2/5: constraints=93524 prove=1579.859ms verify=5.855ms PASS
+MEASURE lambda_sorted-64-d16 3/5: constraints=93524 prove=1568.250ms verify=6.370ms PASS
+MEASURE lambda_sorted-64-d16 4/5: constraints=93524 prove=1571.443ms verify=8.922ms PASS
+MEASURE lambda_sorted-64-d16 5/5: constraints=93524 prove=1543.162ms verify=6.616ms PASS
+========== lambda_naive size=64 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_naive 64 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-64-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-64-d16
+[32mtemplate instances[0m: 9
+non-linear constraints: 96667
+linear constraints: 2338
+public inputs: 4
+private inputs: 128
+public outputs: 0
+wires: 99006
+labels: 136751
+[32mWritten successfully:[0m build/experiment2/lambda_naive-64-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_naive-64-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-64-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-64-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		fa0fabfb 6b7ee69e c35f7a3f 958e6eac
+		4d71313b b4be6eef 36f0305c 5cf43054
+		1e85f588 9f04bed2 b85067cd 3b8fe661
+		f220eb75 7c39b18e 1167fb57 2f00cd22
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_8 line: 215
+
+ERROR:  4 Error in template Lambda_8 line: 193
+
+MEASURE lambda_naive-64-d16 1/5: constraints=99005 prove=1631.005ms verify=8.105ms PASS
+MEASURE lambda_naive-64-d16 2/5: constraints=99005 prove=1595.146ms verify=6.075ms PASS
+MEASURE lambda_naive-64-d16 3/5: constraints=99005 prove=1549.410ms verify=6.477ms PASS
+MEASURE lambda_naive-64-d16 4/5: constraints=99005 prove=1531.802ms verify=8.855ms PASS
+MEASURE lambda_naive-64-d16 5/5: constraints=99005 prove=1528.321ms verify=7.449ms PASS
+========== lambda_sorted size=128 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_sorted 128 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-128-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-128-d16
+[32mtemplate instances[0m: 12
+non-linear constraints: 183831
+linear constraints: 1277
+public inputs: 4
+private inputs: 256
+public outputs: 0
+wires: 184855
+labels: 244161
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-128-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_sorted-128-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-128-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_sorted-128-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		58e21c99 135f0a2f 1dc01fde 250c678c
+		00b44a59 3b0fa9f1 ce25b925 915c2ada
+		7c89d5c7 b157006b 2395d4ee 5e8e8802
+		59532b05 1a8c1442 4df32348 b3957b1f
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_11 line: 215
+
+ERROR:  4 Error in template Lambda_11 line: 193
+
+ERROR:  4 Error in template Lambda_11 line: 210
+
+MEASURE lambda_sorted-128-d16 1/5: constraints=185108 prove=3026.045ms verify=7.002ms PASS
+MEASURE lambda_sorted-128-d16 2/5: constraints=185108 prove=2731.046ms verify=6.107ms PASS
+MEASURE lambda_sorted-128-d16 3/5: constraints=185108 prove=2595.406ms verify=5.789ms PASS
+MEASURE lambda_sorted-128-d16 4/5: constraints=185108 prove=2781.922ms verify=5.960ms PASS
+MEASURE lambda_sorted-128-d16 5/5: constraints=185108 prove=2807.543ms verify=6.242ms PASS
+========== lambda_naive size=128 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point lambda_naive 128 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-128-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-128-d16
+[32mtemplate instances[0m: 9
+non-linear constraints: 203643
+linear constraints: 8770
+public inputs: 4
+private inputs: 256
+public outputs: 0
+wires: 212414
+labels: 303599
+[32mWritten successfully:[0m build/experiment2/lambda_naive-128-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/lambda_naive-128-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-128-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/lambda_naive-128-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		046d6be4 95293b6c d92086d4 1f9d9013
+		7cc3d411 fc218f4e 07b2913a 7f03c966
+		a65b0265 5fcd65da 13460f73 733334d7
+		eb671e35 3bbb9788 c389f4f7 bd4f5dfa
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template Lambda_8 line: 215
+
+ERROR:  4 Error in template Lambda_8 line: 193
+
+MEASURE lambda_naive-128-d16 1/5: constraints=212413 prove=3259.576ms verify=6.451ms PASS
+MEASURE lambda_naive-128-d16 2/5: constraints=212413 prove=3040.905ms verify=5.709ms PASS
+MEASURE lambda_naive-128-d16 3/5: constraints=212413 prove=2824.137ms verify=6.688ms PASS
+MEASURE lambda_naive-128-d16 4/5: constraints=212413 prove=2988.150ms verify=5.490ms PASS
+MEASURE lambda_naive-128-d16 5/5: constraints=212413 prove=2960.380ms verify=5.629ms PASS
+========== gamma_q size=4 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_q 4 16 5
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+MEASURE gamma_q-4-d16 1/5: constraints=179091 prove=2851.593ms verify=6.787ms PASS
+MEASURE gamma_q-4-d16 2/5: constraints=179091 prove=2789.048ms verify=5.719ms PASS
+MEASURE gamma_q-4-d16 3/5: constraints=179091 prove=2763.675ms verify=5.539ms PASS
+MEASURE gamma_q-4-d16 4/5: constraints=179091 prove=2504.191ms verify=5.969ms PASS
+MEASURE gamma_q-4-d16 5/5: constraints=179091 prove=2761.606ms verify=5.675ms PASS
+========== gamma_p size=4 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_p 4 16 5
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+MEASURE gamma_p-4-d16 1/5: constraints=23356 prove=498.303ms verify=6.140ms PASS
+MEASURE gamma_p-4-d16 2/5: constraints=23356 prove=544.430ms verify=7.796ms PASS
+MEASURE gamma_p-4-d16 3/5: constraints=23356 prove=351.278ms verify=5.381ms PASS
+MEASURE gamma_p-4-d16 4/5: constraints=23356 prove=364.797ms verify=6.263ms PASS
+MEASURE gamma_p-4-d16 5/5: constraints=23356 prove=349.970ms verify=7.118ms PASS
+========== gamma_q size=8 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_q 8 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-8-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-8-d16
+[32mtemplate instances[0m: 16
+non-linear constraints: 301962
+linear constraints: 545
+public inputs: 6
+private inputs: 231
+public outputs: 0
+wires: 302560
+labels: 405064
+[32mWritten successfully:[0m build/experiment2/gamma_q-8-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_q-8-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-8-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-8-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		731e82e1 98ed6bd0 c6b43eca 5e0b8793
+		928ecb3e be47c3f5 9c66f88f 85888906
+		92128f59 78945bc5 f6780e48 2bd5a5e5
+		fe079f1d 97def9ce a40f74ff 444c9ca1
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+MEASURE gamma_q-8-d16 1/5: constraints=302507 prove=5982.641ms verify=10.787ms PASS
+MEASURE gamma_q-8-d16 2/5: constraints=302507 prove=5595.893ms verify=9.259ms PASS
+MEASURE gamma_q-8-d16 3/5: constraints=302507 prove=5781.518ms verify=6.442ms PASS
+MEASURE gamma_q-8-d16 4/5: constraints=302507 prove=5017.398ms verify=6.388ms PASS
+MEASURE gamma_q-8-d16 5/5: constraints=302507 prove=5236.508ms verify=7.648ms PASS
+========== gamma_p size=8 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_p 8 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-8-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-8-d16
+[32mtemplate instances[0m: 11
+non-linear constraints: 43044
+linear constraints: 228
+public inputs: 9
+private inputs: 57
+public outputs: 0
+wires: 43252
+labels: 57193
+[32mWritten successfully:[0m build/experiment2/gamma_p-8-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_p-8-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-8-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-8-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		f8152b6d 2c3db1de 15c17afa cf6ef9e9
+		1ef78f95 d4784c55 70e14a11 5af069ef
+		54c2bc32 4a161235 274852ed 73d2095f
+		4a818596 fefe7898 1005cca2 34f8126a
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+MEASURE gamma_p-8-d16 1/5: constraints=43272 prove=746.882ms verify=6.442ms PASS
+MEASURE gamma_p-8-d16 2/5: constraints=43272 prove=680.744ms verify=5.729ms PASS
+MEASURE gamma_p-8-d16 3/5: constraints=43272 prove=678.608ms verify=5.593ms PASS
+MEASURE gamma_p-8-d16 4/5: constraints=43272 prove=654.369ms verify=6.545ms PASS
+MEASURE gamma_p-8-d16 5/5: constraints=43272 prove=845.513ms verify=6.260ms PASS
+========== gamma_q size=16 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_q 16 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-16-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-16-d16
+[32mtemplate instances[0m: 16
+non-linear constraints: 548338
+linear constraints: 1001
+public inputs: 6
+private inputs: 415
+public outputs: 0
+wires: 549424
+labels: 735560
+[32mWritten successfully:[0m build/experiment2/gamma_q-16-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_q-16-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-16-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_21.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-16-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		c1543258 c153c3d4 7319ad1f cd2fee9c
+		e86c7fd1 1df1ab16 ff5dd76f 63432813
+		3c5eea04 87a8e206 3bf21266 b160d3f2
+		ac9650e0 98478d8f e3a74a28 de4e1c7e
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+MEASURE gamma_q-16-d16 1/5: constraints=549339 prove=10933.648ms verify=10.564ms PASS
+MEASURE gamma_q-16-d16 2/5: constraints=549339 prove=11193.594ms verify=10.815ms PASS
+MEASURE gamma_q-16-d16 3/5: constraints=549339 prove=11065.558ms verify=8.752ms PASS
+MEASURE gamma_q-16-d16 4/5: constraints=549339 prove=11955.381ms verify=8.299ms PASS
+MEASURE gamma_q-16-d16 5/5: constraints=549339 prove=10833.899ms verify=10.623ms PASS
+========== gamma_p size=16 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_p 16 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-16-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-16-d16
+[32mtemplate instances[0m: 11
+non-linear constraints: 82660
+linear constraints: 444
+public inputs: 9
+private inputs: 113
+public outputs: 0
+wires: 83060
+labels: 109801
+[32mWritten successfully:[0m build/experiment2/gamma_p-16-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_p-16-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-16-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-16-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		7174cd10 474f22c9 03026fbb a7aa2d52
+		f8dc5efa 6229468a 0416e548 cd5aaa05
+		1a823359 0f8d5d22 909d2db9 2b520667
+		8c74166a 4a91860a e0ecb806 b2b4a249
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+MEASURE gamma_p-16-d16 1/5: constraints=83104 prove=1401.726ms verify=6.677ms PASS
+MEASURE gamma_p-16-d16 2/5: constraints=83104 prove=1501.304ms verify=6.894ms PASS
+MEASURE gamma_p-16-d16 3/5: constraints=83104 prove=1460.314ms verify=5.870ms PASS
+MEASURE gamma_p-16-d16 4/5: constraints=83104 prove=1424.613ms verify=6.162ms PASS
+MEASURE gamma_p-16-d16 5/5: constraints=83104 prove=1461.182ms verify=52.048ms PASS
+========== gamma_q size=32 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_q 32 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-32-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-32-d16
+[32mtemplate instances[0m: 16
+non-linear constraints: 1041090
+linear constraints: 1913
+public inputs: 6
+private inputs: 783
+public outputs: 0
+wires: 1043152
+labels: 1396552
+[32mWritten successfully:[0m build/experiment2/gamma_q-32-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_q-32-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-32-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_21.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-32-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		c25aa124 7c44963e 84f34c7f e8c480fb
+		0667e6a6 88c4f14e d6455b8b 3cc20f9c
+		dcccbfae a67f90df 33bc2e55 56ce00b8
+		30cb3b43 633c189e 0bf8efd2 99f2af2a
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+MEASURE gamma_q-32-d16 1/5: constraints=1043003 prove=17461.692ms verify=9.839ms PASS
+MEASURE gamma_q-32-d16 2/5: constraints=1043003 prove=20983.387ms verify=11.034ms PASS
+MEASURE gamma_q-32-d16 3/5: constraints=1043003 prove=25331.557ms verify=47.867ms PASS
+MEASURE gamma_q-32-d16 4/5: constraints=1043003 prove=22705.489ms verify=10.348ms PASS
+MEASURE gamma_q-32-d16 5/5: constraints=1043003 prove=20869.806ms verify=10.708ms PASS
+========== gamma_p size=32 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_p 32 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-32-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-32-d16
+[32mtemplate instances[0m: 11
+non-linear constraints: 161892
+linear constraints: 876
+public inputs: 9
+private inputs: 225
+public outputs: 0
+wires: 162676
+labels: 215017
+[32mWritten successfully:[0m build/experiment2/gamma_p-32-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_p-32-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-32-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-32-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		8acdd6d9 1e68f1fc f4a50e1e 226b5d33
+		733165a0 d3cb186b 7b59ab67 cb1ec65d
+		852bba57 2ad74f95 22fed3a6 c425ea44
+		a44c78e3 6ccfc902 b082f9c5 f20c2dc4
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+MEASURE gamma_p-32-d16 1/5: constraints=162768 prove=2908.000ms verify=6.255ms PASS
+MEASURE gamma_p-32-d16 2/5: constraints=162768 prove=2786.279ms verify=6.542ms PASS
+MEASURE gamma_p-32-d16 3/5: constraints=162768 prove=2739.177ms verify=7.234ms PASS
+MEASURE gamma_p-32-d16 4/5: constraints=162768 prove=2774.696ms verify=5.260ms PASS
+MEASURE gamma_p-32-d16 5/5: constraints=162768 prove=2811.086ms verify=6.078ms PASS
+========== gamma_q size=64 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_q 64 16 5
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-64-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_21.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_q-64-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		c26459ff badb424b e39a84d2 a90d9685
+		1f7f04cd f9d8d437 852f0b46 7618e4eb
+		97f47ac6 0c0e92fe fcff0cc9 3e0d50ff
+		d23adf55 ff991af0 478ae901 801eba36
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+ERROR:  4 Error in template GammaQ_15 line: 136
+
+MEASURE gamma_q-64-d16 1/5: constraints=2030331 prove=44484.162ms verify=16.570ms PASS
+MEASURE gamma_q-64-d16 2/5: constraints=2030331 prove=48687.027ms verify=15.988ms PASS
+MEASURE gamma_q-64-d16 3/5: constraints=2030331 prove=51827.158ms verify=12.146ms PASS
+MEASURE gamma_q-64-d16 4/5: constraints=2030331 prove=52328.544ms verify=14.937ms PASS
+MEASURE gamma_q-64-d16 5/5: constraints=2030331 prove=51613.782ms verify=15.053ms PASS
+========== gamma_p size=64 depth=16 repeats=5 ==========
+$ ../../../../../usr/bin/node /mnt/user-data/zjh/zjh/second/src/experiment2.js --point gamma_p 64 16 5
+$ node_modules/.bin/circom2 /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-64-d16/circuit.circom --r1cs --wasm --O1 -l node_modules -o /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-64-d16
+[32mtemplate instances[0m: 11
+non-linear constraints: 320356
+linear constraints: 1740
+public inputs: 9
+private inputs: 449
+public outputs: 0
+wires: 321908
+labels: 425449
+[32mWritten successfully:[0m build/experiment2/gamma_p-64-d16/circuit.r1cs
+[32mWritten successfully:[0m build/experiment2/gamma_p-64-d16/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+$ node_modules/.bin/snarkjs groth16 setup /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-64-d16/circuit.r1cs /mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_19.ptau /mnt/user-data/zjh/zjh/second/build/experiment2/gamma_p-64-d16/initial.zkey
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		62c446f8 f605e036 352299b8 38a8523b
+		7ab90caa 961d00e2 7dbd0ff2 abc1e233
+		cd805be6 90cf6539 9853ff67 ab2db316
+		dee1d7dd 8c0901f1 2157e01d d9842a82
+Local research phase-2 contribution (not a production ceremony)
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+ERROR:  4 Error in template GammaP_10 line: 171
+
+MEASURE gamma_p-64-d16 1/5: constraints=322096 prove=6142.133ms verify=9.966ms PASS
+MEASURE gamma_p-64-d16 2/5: constraints=322096 prove=6184.818ms verify=8.657ms PASS
+MEASURE gamma_p-64-d16 3/5: constraints=322096 prove=6333.682ms verify=7.992ms PASS
+MEASURE gamma_p-64-d16 4/5: constraints=322096 prove=6537.205ms verify=9.759ms PASS
+MEASURE gamma_p-64-d16 5/5: constraints=322096 prove=6689.368ms verify=9.042ms PASS
+EXPERIMENT 2 FUNCTIONAL STATUS: PASS
+GammaP at least 10x faster at all sizes: NOT OBSERVED
+/mnt/user-data/zjh/zjh/second/plots/output/experiment2.png
+/mnt/user-data/zjh/zjh/second/plots/output/experiment2.pdf
+/mnt/user-data/zjh/zjh/second/plots/output/experiment2.svg

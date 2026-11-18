@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-16T13:23:40.173Z",
+  "source_revision": "b9c2f4d539236fc17f2196f1e4dc3af2aa5d4bd0cb8652a65ac470d89195ed7a",
+  "profile": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "id": 1112,
+    "psi_id": 1112,
+    "sources": 1,
+    "slots": 4,
+    "nodes": 4,
+    "parents": 4,
+    "log_depth": 32,
+    "directory_depth": 48,
+    "registry_depth": 32,
+    "slot_depth": 2,
+    "ablation": "FULL"
+  },
+  "hash_vectors": {
+    "status": "PASS",
+    "vectors": [
+      [
+        "5536973300318003571246742251101659444384494131398403825183747460043380604403",
+        "7439413921078027709664987148603646673226048590840653043891563659483542835490"
+      ],
+      [
+        "20204519870083333382926175043845365324396537010976772891944441907448584969967",
+        "5233594596678886905180408867180656859657114608933112178067497807249060987385"
+      ],
+      [
+        "16749141041436936420565319258784233900397494435116267722531066358114910274624",
+        "20761363094319619651095223342320281200214316362090098210736283369976148231008"
+      ],
+      [
+        "7157568083152623547619204880105655251451264678908719341590293966246885708599",
+        "6502179823028686584123903350876227936251239792580890848409948790168137492087"
+      ]
+    ]
+  },
+  "verifier_key_cache_checks": {
+    "valid": {
+      "id": "87c8b26abce92385b359499d6ae9463d",
+      "verified": true,
+      "verify_ms": 2136.45799,
+      "vk_id": "f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958",
+      "wall_ms": 2139.0423909999954,
+      "key_cache": "preloaded public key; proof verification not cached"
+    },
+    "wrong_public_statement": {
+      "error": "PUBLIC_STATE_MISMATCH",
+      "verified": false,
+      "vk_id": "f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958",
+      "wall_ms": 1231.2655860000013,
+      "key_cache": "preloaded public key; proof verification not cached"
+    }
+  },
+  "cases": [
+    {
+      "name": "ALLOW",
+      "expected": {
+        "status": "ALLOW",
+        "reason": 0
+      },
+      "actual": {
+        "status": "ALLOW",
+        "reason_code": 0,
+        "stage": "VERIFIED",
+        "action_authorized": true,
+        "action_token": "1d4e50f7283905f8fd351ccb5eb9ecb15d61c2ad4dea0ce6a8844c46b6164ef1",
+        "action_execution": {
+          "executed": true,
+          "task_digest": "0db6fd5de76dc37837a28014739d66258743fee99edd52b9f142f4be00dfa42d"
+        },
+        "verified": true,
+        "wall_ms": 1747.344121,
+        "timings": {
+          "psi_0_wall_ms": 1258.833516,
+          "joint_verify_ms": 189.71913699999982
+        },
+        "process": {
+          "exit_code": 0,
+          "signal": null,
+          "status": "PASS",
+          "wall_ms": 2070.1154870000028,
+          "sampled_process_tree_peak_rss_bytes": 281522176
+        }
+      },
+      "privacy": {
+        "forbidden_keys_found": [],
+        "private_markers_found": 0,
+        "pass": true,
+        "bytes": 23361
+      },
+      "pass": true,
+      "replay_blocked": true,
+      "action_double_consumption_blocked": true,
+      "tampered_proof": {
+        "status": "INVALID_PROOF",
+        "stage": "GROTH16_VERIFY",
+        "error": "GROTH16_VERIFY",
+        "action_authorized": false,
+        "wall_ms": 1805.942001,
+        "timings": {
+          "psi_0_wall_ms": 1335.516729,
+          "joint_verify_ms": 174.4259750000001
+        },
+        "process": {
+          "exit_code": 2,
+          "signal": null,
+          "status": "FAIL",
+          "wall_ms": 2121.4718040000007,
+          "sampled_process_tree_peak_rss_bytes": 360525824
+        }
+      },
+      "interface_checks": {
+        "max_risk_score": {
+          "status": "INVALID_PROOF",
+          "stage": "SOURCE_SIGNATURE",
+          "error": "SOURCE_TASK_BINDING",
+          "action_authorized": false,
+          "wall_ms": 201.21558999999996,
+          "timings": {},
+          "process": {
+            "exit_code": 2,
+            "signal": null,
+            "status": "FAIL",
+            "wall_ms": 499.3862470000022,
+            "sampled_process_tree_peak_rss_bytes": 239788032
+          }
+        },
+        "receiver_id": {
+          "status": "INVALID_PROOF",
+          "stage": "SOURCE_SIGNATURE",
+          "error": "SOURCE_TASK_BINDING",
+          "action_authorized": false,
+          "wall_ms": 200.877478,
+          "timings": {},
+          "process": {
+            "exit_code": 2,
+            "signal": null,
+            "status": "FAIL",
+            "wall_ms": 483.20627100000274,
+            "sampled_process_tree_peak_rss_bytes": 239640576
+          }
+        },
+        "nonce": {
+          "status": "INVALID_PROOF",
+          "stage": "SOURCE_SIGNATURE",
+          "error": "SOURCE_TASK_BINDING",
+          "action_authorized": false,
+          "wall_ms": 200.07367399999998,
+          "timings": {},
+          "process": {
+            "exit_code": 2,
+            "signal": null,
+            "status": "FAIL",
+            "wall_ms": 479.1267599999992,
+            "sampled_process_tree_peak_rss_bytes": 239878144
+          }
+        },
+        "skipped_confirmed_update": {
+          "status": "INVALID_PROOF",
+          "stage": "PSI_CHECKPOINT_BINDING",
+          "error": "PSI_CHECKPOINT_FRONTIER",
+          "action_authorized": false,
+          "wall_ms": 204.545391,
+          "timings": {},
+          "process": {
+            "exit_code": 2,
+            "signal": null,
+            "status": "FAIL",
+            "wall_ms": 482.767497000008,
+            "sampled_process_tree_peak_rss_bytes": 239804416
+          }
+        },
+        "tampered_nova": {
+          "status": "INVALID_PROOF",
+          "stage": "NOVA_VERIFY",
+          "error": "NOVA_VERIFY",
+          "action_authorized": false,
+          "wall_ms": 292.21710299999995,
+          "timings": {},
+          "process": {
+            "exit_code": 2,
+            "signal": null,
+            "status": "FAIL",
+            "wall_ms": 580.3801539999986,
+            "sampled_process_tree_peak_rss_bytes": 239161344
+          }
+        }
+      },
+      "negative_constraints": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        },
+        "omitted_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 71\n"
+        },
+        "deleted_parent": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 164\n"
+        },
+        "forged_reason": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        }
+      }
+    },
+    {
+      "name": "POLICY_DENY",
+      "expected": {
+        "status": "DENY",
+        "reason": 1
+      },
+      "actual": {
+        "status": "DENY",
+        "reason_code": 1,
+        "stage": "VERIFIED",
+        "action_authorized": false,
+        "action_token": null,
+        "action_execution": null,
+        "verified": true,
+        "wall_ms": 1717.570877,
+        "timings": {
+          "psi_0_wall_ms": 1227.514603,
+          "joint_verify_ms": 193.56196799999998
+        },
+        "process": {
+          "exit_code": 0,
+          "signal": null,
+          "status": "PASS",
+          "wall_ms": 2027.6963490000053,
+          "sampled_process_tree_peak_rss_bytes": 349052928
+        }
+      },
+      "privacy": {
+        "forbidden_keys_found": [],
+        "private_markers_found": 0,
+        "pass": true,
+        "bytes": 23361
+      },
+      "pass": true,
+      "negative_constraints": {
+        "forged_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        },
+        "forged_reason": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        }
+      }
+    },
+    {
+      "name": "INSUFFICIENT_SUPPORT",
+      "expected": {
+        "status": "DENY",
+        "reason": 2
+      },
+      "actual": {
+        "status": "DENY",
+        "reason_code": 2,
+        "stage": "VERIFIED",
+        "action_authorized": false,
+        "action_token": null,
+        "action_execution": null,
+        "verified": true,
+        "wall_ms": 1750.512012,
+        "timings": {
+          "psi_0_wall_ms": 1295.089059,
+          "joint_verify_ms": 161.364327
+        },
+        "process": {
+          "exit_code": 0,
+          "signal": null,
+          "status": "PASS",
+          "wall_ms": 2051.787142999994,
+          "sampled_process_tree_peak_rss_bytes": 239575040
+        }
+      },
+      "privacy": {
+        "forbidden_keys_found": [],
+        "private_markers_found": 0,
+        "pass": true,
+        "bytes": 23361
+      },
+      "pass": true,
+      "negative_constraints": {
+        "forged_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        },
+        "forged_reason": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template CoreJoint_168 line: 249\n"
+        }
+      }
+    }
+  ],
+  "transition_checks": {
+    "skipped_sequence": {
+      "rejected": true,
+      "layer": "Nova recursive public-state binding",
+      "standalone_step_satisfiable": true,
+      "execution": {
+        "exit_code": 1,
+        "signal": null,
+        "status": "FAIL",
+        "wall_ms": 42391.50024899999,
+        "sampled_process_tree_peak_rss_bytes": 2698551296
+      }
+    },
+    "version_rollback": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template PsiStep_118 line: 28\n"
+    },
+    "immutable_object": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template PsiStep_118 line: 30\n"
+    },
+    "unknown_operation": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template PsiStep_118 line: 13\n"
+    },
+    "tombstone_resurrection": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template PsiStep_118 line: 27\n"
+    }
+  },
+  "psi": {
+    "vk_id": "f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958",
+    "r1cs_sha256": "4428f9813636d31c6562c5f611ded0437658bf6bbd08f8ba379523c00be0c0d9",
+    "statement": {
+      "num_steps": 6,
+      "output": [
+        "1112",
+        "1",
+        "6",
+        "13478655493433072924562862613680638286103562273607096996336642286512889923962",
+        "14013909240484368717046232749238767994072465536107617638453210190454260634897",
+        "6125235040835897547409387427616326074042247648066275809701526541219308254376",
+        "10237864008366695486921006659432239470448530226089467938565505438215942740732"
+      ],
+      "z0": [
+        "1112",
+        "1",
+        "0",
+        "14958573148014947961237729941826909624589724552550369196294004362744222666318",
+        "14103060836287686486839118713871303842466298441005253147844216344996157303973",
+        "21127971056164569380408181465708475873688324072813170343516804781077437941182",
+        "411995879934897317902446530183882512418848489984666823551014462602184582150"
+      ]
+    },
+    "fold_ms": 5229.846511,
+    "export_ms": 90333.612309,
+    "proof_bytes": 13112
+  },
+  "joint": {
+    "vk_id": "7e59873288eadcb4d9ba80aeb7d9ebeb75daa7dfbdd24c4c05609e0d6187a116",
+    "r1cs_sha256": "9410a236c5e3a3f43cfa9b73f970f792aed5b1bea48dce6953b8e788abd35406",
+    "constraints": 1424669
+  },
+  "artifacts": {
+    "private_dir": "/mnt/user-data/zjh/zjh/second/results/core/private/prerequisite",
+    "keys_file": "/mnt/user-data/zjh/zjh/second/results/core/private/prerequisite/keys.json",
+    "source_events": "/mnt/user-data/zjh/zjh/second/results/core/private/prerequisite/events.json",
+    "state_file": "/mnt/user-data/zjh/zjh/second/results/core/private/prerequisite/state-result.json"
+  }
+}

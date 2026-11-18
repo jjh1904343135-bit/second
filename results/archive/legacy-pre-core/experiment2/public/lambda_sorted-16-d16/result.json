@@ -1,0 +1,81 @@
+{
+  "id": "lambda_sorted-16-d16",
+  "module": "lambda_sorted",
+  "size": 16,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 24836,
+  "prove_ms": 447.0100430000002,
+  "verify_ms": 11.248034400000325,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 456.83450000000084,
+      "verify_ms": 7.561103000000003,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 454.2045449999987,
+      "verify_ms": 5.484215000000404,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 473.23501600000054,
+      "verify_ms": 31.621264000001247,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 430.0393860000004,
+      "verify_ms": 6.231196999999156,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 420.73676800000067,
+      "verify_ms": 5.342393000000811,
+      "verified": true
+    }
+  ],
+  "witness_ms": 21.65649200000007,
+  "compile_ms": 487.48002099999997,
+  "setup_ms": 7773.132194000001,
+  "compiled_artifacts_reused": false,
+  "proving_key_reused": false,
+  "binding_checks": {
+    "inflated_count": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+    },
+    "replaced_multiset": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+    },
+    "unsorted_same_multiset": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "recordCount": 6
+  },
+  "public_inputs": {
+    "inputCommit": "13678735059563903065460802074602907224574926076055178913470639204212951617019",
+    "orderedCommit": "20905734658170500513233114875736183901411816177596930815759093492280227314250",
+    "nonce": "20261111",
+    "recordCount": "6"
+  },
+  "artifacts": {
+    "source": "f55690d1bacd31e026481805e40271f6e9afc84eea501f14ae3939e1def7b27e",
+    "r1cs": "b4c22f43d443d889205befc3e2a093165a0365696db3321231d00f54192c773a",
+    "wasm": "562d6b2ce81cd77d5227faa8d809d469b0c21531e6830c56c436a0534112b33b",
+    "verification_key": "88da17efd2aa063c49868c67e1e134de7585ea0971177cbdfdf2256c12c4d09a"
+  },
+  "measured_at": "2026-11-11T06:28:51.771Z"
+}

@@ -1,76 +1,29 @@
-# ZK Refund Agent — minimal end-to-end demo
+# RC-PEH 核心科研实验
 
-This demo proves that four private evidence records committed in Agent A's Poseidon Merkle tree support the minimum claims required by Agent B. The exact refund amount and unrelated customer fields never cross the A-to-B boundary.
-
-## Run
-
-Requires Node.js 18+ and a Unix-like shell:
+按《动态私有证据验证_核心实验与对比.md》前三节实现。真实本地证明、传递与独立验证；不提供模拟密码学后端。外部论文复现暂不开展。
 
 ```bash
-npm install
-bash scripts/setup.sh
-bash scripts/run_demo.sh
+npm run setup       # 锁定 npm、Rust 1.88.0 与 Nova 提交；编译原生后端
+npm run core:check  # 最小真实前置检查；失败则主实验不启动
+npm run core:all    # 前置检查、必需测试、实验一至三、自动报告和图
 ```
 
-The setup compiles the Circom circuit and performs a local Groth16 trusted setup. The run command executes the successful flow, checks the transport object for private-data leakage, and runs three attacks that must be blocked.
+分别运行：`npm run experiment:1`、`npm run experiment:2`、`npm run experiment:3`。仅重画已有结果：`npm run core:report`。单项入口要求最新源码的前置检查通过；旧脚本只转发到核心入口。
 
-## What is public and private
+**实际状态请读 [自动验收报告](results/core/VALIDATION_REPORT.md)**。报告分别判定功能、覆盖率和性能假设；没有样本的项目不会显示成功或补写曲线。运行可能很长，尤其 Nova 的零知识压缩导出和从创世重建对照。
 
-Public circuit inputs are the Merkle root, order ID, four minimal claim values, and the amount threshold. Private witnesses are the four evidence tuples and all Merkle paths. Agent B receives only the public Claim Bundle, root, Groth16 proof, and public signals.
+当前唯一协议路线：Rust Nova Ψ（BN254 / Grumpkin、Pedersen / IPA、官方 CompressedSNARK）＋一个 Circom / Groth16 Γ／Λ 联合证明。Nova 固定提交 `01b1e2d662a847ed7029770ecbaf6687398899dd`，依赖与工具链见 rust/psi。应用层 MiMCSponge 220 轮，两个 BN254 标量为一组根；固定域标签、层号和输入长度采用无歧义的公开 sponge key 编码。Rust、JavaScript、Circom 共用编码与实际测试向量，SHA-256 只用于任务、签名元数据和文件摘要，不把 256 位哈希取模塞进单个域元素。
 
-The amount predicate uses `LessThan(32)` to prove `privateAmount < publicThreshold + 1`, which is equivalent to `privateAmount <= publicThreshold` for the demo's non-negative 32-bit values.
+Ψ 真实约束 CREATE / REVISE / REVOKE、连续事件序号、递增版本、不可变字段、撤销 tombstone、日志根和当前状态目录根。日志／登记树深度 32，目录深度 48，槽位树随容量为 2 / 3 / 4。联合电路完成当前查询组认证、固定容量完整扫描、已登记祖先闭包、根与来源组去重、策略与原因码；没有查询／策略拆分复用、历史审计或四索引路线。主实验配置为 3 / 16 / 16，另有从 1 / 4 / 4 起的容量扫描。
 
-## Important limitation
+B 在独立 Node 进程中验证 Ed25519 检查点、真实 Nova 压缩证明、联合证明以及任务、前沿、接收方、nonce、输出和登记节点绑定，仅返回 ALLOW / DENY / INVALID_PROOF / UNAVAILABLE。行动授权绑定任务且 nonce 在接收方状态中只能消费一次。本地演示权威密钥由固定种子生成，明确不是生产密钥管理；权威签名认证来源，不宣称私有记录是现实世界绝对真理。时间使用显式 VIRTUAL_SECONDS 域，以便可重复地测试到期，不冒充真实业务时间。
 
-This is a functional demo, not production cryptography. The setup uses deterministic, published entropy, so it is intentionally insecure for real funds. Production use requires an audited circuit, bounded/domain-separated encodings, a secure multi-party ceremony or suitable existing parameters, authenticated commitment publication, replay/nullifier handling, and transactional refund-state updates.
+所有参数在 [configs/core.json](configs/core.json)。实验一先列举固定用例，再为五类攻击各生成 50 个种子变体，完整协议与四种单项消融使用独立密钥／接收配置。原始结果区分构造失败、验证拒绝、有效 DENY、不可用；共享正常证明不重复算独立样本。消融仅用于说明机制，不能当作同等安全的替代协议。
 
-## Ollama output-binding extension
+实验二采用单变量扫描，对照每个任务从创世重建 Ψ；复用版本只复用 Ψ，每个任务仍生成联合证明。预热一次，每档每臂目标 10 次独立测量，中位数和四分位区间。每档累计 30 分钟（包含编译、setup、维护、预热和运行），进程树 RSS 达 80 GiB 就终止。原始样本保留，未完成标记 PARTIAL / TIMEOUT / RESOURCE_LIMIT；容量扫描首个失败作为边界，更大容量和依赖主容量的项目明确标记 NOT_RUN。约束归属按优化后 R1CS 行实际使用的命名空间作互斥归类，混合行归 shared_binding，并核对总和；不将这些归属虚称为可独立证明的子电路。
 
-Run the ZK → policy → local LLM → semantic output-binding flow with:
+实验三只调用本机现有 `qwen3.8:27b`，完整 digest、请求、输出、工具版本及实际 GPU 进程记录自动保存，不下载模型。A1 检索和派生，A2 记忆转述，A3 收集见证并交接。模型仅接收验证工具白名单断言和策略结果；私有记录、路径、见证和父依赖由本地工具处理。自由文本不进入 B 交接包，不能写可信断言或决定 Action。真实模型轨迹先冻结，再用于完整协议和明文完整验证两臂重放；模型调用、离线上下文验证、重放和前沿追赶分别计时。明文臂沿用相同 Ψ 与签名绑定，由普通代码验证完整记录／认证路径／祖先图，主动披露这些信息属于基线设计差异。
 
-```bash
-bash scripts/run_llm_demo.sh
-```
+`results/core/` 包含运行配置、版本、种子、原始 JSONL / CSV、公开交接包、证明、公开输入、验证密钥、完整日志、报告和 PNG / PDF / SVG。`results/core/private/` 保存私有见证、递归状态和调试材料，已加入 gitignore；不能把它们当 B 附件。公开披露审计只是工程泄漏检查，不能替代零知识证明，也不保证主动恶意发送方无法经其他信道泄漏。
 
-The validated environment used the only locally installed model, `gemma4:26b`. `ollama ps` reported `100% GPU` on an NVIDIA GeForce RTX 5090 D. No model was downloaded.
-
-Ollama receives only this allow-listed object:
-
-```json
-{
-  "verifiedClaims": {
-    "orderId": 123,
-    "paymentStatus": "PAID",
-    "refundStatus": "NOT_REFUNDED",
-    "refundAmountLE1000": true,
-    "authorization": true
-  },
-  "policyResult": "APPROVED"
-}
-```
-
-The actual validation run passed the normal case and blocked the fake-claim, threshold, fake-Merkle-evidence, hallucinated-output, and privacy-extraction cases. The privacy request is rejected before prompt construction, so it is not forwarded to Ollama. The hallucination case injects an unsupported statement into a candidate model output to deterministically exercise the output gate without putting that fact in the trusted LLM input.
-
-The Output Binding checker uses a separate call to the same Ollama model with a strict JSON schema. It is a fail-closed semantic check, not a cryptographic proof, and can still make model-level classification errors. The independently auditable artifacts and raw run log are generated under `validation/`.
-
-## V2: cross-scenario generic circuit
-
-V2 replaces the fixed business-specific circuit with `circuits/generic_assertions.circom`. Its private Evidence tuple is:
-
-```text
-[schemaID, subjectID, fieldID, typeTag, value, timestamp, sourceGroupID]
-```
-
-Its public Assertion specifications select `EQ`, `LE`, `GE`, or `IN` and `REVEAL` or `PREDICATE`. `IN` supports up to two public members in this deliberately minimal circuit. No refund or employee field is encoded in the circuit.
-
-Run from a prepared checkout with:
-
-```bash
-npm install
-bash scripts/setup.sh
-bash scripts/run_v2_demo.sh
-```
-
-The run uses one R1CS, WASM, proving key, and verification key for both Refund and Employee Access. It also tests Ed25519-authenticated Ingestion roots, fake roots, fake claims, Agent B → Agent C proof forwarding, proofless assertion rejection, private-Evidence isolation, and the fact that LLM text has no write path to the action computation.
-
-The resulting independent audit package is in `validation_v2/`. Ingestion authentication means the Evidence belonged to a root signed by the trusted demo Ingestion service; it does not establish that the Evidence is absolute real-world truth.
+旧代码、旧图和旧测试移入 `archive/legacy/`，旧实验原始结果在 `results/archive/legacy-pre-core/`。它们仅供历史核查，不进入核心统计；不要用旧三攻击或旧深度 16 的微基准成绩填充新实验。

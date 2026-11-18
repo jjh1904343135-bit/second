@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 1205.5334970001131,
+  "sampled_process_tree_peak_rss_bytes": 116269056,
+  "command": [
+    "python3",
+    "/mnt/user-data/zjh/zjh/second/plots/core/plot_core.py"
+  ]
+}

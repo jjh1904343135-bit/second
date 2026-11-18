@@ -1,0 +1,90 @@
+{
+  "id": "gamma_p-4-d16",
+  "module": "gamma_p",
+  "size": 4,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 23356,
+  "prove_ms": 421.7554930000001,
+  "verify_ms": 6.539739999999893,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 498.30326,
+      "verify_ms": 6.140143999999964,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 544.4299129999999,
+      "verify_ms": 7.795978000000105,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 351.27802999999994,
+      "verify_ms": 5.38149999999996,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 364.79669300000023,
+      "verify_ms": 6.263032999999723,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 349.9695690000003,
+      "verify_ms": 7.118044999999711,
+      "verified": true
+    }
+  ],
+  "witness_ms": 22.327259000000026,
+  "compile_ms": null,
+  "setup_ms": null,
+  "compiled_artifacts_reused": true,
+  "proving_key_reused": true,
+  "binding_checks": {
+    "forged_decision": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+    },
+    "expired_record_claimed_allow": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+    },
+    "changed_commitment": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+    },
+    "expired_record_honest_deny": {
+      "witness_accepted": true
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+    "decision": 1
+  },
+  "public_inputs": {
+    "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+    "nonce": "20261111",
+    "timeRoot": "21415174589224657095839939584108956123916551162091903832666773412225723384416",
+    "lower": "1000",
+    "upper": "2000",
+    "evaluationTime": "2000",
+    "deadline": "3000",
+    "maxRisk": "5000",
+    "decision": "1"
+  },
+  "artifacts": {
+    "source": "e5fffabccc7787e9e075b021325101216c3dc30bc0c42c78707ce6c8a4917e3b",
+    "r1cs": "61a543376fb0ad3e202e1472ea3908d74a8f71340a3373df21e976557d041614",
+    "wasm": "2b265f50625702a3765816b744ee69ddb3f928763c34b2c637f130de9d577ba0",
+    "verification_key": "0ca469be6cdab7d36be5aa84bdc6f3935bd539075f28c10720391fa45491dd4d"
+  },
+  "measured_at": "2026-11-11T06:32:04.581Z"
+}

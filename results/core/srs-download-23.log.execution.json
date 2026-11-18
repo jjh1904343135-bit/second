@@ -1,0 +1,21 @@
+{
+  "exit_code": 92,
+  "signal": null,
+  "status": "FAIL",
+  "wall_ms": 704350.075135,
+  "sampled_process_tree_peak_rss_bytes": 13033472,
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--retry",
+    "2",
+    "--silent",
+    "--show-error",
+    "--continue-at",
+    "-",
+    "-o",
+    "/mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_23.ptau.part",
+    "https://circom.info/powersOfTau28_hez_final_23.ptau"
+  ]
+}

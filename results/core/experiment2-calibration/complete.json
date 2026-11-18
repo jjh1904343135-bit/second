@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "wall_ms": 1433182.019408,
+  "calibration": {
+    "status": "COMPLETE",
+    "profile": [
+      3,
+      16,
+      16
+    ],
+    "history": 64,
+    "lag": 0,
+    "tasks": 1,
+    "initialization_ms": 628582.165514,
+    "offline_setup_ms": 41309.583607,
+    "initial_maintenance_ms": 587272.581907,
+    "reuse_one_run_ms": 99519.86595400004,
+    "rebuild_one_run_ms": 679293.0832060002,
+    "repetitions": 10,
+    "budget_margin_ratio": 1.25,
+    "estimated_ten_repetition_ms": 8416711.657114003,
+    "recommended_configuration_timeout_seconds": 10521
+  }
+}

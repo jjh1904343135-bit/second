@@ -1,0 +1,58 @@
+{
+  "id": "P2_STALE_MEMORY-16-historical_audit_control",
+  "type": "P2_STALE_MEMORY",
+  "trial": 16,
+  "sample": "historical_audit_control",
+  "expected_allow": true,
+  "baseline": {
+    "B0_SIGNATURE_ONLY": {
+      "status": "ALLOW",
+      "action_authorized": true,
+      "stage": "ACCEPTED",
+      "record_count": 1,
+      "issuer_count": 1
+    },
+    "B1_MEMBERSHIP_ONLY": {
+      "status": "ALLOW",
+      "action_authorized": true,
+      "stage": "ACCEPTED",
+      "record_count": 1,
+      "issuer_count": 1
+    },
+    "B2_COMPLETE_QUERY_UNCHECKED_LINEAGE": {
+      "status": "ALLOW",
+      "action_authorized": true,
+      "stage": "ACCEPTED",
+      "record_count": 1,
+      "issuer_count": 1
+    }
+  },
+  "backend": "Groth16-BN254-MiMC",
+  "real_zk": true,
+  "proof_generated": true,
+  "witness_generated": true,
+  "generation_ms": 5887.033149000024,
+  "B_verification": {
+    "status": "ALLOW",
+    "reason_code": 0,
+    "proof_verified": true,
+    "action_authorized": false,
+    "exit_code": 0,
+    "role": "forwarding verification only"
+  },
+  "proof_forwarded_byte_identical": true,
+  "verification_ms": 464.13699599995743,
+  "status": "ALLOW",
+  "reason_code": 0,
+  "proof_verified": true,
+  "action_authorized": true,
+  "exit_code": 0,
+  "correct": true,
+  "cli_verification": {
+    "exit_code": 0,
+    "stdout": "\u001b[32;22m[INFO]  \u001b[39;1msnarkJS\u001b[0m: OK!\n",
+    "stderr": ""
+  },
+  "tampered_public_input_rejected": true,
+  "tampered_proof_rejected": true
+}

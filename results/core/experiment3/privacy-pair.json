@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "label": "sparse",
+      "Q_hits": 3,
+      "ancestor_nodes": 3,
+      "decision": "ALLOW",
+      "reason_code": 0,
+      "bytes": 61124,
+      "attachments": 4,
+      "fields": [
+        "protocol",
+        "profile_id",
+        "complete",
+        "sources",
+        "registry_checkpoint",
+        "payload",
+        "commitments",
+        "public_signals",
+        "proof"
+      ],
+      "source_checkpoint_lengths": [
+        4,
+        4,
+        4
+      ],
+      "registry_length": 12,
+      "root_wire_bytes": 128,
+      "audit": {
+        "forbidden_keys_found": [],
+        "private_markers_found": 0,
+        "pass": true,
+        "bytes": 61124
+      },
+      "file": "/mnt/user-data/zjh/zjh/second/results/core/experiment3/pair-sparse-B-input.json"
+    },
+    {
+      "label": "dense",
+      "Q_hits": 12,
+      "ancestor_nodes": 8,
+      "decision": "ALLOW",
+      "reason_code": 0,
+      "bytes": 61124,
+      "attachments": 4,
+      "fields": [
+        "protocol",
+        "profile_id",
+        "complete",
+        "sources",
+        "registry_checkpoint",
+        "payload",
+        "commitments",
+        "public_signals",
+        "proof"
+      ],
+      "source_checkpoint_lengths": [
+        4,
+        4,
+        4
+      ],
+      "registry_length": 12,
+      "root_wire_bytes": 128,
+      "audit": {
+        "forbidden_keys_found": [],
+        "private_markers_found": 0,
+        "pass": true,
+        "bytes": 61124
+      },
+      "file": "/mnt/user-data/zjh/zjh/second/results/core/experiment3/pair-dense-B-input.json"
+    }
+  ],
+  "same_task": true,
+  "same_capacity": true,
+  "equal_bytes": true,
+  "equal_attachments": true,
+  "explanation": "Roots and commitments differ in content but use fixed-width field encoding. Public source and registry checkpoint lengths are reported separately. Audit is an engineering disclosure check, not a substitute for the ZK argument."
+}

@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 5803620.005911,
+  "sampled_process_tree_peak_rss_bytes": 51987578880,
+  "command": [
+    "/usr/bin/node",
+    "/mnt/user-data/zjh/zjh/second/scripts/run_experiment2_frontier_cache.js",
+    "--worker"
+  ]
+}

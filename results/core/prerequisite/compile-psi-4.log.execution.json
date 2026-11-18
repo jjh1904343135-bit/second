@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 9198.780261999998,
+  "sampled_process_tree_peak_rss_bytes": 362311680,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/node_modules/.bin/circom2",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4/circuit.circom",
+    "--r1cs",
+    "--wasm",
+    "--sym",
+    "--O1",
+    "-l",
+    "node_modules",
+    "-o",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4"
+  ]
+}

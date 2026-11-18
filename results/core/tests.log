@@ -1,0 +1,680 @@
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.367437
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.173237
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.067295
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 419.693632
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 4109.629963
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.330262
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 72.932588
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4761.827154
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.471988
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.195301
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.167195
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 470.083188
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 3051.112046
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.362424
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 78.917119
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3775.273385
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.663636
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.20793
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.260631
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 518.388039
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 3174.184508
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.604843
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 86.553595
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 8 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 874.676891
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4843.427613
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.475398
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.177669
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.085013
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 436.980825
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2776.990266
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.349572
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 73.977538
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1820.545721
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 715.268004
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 787.710931
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6777.953014
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.467298
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.188466
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.053031
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 440.216079
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2778.242936
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.370952
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 76.05507
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1815.807444
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 708.944955
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 784.784977
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6773.500559
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.267538
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.167598
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.001243
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 423.530691
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2478.2321
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.24554
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 65.418272
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1600.203914
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 640.225241
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 764.329517
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6160.003513
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.256022
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.155082
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 0.950627
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 380.291915
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2364.512076
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.184615
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 63.43263
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1536.399997
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 619.037606
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 716.898227
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5853.964762
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 17.691447
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.168345
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 0.97964
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 417.431908
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2448.92273
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.212094
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 66.123958
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1606.406161
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 633.760466
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 690.587129
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6044.714839
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.435819
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.179079
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.097384
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 400.452541
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2552.080724
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.272449
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 68.636984
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1778.985289
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 621.413537
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 683.833935
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6261.768661
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.280197
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.151956
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 0.942639
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 374.195234
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2415.306863
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.217886
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 65.204897
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1570.344034
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 613.702552
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 681.037114
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5866.401417
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.265829
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.153588
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 0.962562
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 375.727437
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2354.784942
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.196919
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 64.336032
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1539.648557
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 615.930084
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 660.752594
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5755.629044
+TAP version 13
+# Subtest: canonical JSON rejects literal and escaped duplicate keys
+ok 1 - canonical JSON rejects literal and escaped duplicate keys
+  ---
+  duration_ms: 1.268694
+  ...
+# Subtest: scalar encoding rejects aliases, alternate casing and non-fixed width
+ok 2 - scalar encoding rejects aliases, alternate casing and non-fixed width
+  ---
+  duration_ms: 0.152252
+  ...
+# Subtest: complete records preserve all 64-bit timestamps
+ok 3 - complete records preserve all 64-bit timestamps
+  ---
+  duration_ms: 1.004983
+  ...
+# Subtest: log sequence, immutable keys and tombstones reject invalid updates
+ok 4 - log sequence, immutable keys and tombstones reject invalid updates
+  ---
+  duration_ms: 372.18668
+  ...
+# Subtest: independent reference deduplicates a diamond and distinguishes real groups
+ok 5 - independent reference deduplicates a diamond and distinguishes real groups
+  ---
+  duration_ms: 2375.672732
+  ...
+# Subtest: seed manifest has fifty actual attacks per family, positive controls separate
+ok 6 - seed manifest has fifty actual attacks per family, positive controls separate
+  ---
+  duration_ms: 1.209688
+  ...
+# Subtest: MiMC domain, path level and word count bind distinct statements
+ok 7 - MiMC domain, path level and word count bind distinct statements
+  ---
+  duration_ms: 64.782464
+  ...
+# Subtest: two replay arms consume the identical frozen registry and commitments
+ok 8 - two replay arms consume the identical frozen registry and commitments
+  ---
+  duration_ms: 1543.926809
+  ...
+# Subtest: incremental private-index snapshot equals actual genesis replay without changing its prefix
+ok 9 - incremental private-index snapshot equals actual genesis replay without changing its prefix
+  ---
+  duration_ms: 628.552057
+  ...
+# Subtest: plain verifier agrees with the three real prerequisite proofs and rejects omissions
+ok 10 - plain verifier agrees with the three real prerequisite proofs and rejects omissions
+  ---
+  duration_ms: 665.59727
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5802.80721

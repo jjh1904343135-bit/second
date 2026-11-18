@@ -1,0 +1,30 @@
+{
+  "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+  "profile_id": 1112,
+  "time_domain": "VIRTUAL_SECONDS",
+  "receiver_id": 9001,
+  "nonce": "d20c50fb0e764a489ab631a91f07a65b5837a44ec04be0c257da145db00781be",
+  "issued_at": 10000,
+  "evaluation_time": 10001,
+  "deadline": 10010,
+  "object_id": 7001,
+  "evidence_type": 1,
+  "registry_id": 8001,
+  "created_from": 0,
+  "created_until": 100,
+  "max_risk_score": 5000,
+  "purpose_bit": 0,
+  "min_support_groups": 1,
+  "require_each_source_nonempty": true,
+  "required_sources": [
+    1
+  ],
+  "source_groups": [
+    {
+      "source_id": 1,
+      "group_id": 1
+    }
+  ],
+  "psi_vk_id": "f2e4d0618874339ae579e0cf154765da87f22ae25a408e6d936b4a9cc547e958",
+  "task_vk_id": "7e59873288eadcb4d9ba80aeb7d9ebeb75daa7dfbdd24c4c05609e0d6187a116"
+}

@@ -1,0 +1,24 @@
+{"export_ms":150248.95388,"fold_ms":5662.553158,"proof_bytes":13384,"statement":{"num_steps":4,"output":["1112","1","4","11625752240306360019414727707467808975248466002415671420560436730814839318079","21810247380129050626407640707794248431028988329393302192884495578048901103683","12266041543381786166905866697256683161979460418222595620704026745134281120185","3328640720095371924097920768033338332285570689637192545933547955196752345191"],"z0":["1112","1","0","4085485975671108334263550828802776576490055884986772051496852246711118946368","10809600818289870848291466025617681885429811780403149389310462877432097445142","11467299175365795061446161698124083028557698007790490848809629850108276500774","1502559254488399369205999093709183844845109870883369781384909352737503309341"]},"status":"PASS","verify_ms":4718.886659}
+	Command being timed: "build/core/rust/release/rcpeh-psi prove build/core/psi-4/circuit.r1cs build/core/psi-4/nova results/core/private/initial/job.json"
+	User time (seconds): 4442.23
+	System time (seconds): 18.95
+	Percent of CPU this job got: 1344%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:31.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17057584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10376649
+	Voluntary context switches: 35034
+	Involuntary context switches: 435483
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 138056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

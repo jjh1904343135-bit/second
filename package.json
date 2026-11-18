@@ -1,18 +1,24 @@
 {
-  "name": "zk-refund-agent-demo",
+  "name": "rc-peh-research",
   "version": "1.0.0",
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "setup": "bash scripts/setup.sh",
-    "demo": "bash scripts/run_demo.sh",
-    "llm-demo": "bash scripts/run_llm_demo.sh",
-    "v2-demo": "bash scripts/run_v2_demo.sh"
+    "setup": "bash scripts/setup_core.sh",
+    "test": "node --test tests/core.test.js",
+    "core:check": "bash scripts/run_core.sh check",
+    "core:all": "bash scripts/run_core.sh all",
+    "experiment:1": "bash scripts/run_experiment1.sh",
+    "experiment:2": "bash scripts/run_experiment2.sh",
+    "experiment:2:calibrate": "bash scripts/run_core.sh experiment2-calibrate",
+    "experiment:2:main": "bash scripts/run_core.sh experiment2-main",
+    "experiment:3": "bash scripts/run_core.sh experiment3",
+    "core:report": "bash scripts/run_core.sh report"
   },
   "dependencies": {
-    "circom2": "^0.2.22",
-    "circomlib": "^2.0.5",
-    "circomlibjs": "^0.1.7",
-    "snarkjs": "^0.7.5"
+    "circom2": "0.2.23",
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "snarkjs": "0.7.6"
   }
 }

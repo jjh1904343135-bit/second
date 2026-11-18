@@ -1,0 +1,17 @@
+{
+  "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+  "id": 31348,
+  "psi_id": 1136,
+  "sources": 3,
+  "slots": 16,
+  "nodes": 16,
+  "parents": 4,
+  "log_depth": 32,
+  "directory_depth": 48,
+  "registry_depth": 32,
+  "slot_depth": 4,
+  "ablation": "NO_LINEAGE",
+  "lab_only": true,
+  "psi_vk_id": "640665e9434b59f8660fbd924a7aef7ce153163a2855ddb2ac0015d98c684143",
+  "joint_vk_id": "ce9a5c45871924d4fccdf4431d5d761e4dc7bc8894e62a969f73007b73a6e092"
+}

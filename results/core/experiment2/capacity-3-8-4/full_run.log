@@ -1,0 +1,35 @@
+[32mtemplate instances[0m: 120
+non-linear constraints: 621861
+linear constraints: 762
+public inputs: 7
+private inputs: 238 (236 belong to witness)
+public outputs: 7
+wires: 622695
+labels: 834405
+[32mWritten successfully:[0m build/core/psi-8/circuit.r1cs
+[32mWritten successfully:[0m build/core/psi-8/circuit.sym
+[32mWritten successfully:[0m build/core/psi-8/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+{"constraints":[634169,10538],"r1cs":"6798bba228d353400582f4d94491dfdb36f3400b30497f50af5f47273e1566cf","setup_ms":18485.384218,"status":"PASS"}
+[32mtemplate instances[0m: 172
+non-linear constraints: 2395503
+linear constraints: 7123
+public inputs: 57
+private inputs: 1990 (1987 belong to witness)
+public outputs: 0
+wires: 2401383
+labels: 3208058
+[32mWritten successfully:[0m build/core/joint-1320-FULL/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-1320-FULL/circuit.sym
+[32mWritten successfully:[0m build/core/joint-1320-FULL/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		2056b217 b1d5ec83 5ae5ff6b a30a4377
+		646ab042 ed62adcc 97258bde b1d6549b
+		4f15ddc4 9fe12c6c ac7be474 b8ad4ad6
+		9bef0b10 1e15ebcb 36aa6a54 c7f0c7b2

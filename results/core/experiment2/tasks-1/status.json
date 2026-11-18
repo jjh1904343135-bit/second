@@ -1,0 +1,13 @@
+{
+  "id": "tasks-1",
+  "status": "TIMEOUT",
+  "completed_samples": 1,
+  "expected_samples": 20,
+  "execution": {
+    "exit_code": null,
+    "signal": "SIGKILL",
+    "status": "TIMEOUT",
+    "wall_ms": 1801249.9588569999,
+    "sampled_process_tree_peak_rss_bytes": 50133352448
+  }
+}

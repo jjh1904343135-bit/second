@@ -1,0 +1,10 @@
+{
+  "profile": "RCPEH_REAL_MIMC_3S4E8N_V2",
+  "source_public_keys": [
+    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAVym8PzkyFharv4f5nR+RwTnFUoYCZ3n6jzKvqgPTPew=\n-----END PUBLIC KEY-----\n",
+    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAeX05R0zxEAzBBAGFcFslUiUODheZuS0LpCSQQsvLINY=\n-----END PUBLIC KEY-----\n",
+    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPvh9E/OtKvqZUH/7o/cT0O1z1Ai8OCUR/5Y9l8iPVHQ=\n-----END PUBLIC KEY-----\n"
+  ],
+  "registry_public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9ynCOi1XmCCg7k+XXFF/WviyYl7v+FQVMTLG3fT7OWQ=\n-----END PUBLIC KEY-----\n",
+  "verification_key_sha256": "6af9d12e36812b3dd7840adfe5a95bbec1457236d6b42728d82834686d072a95"
+}

@@ -1,0 +1,23 @@
+{
+  "profile": "RCPEH_REAL_MIMC_3S4E8N_V2",
+  "backend": "Groth16-BN254-MiMC",
+  "node": "v20.20.2",
+  "artifacts": {
+    "circuit": "9905654fb1f8c4e6fc79adadaf0e25e83e142a0941d564bfcd8014806494c3fd",
+    "r1cs": "9322a91ed232e01dbe4962bf49553c6d54433a52bb7d8da525dfd9c672150d73",
+    "wasm": "bcbb59ee88a88be658efc02d14f3427208b7b4397f37c1b741a55a0a1d975a37",
+    "verification_key": "6af9d12e36812b3dd7840adfe5a95bbec1457236d6b42728d82834686d072a95"
+  },
+  "circuit_metadata": {
+    "constraints": 459089,
+    "wires": 457969,
+    "public_inputs": 56,
+    "private_inputs": 505,
+    "power": 19,
+    "hash": "MiMCSponge-220-BN254",
+    "parameter_url": "https://circom.info/powersOfTau28_hez_final_19.ptau",
+    "parameter_provenance": "snarkjs official README prepared parameters table",
+    "setup": "single local circuit contribution; research only"
+  },
+  "command": "npm run experiment:1 -- --trials 50"
+}

@@ -1,0 +1,10 @@
+Error: OLLAMA_TIMEOUT
+    at ClientRequest.<anonymous> (/mnt/user-data/zjh/zjh/second/src/core/agents.js:10:76)
+    at Object.onceWrapper (node:events:638:28)
+    at ClientRequest.emit (node:events:524:28)
+    at Socket.emitRequestTimeout (node:_http_client:849:9)
+    at Object.onceWrapper (node:events:638:28)
+    at Socket.emit (node:events:536:35)
+    at Socket._onTimeout (node:net:595:8)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)

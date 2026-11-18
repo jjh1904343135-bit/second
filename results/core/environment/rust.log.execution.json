@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 13.932578000000007,
+  "sampled_process_tree_peak_rss_bytes": 0,
+  "command": [
+    "rustc",
+    "--version"
+  ]
+}

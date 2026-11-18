@@ -1,0 +1,14 @@
+{
+  "exit_code": null,
+  "signal": "SIGKILL",
+  "status": "TIMEOUT",
+  "wall_ms": 1800281.154431,
+  "sampled_process_tree_peak_rss_bytes": 18053427200,
+  "command": [
+    "/usr/bin/node",
+    "/mnt/user-data/zjh/zjh/second/src/core/performance.js",
+    "--worker",
+    "/mnt/user-data/zjh/zjh/second/results/core/experiment2/capacity-1-4-4/config.json",
+    "/mnt/user-data/zjh/zjh/second/results/core/experiment2/capacity-1-4-4"
+  ]
+}

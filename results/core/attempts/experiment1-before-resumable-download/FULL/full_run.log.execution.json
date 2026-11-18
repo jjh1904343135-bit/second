@@ -1,0 +1,14 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "status": "FAIL",
+  "wall_ms": 671116.286753,
+  "sampled_process_tree_peak_rss_bytes": 15912292352,
+  "command": [
+    "/usr/bin/node",
+    "/mnt/user-data/zjh/zjh/second/src/core/security.js",
+    "--worker",
+    "FULL",
+    "/mnt/user-data/zjh/zjh/second/results/core/experiment1/FULL"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "capacity-2-4-4",
+  "status": "TIMEOUT",
+  "completed_samples": 3,
+  "expected_samples": 20,
+  "execution": {
+    "exit_code": null,
+    "signal": "SIGKILL",
+    "status": "TIMEOUT",
+    "wall_ms": 1800219.4152690002,
+    "sampled_process_tree_peak_rss_bytes": 18464542720
+  }
+}

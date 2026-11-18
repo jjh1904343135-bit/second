@@ -1,0 +1,80 @@
+{
+  "id": "gamma_q-32-d16",
+  "module": "gamma_q",
+  "size": 32,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 1043003,
+  "prove_ms": 21470.386062800004,
+  "verify_ms": 17.95918160000001,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 17461.691734000007,
+      "verify_ms": 9.838795000017853,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 20983.386853000004,
+      "verify_ms": 11.034174000000348,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 25331.55741400001,
+      "verify_ms": 47.8670469999779,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 22705.488695999986,
+      "verify_ms": 10.347881000023335,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 20869.805617000005,
+      "verify_ms": 10.708010999980615,
+      "verified": true
+    }
+  ],
+  "witness_ms": 835.3436270000093,
+  "compile_ms": 13009.051706,
+  "setup_ms": 100779.499694,
+  "compiled_artifacts_reused": false,
+  "proving_key_reused": false,
+  "binding_checks": {
+    "changed_merkle_path": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "omitted_matching_record": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+    "decision": 1
+  },
+  "public_inputs": {
+    "timeRoot": "5734619228894229504936603910798974327088689750193155638305273856203114558207",
+    "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+    "nonce": "20261111",
+    "lower": "1000",
+    "upper": "2000",
+    "startIndex": "1"
+  },
+  "artifacts": {
+    "source": "2f07b4b5f89ca77dc2583d4d3a595060c2a0fdd6cc94707eb1478a8432fd6cd0",
+    "r1cs": "8b289045ba09b18e3c0b22d28cea8f843666519cc1f85953a46977c9b4d7753a",
+    "wasm": "19abe6335e81fa15e6c103346f4af18482fc803f3312bc5981900f23c607508c",
+    "verification_key": "5f0b0cce2f36a9492add2105adefe33a2fe971b58b1a96a0cb569c080a59c024"
+  },
+  "measured_at": "2026-11-11T06:39:42.769Z"
+}

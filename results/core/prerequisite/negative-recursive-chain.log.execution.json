@@ -1,0 +1,14 @@
+{
+  "exit_code": 1,
+  "signal": null,
+  "status": "FAIL",
+  "wall_ms": 42391.50024899999,
+  "sampled_process_tree_peak_rss_bytes": 2698551296,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/build/core/rust/release/rcpeh-psi",
+    "prove",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4/circuit.r1cs",
+    "/mnt/user-data/zjh/zjh/second/build/core/psi-4/nova",
+    "/mnt/user-data/zjh/zjh/second/results/core/private/prerequisite/jumped-state-job.json"
+  ]
+}

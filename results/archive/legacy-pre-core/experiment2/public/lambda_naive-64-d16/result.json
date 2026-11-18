@@ -1,0 +1,77 @@
+{
+  "id": "lambda_naive-64-d16",
+  "module": "lambda_naive",
+  "size": 64,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 99005,
+  "prove_ms": 1567.1369156,
+  "verify_ms": 7.392345600000408,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 1631.0051669999993,
+      "verify_ms": 8.105038999998214,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 1595.1457569999984,
+      "verify_ms": 6.0753700000022945,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 1549.4104020000013,
+      "verify_ms": 6.477225999999064,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 1531.8021230000013,
+      "verify_ms": 8.855212000002211,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 1528.321129,
+      "verify_ms": 7.448881000000256,
+      "verified": true
+    }
+  ],
+  "witness_ms": 62.01447299999927,
+  "compile_ms": 1408.902631,
+  "setup_ms": 15582.387991,
+  "compiled_artifacts_reused": false,
+  "proving_key_reused": false,
+  "binding_checks": {
+    "inflated_count": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+    },
+    "replaced_multiset": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "recordCount": 22
+  },
+  "public_inputs": {
+    "inputCommit": "1711522794556643924795217570332821628143815856251236312814328920765257512722",
+    "orderedCommit": "471040827162545682330089992003172656974999952293631204374016855959445406276",
+    "nonce": "20261111",
+    "recordCount": "22"
+  },
+  "artifacts": {
+    "source": "a5359131efa7c500a9dfe101d1a9f3c1790a7f380371b6f6a86fd5951924908b",
+    "r1cs": "812d1f0de83ff28f6c6f5caa0f09c16d508877682f3360896689988326a3e583",
+    "wasm": "0c42ac91569cdcf4b5fa33dac190c23bca16c1503e0f78f240463140553cd5e0",
+    "verification_key": "d33e9a3da2af0b93a92512d38857a9f08397cbac8bd6a724f2af014efde12ce5"
+  },
+  "measured_at": "2026-11-11T06:30:28.000Z"
+}

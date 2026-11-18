@@ -1,0 +1,613 @@
+[32mtemplate instances[0m: 174
+non-linear constraints: 6505533
+linear constraints: 21391
+public inputs: 57
+private inputs: 5302 (5299 belong to witness)
+public outputs: 0
+wires: 6523761
+labels: 8725754
+[32mWritten successfully:[0m build/core/joint-11348-NO_QUERY/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-11348-NO_QUERY/circuit.sym
+[32mWritten successfully:[0m build/core/joint-11348-NO_QUERY/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		0263baf6 691beeec c3c97ef2 591a4237
+		6ca59660 4d2bdecd 008d7743 431edda4
+		5d7723d8 22c9375e dd81528b b7b1b2e8
+		f6b3d2fc 25859dd2 94fc648e 1f6692aa
+NO_QUERY fixed-omission-missing_source: verification_rejection
+NO_QUERY fixed-omission-unfavorable_same_group: accepted
+NO_QUERY fixed-omission-skipped_confirmed_update: verification_rejection
+NO_QUERY fixed-omission-late_published_in_window: accepted
+NO_QUERY variant-omission-0: verification_rejection
+NO_QUERY variant-omission-1: accepted
+NO_QUERY variant-omission-2: verification_rejection
+NO_QUERY variant-omission-3: accepted
+NO_QUERY variant-omission-4: verification_rejection
+NO_QUERY variant-omission-5: accepted
+NO_QUERY variant-omission-6: verification_rejection
+NO_QUERY variant-omission-7: accepted
+NO_QUERY variant-omission-8: verification_rejection
+NO_QUERY variant-omission-9: accepted
+NO_QUERY variant-omission-10: verification_rejection
+NO_QUERY variant-omission-11: accepted
+NO_QUERY variant-omission-12: verification_rejection
+NO_QUERY variant-omission-13: accepted
+NO_QUERY variant-omission-14: verification_rejection
+NO_QUERY variant-omission-15: accepted
+NO_QUERY variant-omission-16: verification_rejection
+NO_QUERY variant-omission-17: accepted
+NO_QUERY variant-omission-18: verification_rejection
+NO_QUERY variant-omission-19: accepted
+NO_QUERY variant-omission-20: verification_rejection
+NO_QUERY variant-omission-21: accepted
+NO_QUERY variant-omission-22: verification_rejection
+NO_QUERY variant-omission-23: accepted
+NO_QUERY variant-omission-24: verification_rejection
+NO_QUERY variant-omission-25: accepted
+NO_QUERY variant-omission-26: verification_rejection
+NO_QUERY variant-omission-27: accepted
+NO_QUERY variant-omission-28: verification_rejection
+NO_QUERY variant-omission-29: accepted
+NO_QUERY variant-omission-30: verification_rejection
+NO_QUERY variant-omission-31: accepted
+NO_QUERY variant-omission-32: verification_rejection
+NO_QUERY variant-omission-33: accepted
+NO_QUERY variant-omission-34: verification_rejection
+NO_QUERY variant-omission-35: accepted
+NO_QUERY variant-omission-36: verification_rejection
+NO_QUERY variant-omission-37: accepted
+NO_QUERY variant-omission-38: verification_rejection
+NO_QUERY variant-omission-39: accepted
+NO_QUERY variant-omission-40: verification_rejection
+NO_QUERY variant-omission-41: accepted
+NO_QUERY variant-omission-42: verification_rejection
+NO_QUERY variant-omission-43: accepted
+NO_QUERY variant-omission-44: verification_rejection
+NO_QUERY variant-omission-45: accepted
+NO_QUERY variant-omission-46: verification_rejection
+NO_QUERY variant-omission-47: accepted
+NO_QUERY variant-omission-48: verification_rejection
+NO_QUERY variant-omission-49: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-invalid_reuse-old_version: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-invalid_reuse-revoked: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-invalid_reuse-expired: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-invalid_reuse-wrong_purpose: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-invalid_reuse-49: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY fixed-lineage-deleted_parent: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY fixed-lineage-impersonate_root: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-lineage-chain_echo: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-lineage-diamond_echo: construction_failure
+NO_QUERY fixed-lineage-true_two_groups: accepted
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-lineage-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 164
+
+NO_QUERY variant-lineage-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 128
+
+NO_QUERY variant-lineage-49: construction_failure
+NO_QUERY fixed-substitution-new_checkpoint_old_psi: verification_rejection
+NO_QUERY fixed-substitution-policy: verification_rejection
+NO_QUERY fixed-substitution-receiver: verification_rejection
+NO_QUERY fixed-substitution-nonce: verification_rejection
+NO_QUERY fixed-substitution-result: verification_rejection
+NO_QUERY fixed-substitution-same_content_node: verification_rejection
+NO_QUERY variant-substitution-0: verification_rejection
+NO_QUERY variant-substitution-1: verification_rejection
+NO_QUERY variant-substitution-2: verification_rejection
+NO_QUERY variant-substitution-3: verification_rejection
+NO_QUERY variant-substitution-4: verification_rejection
+NO_QUERY variant-substitution-5: verification_rejection
+NO_QUERY variant-substitution-6: verification_rejection
+NO_QUERY variant-substitution-7: verification_rejection
+NO_QUERY variant-substitution-8: verification_rejection
+NO_QUERY variant-substitution-9: verification_rejection
+NO_QUERY variant-substitution-10: verification_rejection
+NO_QUERY variant-substitution-11: verification_rejection
+NO_QUERY variant-substitution-12: verification_rejection
+NO_QUERY variant-substitution-13: verification_rejection
+NO_QUERY variant-substitution-14: verification_rejection
+NO_QUERY variant-substitution-15: verification_rejection
+NO_QUERY variant-substitution-16: verification_rejection
+NO_QUERY variant-substitution-17: verification_rejection
+NO_QUERY variant-substitution-18: verification_rejection
+NO_QUERY variant-substitution-19: verification_rejection
+NO_QUERY variant-substitution-20: verification_rejection
+NO_QUERY variant-substitution-21: verification_rejection
+NO_QUERY variant-substitution-22: verification_rejection
+NO_QUERY variant-substitution-23: verification_rejection
+NO_QUERY variant-substitution-24: verification_rejection
+NO_QUERY variant-substitution-25: verification_rejection
+NO_QUERY variant-substitution-26: verification_rejection
+NO_QUERY variant-substitution-27: verification_rejection
+NO_QUERY variant-substitution-28: verification_rejection
+NO_QUERY variant-substitution-29: verification_rejection
+NO_QUERY variant-substitution-30: verification_rejection
+NO_QUERY variant-substitution-31: verification_rejection
+NO_QUERY variant-substitution-32: verification_rejection
+NO_QUERY variant-substitution-33: verification_rejection
+NO_QUERY variant-substitution-34: verification_rejection
+NO_QUERY variant-substitution-35: verification_rejection
+NO_QUERY variant-substitution-36: verification_rejection
+NO_QUERY variant-substitution-37: verification_rejection
+NO_QUERY variant-substitution-38: verification_rejection
+NO_QUERY variant-substitution-39: verification_rejection
+NO_QUERY variant-substitution-40: verification_rejection
+NO_QUERY variant-substitution-41: verification_rejection
+NO_QUERY variant-substitution-42: verification_rejection
+NO_QUERY variant-substitution-43: verification_rejection
+NO_QUERY variant-substitution-44: verification_rejection
+NO_QUERY variant-substitution-45: verification_rejection
+NO_QUERY variant-substitution-46: verification_rejection
+NO_QUERY variant-substitution-47: verification_rejection
+NO_QUERY variant-substitution-48: verification_rejection
+NO_QUERY variant-substitution-49: verification_rejection
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-reason-insufficient_as_policy: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY fixed-reason-both_fail_priority: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-0: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-1: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-2: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-3: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-4: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-5: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-6: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-7: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-8: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-9: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-10: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-11: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-12: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-13: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-14: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-15: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-16: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-17: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-18: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-19: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-20: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-21: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-22: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-23: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-24: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-25: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-26: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-27: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-28: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-29: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-30: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-31: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-32: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-33: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-34: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-35: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-36: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-37: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-38: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-39: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-40: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-41: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-42: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-43: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-44: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-45: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-46: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-47: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-48: construction_failure
+ERROR:  4 Error in template CoreJoint_173 line: 249
+
+NO_QUERY variant-reason-49: construction_failure

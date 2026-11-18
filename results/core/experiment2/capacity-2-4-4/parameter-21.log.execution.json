@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 6447.805917999998,
+  "sampled_process_tree_peak_rss_bytes": 1056768,
+  "command": [
+    "b2sum",
+    "/mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_21.ptau"
+  ]
+}

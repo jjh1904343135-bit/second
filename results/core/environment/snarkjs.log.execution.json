@@ -1,0 +1,11 @@
+{
+  "exit_code": 99,
+  "signal": null,
+  "status": "FAIL",
+  "wall_ms": 67.61683400000004,
+  "sampled_process_tree_peak_rss_bytes": 0,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/node_modules/.bin/snarkjs",
+    "--version"
+  ]
+}

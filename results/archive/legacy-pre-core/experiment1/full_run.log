@@ -1,0 +1,1071 @@
+REAL P1_OMISSION-0-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-0-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-0-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-0-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-0-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-0-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 271
+
+ERROR:  4 Error in template RealExperiment1_26 line: 241
+
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-0-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-1-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-1-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-1-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-1-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-1-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-1-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-1-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-2-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-2-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-2-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-2-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-2-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-2-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-2-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-3-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-3-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-3-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-3-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-3-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-3-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-3-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-4-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-4-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-4-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-4-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-4-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-4-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-4-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-5-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-5-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-5-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-5-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-5-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-5-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-5-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-6-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-6-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-6-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-6-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-6-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-6-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-6-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-7-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-7-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-7-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-7-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-7-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-7-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-7-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-8-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-8-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-8-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-8-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-8-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-8-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-8-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-9-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-9-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-9-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-9-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-9-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-9-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-9-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-10-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-10-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-10-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-10-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-10-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-10-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-10-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-11-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-11-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-11-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-11-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-11-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-11-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-11-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-12-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-12-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-12-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-12-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-12-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-12-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-12-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-13-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-13-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-13-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-13-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-13-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-13-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-13-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-14-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-14-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-14-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-14-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-14-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-14-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-14-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-15-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-15-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-15-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-15-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-15-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-15-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-15-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-16-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-16-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-16-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-16-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-16-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-16-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-16-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-17-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-17-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-17-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-17-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-17-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-17-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-17-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-18-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-18-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-18-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-18-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-18-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-18-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-18-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-19-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-19-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-19-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-19-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-19-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-19-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-19-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-20-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-20-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-20-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-20-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-20-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-20-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-20-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-21-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-21-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-21-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-21-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-21-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-21-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-21-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-22-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-22-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-22-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-22-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-22-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-22-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-22-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-23-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-23-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-23-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-23-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-23-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-23-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-23-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-24-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-24-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-24-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-24-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-24-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-24-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-24-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-25-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-25-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-25-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-25-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-25-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-25-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-25-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-26-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-26-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-26-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-26-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-26-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-26-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-26-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-27-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-27-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-27-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-27-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-27-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-27-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-27-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-28-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-28-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-28-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-28-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-28-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-28-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-28-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-29-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-29-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-29-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-29-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-29-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-29-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-29-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-30-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-30-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-30-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-30-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-30-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-30-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-30-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-31-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-31-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-31-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-31-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-31-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-31-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-31-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-32-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-32-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-32-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-32-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-32-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-32-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-32-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-33-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-33-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-33-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-33-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-33-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-33-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-33-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-34-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-34-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-34-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-34-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-34-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-34-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-34-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-35-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-35-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-35-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-35-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-35-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-35-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-35-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-36-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-36-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-36-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-36-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-36-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-36-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-36-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-37-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-37-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-37-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-37-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-37-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-37-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-37-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-38-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-38-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-38-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-38-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-38-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-38-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-38-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-39-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-39-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-39-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-39-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-39-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-39-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-39-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-40-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-40-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-40-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-40-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-40-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-40-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-40-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-41-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-41-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-41-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-41-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-41-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-41-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-41-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-42-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-42-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-42-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-42-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-42-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-42-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-42-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-43-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-43-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-43-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-43-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-43-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-43-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-43-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-44-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-44-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-44-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-44-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-44-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-44-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-44-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-45-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-45-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-45-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-45-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-45-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-45-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-45-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-46-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-46-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-46-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-46-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-46-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-46-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-46-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-47-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-47-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-47-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-47-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-47-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-47-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-47-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-48-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-48-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-48-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-48-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-48-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-48-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-48-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+REAL P1_OMISSION-49-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 54
+
+REAL P1_OMISSION-49-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-49-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-49-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P2_STALE_MEMORY-49-historical_audit_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+REAL P3_SAME_SOURCE_ECHO-49-attack
+ERROR:  4 Error in template RealExperiment1_26 line: 330
+
+  B verified=true; C=DENY; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=1, IssuerCount=1
+REAL P3_SAME_SOURCE_ECHO-49-benign_control
+  B verified=true; C=ALLOW; [INFO]  snarkJS: OK!
+  Circuit witness: RecordCount=3, IssuerCount=3
+┌─────────┬───────────────────────┬───────────────────────────────────────┬─────────┬─────────┬───────────────────────┬────────────────┬──────────┬─────────────────────────┐
+│ (index) │ attack                │ scheme                                │ blocked │ attacks │ interception_rate_pct │ false_positive │ controls │ false_positive_rate_pct │
+├─────────┼───────────────────────┼───────────────────────────────────────┼─────────┼─────────┼───────────────────────┼────────────────┼──────────┼─────────────────────────┤
+│ 0       │ 'P1_OMISSION'         │ 'B0_SIGNATURE_ONLY'                   │ 0       │ 50      │ 0                     │ 0              │ 50       │ 0                       │
+│ 1       │ 'P1_OMISSION'         │ 'B1_MEMBERSHIP_ONLY'                  │ 0       │ 50      │ 0                     │ 0              │ 50       │ 0                       │
+│ 2       │ 'P1_OMISSION'         │ 'B2_COMPLETE_QUERY_UNCHECKED_LINEAGE' │ 50      │ 50      │ 100                   │ 0              │ 50       │ 0                       │
+│ 3       │ 'P1_OMISSION'         │ 'RC_PEH_REAL'                         │ 50      │ 50      │ 100                   │ 0              │ 50       │ 0                       │
+│ 4       │ 'P2_STALE_MEMORY'     │ 'B0_SIGNATURE_ONLY'                   │ 0       │ 50      │ 0                     │ 0              │ 100      │ 0                       │
+│ 5       │ 'P2_STALE_MEMORY'     │ 'B1_MEMBERSHIP_ONLY'                  │ 0       │ 50      │ 0                     │ 0              │ 100      │ 0                       │
+│ 6       │ 'P2_STALE_MEMORY'     │ 'B2_COMPLETE_QUERY_UNCHECKED_LINEAGE' │ 50      │ 50      │ 100                   │ 0              │ 100      │ 0                       │
+│ 7       │ 'P2_STALE_MEMORY'     │ 'RC_PEH_REAL'                         │ 50      │ 50      │ 100                   │ 0              │ 100      │ 0                       │
+│ 8       │ 'P3_SAME_SOURCE_ECHO' │ 'B0_SIGNATURE_ONLY'                   │ 0       │ 50      │ 0                     │ 0              │ 50       │ 0                       │
+│ 9       │ 'P3_SAME_SOURCE_ECHO' │ 'B1_MEMBERSHIP_ONLY'                  │ 0       │ 50      │ 0                     │ 0              │ 50       │ 0                       │
+│ 10      │ 'P3_SAME_SOURCE_ECHO' │ 'B2_COMPLETE_QUERY_UNCHECKED_LINEAGE' │ 0       │ 50      │ 0                     │ 0              │ 50       │ 0                       │
+│ 11      │ 'P3_SAME_SOURCE_ECHO' │ 'RC_PEH_REAL'                         │ 50      │ 50      │ 100                   │ 0              │ 50       │ 0                       │
+└─────────┴───────────────────────┴───────────────────────────────────────┴─────────┴─────────┴───────────────────────┴────────────────┴──────────┴─────────────────────────┘
+REAL EXPERIMENT 1 STATUS: PASS

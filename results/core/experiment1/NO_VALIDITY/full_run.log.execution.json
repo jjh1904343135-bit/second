@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 6972252.051423001,
+  "sampled_process_tree_peak_rss_bytes": 50681290752,
+  "command": [
+    "/usr/bin/node",
+    "/mnt/user-data/zjh/zjh/second/src/core/security.js",
+    "--worker",
+    "NO_VALIDITY",
+    "/mnt/user-data/zjh/zjh/second/results/core/experiment1/NO_VALIDITY"
+  ]
+}

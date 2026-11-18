@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "id": 1112,
+    "psi_id": 1112,
+    "sources": 1,
+    "slots": 4,
+    "nodes": 4,
+    "parents": 4,
+    "log_depth": 32,
+    "directory_depth": 48,
+    "registry_depth": 32,
+    "slot_depth": 2,
+    "ablation": "FULL"
+  },
+  "source_public_keys": [
+    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1gxm0KM/Sg2IItgCexl1tTtVX49uUhxPaD4Ca+SK9WY=\n-----END PUBLIC KEY-----\n"
+  ],
+  "registry_public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4h5/lZgiIp/1NLRdCfZVXpY/vLE8+DP666D2bjoCyMY=\n-----END PUBLIC KEY-----\n",
+  "verification_only": true
+}

@@ -1,0 +1,80 @@
+{
+  "id": "gamma_q-4-d16",
+  "module": "gamma_q",
+  "size": 4,
+  "depth": 16,
+  "repeats": 5,
+  "status": "PASS",
+  "constraints": 179091,
+  "prove_ms": 2734.0226783999997,
+  "verify_ms": 5.937706400000207,
+  "trials": [
+    {
+      "repeat": 0,
+      "prove_ms": 2851.5928239999994,
+      "verify_ms": 6.786724000000504,
+      "verified": true
+    },
+    {
+      "repeat": 1,
+      "prove_ms": 2789.048431,
+      "verify_ms": 5.718675000000076,
+      "verified": true
+    },
+    {
+      "repeat": 2,
+      "prove_ms": 2763.6754690000007,
+      "verify_ms": 5.539022999999361,
+      "verified": true
+    },
+    {
+      "repeat": 3,
+      "prove_ms": 2504.1907629999987,
+      "verify_ms": 5.96944700000131,
+      "verified": true
+    },
+    {
+      "repeat": 4,
+      "prove_ms": 2761.6059049999985,
+      "verify_ms": 5.674662999999782,
+      "verified": true
+    }
+  ],
+  "witness_ms": 104.22562300000004,
+  "compile_ms": null,
+  "setup_ms": null,
+  "compiled_artifacts_reused": true,
+  "proving_key_reused": true,
+  "binding_checks": {
+    "changed_merkle_path": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "omitted_matching_record": {
+      "rejected": true,
+      "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+    },
+    "tampered_public_input": {
+      "rejected": true
+    }
+  },
+  "reference_result": {
+    "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+    "decision": 1
+  },
+  "public_inputs": {
+    "timeRoot": "21415174589224657095839939584108956123916551162091903832666773412225723384416",
+    "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+    "nonce": "20261111",
+    "lower": "1000",
+    "upper": "2000",
+    "startIndex": "1"
+  },
+  "artifacts": {
+    "source": "856719b4cde534438cb3163757b0116f5e96d4aae1d7ea0c5ef3206ec71b33f7",
+    "r1cs": "eb47e8c3a7408a5366919ffe9997a8364d1e81aad0618f922495da1cda2ffb89",
+    "wasm": "6375efe663d8aeabb0459249b266b8f667ca501eba48261b1f4dcd1b2125d69e",
+    "verification_key": "589846457debf237c69efce290c3c428186229068144588f4b3138c12916a3ff"
+  },
+  "measured_at": "2026-11-11T06:32:01.565Z"
+}

@@ -1,0 +1,18 @@
+{
+  "coverage_complete": false,
+  "rows": [
+    {
+      "profile": "FULL",
+      "status": "FAIL",
+      "executed": 0,
+      "planned": 271,
+      "execution": {
+        "exit_code": 1,
+        "signal": null,
+        "status": "FAIL",
+        "wall_ms": 671116.286753,
+        "sampled_process_tree_peak_rss_bytes": 15912292352
+      }
+    }
+  ]
+}

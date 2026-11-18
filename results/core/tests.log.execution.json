@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 5832.770821,
+  "sampled_process_tree_peak_rss_bytes": 195121152,
+  "command": [
+    "/usr/bin/node",
+    "--test",
+    "tests/core.test.js"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "P2_STALE_MEMORY-31-attack",
+  "type": "P2_STALE_MEMORY",
+  "trial": 31,
+  "sample": "attack",
+  "expected_allow": false,
+  "baseline": {
+    "B0_SIGNATURE_ONLY": {
+      "status": "ALLOW",
+      "action_authorized": true,
+      "stage": "ACCEPTED",
+      "record_count": 1,
+      "issuer_count": 1
+    },
+    "B1_MEMBERSHIP_ONLY": {
+      "status": "ALLOW",
+      "action_authorized": true,
+      "stage": "ACCEPTED",
+      "record_count": 1,
+      "issuer_count": 1
+    },
+    "B2_COMPLETE_QUERY_UNCHECKED_LINEAGE": {
+      "status": "DENY",
+      "action_authorized": false,
+      "stage": "POLICY",
+      "record_count": 1,
+      "issuer_count": 1
+    }
+  },
+  "backend": "Groth16-BN254-MiMC",
+  "real_zk": true,
+  "forged_allow_rejected": true,
+  "forged_allow_error": "Error: Assert Failed. Error in template RealExperiment1_26 line: 330\n",
+  "forged_allow_constraint": "decision===p.out*s.out;",
+  "proof_generated": true,
+  "witness_generated": true,
+  "generation_ms": 5864.070016999962,
+  "B_verification": {
+    "status": "DENY",
+    "reason_code": 1,
+    "proof_verified": true,
+    "action_authorized": false,
+    "exit_code": 0,
+    "role": "forwarding verification only"
+  },
+  "proof_forwarded_byte_identical": true,
+  "verification_ms": 514.1230689999647,
+  "status": "DENY",
+  "reason_code": 1,
+  "proof_verified": true,
+  "action_authorized": false,
+  "exit_code": 0,
+  "correct": true,
+  "cli_verification": {
+    "exit_code": 0,
+    "stdout": "\u001b[32;22m[INFO]  \u001b[39;1msnarkJS\u001b[0m: OK!\n",
+    "stderr": ""
+  },
+  "tampered_public_input_rejected": true,
+  "tampered_proof_rejected": true
+}

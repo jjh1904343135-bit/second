@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py", line 13, in <module>
+    head = subprocess.run(["curl", "--http1.1", "--fail", "--silent", "--show-error", "--head", "--location", "--max-time", "30", url], capture_output=True, text=True, check=True).stdout
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--head', '--location', '--max-time', '30', 'https://circom.info/powersOfTau28_hez_final_23.ptau']' returned non-zero exit status 35.
+Error: PROCESS_FAIL: Traceback (most recent call last):
+  File "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py", line 13, in <module>
+    head = subprocess.run(["curl", "--http1.1", "--fail", "--silent", "--show-error", "--head", "--location", "--max-time", "30", url], capture_output=True, text=True, check=True).stdout
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--head', '--location', '--max-time', '30', 'https://circom.info/powersOfTau28_hez_final_23.ptau']' returned non-zero exit status 35.
+
+    at Object.check (/mnt/user-data/zjh/zjh/second/src/core/codec.js:2:52)
+    at must (/mnt/user-data/zjh/zjh/second/src/core/backend.js:9:25)
+    at Object.parameter (/mnt/user-data/zjh/zjh/second/src/core/backend.js:44:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'PROCESS_FAIL: Traceback (most recent call last):\n' +
+    '  File "/mnt/user-data/zjh/zjh/second/scripts/download_ptau.py", line 13, in <module>\n' +
+    '    head = subprocess.run(["curl", "--http1.1", "--fail", "--silent", "--show-error", "--head", "--location", "--max-time", "30", url], capture_output=True, text=True, check=True).stdout\n' +
+    '  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n' +
+    '    raise CalledProcessError(retcode, process.args,\n' +
+    "subprocess.CalledProcessError: Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--head', '--location', '--max-time', '30', 'https://circom.info/powersOfTau28_hez_final_23.ptau']' returned non-zero exit status 35.\n"
+}

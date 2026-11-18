@@ -1,0 +1,2046 @@
+{
+  "completed": 25,
+  "total": 25,
+  "points": [
+    {
+      "id": "psi-4-d16",
+      "module": "psi",
+      "size": 4,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 109911,
+      "prove_ms": 1502.9264870000002,
+      "verify_ms": 6.168588800000362,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 1551.319183,
+          "verify_ms": 6.596323000000211,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 1489.98173,
+          "verify_ms": 5.779597000000194,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 1589.9474820000005,
+          "verify_ms": 5.441779000000679,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 1433.3810480000002,
+          "verify_ms": 6.860310000000027,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 1450.0029919999997,
+          "verify_ms": 6.164935000000696,
+          "verified": true
+        }
+      ],
+      "witness_ms": 67.67404700000009,
+      "compile_ms": null,
+      "setup_ms": null,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": true,
+      "binding_checks": {
+        "skipped_sequence": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+        },
+        "changed_state_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "updated": 4
+      },
+      "public_inputs": {
+        "oldSeq": "4",
+        "newSeq": "8",
+        "blockIndex": "1",
+        "oldLogRoot": "3180584797185923332706914565442481670531781977654679344288053111699847189682",
+        "newLogRoot": "5453258536487076554258098313207559251381201168069679364308865662077995397327",
+        "oldStateRoot": "13803187963457622943298664012476187214747225822523757966961446966815673874378",
+        "newStateRoot": "19972445666025320173491436956130944419823260072905735673785432853053744671695"
+      },
+      "artifacts": {
+        "source": "4d3b1ebfd40843b9d1a74fd3001b16b5cc1bf5b155e5cfff9e9aa7a69008a599",
+        "r1cs": "15ea6b147bb55c0234e438b066cea6a45eee950e2bd78fb44dc577d86b35ce42",
+        "wasm": "015f3e95c854b1a8985c191bd0d7330995b4643f5e1f287f75aad6c035cb3538",
+        "verification_key": "348769ba5dd65ea44ed0ea254a04264ed8afeca83402cb79a771dbdc170bcbb8"
+      },
+      "measured_at": "2026-11-11T06:24:20.841Z"
+    },
+    {
+      "id": "psi-8-d16",
+      "module": "psi",
+      "size": 8,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 141668,
+      "prove_ms": 2254.0355726000007,
+      "verify_ms": 5.753935199999978,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 2517.870089,
+          "verify_ms": 6.096646000001783,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 2343.564516999999,
+          "verify_ms": 5.745994000000792,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2084.413380000002,
+          "verify_ms": 5.656480999998166,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2235.219333000001,
+          "verify_ms": 5.468743000001268,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2089.110544000003,
+          "verify_ms": 5.801811999997881,
+          "verified": true
+        }
+      ],
+      "witness_ms": 81.18310999999812,
+      "compile_ms": 1576.780466,
+      "setup_ms": 15681.626226,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "skipped_sequence": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+        },
+        "changed_state_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "updated": 8
+      },
+      "public_inputs": {
+        "oldSeq": "8",
+        "newSeq": "16",
+        "blockIndex": "1",
+        "oldLogRoot": "5453258536487076554258098313207559251381201168069679364308865662077995397327",
+        "newLogRoot": "1163511358144698285279289593039922341658259004191395788257425800703076434453",
+        "oldStateRoot": "19972445666025320173491436956130944419823260072905735673785432853053744671695",
+        "newStateRoot": "15551285154290636550674055520282075209231829023559774842229492235882841072007"
+      },
+      "artifacts": {
+        "source": "2c275be1c93b175f9bc42e9733a5d6926cf48b1f7159e60d6fbe19322b04c7fc",
+        "r1cs": "36f2b823623a27aabe2c72ef48eb486426eaf83596b94dd140ba52fdccdbc683",
+        "wasm": "4a6f37d14db4a469a97e8b385bb0936bf6967dfe4761b6a08d35575ba04826af",
+        "verification_key": "ebc9b2939b21d2e1ebcba68382035c3e67d3196d4dd92b19df0518ca0a4ff6b2"
+      },
+      "measured_at": "2026-11-11T06:24:50.892Z"
+    },
+    {
+      "id": "psi-16-d16",
+      "module": "psi",
+      "size": 16,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 209157,
+      "prove_ms": 2852.354572000001,
+      "verify_ms": 7.288226200000645,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 3000.696589000003,
+          "verify_ms": 8.81664599999931,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 2960.733328000002,
+          "verify_ms": 7.514286000001448,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2730.904072999998,
+          "verify_ms": 6.578815000000759,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2675.8642169999985,
+          "verify_ms": 5.940233000001172,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2893.5746530000033,
+          "verify_ms": 7.591151000000536,
+          "verified": true
+        }
+      ],
+      "witness_ms": 116.04559799999697,
+      "compile_ms": 2279.5851470000002,
+      "setup_ms": 18465.038025,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "skipped_sequence": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+        },
+        "changed_state_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "updated": 16
+      },
+      "public_inputs": {
+        "oldSeq": "16",
+        "newSeq": "32",
+        "blockIndex": "1",
+        "oldLogRoot": "1163511358144698285279289593039922341658259004191395788257425800703076434453",
+        "newLogRoot": "11488971895915354142309686573661800683335030633028971918455232055947242663732",
+        "oldStateRoot": "15551285154290636550674055520282075209231829023559774842229492235882841072007",
+        "newStateRoot": "2828215830673355593751244589871219839500595604516128058093181546522533460703"
+      },
+      "artifacts": {
+        "source": "9ef2ddb51fed11780ef99f79a4df7b16789d4af3ee781e0c1b45a29b6b8d6d20",
+        "r1cs": "a539d7a076a4a7440efe58eaefebc801846de621562b502c8a0e4eab392cb88c",
+        "wasm": "b2266b924d2e6d63674ba8483fcbc7ee748cfa74403d0db895f9daa30ce10c48",
+        "verification_key": "e99b63a5176c1396a153e421d278c4c382fd36a7f6373e5642242c7ce591178b"
+      },
+      "measured_at": "2026-11-11T06:25:27.872Z"
+    },
+    {
+      "id": "psi-32-d16",
+      "module": "psi",
+      "size": 32,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 348110,
+      "prove_ms": 5533.2373892000005,
+      "verify_ms": 9.126702999998816,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 5651.120084000002,
+          "verify_ms": 11.995814000001701,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 5461.1521159999975,
+          "verify_ms": 8.429853000001458,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 5523.434469,
+          "verify_ms": 9.010498999996344,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 5680.483849999997,
+          "verify_ms": 8.88049100000353,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 5349.9964270000055,
+          "verify_ms": 7.3168579999910435,
+          "verified": true
+        }
+      ],
+      "witness_ms": 191.43389300000126,
+      "compile_ms": 3686.782483,
+      "setup_ms": 31786.236103000003,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "skipped_sequence": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+        },
+        "changed_state_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "updated": 32
+      },
+      "public_inputs": {
+        "oldSeq": "32",
+        "newSeq": "64",
+        "blockIndex": "1",
+        "oldLogRoot": "11488971895915354142309686573661800683335030633028971918455232055947242663732",
+        "newLogRoot": "1059825073992440484349662062325937721264704308254579469800223785545871720496",
+        "oldStateRoot": "2828215830673355593751244589871219839500595604516128058093181546522533460703",
+        "newStateRoot": "20709382623134473977321570022427114337014742484037981674340553847518696046655"
+      },
+      "artifacts": {
+        "source": "0daf95f2ffecae3394ede65ae3e82e71ba4eaab55da6a4ef4ce7d2ca04395d04",
+        "r1cs": "529544752cbd003fc4ebcf459fe134fb37888d63a1f8188f5d279c360fe06cd3",
+        "wasm": "8a26002d9e2e8b293cd21174f970776f2beaf0f4c2d98cfd80b6ddfc9bd06286",
+        "verification_key": "df8a0e2b0fa26849fa46407c52533ccb1ac8fa8e00323c5381dd0dd80a1a00d6"
+      },
+      "measured_at": "2026-11-11T06:26:33.913Z"
+    },
+    {
+      "id": "psi-64-d16",
+      "module": "psi",
+      "size": 64,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 629991,
+      "prove_ms": 12464.144545,
+      "verify_ms": 10.666395600003307,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 12298.725906,
+          "verify_ms": 14.019564000001992,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 12649.542935999998,
+          "verify_ms": 10.158737000005203,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 12555.873011000003,
+          "verify_ms": 10.420003999999608,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 12561.631053999998,
+          "verify_ms": 9.366292999999132,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 12254.949817999994,
+          "verify_ms": 9.367380000010598,
+          "verified": true
+        }
+      ],
+      "witness_ms": 400.6421530000007,
+      "compile_ms": null,
+      "setup_ms": 54900.212201,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "skipped_sequence": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 74\n"
+        },
+        "changed_state_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Psi_14 line: 104\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "updated": 64
+      },
+      "public_inputs": {
+        "oldSeq": "64",
+        "newSeq": "128",
+        "blockIndex": "1",
+        "oldLogRoot": "1059825073992440484349662062325937721264704308254579469800223785545871720496",
+        "newLogRoot": "8048129543831402912819536460090443924519645816327996291000462222908978812694",
+        "oldStateRoot": "20709382623134473977321570022427114337014742484037981674340553847518696046655",
+        "newStateRoot": "1941212302733817191546135463502446192835103744537627524578453658382400315790"
+      },
+      "artifacts": {
+        "source": "b85afa3f41168265e4ac8498886e19c9af65d1f4496ead65837c33b8d66f79ab",
+        "r1cs": "5cc257f8a203139719eac012d47a954f8955b422010889bc01b5c701b67725ba",
+        "wasm": "d7ab6cb06f9fab40cdae93bf50075a6e691069cec6ee69186a139d4daa73e3b5",
+        "verification_key": "1f89750de36a0ddacaa3cda0f3af70644c2966dc1905debc9998ccc9f3f8ee98"
+      },
+      "measured_at": "2026-11-11T06:28:36.081Z"
+    },
+    {
+      "id": "lambda_sorted-8-d16",
+      "module": "lambda_sorted",
+      "size": 8,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 13388,
+      "prove_ms": 270.9432102,
+      "verify_ms": 6.981484200000023,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 307.0653850000001,
+          "verify_ms": 5.576747999999952,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 279.397519,
+          "verify_ms": 7.5142050000001746,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 257.2254839999998,
+          "verify_ms": 6.632211000000098,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 257.60003400000005,
+          "verify_ms": 6.57830100000001,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 253.42762900000002,
+          "verify_ms": 8.605955999999878,
+          "verified": true
+        }
+      ],
+      "witness_ms": 16.65079499999996,
+      "compile_ms": null,
+      "setup_ms": null,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": true,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+        },
+        "unsorted_same_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 3
+      },
+      "public_inputs": {
+        "inputCommit": "995146232516466203744089726622589735472173288237248772015476797804256459554",
+        "orderedCommit": "3231680011916033042415571672405422462249441411061354643755792468026595692151",
+        "nonce": "20261111",
+        "recordCount": "3"
+      },
+      "artifacts": {
+        "source": "b79d602498227f31a02ee46262c4865f397d5b422a497c91165ba705c38ed6ab",
+        "r1cs": "8c7c13cc217240de256c4f762b64037c56449734f8c961e2fd0f62c001a614ce",
+        "wasm": "d667d8e600452f6e647d08dfa432bcb6a6ef29ca629c35148074ae20c05caac2",
+        "verification_key": "6b2b64e22d7c43c417658c684bce92fcffc313f54867014fa1d2492fdbfc9539"
+      },
+      "measured_at": "2026-11-11T06:28:38.424Z"
+    },
+    {
+      "id": "lambda_naive-8-d16",
+      "module": "lambda_naive",
+      "size": 8,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 13213,
+      "prove_ms": 282.2594785999999,
+      "verify_ms": 7.494216600000004,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 301.9523489999999,
+          "verify_ms": 6.071702000000073,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 310.808314,
+          "verify_ms": 7.06946199999993,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 277.90176199999996,
+          "verify_ms": 8.625901999999996,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 259.023559,
+          "verify_ms": 7.096448000000009,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 261.61140899999987,
+          "verify_ms": 8.607569000000012,
+          "verified": true
+        }
+      ],
+      "witness_ms": 17.19823600000001,
+      "compile_ms": null,
+      "setup_ms": null,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": true,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 3
+      },
+      "public_inputs": {
+        "inputCommit": "995146232516466203744089726622589735472173288237248772015476797804256459554",
+        "orderedCommit": "3231680011916033042415571672405422462249441411061354643755792468026595692151",
+        "nonce": "20261111",
+        "recordCount": "3"
+      },
+      "artifacts": {
+        "source": "6a86603e5d837fcc08fdffb61038161a55d366ce26445834bb19ebc599133757",
+        "r1cs": "10822d799389a8a489b4b640b40fc814e74505451780203eaa291aa13ad60642",
+        "wasm": "0798d048a95fa33ab4485f5136528b043690f2881a71c5e31714d8e5e1798392",
+        "verification_key": "25913195ea2ccf5f79a01d5a4735cf58af0efef06a3b1833c5c6fc4616a75830"
+      },
+      "measured_at": "2026-11-11T06:28:40.497Z"
+    },
+    {
+      "id": "lambda_sorted-16-d16",
+      "module": "lambda_sorted",
+      "size": 16,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 24836,
+      "prove_ms": 447.0100430000002,
+      "verify_ms": 11.248034400000325,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 456.83450000000084,
+          "verify_ms": 7.561103000000003,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 454.2045449999987,
+          "verify_ms": 5.484215000000404,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 473.23501600000054,
+          "verify_ms": 31.621264000001247,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 430.0393860000004,
+          "verify_ms": 6.231196999999156,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 420.73676800000067,
+          "verify_ms": 5.342393000000811,
+          "verified": true
+        }
+      ],
+      "witness_ms": 21.65649200000007,
+      "compile_ms": 487.48002099999997,
+      "setup_ms": 7773.132194000001,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+        },
+        "unsorted_same_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 6
+      },
+      "public_inputs": {
+        "inputCommit": "13678735059563903065460802074602907224574926076055178913470639204212951617019",
+        "orderedCommit": "20905734658170500513233114875736183901411816177596930815759093492280227314250",
+        "nonce": "20261111",
+        "recordCount": "6"
+      },
+      "artifacts": {
+        "source": "f55690d1bacd31e026481805e40271f6e9afc84eea501f14ae3939e1def7b27e",
+        "r1cs": "b4c22f43d443d889205befc3e2a093165a0365696db3321231d00f54192c773a",
+        "wasm": "562d6b2ce81cd77d5227faa8d809d469b0c21531e6830c56c436a0534112b33b",
+        "verification_key": "88da17efd2aa063c49868c67e1e134de7585ea0971177cbdfdf2256c12c4d09a"
+      },
+      "measured_at": "2026-11-11T06:28:51.771Z"
+    },
+    {
+      "id": "lambda_naive-16-d16",
+      "module": "lambda_naive",
+      "size": 16,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 24701,
+      "prove_ms": 461.80365520000015,
+      "verify_ms": 8.09964280000022,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 621.6813519999996,
+          "verify_ms": 10.294366999998601,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 452.8596180000004,
+          "verify_ms": 6.718882000001031,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 428.46086900000046,
+          "verify_ms": 8.741712000000916,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 406.3095169999997,
+          "verify_ms": 8.295373000000836,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 399.70692000000054,
+          "verify_ms": 6.447879999999714,
+          "verified": true
+        }
+      ],
+      "witness_ms": 21.30368499999895,
+      "compile_ms": 492.74150799999995,
+      "setup_ms": 7724.000480000001,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 6
+      },
+      "public_inputs": {
+        "inputCommit": "13678735059563903065460802074602907224574926076055178913470639204212951617019",
+        "orderedCommit": "20905734658170500513233114875736183901411816177596930815759093492280227314250",
+        "nonce": "20261111",
+        "recordCount": "6"
+      },
+      "artifacts": {
+        "source": "d51d0476e68ea5f9308f6388af0aeef7a01b97c644f02fcdaf8e6c9b8091f90c",
+        "r1cs": "0f821a24af4235a9bec7698ae140507fd3cfeb07ee300ce26b2b58747805048c",
+        "wasm": "4493199c2de73d78a9bcd53516a2a48e7dc1340f1c0e1483652fca71790d750a",
+        "verification_key": "533522d6b9e2d55ebd5ddd31e11a4030a4e58b80f727555820104bb7b29368d1"
+      },
+      "measured_at": "2026-11-11T06:29:03.034Z"
+    },
+    {
+      "id": "lambda_sorted-32-d16",
+      "module": "lambda_sorted",
+      "size": 32,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 47732,
+      "prove_ms": 843.0097860000005,
+      "verify_ms": 6.618383600000743,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 862.1866200000004,
+          "verify_ms": 5.97480700000051,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 820.2224380000007,
+          "verify_ms": 7.5441719999998895,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 844.7322939999995,
+          "verify_ms": 5.508825999999317,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 840.668525000001,
+          "verify_ms": 7.634139000001596,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 847.2390530000011,
+          "verify_ms": 6.429974000002403,
+          "verified": true
+        }
+      ],
+      "witness_ms": 32.273214000000735,
+      "compile_ms": 727.397824,
+      "setup_ms": 10785.912355,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+        },
+        "unsorted_same_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 11
+      },
+      "public_inputs": {
+        "inputCommit": "6531379981190233752393627743420387593448079507915820187704021615053394531633",
+        "orderedCommit": "18780494316243920524657879657432887933478810988315708085181029389931113223982",
+        "nonce": "20261111",
+        "recordCount": "11"
+      },
+      "artifacts": {
+        "source": "92aba996425a6afcdbfc4ac045ae5e7b8117eef290b18659305e0cf5b756f6ac",
+        "r1cs": "7d80120145c3666ce0b29977cb5d6017034fcf27c5601abdc973175ab14e40c9",
+        "wasm": "6bda0120d00a7fd51786fd356ea86d1b1a58460b9532ebb10cc86316cd94623f",
+        "verification_key": "9f26dfb609df94201d2f8eb45968d16b866c864207fe52ee34dc4786a6b463b4"
+      },
+      "measured_at": "2026-11-11T06:29:19.685Z"
+    },
+    {
+      "id": "lambda_naive-32-d16",
+      "module": "lambda_naive",
+      "size": 32,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 48445,
+      "prove_ms": 795.4608820000005,
+      "verify_ms": 7.361906599999929,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 800.8337850000007,
+          "verify_ms": 6.338346999998976,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 780.2763460000006,
+          "verify_ms": 6.299623000000793,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 754.2521410000008,
+          "verify_ms": 5.743658000001233,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 804.1126760000006,
+          "verify_ms": 9.165952000001198,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 837.8294619999997,
+          "verify_ms": 9.261952999997447,
+          "verified": true
+        }
+      ],
+      "witness_ms": 34.13024399999995,
+      "compile_ms": 756.709719,
+      "setup_ms": 11053.854738,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 11
+      },
+      "public_inputs": {
+        "inputCommit": "6531379981190233752393627743420387593448079507915820187704021615053394531633",
+        "orderedCommit": "18780494316243920524657879657432887933478810988315708085181029389931113223982",
+        "nonce": "20261111",
+        "recordCount": "11"
+      },
+      "artifacts": {
+        "source": "b471705dd8a58bb4ef98e4d1983b8cf9c3dec6beeca034171622d64dad4ad3cd",
+        "r1cs": "fa08f02d0b557e14f8ef89e3e0413a1a3b478cb3c8fff0547aa77b2ebeecce9a",
+        "wasm": "31a5337d271fac905a0c9d87de5cbdc218d066ab57023dd6e42c599a06a9636a",
+        "verification_key": "aa8464393beac5f1090f4bdaf1329c1e183a2385ec67c8c8b52a306771b62b2e"
+      },
+      "measured_at": "2026-11-11T06:29:36.372Z"
+    },
+    {
+      "id": "lambda_sorted-64-d16",
+      "module": "lambda_sorted",
+      "size": 64,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 93524,
+      "prove_ms": 1576.2721878000004,
+      "verify_ms": 6.7900074000004675,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 1618.6467950000006,
+          "verify_ms": 6.187251999999717,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 1579.8591830000005,
+          "verify_ms": 5.854951000001165,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 1568.249920000002,
+          "verify_ms": 6.370377999999619,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 1571.4428469999984,
+          "verify_ms": 8.921731000002183,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 1543.1621940000005,
+          "verify_ms": 6.615724999999657,
+          "verified": true
+        }
+      ],
+      "witness_ms": 60.09672299999875,
+      "compile_ms": 1207.997166,
+      "setup_ms": 15358.590036,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+        },
+        "unsorted_same_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 22
+      },
+      "public_inputs": {
+        "inputCommit": "1711522794556643924795217570332821628143815856251236312814328920765257512722",
+        "orderedCommit": "471040827162545682330089992003172656974999952293631204374016855959445406276",
+        "nonce": "20261111",
+        "recordCount": "22"
+      },
+      "artifacts": {
+        "source": "5f21a8b6f9e8f5385b9d21676ca9ddd24bcf6522a6d6181cbd9e738e7607ad7a",
+        "r1cs": "b156889b55cfd60025d28f3047cb233200e4da239a62f824547bcdf40493577f",
+        "wasm": "ddccba080e13c68e0ce464ea834f88afed543b3cd0db2b24caee3e46b5e15bf8",
+        "verification_key": "764fb5f0931aa740949ee7f2fdc958d74359c796a14dfc1f79b245cc9f60ef80"
+      },
+      "measured_at": "2026-11-11T06:30:02.010Z"
+    },
+    {
+      "id": "lambda_naive-64-d16",
+      "module": "lambda_naive",
+      "size": 64,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 99005,
+      "prove_ms": 1567.1369156,
+      "verify_ms": 7.392345600000408,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 1631.0051669999993,
+          "verify_ms": 8.105038999998214,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 1595.1457569999984,
+          "verify_ms": 6.0753700000022945,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 1549.4104020000013,
+          "verify_ms": 6.477225999999064,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 1531.8021230000013,
+          "verify_ms": 8.855212000002211,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 1528.321129,
+          "verify_ms": 7.448881000000256,
+          "verified": true
+        }
+      ],
+      "witness_ms": 62.01447299999927,
+      "compile_ms": 1408.902631,
+      "setup_ms": 15582.387991,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 22
+      },
+      "public_inputs": {
+        "inputCommit": "1711522794556643924795217570332821628143815856251236312814328920765257512722",
+        "orderedCommit": "471040827162545682330089992003172656974999952293631204374016855959445406276",
+        "nonce": "20261111",
+        "recordCount": "22"
+      },
+      "artifacts": {
+        "source": "a5359131efa7c500a9dfe101d1a9f3c1790a7f380371b6f6a86fd5951924908b",
+        "r1cs": "812d1f0de83ff28f6c6f5caa0f09c16d508877682f3360896689988326a3e583",
+        "wasm": "0c42ac91569cdcf4b5fa33dac190c23bca16c1503e0f78f240463140553cd5e0",
+        "verification_key": "d33e9a3da2af0b93a92512d38857a9f08397cbac8bd6a724f2af014efde12ce5"
+      },
+      "measured_at": "2026-11-11T06:30:28.000Z"
+    },
+    {
+      "id": "lambda_sorted-128-d16",
+      "module": "lambda_sorted",
+      "size": 128,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 185108,
+      "prove_ms": 2788.3921303999996,
+      "verify_ms": 6.219844599999488,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 3026.0446420000007,
+          "verify_ms": 7.0019890000003215,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 2731.045586,
+          "verify_ms": 6.10737799999697,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2595.406013,
+          "verify_ms": 5.788813999999547,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2781.921514999998,
+          "verify_ms": 5.959504999998899,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2807.542895999999,
+          "verify_ms": 6.241537000001699,
+          "verified": true
+        }
+      ],
+      "witness_ms": 98.40910399999848,
+      "compile_ms": 2167.502711,
+      "setup_ms": 19747.718069000002,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 193\n"
+        },
+        "unsorted_same_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_11 line: 210\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 43
+      },
+      "public_inputs": {
+        "inputCommit": "14229500649222370789937925306470123061788138588324252365387679527783984566180",
+        "orderedCommit": "18280378576395622990746474855767603936170255470489788992391249309758059714343",
+        "nonce": "20261111",
+        "recordCount": "43"
+      },
+      "artifacts": {
+        "source": "4057bc4bae52b0aa170941399360a13f7f98a1f97076626288172c3b3a26eeb5",
+        "r1cs": "7328bf1ef4f0696d8a0fc5cd7d89cf7ac841cf8895874c49a7fba46b437a9228",
+        "wasm": "104135bc80ab1aa5a0fbd473d4c2faa10ed052337a71b0fc57b43d1ef2bed994",
+        "verification_key": "ff0cf8b576ca9b9df8028166710d6e3b2516d5b0c343cc2201261520e3aa0884"
+      },
+      "measured_at": "2026-11-11T06:31:05.706Z"
+    },
+    {
+      "id": "lambda_naive-128-d16",
+      "module": "lambda_naive",
+      "size": 128,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 212413,
+      "prove_ms": 3014.6296728000007,
+      "verify_ms": 5.993416200000501,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 3259.5757260000028,
+          "verify_ms": 6.451476000002003,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 3040.905412,
+          "verify_ms": 5.708729999998468,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2824.137387999999,
+          "verify_ms": 6.688399999999092,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2988.1497640000016,
+          "verify_ms": 5.4898880000037025,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2960.3800740000006,
+          "verify_ms": 5.628586999999243,
+          "verified": true
+        }
+      ],
+      "witness_ms": 159.8055779999995,
+      "compile_ms": 3355.04508,
+      "setup_ms": 19936.077006,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "inflated_count": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 215\n"
+        },
+        "replaced_multiset": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template Lambda_8 line: 193\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "recordCount": 43
+      },
+      "public_inputs": {
+        "inputCommit": "14229500649222370789937925306470123061788138588324252365387679527783984566180",
+        "orderedCommit": "18280378576395622990746474855767603936170255470489788992391249309758059714343",
+        "nonce": "20261111",
+        "recordCount": "43"
+      },
+      "artifacts": {
+        "source": "66ae0881c776515e512a7d3c18e17ae647c7a9f9f37e69a08c25396c2f252144",
+        "r1cs": "4346e5c41abcf77b641a5b2d696a5b851a4584a2c48ce054f843a86d1873b53d",
+        "wasm": "fdd7b82d6f6452469a4f53a5183b1b08612dc3ca711e76c0e3a4b7d299c765bd",
+        "verification_key": "1d42cf4d025884ddef4b3a8dfd94e4a5977d8f9a38ead889884bbea1b50c2b5d"
+      },
+      "measured_at": "2026-11-11T06:31:46.112Z"
+    },
+    {
+      "id": "gamma_q-4-d16",
+      "module": "gamma_q",
+      "size": 4,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 179091,
+      "prove_ms": 2734.0226783999997,
+      "verify_ms": 5.937706400000207,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 2851.5928239999994,
+          "verify_ms": 6.786724000000504,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 2789.048431,
+          "verify_ms": 5.718675000000076,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2763.6754690000007,
+          "verify_ms": 5.539022999999361,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2504.1907629999987,
+          "verify_ms": 5.96944700000131,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2761.6059049999985,
+          "verify_ms": 5.674662999999782,
+          "verified": true
+        }
+      ],
+      "witness_ms": 104.22562300000004,
+      "compile_ms": null,
+      "setup_ms": null,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": true,
+      "binding_checks": {
+        "changed_merkle_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "omitted_matching_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+        "decision": 1
+      },
+      "public_inputs": {
+        "timeRoot": "21415174589224657095839939584108956123916551162091903832666773412225723384416",
+        "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+        "nonce": "20261111",
+        "lower": "1000",
+        "upper": "2000",
+        "startIndex": "1"
+      },
+      "artifacts": {
+        "source": "856719b4cde534438cb3163757b0116f5e96d4aae1d7ea0c5ef3206ec71b33f7",
+        "r1cs": "eb47e8c3a7408a5366919ffe9997a8364d1e81aad0618f922495da1cda2ffb89",
+        "wasm": "6375efe663d8aeabb0459249b266b8f667ca501eba48261b1f4dcd1b2125d69e",
+        "verification_key": "589846457debf237c69efce290c3c428186229068144588f4b3138c12916a3ff"
+      },
+      "measured_at": "2026-11-11T06:32:01.565Z"
+    },
+    {
+      "id": "gamma_p-4-d16",
+      "module": "gamma_p",
+      "size": 4,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 23356,
+      "prove_ms": 421.7554930000001,
+      "verify_ms": 6.539739999999893,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 498.30326,
+          "verify_ms": 6.140143999999964,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 544.4299129999999,
+          "verify_ms": 7.795978000000105,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 351.27802999999994,
+          "verify_ms": 5.38149999999996,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 364.79669300000023,
+          "verify_ms": 6.263032999999723,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 349.9695690000003,
+          "verify_ms": 7.118044999999711,
+          "verified": true
+        }
+      ],
+      "witness_ms": 22.327259000000026,
+      "compile_ms": null,
+      "setup_ms": null,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": true,
+      "binding_checks": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_claimed_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "changed_commitment": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_honest_deny": {
+          "witness_accepted": true
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+        "decision": 1
+      },
+      "public_inputs": {
+        "commitment": "1794134690629862463428806149903118938939407718512673771550209011953010287167",
+        "nonce": "20261111",
+        "timeRoot": "21415174589224657095839939584108956123916551162091903832666773412225723384416",
+        "lower": "1000",
+        "upper": "2000",
+        "evaluationTime": "2000",
+        "deadline": "3000",
+        "maxRisk": "5000",
+        "decision": "1"
+      },
+      "artifacts": {
+        "source": "e5fffabccc7787e9e075b021325101216c3dc30bc0c42c78707ce6c8a4917e3b",
+        "r1cs": "61a543376fb0ad3e202e1472ea3908d74a8f71340a3373df21e976557d041614",
+        "wasm": "2b265f50625702a3765816b744ee69ddb3f928763c34b2c637f130de9d577ba0",
+        "verification_key": "0ca469be6cdab7d36be5aa84bdc6f3935bd539075f28c10720391fa45491dd4d"
+      },
+      "measured_at": "2026-11-11T06:32:04.581Z"
+    },
+    {
+      "id": "gamma_q-8-d16",
+      "module": "gamma_q",
+      "size": 8,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 302507,
+      "prove_ms": 5522.791701800001,
+      "verify_ms": 8.104641799998353,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 5982.640954000002,
+          "verify_ms": 10.787027999998827,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 5595.892911000003,
+          "verify_ms": 9.259054000001925,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 5781.518315000001,
+          "verify_ms": 6.441916999996465,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 5017.398117999997,
+          "verify_ms": 6.387681000000157,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 5236.508211,
+          "verify_ms": 7.6475289999943925,
+          "verified": true
+        }
+      ],
+      "witness_ms": 182.8961930000005,
+      "compile_ms": 3494.161689,
+      "setup_ms": 32917.993093000005,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "changed_merkle_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "omitted_matching_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "17101769079605213479811201049128526213497869297674770529402067820893477343709",
+        "decision": 1
+      },
+      "public_inputs": {
+        "timeRoot": "7895503845591354071415468729311838573172046895128687811059314078025388090531",
+        "commitment": "17101769079605213479811201049128526213497869297674770529402067820893477343709",
+        "nonce": "20261111",
+        "lower": "1000",
+        "upper": "2000",
+        "startIndex": "1"
+      },
+      "artifacts": {
+        "source": "09a6db939ff5631018820d512c6cfb5cf9314fc13e293afc7ce1964fb03cdb16",
+        "r1cs": "487cb03cf8860272559039415fbc04ce8c02b80ccb1a909a7beb57445f188dc9",
+        "wasm": "e43092499f3f50a067b934c70092591fcf076f80b8acba68317c93c52cce4ff4",
+        "verification_key": "c45cfbb078ca90a71fa872a8b3fd1d7cc2cd5afa9d80a82fee3d80ebe8c073ed"
+      },
+      "measured_at": "2026-11-11T06:33:11.158Z"
+    },
+    {
+      "id": "gamma_p-8-d16",
+      "module": "gamma_p",
+      "size": 8,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 43272,
+      "prove_ms": 721.2233204000004,
+      "verify_ms": 6.113988399999653,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 746.8819750000002,
+          "verify_ms": 6.442172999999457,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 680.7444610000002,
+          "verify_ms": 5.729403000001184,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 678.6080590000001,
+          "verify_ms": 5.593235999998797,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 654.3692200000005,
+          "verify_ms": 6.544676999999865,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 845.5128870000008,
+          "verify_ms": 6.260452999998961,
+          "verified": true
+        }
+      ],
+      "witness_ms": 32.66289499999948,
+      "compile_ms": 658.887713,
+      "setup_ms": 10707.226779999999,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_claimed_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "changed_commitment": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_honest_deny": {
+          "witness_accepted": true
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "17101769079605213479811201049128526213497869297674770529402067820893477343709",
+        "decision": 1
+      },
+      "public_inputs": {
+        "commitment": "17101769079605213479811201049128526213497869297674770529402067820893477343709",
+        "nonce": "20261111",
+        "timeRoot": "7895503845591354071415468729311838573172046895128687811059314078025388090531",
+        "lower": "1000",
+        "upper": "2000",
+        "evaluationTime": "2000",
+        "deadline": "3000",
+        "maxRisk": "5000",
+        "decision": "1"
+      },
+      "artifacts": {
+        "source": "6eb2c3bd5b643a11989b2606b7a91ecc721d42f87e709340e5039127144d1414",
+        "r1cs": "fc5afb149856e080750df0922d720384d88c8142a3e0a466965adf34dd680620",
+        "wasm": "d608574d6ddbb499b282624657489dd6a1689e44b29c4c173942f3291b4f450e",
+        "verification_key": "ce8fcfa1af9b704d80ce0b1e8aa50a9b0e472f64ee1f852687678532188a1f34"
+      },
+      "measured_at": "2026-11-11T06:33:27.236Z"
+    },
+    {
+      "id": "gamma_q-16-d16",
+      "module": "gamma_q",
+      "size": 16,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 549339,
+      "prove_ms": 11196.415924,
+      "verify_ms": 9.810628999996698,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 10933.648210999992,
+          "verify_ms": 10.564475999999559,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 11193.593710000001,
+          "verify_ms": 10.815447999993921,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 11065.557679999998,
+          "verify_ms": 8.751531999994768,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 11955.380994000006,
+          "verify_ms": 8.298747000008007,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 10833.899025000006,
+          "verify_ms": 10.622941999987233,
+          "verified": true
+        }
+      ],
+      "witness_ms": 317.84033700000145,
+      "compile_ms": 6434.8079450000005,
+      "setup_ms": 55396.108145,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "changed_merkle_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "omitted_matching_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "17943216382606890963777718337024010652518035079503889504448681636484890490313",
+        "decision": 1
+      },
+      "public_inputs": {
+        "timeRoot": "19915583776804837558483463765882210758996391112511811838277512850388443320296",
+        "commitment": "17943216382606890963777718337024010652518035079503889504448681636484890490313",
+        "nonce": "20261111",
+        "lower": "1000",
+        "upper": "2000",
+        "startIndex": "1"
+      },
+      "artifacts": {
+        "source": "c8b5af5c55ec455713956e5b45517c0872aeffbe122f37c61f3dd4eef6370f11",
+        "r1cs": "18dc79c3c9c45b9b8f6514de94da4cd4f74d356801eea5276a885b98e9324f19",
+        "wasm": "0b41a3ea2dac3f336e1fc2f53eee52fb724c7748de305414551e75644b82f44e",
+        "verification_key": "6068dcfc4b1137fa770526317a8b4076158389a0c099ecd70769a69dcf0d2d26"
+      },
+      "measured_at": "2026-11-11T06:35:29.253Z"
+    },
+    {
+      "id": "gamma_p-16-d16",
+      "module": "gamma_p",
+      "size": 16,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 83104,
+      "prove_ms": 1449.8276905999999,
+      "verify_ms": 15.530531800000608,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 1401.7256229999984,
+          "verify_ms": 6.6773339999999735,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 1501.304199000002,
+          "verify_ms": 6.894497000001138,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 1460.3140879999992,
+          "verify_ms": 5.870310000002064,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 1424.612545,
+          "verify_ms": 6.162390999998024,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 1461.181998,
+          "verify_ms": 52.04812700000184,
+          "verified": true
+        }
+      ],
+      "witness_ms": 67.69644900000094,
+      "compile_ms": 1107.8123130000001,
+      "setup_ms": 14290.494952,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_claimed_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "changed_commitment": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_honest_deny": {
+          "witness_accepted": true
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "17943216382606890963777718337024010652518035079503889504448681636484890490313",
+        "decision": 1
+      },
+      "public_inputs": {
+        "commitment": "17943216382606890963777718337024010652518035079503889504448681636484890490313",
+        "nonce": "20261111",
+        "timeRoot": "19915583776804837558483463765882210758996391112511811838277512850388443320296",
+        "lower": "1000",
+        "upper": "2000",
+        "evaluationTime": "2000",
+        "deadline": "3000",
+        "maxRisk": "5000",
+        "decision": "1"
+      },
+      "artifacts": {
+        "source": "0d6d04eaa99a157245b58ea736be2ae9d6f2f9a9cac3acda91d1aaca7d209e8d",
+        "r1cs": "5bbe8cbcabd5568591c32f2ae4135cd2f0298b6e118d971ccd3bdafab156852e",
+        "wasm": "dfecbbcec738ca52d1a1fa11ee78fd0e3b803713ee9e42c2238621d5e8812bc5",
+        "verification_key": "da841e1b5fc5cd0128474b2eeab5fd2211bfa7d325596c58913ce92a1e808d5f"
+      },
+      "measured_at": "2026-11-11T06:35:53.525Z"
+    },
+    {
+      "id": "gamma_q-32-d16",
+      "module": "gamma_q",
+      "size": 32,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 1043003,
+      "prove_ms": 21470.386062800004,
+      "verify_ms": 17.95918160000001,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 17461.691734000007,
+          "verify_ms": 9.838795000017853,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 20983.386853000004,
+          "verify_ms": 11.034174000000348,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 25331.55741400001,
+          "verify_ms": 47.8670469999779,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 22705.488695999986,
+          "verify_ms": 10.347881000023335,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 20869.805617000005,
+          "verify_ms": 10.708010999980615,
+          "verified": true
+        }
+      ],
+      "witness_ms": 835.3436270000093,
+      "compile_ms": 13009.051706,
+      "setup_ms": 100779.499694,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "changed_merkle_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "omitted_matching_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+        "decision": 1
+      },
+      "public_inputs": {
+        "timeRoot": "5734619228894229504936603910798974327088689750193155638305273856203114558207",
+        "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+        "nonce": "20261111",
+        "lower": "1000",
+        "upper": "2000",
+        "startIndex": "1"
+      },
+      "artifacts": {
+        "source": "2f07b4b5f89ca77dc2583d4d3a595060c2a0fdd6cc94707eb1478a8432fd6cd0",
+        "r1cs": "8b289045ba09b18e3c0b22d28cea8f843666519cc1f85953a46977c9b4d7753a",
+        "wasm": "19abe6335e81fa15e6c103346f4af18482fc803f3312bc5981900f23c607508c",
+        "verification_key": "5f0b0cce2f36a9492add2105adefe33a2fe971b58b1a96a0cb569c080a59c024"
+      },
+      "measured_at": "2026-11-11T06:39:42.769Z"
+    },
+    {
+      "id": "gamma_p-32-d16",
+      "module": "gamma_p",
+      "size": 32,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 162768,
+      "prove_ms": 2803.8475287999986,
+      "verify_ms": 6.273495999999431,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 2908.0000040000014,
+          "verify_ms": 6.2546519999996235,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 2786.2787629999984,
+          "verify_ms": 6.54159300000174,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 2739.176607999998,
+          "verify_ms": 7.233600999999908,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 2774.695896999998,
+          "verify_ms": 5.259808000002522,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 2811.086371999998,
+          "verify_ms": 6.077825999993365,
+          "verified": true
+        }
+      ],
+      "witness_ms": 133.03960000000006,
+      "compile_ms": 2134.4948990000003,
+      "setup_ms": 21541.074402,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_claimed_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "changed_commitment": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_honest_deny": {
+          "witness_accepted": true
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+        "decision": 1
+      },
+      "public_inputs": {
+        "commitment": "21256387780357247714235609178583833552216253658113008240931190575889196960214",
+        "nonce": "20261111",
+        "timeRoot": "5734619228894229504936603910798974327088689750193155638305273856203114558207",
+        "lower": "1000",
+        "upper": "2000",
+        "evaluationTime": "2000",
+        "deadline": "3000",
+        "maxRisk": "5000",
+        "decision": "1"
+      },
+      "artifacts": {
+        "source": "9bbf86974d1c479462541de825926695c1371ff99b9f57d9ffa3c82f08373998",
+        "r1cs": "df92f7ebf30f11ace701d93309aa8d1e2118c06af01395dae48fb951db1f2ad9",
+        "wasm": "80e277932791c5169c05855e09b0e54a5b8d56656d1e07f0e28d18fa78297d4d",
+        "verification_key": "3c8396eac1cc2998c6961a6c9b60afa5afa9930ac8d9081dce2e2267df0939c2"
+      },
+      "measured_at": "2026-11-11T06:40:23.712Z"
+    },
+    {
+      "id": "gamma_q-64-d16",
+      "module": "gamma_q",
+      "size": 64,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 2030331,
+      "prove_ms": 49788.134631,
+      "verify_ms": 14.93868360001361,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 44484.16186100003,
+          "verify_ms": 16.569858000031672,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 48687.02718200005,
+          "verify_ms": 15.987954000011086,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 51827.15751499997,
+          "verify_ms": 12.145816000003833,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 52328.544253,
+          "verify_ms": 14.937067000020761,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 51613.78234399995,
+          "verify_ms": 15.052723000000697,
+          "verified": true
+        }
+      ],
+      "witness_ms": 2183.0292090000003,
+      "compile_ms": null,
+      "setup_ms": 205905.914563,
+      "compiled_artifacts_reused": true,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "changed_merkle_path": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "omitted_matching_record": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaQ_15 line: 136\n"
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+        "decision": 1
+      },
+      "public_inputs": {
+        "timeRoot": "484786723706425743264116461656501149096946943750276897797103739460115817864",
+        "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+        "nonce": "20261111",
+        "lower": "1000",
+        "upper": "2000",
+        "startIndex": "1"
+      },
+      "artifacts": {
+        "source": "354e2e74a1619618b7e63b98ed6cf15a5ec1fcaec45a1770cef52815549dfc52",
+        "r1cs": "3020a01d50f1b029763523c9782027f95f0f34f19c8119e50282d16fbf2c6b41",
+        "wasm": "e96081baf4c46c26a83bff6b71ad683148bcd0f9a523a26290826ce2ed4bfff7",
+        "verification_key": "aded96b958080f3c3c0adb08b776703c2aecc21e1e786ece5937c15131de0a4d"
+      },
+      "measured_at": "2026-11-11T06:48:18.698Z"
+    },
+    {
+      "id": "gamma_p-64-d16",
+      "module": "gamma_p",
+      "size": 64,
+      "depth": 16,
+      "repeats": 5,
+      "status": "PASS",
+      "constraints": 322096,
+      "prove_ms": 6377.441284000003,
+      "verify_ms": 9.083287399998516,
+      "trials": [
+        {
+          "repeat": 0,
+          "prove_ms": 6142.1333190000005,
+          "verify_ms": 9.965604000004532,
+          "verified": true
+        },
+        {
+          "repeat": 1,
+          "prove_ms": 6184.817675000006,
+          "verify_ms": 8.657463999996253,
+          "verified": true
+        },
+        {
+          "repeat": 2,
+          "prove_ms": 6333.682403000006,
+          "verify_ms": 7.992421999995713,
+          "verified": true
+        },
+        {
+          "repeat": 3,
+          "prove_ms": 6537.204943999997,
+          "verify_ms": 9.759384999997565,
+          "verified": true
+        },
+        {
+          "repeat": 4,
+          "prove_ms": 6689.368079000007,
+          "verify_ms": 9.041561999998521,
+          "verified": true
+        }
+      ],
+      "witness_ms": 236.70441800000117,
+      "compile_ms": 4888.766941,
+      "setup_ms": 40159.380881000005,
+      "compiled_artifacts_reused": false,
+      "proving_key_reused": false,
+      "binding_checks": {
+        "forged_decision": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_claimed_allow": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "changed_commitment": {
+          "rejected": true,
+          "error": "Error: Assert Failed. Error in template GammaP_10 line: 171\n"
+        },
+        "expired_record_honest_deny": {
+          "witness_accepted": true
+        },
+        "tampered_public_input": {
+          "rejected": true
+        }
+      },
+      "reference_result": {
+        "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+        "decision": 1
+      },
+      "public_inputs": {
+        "commitment": "7193677146434450156438309093382884963392677412108699718173687581280907006997",
+        "nonce": "20261111",
+        "timeRoot": "484786723706425743264116461656501149096946943750276897797103739460115817864",
+        "lower": "1000",
+        "upper": "2000",
+        "evaluationTime": "2000",
+        "deadline": "3000",
+        "maxRisk": "5000",
+        "decision": "1"
+      },
+      "artifacts": {
+        "source": "2d84820b83de880d9cae51435ce970e7962a66e9466b5ec0b8c49801248b3c7f",
+        "r1cs": "95dab78991b34d7c7e81e4390cfdeb87f0abd62060a6466ed4ea0d33325cc3ee",
+        "wasm": "a3346eb4f8c73dbf750e1a8a90fe133637ef9af2dd0c4079f60ab0bec9720aa3",
+        "verification_key": "40c76630fe5cd24764adadb3bf7eba8c0e68672318f6c2c157baedf29eba333a"
+      },
+      "measured_at": "2026-11-11T06:49:40.416Z"
+    }
+  ]
+}

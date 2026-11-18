@@ -1,0 +1,31 @@
+{
+  "id": "normal-NO_VALIDITY",
+  "reference": "ALLOW",
+  "actual": {
+    "status": "ALLOW",
+    "reason_code": 0,
+    "stage": "VERIFIED",
+    "action_authorized": true,
+    "action_token": "c86ec15fafa4d6f6e70b2b63f5284ce9553f3c2b9d524820d1704c9a9f72e18d",
+    "action_execution": {
+      "executed": true,
+      "task_digest": "e3f80951244b08d1bb12aa70ac4b394032e9c004b1ccdb45fdbfb985df2db165"
+    },
+    "verified": true,
+    "wall_ms": 5810.524425,
+    "timings": {
+      "psi_0_wall_ms": 2716.42501,
+      "psi_1_wall_ms": 1286.626922,
+      "psi_2_wall_ms": 1320.4388520000002,
+      "joint_verify_ms": 182.7225299999991
+    },
+    "process": {
+      "exit_code": 0,
+      "signal": null,
+      "status": "PASS",
+      "wall_ms": 6656.753238000092,
+      "sampled_process_tree_peak_rss_bytes": 302215168
+    }
+  },
+  "independent_samples": 1
+}

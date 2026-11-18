@@ -1,0 +1,19 @@
+{
+  "status": "RUNNING",
+  "completed_arms": 12,
+  "expected_arms": 12,
+  "latest": {
+    "delta": 16,
+    "rep": 2,
+    "arm": "incremental",
+    "state_ready_ms": 171038.09380600043,
+    "index_ms": 4.769950000569224,
+    "psi_witness_ms": 3832.7300439998507,
+    "psi_fold_ms": 9432.388741,
+    "psi_export_ms": 69584.587984,
+    "processed_events": 16,
+    "first_task_with_update_ms": 270915.2465820005,
+    "avg_task_including_update_ms": 160131.68863900006,
+    "avg_task_after_update_ms": 103118.99070366658
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "graph-chain_two",
+  "status": "TIMEOUT",
+  "completed_samples": 1,
+  "expected_samples": 20,
+  "execution": {
+    "exit_code": null,
+    "signal": "SIGKILL",
+    "status": "TIMEOUT",
+    "wall_ms": 1801309.2062570006,
+    "sampled_process_tree_peak_rss_bytes": 50234404864
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "status": "PASS",
+  "wall_ms": 145365.231355,
+  "sampled_process_tree_peak_rss_bytes": 17773838336,
+  "command": [
+    "/mnt/user-data/zjh/zjh/second/node_modules/.bin/snarkjs",
+    "groth16",
+    "setup",
+    "/mnt/user-data/zjh/zjh/second/build/core/joint-1320-FULL/circuit.r1cs",
+    "/mnt/user-data/zjh/zjh/second/params/powersOfTau28_hez_final_22.ptau",
+    "/mnt/user-data/zjh/zjh/second/build/core/joint-1320-FULL/initial.zkey"
+  ]
+}

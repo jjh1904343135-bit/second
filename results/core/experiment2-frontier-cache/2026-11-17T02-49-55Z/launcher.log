@@ -1,0 +1,62 @@
+RESULT_DIR /mnt/user-data/zjh/zjh/second/results/core/experiment2-frontier-cache/2026-11-17T02-49-55Z
+Ready: cached genesis-to-64 checkpoints match all three original event logs
+START 1 0 incremental
+FRONTIER_READY 1 0 incremental 143086.0 ms
+TASK_VERIFIED 1 0 incremental 0 97169.5 ms
+TASK_VERIFIED 1 0 incremental 1 95233.7 ms
+TASK_VERIFIED 1 0 incremental 2 97482.7 ms
+START 1 0 rebuild
+FRONTIER_READY 1 0 rebuild 195897.2 ms
+TASK_VERIFIED 1 0 rebuild 0 96384.7 ms
+TASK_VERIFIED 1 0 rebuild 1 99129.2 ms
+TASK_VERIFIED 1 0 rebuild 2 97892.0 ms
+START 1 1 rebuild
+FRONTIER_READY 1 1 rebuild 196936.0 ms
+TASK_VERIFIED 1 1 rebuild 0 97594.9 ms
+TASK_VERIFIED 1 1 rebuild 1 98086.9 ms
+TASK_VERIFIED 1 1 rebuild 2 99700.0 ms
+START 1 1 incremental
+FRONTIER_READY 1 1 incremental 151139.8 ms
+TASK_VERIFIED 1 1 incremental 0 97316.7 ms
+TASK_VERIFIED 1 1 incremental 1 98150.4 ms
+TASK_VERIFIED 1 1 incremental 2 99005.0 ms
+START 1 2 incremental
+FRONTIER_READY 1 2 incremental 151854.3 ms
+TASK_VERIFIED 1 2 incremental 0 98540.5 ms
+TASK_VERIFIED 1 2 incremental 1 101034.8 ms
+TASK_VERIFIED 1 2 incremental 2 100625.7 ms
+START 1 2 rebuild
+FRONTIER_READY 1 2 rebuild 197712.9 ms
+TASK_VERIFIED 1 2 rebuild 0 96763.9 ms
+TASK_VERIFIED 1 2 rebuild 1 99905.5 ms
+TASK_VERIFIED 1 2 rebuild 2 99085.5 ms
+START 16 0 rebuild
+FRONTIER_READY 16 0 rebuild 209267.2 ms
+TASK_VERIFIED 16 0 rebuild 0 97673.0 ms
+TASK_VERIFIED 16 0 rebuild 1 99180.4 ms
+TASK_VERIFIED 16 0 rebuild 2 100201.7 ms
+START 16 0 incremental
+FRONTIER_READY 16 0 incremental 162670.0 ms
+TASK_VERIFIED 16 0 incremental 0 97083.2 ms
+TASK_VERIFIED 16 0 incremental 1 100658.9 ms
+TASK_VERIFIED 16 0 incremental 2 98306.1 ms
+START 16 1 incremental
+FRONTIER_READY 16 1 incremental 164664.8 ms
+TASK_VERIFIED 16 1 incremental 0 98779.8 ms
+TASK_VERIFIED 16 1 incremental 1 98362.4 ms
+TASK_VERIFIED 16 1 incremental 2 100184.3 ms
+START 16 1 rebuild
+FRONTIER_READY 16 1 rebuild 209779.0 ms
+TASK_VERIFIED 16 1 rebuild 0 97481.4 ms
+TASK_VERIFIED 16 1 rebuild 1 103660.1 ms
+TASK_VERIFIED 16 1 rebuild 2 104056.6 ms
+START 16 2 rebuild
+FRONTIER_READY 16 2 rebuild 210869.3 ms
+TASK_VERIFIED 16 2 rebuild 0 101002.2 ms
+TASK_VERIFIED 16 2 rebuild 1 101092.8 ms
+TASK_VERIFIED 16 2 rebuild 2 103045.1 ms
+START 16 2 incremental
+FRONTIER_READY 16 2 incremental 171038.1 ms
+TASK_VERIFIED 16 2 incremental 0 99877.2 ms
+TASK_VERIFIED 16 2 incremental 1 104875.3 ms
+TASK_VERIFIED 16 2 incremental 2 104604.5 ms

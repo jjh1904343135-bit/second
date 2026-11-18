@@ -1,0 +1,6 @@
+2026-11-11T12:14:22+00:00
+COMMAND: bash scripts/run_core.sh experiment1
+START experiment1
+CORE Functionality: INCOMPLETE / FAIL
+Experiment Coverage: PARTIAL
+Performance Hypothesis: NOT ESTABLISHED

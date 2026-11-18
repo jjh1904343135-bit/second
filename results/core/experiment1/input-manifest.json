@@ -1,0 +1,2267 @@
+{
+  "run_id": "2026-11-14T04-48-40-401Z-623676",
+  "private_input_directory": "/mnt/user-data/zjh/zjh/second/results/core/private/experiment1-2026-11-14T04-48-40-401Z-623676",
+  "config": {
+    "protocol": "RCPEH_CORE_MIMC_NOVA_V1",
+    "nova_revision": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+    "rust_toolchain": "1.88.0",
+    "hash": {
+      "name": "MiMCSponge",
+      "rounds": 220,
+      "outputs": 2,
+      "domain": 1380141126,
+      "encoding": "domain-key-v1"
+    },
+    "tree_depths": {
+      "log": 32,
+      "registry": 32,
+      "directory": 48
+    },
+    "profiles": [
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        3,
+        8,
+        4
+      ],
+      [
+        3,
+        16,
+        4
+      ],
+      [
+        3,
+        16,
+        8
+      ],
+      [
+        3,
+        16,
+        16
+      ]
+    ],
+    "parent_capacity": 4,
+    "history_sizes": [
+      64,
+      256,
+      1024
+    ],
+    "lag_sizes": [
+      0,
+      1,
+      4,
+      16
+    ],
+    "task_counts": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "graph_fixtures": [
+      "chain_single",
+      "chain_two",
+      "diamond_single",
+      "diamond_two"
+    ],
+    "hit_counts": [
+      1,
+      4,
+      16
+    ],
+    "history_default": 64,
+    "current_occupancy_default": 4,
+    "security_seed_start": 20261110,
+    "security_variants_per_category": 50,
+    "benchmark": {
+      "warmups": 1,
+      "repetitions": 10,
+      "configuration_timeout_seconds": 1800,
+      "memory_limit_gib": 80,
+      "threads": 32,
+      "node_heap_mib": 65536
+    },
+    "ollama": {
+      "model": "qwen3.8:27b",
+      "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+      "seed": 42,
+      "temperature": 0,
+      "num_predict": 128,
+      "timeout_seconds": 120
+    },
+    "source_timeout_seconds": 2,
+    "external_comparisons": false
+  },
+  "profiles": [
+    "FULL",
+    "NO_QUERY",
+    "NO_VALIDITY",
+    "NO_LINEAGE",
+    "NO_BINDING"
+  ],
+  "attacks": [
+    {
+      "id": "fixed-omission-missing_source",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-omission-unfavorable_same_group",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-omission-skipped_confirmed_update",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-omission-late_published_in_window",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "variant-omission-0",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 559736451,
+      "index": 0
+    },
+    {
+      "id": "variant-omission-1",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 202887397,
+      "index": 1
+    },
+    {
+      "id": "variant-omission-2",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 929724384,
+      "index": 2
+    },
+    {
+      "id": "variant-omission-3",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 1264528971,
+      "index": 3
+    },
+    {
+      "id": "variant-omission-4",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 2085959936,
+      "index": 4
+    },
+    {
+      "id": "variant-omission-5",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 3051340794,
+      "index": 5
+    },
+    {
+      "id": "variant-omission-6",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 4189323370,
+      "index": 6
+    },
+    {
+      "id": "variant-omission-7",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 1318513270,
+      "index": 7
+    },
+    {
+      "id": "variant-omission-8",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 3906212058,
+      "index": 8
+    },
+    {
+      "id": "variant-omission-9",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 857985565,
+      "index": 9
+    },
+    {
+      "id": "variant-omission-10",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 1701479181,
+      "index": 10
+    },
+    {
+      "id": "variant-omission-11",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 2490108040,
+      "index": 11
+    },
+    {
+      "id": "variant-omission-12",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 3135063286,
+      "index": 12
+    },
+    {
+      "id": "variant-omission-13",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 1513240375,
+      "index": 13
+    },
+    {
+      "id": "variant-omission-14",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 2253386493,
+      "index": 14
+    },
+    {
+      "id": "variant-omission-15",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 2048766037,
+      "index": 15
+    },
+    {
+      "id": "variant-omission-16",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 1324989854,
+      "index": 16
+    },
+    {
+      "id": "variant-omission-17",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 1342334555,
+      "index": 17
+    },
+    {
+      "id": "variant-omission-18",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 2246578143,
+      "index": 18
+    },
+    {
+      "id": "variant-omission-19",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 107353878,
+      "index": 19
+    },
+    {
+      "id": "variant-omission-20",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 1410473940,
+      "index": 20
+    },
+    {
+      "id": "variant-omission-21",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 3942256672,
+      "index": 21
+    },
+    {
+      "id": "variant-omission-22",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 3073822655,
+      "index": 22
+    },
+    {
+      "id": "variant-omission-23",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 3068265279,
+      "index": 23
+    },
+    {
+      "id": "variant-omission-24",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 641112029,
+      "index": 24
+    },
+    {
+      "id": "variant-omission-25",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 1835334363,
+      "index": 25
+    },
+    {
+      "id": "variant-omission-26",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 3049495364,
+      "index": 26
+    },
+    {
+      "id": "variant-omission-27",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 331643441,
+      "index": 27
+    },
+    {
+      "id": "variant-omission-28",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 213949040,
+      "index": 28
+    },
+    {
+      "id": "variant-omission-29",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 3999015767,
+      "index": 29
+    },
+    {
+      "id": "variant-omission-30",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 753418188,
+      "index": 30
+    },
+    {
+      "id": "variant-omission-31",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 1227154116,
+      "index": 31
+    },
+    {
+      "id": "variant-omission-32",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 2063402810,
+      "index": 32
+    },
+    {
+      "id": "variant-omission-33",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 2573167831,
+      "index": 33
+    },
+    {
+      "id": "variant-omission-34",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 3966984213,
+      "index": 34
+    },
+    {
+      "id": "variant-omission-35",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 2386658701,
+      "index": 35
+    },
+    {
+      "id": "variant-omission-36",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 1627333717,
+      "index": 36
+    },
+    {
+      "id": "variant-omission-37",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 181209999,
+      "index": 37
+    },
+    {
+      "id": "variant-omission-38",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 3693835377,
+      "index": 38
+    },
+    {
+      "id": "variant-omission-39",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 3859065155,
+      "index": 39
+    },
+    {
+      "id": "variant-omission-40",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 380824181,
+      "index": 40
+    },
+    {
+      "id": "variant-omission-41",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 879861483,
+      "index": 41
+    },
+    {
+      "id": "variant-omission-42",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 4063451805,
+      "index": 42
+    },
+    {
+      "id": "variant-omission-43",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 3044438925,
+      "index": 43
+    },
+    {
+      "id": "variant-omission-44",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 469381070,
+      "index": 44
+    },
+    {
+      "id": "variant-omission-45",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 2658916655,
+      "index": 45
+    },
+    {
+      "id": "variant-omission-46",
+      "family": "omission",
+      "subtype": "skipped_confirmed_update",
+      "phase": "seeded",
+      "seed": 1318534016,
+      "index": 46
+    },
+    {
+      "id": "variant-omission-47",
+      "family": "omission",
+      "subtype": "late_published_in_window",
+      "phase": "seeded",
+      "seed": 2500493587,
+      "index": 47
+    },
+    {
+      "id": "variant-omission-48",
+      "family": "omission",
+      "subtype": "missing_source",
+      "phase": "seeded",
+      "seed": 1614345063,
+      "index": 48
+    },
+    {
+      "id": "variant-omission-49",
+      "family": "omission",
+      "subtype": "unfavorable_same_group",
+      "phase": "seeded",
+      "seed": 3033638381,
+      "index": 49
+    },
+    {
+      "id": "fixed-invalid_reuse-old_version",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-invalid_reuse-revoked",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-invalid_reuse-expired",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-invalid_reuse-wrong_purpose",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "variant-invalid_reuse-0",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 559466146,
+      "index": 0
+    },
+    {
+      "id": "variant-invalid_reuse-1",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 136304356,
+      "index": 1
+    },
+    {
+      "id": "variant-invalid_reuse-2",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 2863062821,
+      "index": 2
+    },
+    {
+      "id": "variant-invalid_reuse-3",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 1493874436,
+      "index": 3
+    },
+    {
+      "id": "variant-invalid_reuse-4",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 4071370449,
+      "index": 4
+    },
+    {
+      "id": "variant-invalid_reuse-5",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 2578487338,
+      "index": 5
+    },
+    {
+      "id": "variant-invalid_reuse-6",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 3691393904,
+      "index": 6
+    },
+    {
+      "id": "variant-invalid_reuse-7",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 1466955460,
+      "index": 7
+    },
+    {
+      "id": "variant-invalid_reuse-8",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 2673041919,
+      "index": 8
+    },
+    {
+      "id": "variant-invalid_reuse-9",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 2666787177,
+      "index": 9
+    },
+    {
+      "id": "variant-invalid_reuse-10",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 4211769798,
+      "index": 10
+    },
+    {
+      "id": "variant-invalid_reuse-11",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 3446710207,
+      "index": 11
+    },
+    {
+      "id": "variant-invalid_reuse-12",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 241504124,
+      "index": 12
+    },
+    {
+      "id": "variant-invalid_reuse-13",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 1590808473,
+      "index": 13
+    },
+    {
+      "id": "variant-invalid_reuse-14",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 2205768968,
+      "index": 14
+    },
+    {
+      "id": "variant-invalid_reuse-15",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 3017352676,
+      "index": 15
+    },
+    {
+      "id": "variant-invalid_reuse-16",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 2077762710,
+      "index": 16
+    },
+    {
+      "id": "variant-invalid_reuse-17",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 2517744979,
+      "index": 17
+    },
+    {
+      "id": "variant-invalid_reuse-18",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 2529836110,
+      "index": 18
+    },
+    {
+      "id": "variant-invalid_reuse-19",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 4180740367,
+      "index": 19
+    },
+    {
+      "id": "variant-invalid_reuse-20",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 3657442791,
+      "index": 20
+    },
+    {
+      "id": "variant-invalid_reuse-21",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 153746841,
+      "index": 21
+    },
+    {
+      "id": "variant-invalid_reuse-22",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 3854703700,
+      "index": 22
+    },
+    {
+      "id": "variant-invalid_reuse-23",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 1867587952,
+      "index": 23
+    },
+    {
+      "id": "variant-invalid_reuse-24",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 614440239,
+      "index": 24
+    },
+    {
+      "id": "variant-invalid_reuse-25",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 813220082,
+      "index": 25
+    },
+    {
+      "id": "variant-invalid_reuse-26",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 615779553,
+      "index": 26
+    },
+    {
+      "id": "variant-invalid_reuse-27",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 2601173,
+      "index": 27
+    },
+    {
+      "id": "variant-invalid_reuse-28",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 831525547,
+      "index": 28
+    },
+    {
+      "id": "variant-invalid_reuse-29",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 1265107561,
+      "index": 29
+    },
+    {
+      "id": "variant-invalid_reuse-30",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 797309083,
+      "index": 30
+    },
+    {
+      "id": "variant-invalid_reuse-31",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 2186070736,
+      "index": 31
+    },
+    {
+      "id": "variant-invalid_reuse-32",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 2043554875,
+      "index": 32
+    },
+    {
+      "id": "variant-invalid_reuse-33",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 896225791,
+      "index": 33
+    },
+    {
+      "id": "variant-invalid_reuse-34",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 3049739509,
+      "index": 34
+    },
+    {
+      "id": "variant-invalid_reuse-35",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 3026366585,
+      "index": 35
+    },
+    {
+      "id": "variant-invalid_reuse-36",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 2949761199,
+      "index": 36
+    },
+    {
+      "id": "variant-invalid_reuse-37",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 1313348205,
+      "index": 37
+    },
+    {
+      "id": "variant-invalid_reuse-38",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 3988128015,
+      "index": 38
+    },
+    {
+      "id": "variant-invalid_reuse-39",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 2674462532,
+      "index": 39
+    },
+    {
+      "id": "variant-invalid_reuse-40",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 1857802372,
+      "index": 40
+    },
+    {
+      "id": "variant-invalid_reuse-41",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 2176844017,
+      "index": 41
+    },
+    {
+      "id": "variant-invalid_reuse-42",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 3121767390,
+      "index": 42
+    },
+    {
+      "id": "variant-invalid_reuse-43",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 995280298,
+      "index": 43
+    },
+    {
+      "id": "variant-invalid_reuse-44",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 521224057,
+      "index": 44
+    },
+    {
+      "id": "variant-invalid_reuse-45",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 658400198,
+      "index": 45
+    },
+    {
+      "id": "variant-invalid_reuse-46",
+      "family": "invalid_reuse",
+      "subtype": "expired",
+      "phase": "seeded",
+      "seed": 2208045765,
+      "index": 46
+    },
+    {
+      "id": "variant-invalid_reuse-47",
+      "family": "invalid_reuse",
+      "subtype": "wrong_purpose",
+      "phase": "seeded",
+      "seed": 408153671,
+      "index": 47
+    },
+    {
+      "id": "variant-invalid_reuse-48",
+      "family": "invalid_reuse",
+      "subtype": "old_version",
+      "phase": "seeded",
+      "seed": 3606883786,
+      "index": 48
+    },
+    {
+      "id": "variant-invalid_reuse-49",
+      "family": "invalid_reuse",
+      "subtype": "revoked",
+      "phase": "seeded",
+      "seed": 737952104,
+      "index": 49
+    },
+    {
+      "id": "fixed-lineage-deleted_parent",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-lineage-impersonate_root",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-lineage-chain_echo",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-lineage-diamond_echo",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-lineage-true_two_groups",
+      "family": "lineage",
+      "subtype": "true_two_groups",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "variant-lineage-0",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 560277325,
+      "index": 0
+    },
+    {
+      "id": "variant-lineage-1",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 873755883,
+      "index": 1
+    },
+    {
+      "id": "variant-lineage-2",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 3953163343,
+      "index": 2
+    },
+    {
+      "id": "variant-lineage-3",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 1628710203,
+      "index": 3
+    },
+    {
+      "id": "variant-lineage-4",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 1406520226,
+      "index": 4
+    },
+    {
+      "id": "variant-lineage-5",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 3198034098,
+      "index": 5
+    },
+    {
+      "id": "variant-lineage-6",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 730063670,
+      "index": 6
+    },
+    {
+      "id": "variant-lineage-7",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 2873364548,
+      "index": 7
+    },
+    {
+      "id": "variant-lineage-8",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 14424226,
+      "index": 8
+    },
+    {
+      "id": "variant-lineage-9",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 4207620486,
+      "index": 9
+    },
+    {
+      "id": "variant-lineage-10",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 59523227,
+      "index": 10
+    },
+    {
+      "id": "variant-lineage-11",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 4168339412,
+      "index": 11
+    },
+    {
+      "id": "variant-lineage-12",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 2963860752,
+      "index": 12
+    },
+    {
+      "id": "variant-lineage-13",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 207472949,
+      "index": 13
+    },
+    {
+      "id": "variant-lineage-14",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 438125192,
+      "index": 14
+    },
+    {
+      "id": "variant-lineage-15",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 4224675438,
+      "index": 15
+    },
+    {
+      "id": "variant-lineage-16",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 3595962511,
+      "index": 16
+    },
+    {
+      "id": "variant-lineage-17",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 4290479788,
+      "index": 17
+    },
+    {
+      "id": "variant-lineage-18",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 1655071355,
+      "index": 18
+    },
+    {
+      "id": "variant-lineage-19",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 1942222063,
+      "index": 19
+    },
+    {
+      "id": "variant-lineage-20",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 2795264576,
+      "index": 20
+    },
+    {
+      "id": "variant-lineage-21",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 2539510250,
+      "index": 21
+    },
+    {
+      "id": "variant-lineage-22",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 2691789978,
+      "index": 22
+    },
+    {
+      "id": "variant-lineage-23",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 1387007627,
+      "index": 23
+    },
+    {
+      "id": "variant-lineage-24",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 3168657813,
+      "index": 24
+    },
+    {
+      "id": "variant-lineage-25",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 487030178,
+      "index": 25
+    },
+    {
+      "id": "variant-lineage-26",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 2765872027,
+      "index": 26
+    },
+    {
+      "id": "variant-lineage-27",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 716332463,
+      "index": 27
+    },
+    {
+      "id": "variant-lineage-28",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 1106651308,
+      "index": 28
+    },
+    {
+      "id": "variant-lineage-29",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 413053309,
+      "index": 29
+    },
+    {
+      "id": "variant-lineage-30",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 413119109,
+      "index": 30
+    },
+    {
+      "id": "variant-lineage-31",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 925096354,
+      "index": 31
+    },
+    {
+      "id": "variant-lineage-32",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 3470805641,
+      "index": 32
+    },
+    {
+      "id": "variant-lineage-33",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 831529841,
+      "index": 33
+    },
+    {
+      "id": "variant-lineage-34",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 2319263822,
+      "index": 34
+    },
+    {
+      "id": "variant-lineage-35",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 3383428436,
+      "index": 35
+    },
+    {
+      "id": "variant-lineage-36",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 2302405460,
+      "index": 36
+    },
+    {
+      "id": "variant-lineage-37",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 2121481980,
+      "index": 37
+    },
+    {
+      "id": "variant-lineage-38",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 742061930,
+      "index": 38
+    },
+    {
+      "id": "variant-lineage-39",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 673599009,
+      "index": 39
+    },
+    {
+      "id": "variant-lineage-40",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 3718366416,
+      "index": 40
+    },
+    {
+      "id": "variant-lineage-41",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 1112375277,
+      "index": 41
+    },
+    {
+      "id": "variant-lineage-42",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 1537576853,
+      "index": 42
+    },
+    {
+      "id": "variant-lineage-43",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 2696678782,
+      "index": 43
+    },
+    {
+      "id": "variant-lineage-44",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 57172759,
+      "index": 44
+    },
+    {
+      "id": "variant-lineage-45",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 3998881490,
+      "index": 45
+    },
+    {
+      "id": "variant-lineage-46",
+      "family": "lineage",
+      "subtype": "chain_echo",
+      "phase": "seeded",
+      "seed": 1015026386,
+      "index": 46
+    },
+    {
+      "id": "variant-lineage-47",
+      "family": "lineage",
+      "subtype": "diamond_echo",
+      "phase": "seeded",
+      "seed": 3851680351,
+      "index": 47
+    },
+    {
+      "id": "variant-lineage-48",
+      "family": "lineage",
+      "subtype": "deleted_parent",
+      "phase": "seeded",
+      "seed": 3251810643,
+      "index": 48
+    },
+    {
+      "id": "variant-lineage-49",
+      "family": "lineage",
+      "subtype": "impersonate_root",
+      "phase": "seeded",
+      "seed": 1760284495,
+      "index": 49
+    },
+    {
+      "id": "fixed-substitution-new_checkpoint_old_psi",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-substitution-policy",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-substitution-receiver",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-substitution-nonce",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-substitution-result",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-substitution-same_content_node",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "variant-substitution-0",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 560007020,
+      "index": 0
+    },
+    {
+      "id": "variant-substitution-1",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 807170794,
+      "index": 1
+    },
+    {
+      "id": "variant-substitution-2",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 1986843786,
+      "index": 2
+    },
+    {
+      "id": "variant-substitution-3",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 1933687924,
+      "index": 3
+    },
+    {
+      "id": "variant-substitution-4",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 3710704755,
+      "index": 4
+    },
+    {
+      "id": "variant-substitution-5",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 2465299298,
+      "index": 5
+    },
+    {
+      "id": "variant-substitution-6",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 238145580,
+      "index": 6
+    },
+    {
+      "id": "variant-substitution-7",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 2998734070,
+      "index": 7
+    },
+    {
+      "id": "variant-substitution-8",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 2002479495,
+      "index": 8
+    },
+    {
+      "id": "variant-substitution-9",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 1461392114,
+      "index": 9
+    },
+    {
+      "id": "variant-substitution-10",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 2649506384,
+      "index": 10
+    },
+    {
+      "id": "variant-substitution-11",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 2708429027,
+      "index": 11
+    },
+    {
+      "id": "variant-substitution-12",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 68200090,
+      "index": 12
+    },
+    {
+      "id": "variant-substitution-13",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 146682267,
+      "index": 13
+    },
+    {
+      "id": "variant-substitution-14",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 522972541,
+      "index": 14
+    },
+    {
+      "id": "variant-substitution-15",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 839646175,
+      "index": 15
+    },
+    {
+      "id": "variant-substitution-16",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 3816264071,
+      "index": 16
+    },
+    {
+      "id": "variant-substitution-17",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 967335332,
+      "index": 17
+    },
+    {
+      "id": "variant-substitution-18",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 1904497130,
+      "index": 18
+    },
+    {
+      "id": "variant-substitution-19",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 2358569718,
+      "index": 19
+    },
+    {
+      "id": "variant-substitution-20",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 680419443,
+      "index": 20
+    },
+    {
+      "id": "variant-substitution-21",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 1955476563,
+      "index": 21
+    },
+    {
+      "id": "variant-substitution-22",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 4068845425,
+      "index": 22
+    },
+    {
+      "id": "variant-substitution-23",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 2334076100,
+      "index": 23
+    },
+    {
+      "id": "variant-substitution-24",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 3195333479,
+      "index": 24
+    },
+    {
+      "id": "variant-substitution-25",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 1075529611,
+      "index": 25
+    },
+    {
+      "id": "variant-substitution-26",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 900484158,
+      "index": 26
+    },
+    {
+      "id": "variant-substitution-27",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 961648459,
+      "index": 27
+    },
+    {
+      "id": "variant-substitution-28",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 2091294839,
+      "index": 28
+    },
+    {
+      "id": "variant-substitution-29",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 3182071875,
+      "index": 29
+    },
+    {
+      "id": "variant-substitution-30",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 468874706,
+      "index": 30
+    },
+    {
+      "id": "variant-substitution-31",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 4232835510,
+      "index": 31
+    },
+    {
+      "id": "variant-substitution-32",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 3453182344,
+      "index": 32
+    },
+    {
+      "id": "variant-substitution-33",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 2644778585,
+      "index": 33
+    },
+    {
+      "id": "variant-substitution-34",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 3548978350,
+      "index": 34
+    },
+    {
+      "id": "variant-substitution-35",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 4085788832,
+      "index": 35
+    },
+    {
+      "id": "variant-substitution-36",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 1175783342,
+      "index": 36
+    },
+    {
+      "id": "variant-substitution-37",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 989212446,
+      "index": 37
+    },
+    {
+      "id": "variant-substitution-38",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 497517076,
+      "index": 38
+    },
+    {
+      "id": "variant-substitution-39",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 1363929126,
+      "index": 39
+    },
+    {
+      "id": "variant-substitution-40",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 2779315745,
+      "index": 40
+    },
+    {
+      "id": "variant-substitution-41",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 4160545271,
+      "index": 41
+    },
+    {
+      "id": "variant-substitution-42",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 327464662,
+      "index": 42
+    },
+    {
+      "id": "variant-substitution-43",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 781761369,
+      "index": 43
+    },
+    {
+      "id": "variant-substitution-44",
+      "family": "substitution",
+      "subtype": "receiver",
+      "phase": "seeded",
+      "seed": 126055328,
+      "index": 44
+    },
+    {
+      "id": "variant-substitution-45",
+      "family": "substitution",
+      "subtype": "nonce",
+      "phase": "seeded",
+      "seed": 1461693499,
+      "index": 45
+    },
+    {
+      "id": "variant-substitution-46",
+      "family": "substitution",
+      "subtype": "result",
+      "phase": "seeded",
+      "seed": 4052431767,
+      "index": 46
+    },
+    {
+      "id": "variant-substitution-47",
+      "family": "substitution",
+      "subtype": "same_content_node",
+      "phase": "seeded",
+      "seed": 1758106891,
+      "index": 47
+    },
+    {
+      "id": "variant-substitution-48",
+      "family": "substitution",
+      "subtype": "new_checkpoint_old_psi",
+      "phase": "seeded",
+      "seed": 1997991934,
+      "index": 48
+    },
+    {
+      "id": "variant-substitution-49",
+      "family": "substitution",
+      "subtype": "policy",
+      "phase": "seeded",
+      "seed": 4156959690,
+      "index": 49
+    },
+    {
+      "id": "fixed-reason-insufficient_as_policy",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "fixed-reason-both_fail_priority",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "fixed",
+      "seed": 20261110
+    },
+    {
+      "id": "variant-reason-0",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 560817935,
+      "index": 0
+    },
+    {
+      "id": "variant-reason-1",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1008007401,
+      "index": 1
+    },
+    {
+      "id": "variant-reason-2",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 3258492109,
+      "index": 2
+    },
+    {
+      "id": "variant-reason-3",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 42769469,
+      "index": 3
+    },
+    {
+      "id": "variant-reason-4",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2959467448,
+      "index": 4
+    },
+    {
+      "id": "variant-reason-5",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2387497873,
+      "index": 5
+    },
+    {
+      "id": "variant-reason-6",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 3283509359,
+      "index": 6
+    },
+    {
+      "id": "variant-reason-7",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 4174082546,
+      "index": 7
+    },
+    {
+      "id": "variant-reason-8",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 1213868936,
+      "index": 8
+    },
+    {
+      "id": "variant-reason-9",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2823720637,
+      "index": 9
+    },
+    {
+      "id": "variant-reason-10",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 1253792849,
+      "index": 10
+    },
+    {
+      "id": "variant-reason-11",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 119338473,
+      "index": 11
+    },
+    {
+      "id": "variant-reason-12",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2912075289,
+      "index": 12
+    },
+    {
+      "id": "variant-reason-13",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2959967505,
+      "index": 13
+    },
+    {
+      "id": "variant-reason-14",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 423300022,
+      "index": 14
+    },
+    {
+      "id": "variant-reason-15",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1911752080,
+      "index": 15
+    },
+    {
+      "id": "variant-reason-16",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 962636592,
+      "index": 16
+    },
+    {
+      "id": "variant-reason-17",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2899385171,
+      "index": 17
+    },
+    {
+      "id": "variant-reason-18",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2027728206,
+      "index": 18
+    },
+    {
+      "id": "variant-reason-19",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1138124148,
+      "index": 19
+    },
+    {
+      "id": "variant-reason-20",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 1617755080,
+      "index": 20
+    },
+    {
+      "id": "variant-reason-21",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 497355778,
+      "index": 21
+    },
+    {
+      "id": "variant-reason-22",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 948391952,
+      "index": 22
+    },
+    {
+      "id": "variant-reason-23",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2183271186,
+      "index": 23
+    },
+    {
+      "id": "variant-reason-24",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 3360052594,
+      "index": 24
+    },
+    {
+      "id": "variant-reason-25",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1609209030,
+      "index": 25
+    },
+    {
+      "id": "variant-reason-26",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2738363807,
+      "index": 26
+    },
+    {
+      "id": "variant-reason-27",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2986219162,
+      "index": 27
+    },
+    {
+      "id": "variant-reason-28",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 377523852,
+      "index": 28
+    },
+    {
+      "id": "variant-reason-29",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3983583652,
+      "index": 29
+    },
+    {
+      "id": "variant-reason-30",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 4040090950,
+      "index": 30
+    },
+    {
+      "id": "variant-reason-31",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 2694864341,
+      "index": 31
+    },
+    {
+      "id": "variant-reason-32",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 3360662360,
+      "index": 32
+    },
+    {
+      "id": "variant-reason-33",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3098743818,
+      "index": 33
+    },
+    {
+      "id": "variant-reason-34",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2624920435,
+      "index": 34
+    },
+    {
+      "id": "variant-reason-35",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3698850622,
+      "index": 35
+    },
+    {
+      "id": "variant-reason-36",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 1091927158,
+      "index": 36
+    },
+    {
+      "id": "variant-reason-37",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1038265435,
+      "index": 37
+    },
+    {
+      "id": "variant-reason-38",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 1700197775,
+      "index": 38
+    },
+    {
+      "id": "variant-reason-39",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3339601916,
+      "index": 39
+    },
+    {
+      "id": "variant-reason-40",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 4056531076,
+      "index": 40
+    },
+    {
+      "id": "variant-reason-41",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 4076710248,
+      "index": 41
+    },
+    {
+      "id": "variant-reason-42",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 3183598208,
+      "index": 42
+    },
+    {
+      "id": "variant-reason-43",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 1419944136,
+      "index": 43
+    },
+    {
+      "id": "variant-reason-44",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 399487541,
+      "index": 44
+    },
+    {
+      "id": "variant-reason-45",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3500489937,
+      "index": 45
+    },
+    {
+      "id": "variant-reason-46",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2430324366,
+      "index": 46
+    },
+    {
+      "id": "variant-reason-47",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3359980395,
+      "index": 47
+    },
+    {
+      "id": "variant-reason-48",
+      "family": "reason",
+      "subtype": "insufficient_as_policy",
+      "phase": "seeded",
+      "seed": 2317742879,
+      "index": 48
+    },
+    {
+      "id": "variant-reason-49",
+      "family": "reason",
+      "subtype": "both_fail_priority",
+      "phase": "seeded",
+      "seed": 3162975932,
+      "index": 49
+    }
+  ],
+  "source_revision": "75e77cf3921a57e9332451e19116673f35a03e01e21a8942b18b7284e89b96ba",
+  "seed_algorithm": "xorshift32; seed per category recorded before execution"
+}

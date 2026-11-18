@@ -1,0 +1,12 @@
+[32mtemplate instances[0m: 119
+non-linear constraints: 615251
+linear constraints: 756
+public inputs: 7
+private inputs: 236 (234 belong to witness)
+public outputs: 7
+wires: 616077
+labels: 825529
+[32mWritten successfully:[0m build/core/psi-4/circuit.r1cs
+[32mWritten successfully:[0m build/core/psi-4/circuit.sym
+[32mWritten successfully:[0m build/core/psi-4/circuit_js/circuit.wasm
+[32mEverything went okay[0m

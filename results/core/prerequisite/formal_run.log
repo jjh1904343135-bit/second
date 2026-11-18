@@ -1,0 +1,65 @@
+[32mtemplate instances[0m: 119
+non-linear constraints: 615251
+linear constraints: 756
+public inputs: 7
+private inputs: 236 (234 belong to witness)
+public outputs: 7
+wires: 616077
+labels: 825529
+[32mWritten successfully:[0m build/core/psi-4/circuit.r1cs
+[32mWritten successfully:[0m build/core/psi-4/circuit.sym
+[32mWritten successfully:[0m build/core/psi-4/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+{"constraints":[627553,10538],"r1cs":"4428f9813636d31c6562c5f611ded0437658bf6bbd08f8ba379523c00be0c0d9","setup_ms":32119.355516,"status":"PASS"}
+[32mtemplate instances[0m: 169
+non-linear constraints: 1421805
+linear constraints: 2864
+public inputs: 43
+private inputs: 1074 (1073 belong to witness)
+public outputs: 0
+wires: 1424500
+labels: 1905350
+[32mWritten successfully:[0m build/core/joint-1112-FULL/circuit.r1cs
+[32mWritten successfully:[0m build/core/joint-1112-FULL/circuit.sym
+[32mWritten successfully:[0m build/core/joint-1112-FULL/circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		3ad8c00a 31874b02 3d6c1970 e71443fd
+		60b642b8 705a368f ab0345e7 c30a9d0f
+		762f90cd b83e2fbe 5e40043b 3529bba3
+		ed950226 b3a0c9cb 7bf63af1 24b77325
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 71
+
+ERROR:  4 Error in template CoreJoint_168 line: 164
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE ALLOW: PASS
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE POLICY_DENY: PASS
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+ERROR:  4 Error in template CoreJoint_168 line: 249
+
+CORE GATE INSUFFICIENT_SUPPORT: PASS
+ERROR:  4 Error in template PsiStep_118 line: 28
+
+ERROR:  4 Error in template PsiStep_118 line: 30
+
+ERROR:  4 Error in template PsiStep_118 line: 13
+
+Error: MISSING_STATE_CONSTRAINT
+    at Object.check (/mnt/user-data/zjh/zjh/second/src/codec.js:74:19)
+    at Object.main (/mnt/user-data/zjh/zjh/second/src/core/prerequisite.js:83:5) {
+  code: 'MISSING_STATE_CONSTRAINT'
+}
